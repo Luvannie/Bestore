@@ -1,0 +1,21 @@
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th>Thumbnail</th>
+            <th>Title</th>
+            <th>Authors</th>
+            <th>Unit Price</th>
+            <th>language</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let tempbook of books">
+            <td class="align-middle"><img src = "{{tempbook.thumbnail}}"></td>
+            <td class="align-middle">{{tempbook.title}}</td>
+            <td class="align-middle">{{tempbook.author}}</td>
+            <td class="align-middle">{{tempbook.unitPrice | currency:'VND'}}</td>
+            <td class="align-middle">{{tempbook.language}}</td>
+        </tr>
+    </tbody>
+</table>
+

@@ -1,0 +1,18 @@
+
+<div class="main-content">
+    <div class="section-content section-content-p30">
+        <div class="container-fluid">
+            <div class = row>
+                <div *ngFor="let tempbook of books" class="col-md-3" >
+                    <div class ="product-box">
+                        <img src = "{{tempbook.thumbnail}}" class="img-responsive" >
+                        <h1>{{tempbook.title}}</h1>
+                        <div class = "price">{{tempbook.unitPrice | currency:'VND'}}</div>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
