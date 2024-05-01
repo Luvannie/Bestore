@@ -1,0 +1,1180 @@
+[
+    {
+        "kind": "books#volume",
+        "id": "tEtK5H9DjlkC",
+        "etag": "OkkUJYRYCw0",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/tEtK5H9DjlkC",
+        "volumeInfo": {
+            "title": "Truyện Kiều",
+            "authors": [
+                "Du Nguyễn"
+            ],
+            "publishedDate": "2010",
+            "industryIdentifiers": [
+                {
+                    "type": "OTHER",
+                    "identifier": "UCBK:C105747073"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 304,
+            "printType": "BOOK",
+            "categories": [
+                "Vietnamese poetry"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.3.1.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=tEtK5H9DjlkC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=tEtK5H9DjlkC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "vi",
+            "previewLink": "http://books.google.com.vn/books?id=tEtK5H9DjlkC&q=truyen+kieu&dq=truyen+kieu&hl=&cd=1&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=tEtK5H9DjlkC&dq=truyen+kieu&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Truy%E1%BB%87n_Ki%E1%BB%81u.html?hl=&id=tEtK5H9DjlkC"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=tEtK5H9DjlkC&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "8VBkAAAAMAAJ",
+        "etag": "Li/iCkqkNgA",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/8VBkAAAAMAAJ",
+        "volumeInfo": {
+            "title": "Truyện Kiều đối chiếu",
+            "authors": [
+                "Đan Quế Phạm"
+            ],
+            "publishedDate": "1999",
+            "industryIdentifiers": [
+                {
+                    "type": "OTHER",
+                    "identifier": "UOM:39015042919988"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 482,
+            "printType": "BOOK",
+            "categories": [
+                "Vietnamese literature"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "1.7.2.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=8VBkAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=8VBkAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "vi",
+            "previewLink": "http://books.google.com.vn/books?id=8VBkAAAAMAAJ&q=truyen+kieu&dq=truyen+kieu&hl=&cd=2&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=8VBkAAAAMAAJ&dq=truyen+kieu&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Truy%E1%BB%87n_Ki%E1%BB%81u_%C4%91%E1%BB%91i_chi%E1%BA%BFu.html?hl=&id=8VBkAAAAMAAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=8VBkAAAAMAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "onlkAAAAMAAJ",
+        "etag": "yr5ig2J+cV0",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/onlkAAAAMAAJ",
+        "volumeInfo": {
+            "title": "Truyện Kiều chú-giải",
+            "authors": [
+                "Du Nguyễn"
+            ],
+            "publishedDate": "1980",
+            "industryIdentifiers": [
+                {
+                    "type": "OTHER",
+                    "identifier": "UOM:39015014765369"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 616,
+            "printType": "BOOK",
+            "categories": [
+                "Vietnamese literature"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "1.5.2.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=onlkAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=onlkAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "vi",
+            "previewLink": "http://books.google.com.vn/books?id=onlkAAAAMAAJ&q=truyen+kieu&dq=truyen+kieu&hl=&cd=5&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=onlkAAAAMAAJ&dq=truyen+kieu&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Truy%E1%BB%87n_Ki%E1%BB%81u_ch%C3%BA_gi%E1%BA%A3i.html?hl=&id=onlkAAAAMAAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=onlkAAAAMAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "dZpkAAAAMAAJ",
+        "etag": "xyVaK/Lkk98",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/dZpkAAAAMAAJ",
+        "volumeInfo": {
+            "title": "Đọc lại truyện Kiều",
+            "authors": [
+                "Hạnh Vũ"
+            ],
+            "publishedDate": "1998",
+            "industryIdentifiers": [
+                {
+                    "type": "OTHER",
+                    "identifier": "UOM:39015042905292"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 164,
+            "printType": "BOOK",
+            "categories": [
+                "Vietnamese literature"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.3.2.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=dZpkAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=dZpkAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "vi",
+            "previewLink": "http://books.google.com.vn/books?id=dZpkAAAAMAAJ&q=truyen+kieu&dq=truyen+kieu&hl=&cd=6&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=dZpkAAAAMAAJ&dq=truyen+kieu&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/%C4%90%E1%BB%8Dc_l%E1%BA%A1i_truy%E1%BB%87n_Ki%E1%BB%81u.html?hl=&id=dZpkAAAAMAAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=dZpkAAAAMAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "DsJkAAAAMAAJ",
+        "etag": "6jwuGYnyyQw",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/DsJkAAAAMAAJ",
+        "volumeInfo": {
+            "title": "Truyện Kiều đọc ngược",
+            "authors": [
+                "Đan Quế Phạm"
+            ],
+            "publishedDate": "2002",
+            "industryIdentifiers": [
+                {
+                    "type": "OTHER",
+                    "identifier": "UOM:39015061614601"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 184,
+            "printType": "BOOK",
+            "categories": [
+                "Vietnamese literature"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "1.4.1.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=DsJkAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=DsJkAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "vi",
+            "previewLink": "http://books.google.com.vn/books?id=DsJkAAAAMAAJ&q=truyen+kieu&dq=truyen+kieu&hl=&cd=8&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=DsJkAAAAMAAJ&dq=truyen+kieu&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Truy%E1%BB%87n_Ki%E1%BB%81u_%C4%91%E1%BB%8Dc_ng%C6%B0%E1%BB%A3c.html?hl=&id=DsJkAAAAMAAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=DsJkAAAAMAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "mdEZAAAAIAAJ",
+        "etag": "EbhrsoX6tYw",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/mdEZAAAAIAAJ",
+        "volumeInfo": {
+            "title": "Truyện Thúy Kiè̂u",
+            "authors": [
+                "Du Nguyễn"
+            ],
+            "publishedDate": "1968",
+            "industryIdentifiers": [
+                {
+                    "type": "OTHER",
+                    "identifier": "UCAL:B3905739"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 224,
+            "printType": "BOOK",
+            "categories": [
+                "Vietnamese literature"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.3.2.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=mdEZAAAAIAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=mdEZAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "vi",
+            "previewLink": "http://books.google.com.vn/books?id=mdEZAAAAIAAJ&q=truyen+kieu&dq=truyen+kieu&hl=&cd=10&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=mdEZAAAAIAAJ&dq=truyen+kieu&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Truy%E1%BB%87n_Th%C3%BAy_Ki%C3%A8%CC%82u.html?hl=&id=mdEZAAAAIAAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=mdEZAAAAIAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "0b5kAAAAMAAJ",
+        "etag": "0y6qqhdNpZU",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/0b5kAAAAMAAJ",
+        "volumeInfo": {
+            "title": "Bình giải truyện Kiều",
+            "authors": [
+                "Bá Đĩnh Trịnh"
+            ],
+            "publishedDate": "2000",
+            "industryIdentifiers": [
+                {
+                    "type": "OTHER",
+                    "identifier": "UOM:39015051632415"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 304,
+            "printType": "BOOK",
+            "categories": [
+                "Vietnamese literature"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "1.4.1.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=0b5kAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=0b5kAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "vi",
+            "previewLink": "http://books.google.com.vn/books?id=0b5kAAAAMAAJ&q=truyen+kieu&dq=truyen+kieu&hl=&cd=11&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=0b5kAAAAMAAJ&dq=truyen+kieu&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/B%C3%ACnh_gi%E1%BA%A3i_truy%E1%BB%87n_Ki%E1%BB%81u.html?hl=&id=0b5kAAAAMAAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=0b5kAAAAMAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "cZyPsPiZ1AAC",
+        "etag": "u+cWUQTvvWA",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/cZyPsPiZ1AAC",
+        "volumeInfo": {
+            "title": "Character dialogue and monologue in tale of Kieu and typical Nom scholarly poetry tales",
+            "authors": [
+                "Thị Hồng Minh Lê"
+            ],
+            "publishedDate": "2018",
+            "industryIdentifiers": [
+                {
+                    "type": "OTHER",
+                    "identifier": "UCBK:C118675723"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 314,
+            "printType": "BOOK",
+            "categories": [
+                "Vietnamese poetry"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "1.0.0.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=cZyPsPiZ1AAC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=cZyPsPiZ1AAC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "vi",
+            "previewLink": "http://books.google.com.vn/books?id=cZyPsPiZ1AAC&q=truyen+kieu&dq=truyen+kieu&hl=&cd=13&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=cZyPsPiZ1AAC&dq=truyen+kieu&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Character_dialogue_and_monologue_in_tale.html?hl=&id=cZyPsPiZ1AAC"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=cZyPsPiZ1AAC&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "sr0zAAAAMAAJ",
+        "etag": "Bck6NVCJHAk",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/sr0zAAAAMAAJ",
+        "volumeInfo": {
+            "title": "Hiểu đúng đắn truyện Kiều",
+            "authors": [
+                "Đình Kỵ Lê"
+            ],
+            "publishedDate": "1986",
+            "industryIdentifiers": [
+                {
+                    "type": "OTHER",
+                    "identifier": "UOM:39015019317547"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 86,
+            "printType": "BOOK",
+            "categories": [
+                "Vietnamese literature"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "1.9.4.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=sr0zAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=sr0zAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "vi",
+            "previewLink": "http://books.google.com.vn/books?id=sr0zAAAAMAAJ&q=truyen+kieu&dq=truyen+kieu&hl=&cd=14&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=sr0zAAAAMAAJ&dq=truyen+kieu&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Hi%E1%BB%83u_%C4%91%C3%BAng_%C4%91%E1%BA%AFn_truy%E1%BB%87n_Ki%E1%BB%81u.html?hl=&id=sr0zAAAAMAAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=sr0zAAAAMAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "AYZkAAAAMAAJ",
+        "etag": "mHOzr2wLTis",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/AYZkAAAAMAAJ",
+        "volumeInfo": {
+            "title": "Truyện Kiều, những lời bình",
+            "authors": [
+                "Hoài Hương"
+            ],
+            "publishedDate": "2000",
+            "industryIdentifiers": [
+                {
+                    "type": "OTHER",
+                    "identifier": "UOM:39015043723231"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 682,
+            "printType": "BOOK",
+            "categories": [
+                "Vietnamese literature"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "1.4.1.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=AYZkAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=AYZkAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "vi",
+            "previewLink": "http://books.google.com.vn/books?id=AYZkAAAAMAAJ&q=truyen+kieu&dq=truyen+kieu&hl=&cd=15&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=AYZkAAAAMAAJ&dq=truyen+kieu&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Truy%E1%BB%87n_Ki%E1%BB%81u_nh%E1%BB%AFng_l%E1%BB%9Di_b%C3%ACnh.html?hl=&id=AYZkAAAAMAAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=AYZkAAAAMAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "O71kAAAAMAAJ",
+        "etag": "B62BUXO7NII",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/O71kAAAAMAAJ",
+        "volumeInfo": {
+            "title": "Truyện Kiều chữ Nôm",
+            "authors": [
+                "Du Nguyễn"
+            ],
+            "publishedDate": "2000",
+            "industryIdentifiers": [
+                {
+                    "type": "OTHER",
+                    "identifier": "UOM:39015042241862"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 440,
+            "printType": "BOOK",
+            "categories": [
+                "Vietnamese poetry"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "1.4.2.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=O71kAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=O71kAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "vi",
+            "previewLink": "http://books.google.com.vn/books?id=O71kAAAAMAAJ&q=truyen+kieu&dq=truyen+kieu&hl=&cd=18&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=O71kAAAAMAAJ&dq=truyen+kieu&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Truy%E1%BB%87n_Ki%E1%BB%81u_ch%E1%BB%AF_N%C3%B4m.html?hl=&id=O71kAAAAMAAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=O71kAAAAMAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "95isiQ3ZhN4C",
+        "etag": "DlqzN3+8lJg",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/95isiQ3ZhN4C",
+        "volumeInfo": {
+            "title": "The Tale of Kieu",
+            "subtitle": "A Bilingual Edition of Nguyen Du's Truyen Kieu",
+            "publisher": "Yale University Press",
+            "publishedDate": "1983-01-01",
+            "description": "Since its publication in the early nineteenth century, this long narrative poem has stood unchallenged as the supreme masterpiece of Vietnamese literature. Thông’s new and absorbingly readable translation (on pages facing the Vietnamese text) is illuminated by notes that give comparative passages from the Chinese novel on which the poem was based, details on Chinese allusions, and literal translations with background information explaining Vietnamese proverbs and folk sayings.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_10",
+                    "identifier": "0300040512"
+                },
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9780300040517"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 266,
+            "printType": "BOOK",
+            "categories": [
+                "Poetry"
+            ],
+            "averageRating": 4,
+            "ratingsCount": 4,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.3.5.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=95isiQ3ZhN4C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=95isiQ3ZhN4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=95isiQ3ZhN4C&printsec=frontcover&dq=truyen+kieu&hl=&cd=19&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=95isiQ3ZhN4C&dq=truyen+kieu&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/The_Tale_of_Kieu.html?hl=&id=95isiQ3ZhN4C"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=95isiQ3ZhN4C&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "Thông’s new and absorbingly readable translation (on pages facing the Vietnamese text) is illuminated by notes that give comparative passages from the Chinese novel on which the poem was based, details on Chinese allusions, and literal ..."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "gb9kAAAAMAAJ",
+        "etag": "o//Arsv/xW4",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/gb9kAAAAMAAJ",
+        "volumeInfo": {
+            "title": "Văn bản truyện Kiều",
+            "subtitle": "nghiên cứu và thảo luận",
+            "authors": [
+                "Thái Tôn Đào"
+            ],
+            "publishedDate": "2001",
+            "industryIdentifiers": [
+                {
+                    "type": "OTHER",
+                    "identifier": "UOM:39015051835166"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 520,
+            "printType": "BOOK",
+            "categories": [
+                "Vietnamese literature"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "1.4.1.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=gb9kAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=gb9kAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "vi",
+            "previewLink": "http://books.google.com.vn/books?id=gb9kAAAAMAAJ&q=truyen+kieu&dq=truyen+kieu&hl=&cd=20&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=gb9kAAAAMAAJ&dq=truyen+kieu&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/V%C4%83n_b%E1%BA%A3n_truy%E1%BB%87n_Ki%E1%BB%81u.html?hl=&id=gb9kAAAAMAAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=gb9kAAAAMAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "yrtkAAAAMAAJ",
+        "etag": "Su53kk9NMlA",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/yrtkAAAAMAAJ",
+        "volumeInfo": {
+            "title": "Từ điển truyện Kiều",
+            "authors": [
+                "Duy Anh Đào"
+            ],
+            "publishedDate": "1993",
+            "industryIdentifiers": [
+                {
+                    "type": "OTHER",
+                    "identifier": "UOM:39015029798520"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 572,
+            "printType": "BOOK",
+            "categories": [
+                "Vietnamese language"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "1.5.3.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=yrtkAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=yrtkAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "vi",
+            "previewLink": "http://books.google.com.vn/books?id=yrtkAAAAMAAJ&dq=truyen+kieu&hl=&cd=21&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=yrtkAAAAMAAJ&dq=truyen+kieu&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/T%E1%BB%AB_%C4%91i%E1%BB%83n_truy%E1%BB%87n_Ki%E1%BB%81u.html?hl=&id=yrtkAAAAMAAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=yrtkAAAAMAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "BYjiAAAAMAAJ",
+        "etag": "yYDSzjcyGAs",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/BYjiAAAAMAAJ",
+        "volumeInfo": {
+            "title": "Một vài nhận xét về Truyện Thúy Kiều và Truyện Phan Trần",
+            "authors": [
+                "Giáng Bùi"
+            ],
+            "publishedDate": "1957",
+            "industryIdentifiers": [
+                {
+                    "type": "OTHER",
+                    "identifier": "UOM:39015023581013"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 120,
+            "printType": "BOOK",
+            "categories": [
+                "Truyện Phan Trà̂n"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.3.2.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=BYjiAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=BYjiAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "vi",
+            "previewLink": "http://books.google.com.vn/books?id=BYjiAAAAMAAJ&q=truyen+kieu&dq=truyen+kieu&hl=&cd=27&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=BYjiAAAAMAAJ&dq=truyen+kieu&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/M%E1%BB%99t_v%C3%A0i_nh%E1%BA%ADn_x%C3%A9t_v%E1%BB%81_Truy%E1%BB%87n_Th.html?hl=&id=BYjiAAAAMAAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=BYjiAAAAMAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "Ln2HzQEACAAJ",
+        "etag": "y+lEvRWuwfw",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/Ln2HzQEACAAJ",
+        "volumeInfo": {
+            "title": "Kim Vân Kiều (full color, soft cover)",
+            "authors": [
+                "Du Nguyen"
+            ],
+            "publishedDate": "2020-03-24",
+            "description": "Reproduction of KIM VAN KIEU by Nguyen Du, printed by Van Hoc Publisher in 1951 with special hand writing character font. This version is printed in color, solf cover for your collection of the old books. Đây là bản in lại cuốn sách KIM VÂN KIỀU của Nguyễn Du do nhà xuất bản Văn Học in năm 1951. Tập thơ này in lại bằng màu và giữ nguyên font chữ viết tay mà nhà xuất bản Văn Học đã in. Tập này in với bìa mềm. Đây là một sưu tầm sách cũ cho các bạn yêu sách.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1989705774"
+                },
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781989705773"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 192,
+            "printType": "BOOK",
+            "categories": [
+                "Poetry"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "preview-1.0.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=Ln2HzQEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=Ln2HzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "vi",
+            "previewLink": "http://books.google.com.vn/books?id=Ln2HzQEACAAJ&dq=truyen+kieu&hl=&cd=32&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=Ln2HzQEACAAJ&dq=truyen+kieu&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Kim_V%C3%A2n_Ki%E1%BB%81u_full_color_soft_cover.html?hl=&id=Ln2HzQEACAAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=Ln2HzQEACAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "This version is printed in color, solf cover for your collection of the old books. Đây là bản in lại cuốn sách KIM VÂN KIỀU của Nguyễn Du do nhà xuất bản Văn Học in năm 1951."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "K4FkAAAAMAAJ",
+        "etag": "TNjhNIeu0vs",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/K4FkAAAAMAAJ",
+        "volumeInfo": {
+            "title": "Một vài nhận xét về truyện Kiều - Phan Trần - Thúy Vân - Lục Vân Tiên - Chinh phụ ngâm - Quan âm thị kính - Bà huyện thanh quan",
+            "authors": [
+                "Giáng Bùi"
+            ],
+            "publishedDate": "1998",
+            "industryIdentifiers": [
+                {
+                    "type": "OTHER",
+                    "identifier": "UOM:39015043723017"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 296,
+            "printType": "BOOK",
+            "categories": [
+                "Vietnamese literature"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "1.7.2.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=K4FkAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=K4FkAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "vi",
+            "previewLink": "http://books.google.com.vn/books?id=K4FkAAAAMAAJ&q=truyen+kieu&dq=truyen+kieu&hl=&cd=33&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=K4FkAAAAMAAJ&dq=truyen+kieu&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/M%E1%BB%99t_v%C3%A0i_nh%E1%BA%ADn_x%C3%A9t_v%E1%BB%81_truy%E1%BB%87n_Ki.html?hl=&id=K4FkAAAAMAAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=K4FkAAAAMAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "IL-FzQEACAAJ",
+        "etag": "UGTmqgSzgoI",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/IL-FzQEACAAJ",
+        "volumeInfo": {
+            "title": "Kim Vân Kiều (full color, hard cover)",
+            "authors": [
+                "Du Nguyen"
+            ],
+            "publishedDate": "2020-03-24",
+            "description": "Reproduction of KIM VAN KIEU by Nguyen Du, printed by Van Hoc Publisher in 1951 with special hand writing character font. This version is printed in color, hard cover for your collection of the old books. Đây là bản in lại cuốn sách KIM VÂN KIỀU của Nguyễn Du do nhà xuất bản Văn Học in năm 1951. Tập thơ này in lại bằng màu và giữ nguyên font chữ viết tay mà nhà xuất bản Văn Học đã in. Tập này in với bìa cứng. Đây là một sưu tầm sách cũ cho các bạn yêu sách.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1989705782"
+                },
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781989705780"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 192,
+            "printType": "BOOK",
+            "categories": [
+                "Poetry"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "preview-1.0.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=IL-FzQEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=IL-FzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "vi",
+            "previewLink": "http://books.google.com.vn/books?id=IL-FzQEACAAJ&dq=truyen+kieu&hl=&cd=36&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=IL-FzQEACAAJ&dq=truyen+kieu&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Kim_V%C3%A2n_Ki%E1%BB%81u_full_color_hard_cover.html?hl=&id=IL-FzQEACAAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=IL-FzQEACAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "This version is printed in color, hard cover for your collection of the old books. Đây là bản in lại cuốn sách KIM VÂN KIỀU của Nguyễn Du do nhà xuất bản Văn Học in năm 1951."
+        }
+    }
+]

@@ -1,0 +1,730 @@
+[
+    {
+        "kind": "books#volume",
+        "id": "rbm9zH2gpMgC",
+        "etag": "pcr8CQAnc9A",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/rbm9zH2gpMgC",
+        "volumeInfo": {
+            "title": "Uc-Trai tướng-công di tập",
+            "subtitle": "Dư địa chí",
+            "authors": [
+                "Trãi Nguyễn"
+            ],
+            "publishedDate": "1966",
+            "industryIdentifiers": [
+                {
+                    "type": "OTHER",
+                    "identifier": "UOM:39015004290238"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": true
+            },
+            "pageCount": 284,
+            "printType": "BOOK",
+            "categories": [
+                "Vietnam"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.8.10.0.full.1",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=rbm9zH2gpMgC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=rbm9zH2gpMgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "vi",
+            "previewLink": "http://books.google.com.vn/books?id=rbm9zH2gpMgC&printsec=frontcover&dq=%C4%91%E1%BB%8Ba+l%C3%AD&hl=&cd=5&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=rbm9zH2gpMgC&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=rbm9zH2gpMgC"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "FREE",
+            "isEbook": true,
+            "buyLink": "https://play.google.com/store/books/details?id=rbm9zH2gpMgC&rdid=book-rbm9zH2gpMgC&rdot=1&source=gbs_api"
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "ALL_PAGES",
+            "embeddable": true,
+            "publicDomain": true,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false,
+                "downloadLink": "http://books.google.com.vn/books/download/Uc_Trai_t%C6%B0%E1%BB%9Bng_c%C3%B4ng_di_t%E1%BA%ADp.epub?id=rbm9zH2gpMgC&hl=&output=epub&source=gbs_api"
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=rbm9zH2gpMgC&hl=&source=gbs_api",
+            "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+            "quoteSharingAllowed": false
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "9_BGkGREd7UC",
+        "etag": "arMYumuWrDA",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/9_BGkGREd7UC",
+        "volumeInfo": {
+            "title": "Tìm hiẻ̂u nguò̂n gó̂c địa danh Nam bộ và tié̂ng Việt văn học",
+            "authors": [
+                "Trung Hoa Lê"
+            ],
+            "publishedDate": "2005",
+            "industryIdentifiers": [
+                {
+                    "type": "OTHER",
+                    "identifier": "WISC:89094567971"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 304,
+            "printType": "BOOK",
+            "categories": [
+                "Names, Geographical"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "1.2.1.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=9_BGkGREd7UC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=9_BGkGREd7UC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "vi",
+            "previewLink": "http://books.google.com.vn/books?id=9_BGkGREd7UC&q=%C4%91%E1%BB%8Ba+l%C3%AD&dq=%C4%91%E1%BB%8Ba+l%C3%AD&hl=&cd=8&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=9_BGkGREd7UC&dq=%C4%91%E1%BB%8Ba+l%C3%AD&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/T%C3%ACm_hi%E1%BA%BB%CC%82u_ngu%C3%B2%CC%82n_g%C3%B3%CC%82c_%C4%91%E1%BB%8Ba_dan.html?hl=&id=9_BGkGREd7UC"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=9_BGkGREd7UC&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "dBlwAAAAMAAJ",
+        "etag": "rR+nTIRhEEw",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/dBlwAAAAMAAJ",
+        "volumeInfo": {
+            "title": "Địa lí tỉnh Thái Nguyên",
+            "authors": [
+                "Trúc Lâm Trịnh"
+            ],
+            "publishedDate": "1998",
+            "industryIdentifiers": [
+                {
+                    "type": "OTHER",
+                    "identifier": "UOM:39015061127414"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 338,
+            "printType": "BOOK",
+            "categories": [
+                "Thái Nguyên (Vietnam : Province)"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.4.2.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=dBlwAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=dBlwAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "vi",
+            "previewLink": "http://books.google.com.vn/books?id=dBlwAAAAMAAJ&dq=%C4%91%E1%BB%8Ba+l%C3%AD&hl=&cd=12&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=dBlwAAAAMAAJ&dq=%C4%91%E1%BB%8Ba+l%C3%AD&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/%C4%90%E1%BB%8Ba_l%C3%AD_t%E1%BB%89nh_Th%C3%A1i_Nguy%C3%AAn.html?hl=&id=dBlwAAAAMAAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=dBlwAAAAMAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "vrgLAAAAIAAJ",
+        "etag": "qX7DsZnx81A",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/vrgLAAAAIAAJ",
+        "volumeInfo": {
+            "title": "Địa lý Việt Nam",
+            "authors": [
+                "Đình Gián Trần"
+            ],
+            "publishedDate": "1990",
+            "industryIdentifiers": [
+                {
+                    "type": "OTHER",
+                    "identifier": "UOM:39015024732763"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 412,
+            "printType": "BOOK",
+            "categories": [
+                "Geography"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "2.7.1.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=vrgLAAAAIAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=vrgLAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "vi",
+            "previewLink": "http://books.google.com.vn/books?id=vrgLAAAAIAAJ&q=%C4%91%E1%BB%8Ba+l%C3%AD&dq=%C4%91%E1%BB%8Ba+l%C3%AD&hl=&cd=17&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=vrgLAAAAIAAJ&dq=%C4%91%E1%BB%8Ba+l%C3%AD&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/%C4%90%E1%BB%8Ba_l%C3%BD_Vi%E1%BB%87t_Nam.html?hl=&id=vrgLAAAAIAAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=vrgLAAAAIAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "uxF2kH04WKgC",
+        "etag": "tLGEwvljvsA",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/uxF2kH04WKgC",
+        "volumeInfo": {
+            "title": "The Mekong",
+            "subtitle": "Turbulent Past, Uncertain Future",
+            "authors": [
+                "Milton Osborne"
+            ],
+            "publisher": "Open Road + Grove/Atlantic",
+            "publishedDate": "2007-12-01",
+            "description": "A “remarkable” history of the great river of Southeast Asia (Jill Ker Conway, author of The Road from Coorain). The Mekong River runs over nearly three thousand miles, beginning in the mountains of Tibet and flowing through China, Burma, Laos, Thailand, Cambodia, and Vietnam before emptying into the China Sea. Its waters are the lifeblood of Southeast Asia, and first begot civilization on the fertile banks of its delta region at Oc Eo nearly two millennia ago. This is the story of the peoples and cultures of the great river, from these obscure beginnings to the emergence of today’s independent nations. Drawing on research gathered over forty years, Milton Osborne traces the Mekong’s dramatic history through the rise and fall of civilizations and the era of colonization and exploration. He details the struggle for liberation during a twentieth century in which Southeast Asia has seen almost constant conflict, including two world wars, the Indochina War, the Vietnam War, and its bloody aftermath—and explores the prospects for peace and prosperity as the region enters a new millennium. Along the way, he brings to life those who witnessed and shaped events along the river, including Chou Ta-kuan, the thirteenth-century Chinese envoy who recorded the glory of Angkor Wat, the capital of the Khmer Empire; the Iberian mercenaries Blas Ruiz and Diego Veloso, whose involvement in the intrigues of Cambodia’s royal family shook Southeast Asia’s politics in the sixteenth century; and the revolutionaries led by Ho Chi Minh, whose campaigns to liberate Vietnam from the French and unify the nation under communism changed the course of history. “[A] pathbreaking, ecologically informed chronicle . . . A pulsating journey through the heart of Southeast Asia.” —Publishers Weekly",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9780802196095"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "0802196098"
+                }
+            ],
+            "readingModes": {
+                "text": true,
+                "image": true
+            },
+            "pageCount": 417,
+            "printType": "BOOK",
+            "categories": [
+                "History"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": true,
+            "contentVersion": "1.14.11.0.preview.3",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=uxF2kH04WKgC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=uxF2kH04WKgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=uxF2kH04WKgC&printsec=frontcover&dq=%C4%91%E1%BB%8Ba+l%C3%AD&hl=&cd=19&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=uxF2kH04WKgC&dq=%C4%91%E1%BB%8Ba+l%C3%AD&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/The_Mekong.html?hl=&id=uxF2kH04WKgC"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/The_Mekong-sample-epub.acsm?id=uxF2kH04WKgC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "pdf": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/The_Mekong-sample-pdf.acsm?id=uxF2kH04WKgC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=uxF2kH04WKgC&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "This is the story of the peoples and cultures of the great river, from these obscure beginnings to the emergence of today’s independent nations."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "c1lQAQAAMAAJ",
+        "etag": "kzimE7anC+E",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/c1lQAQAAMAAJ",
+        "volumeInfo": {
+            "title": "Văn hóa vùng và phân vùng văn hóa ở Việt Nam",
+            "publishedDate": "1993",
+            "description": "Phác thảo phân vùng và giới thiệu một số vùng văn hóa ở Việt Nam (vùng văn hóa đồng bằng Bắc bộ, vùng văn hóa xứ Lạng, xứ Huế ...). Một số vùng thể loại văn hóa dân gian (vùng truyền thuyết - diễn xướng Tân Viên, vùng truyền thuyết Lam Sơn ...). Những đặc trưng văn hóa của vùng: Bếp ăn truyền thống xứ Huế, lễ bỏ mả Tây Nguyên.",
+            "industryIdentifiers": [
+                {
+                    "type": "OTHER",
+                    "identifier": "UCBK:C064391946"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 492,
+            "printType": "BOOK",
+            "categories": [
+                "Vietnam"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.3.1.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=c1lQAQAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=c1lQAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "vi",
+            "previewLink": "http://books.google.com.vn/books?id=c1lQAQAAMAAJ&q=%C4%91%E1%BB%8Ba+l%C3%AD&dq=%C4%91%E1%BB%8Ba+l%C3%AD&hl=&cd=20&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=c1lQAQAAMAAJ&dq=%C4%91%E1%BB%8Ba+l%C3%AD&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/V%C4%83n_h%C3%B3a_v%C3%B9ng_v%C3%A0_ph%C3%A2n_v%C3%B9ng_v%C4%83n_h%C3%B3.html?hl=&id=c1lQAQAAMAAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=c1lQAQAAMAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "Phác thảo phân vùng và giới thiệu một số vùng văn hóa ở Việt Nam (vùng văn hóa đồng bằng Bắc bộ, vùng văn hóa xứ Lạng, xứ Huế ...)."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "QIFuAAAAMAAJ",
+        "etag": "QeH0/TnBHfo",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/QIFuAAAAMAAJ",
+        "volumeInfo": {
+            "title": "Địa chí Bắc Giang",
+            "subtitle": "địa lý và kinh tế",
+            "publishedDate": "2006",
+            "industryIdentifiers": [
+                {
+                    "type": "OTHER",
+                    "identifier": "UOM:39015063143237"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": true
+            },
+            "pageCount": 730,
+            "printType": "BOOK",
+            "categories": [
+                "Bá̆c Giang (Vietnam : Province)"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.2.3.0.full.1",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=QIFuAAAAMAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=QIFuAAAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "vi",
+            "previewLink": "http://books.google.com.vn/books?id=QIFuAAAAMAAJ&printsec=frontcover&dq=%C4%91%E1%BB%8Ba+l%C3%AD&hl=&cd=26&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=QIFuAAAAMAAJ&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=QIFuAAAAMAAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "FREE",
+            "isEbook": true,
+            "buyLink": "https://play.google.com/store/books/details?id=QIFuAAAAMAAJ&rdid=book-QIFuAAAAMAAJ&rdot=1&source=gbs_api"
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "ALL_PAGES",
+            "embeddable": true,
+            "publicDomain": true,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false,
+                "downloadLink": "http://books.google.com.vn/books/download/%C4%90%E1%BB%8Ba_ch%C3%AD_B%E1%BA%AFc_Giang.epub?id=QIFuAAAAMAAJ&hl=&output=epub&source=gbs_api"
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=QIFuAAAAMAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+            "quoteSharingAllowed": false
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "R4ZuAAAAMAAJ",
+        "etag": "cjTFlfCSaUQ",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/R4ZuAAAAMAAJ",
+        "volumeInfo": {
+            "title": "Tableau de géographie administrative d'une ancienne province vietnamienne, le Bắc-Ninh (ou Kinh-Bắc)",
+            "authors": [
+                "Văn Huyên Nguyễn"
+            ],
+            "publishedDate": "1996",
+            "industryIdentifiers": [
+                {
+                    "type": "OTHER",
+                    "identifier": "UOM:39015041639074"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 208,
+            "printType": "BOOK",
+            "categories": [
+                "Bắc Giang (Vietnam : Province)"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.3.2.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=R4ZuAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=R4ZuAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "vi",
+            "previewLink": "http://books.google.com.vn/books?id=R4ZuAAAAMAAJ&q=%C4%91%E1%BB%8Ba+l%C3%AD&dq=%C4%91%E1%BB%8Ba+l%C3%AD&hl=&cd=27&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=R4ZuAAAAMAAJ&dq=%C4%91%E1%BB%8Ba+l%C3%AD&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Tableau_de_g%C3%A9ographie_administrative_d.html?hl=&id=R4ZuAAAAMAAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=R4ZuAAAAMAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "AIk8AAAAIAAJ",
+        "etag": "Z+cDATPk+aw",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/AIk8AAAAIAAJ",
+        "volumeInfo": {
+            "title": "Vietnam Subject Index Maps",
+            "subtitle": "Research Files of the Engineer Agency for Resources Inventories and Vietnam Research and Evaluation Information Center, Bureau for Vietnam",
+            "authors": [
+                "United States. Engineer Agency for Resources Inventories"
+            ],
+            "publishedDate": "1970",
+            "industryIdentifiers": [
+                {
+                    "type": "OTHER",
+                    "identifier": "STANFORD:36105000294152"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": true
+            },
+            "pageCount": 418,
+            "printType": "BOOK",
+            "categories": [
+                "Vietnam"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "1.6.6.0.full.1",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=AIk8AAAAIAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=AIk8AAAAIAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=AIk8AAAAIAAJ&printsec=frontcover&dq=%C4%91%E1%BB%8Ba+l%C3%AD&hl=&cd=28&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=AIk8AAAAIAAJ&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=AIk8AAAAIAAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "FREE",
+            "isEbook": true,
+            "buyLink": "https://play.google.com/store/books/details?id=AIk8AAAAIAAJ&rdid=book-AIk8AAAAIAAJ&rdot=1&source=gbs_api"
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "ALL_PAGES",
+            "embeddable": true,
+            "publicDomain": true,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false,
+                "downloadLink": "http://books.google.com.vn/books/download/Vietnam_Subject_Index_Maps.epub?id=AIk8AAAAIAAJ&hl=&output=epub&source=gbs_api"
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=AIk8AAAAIAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+            "quoteSharingAllowed": false
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "wEmAAAAAMAAJ",
+        "etag": "W5L47AZMdso",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/wEmAAAAAMAAJ",
+        "volumeInfo": {
+            "title": "Từ điẻ̂n thuật ngữ địa lý nhân vǎn",
+            "authors": [
+                "Ngọc Tuấn Nguyễn"
+            ],
+            "publishedDate": "2003",
+            "industryIdentifiers": [
+                {
+                    "type": "OTHER",
+                    "identifier": "UOM:39015061124247"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 380,
+            "printType": "BOOK",
+            "categories": [
+                "Civilization"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.3.1.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=wEmAAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=wEmAAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "vi",
+            "previewLink": "http://books.google.com.vn/books?id=wEmAAAAAMAAJ&q=%C4%91%E1%BB%8Ba+l%C3%AD&dq=%C4%91%E1%BB%8Ba+l%C3%AD&hl=&cd=35&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=wEmAAAAAMAAJ&dq=%C4%91%E1%BB%8Ba+l%C3%AD&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/T%E1%BB%AB_%C4%91i%E1%BA%BB%CC%82n_thu%E1%BA%ADt_ng%E1%BB%AF_%C4%91%E1%BB%8Ba_l%C3%BD.html?hl=&id=wEmAAAAAMAAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=wEmAAAAAMAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "Y_1uAAAAMAAJ",
+        "etag": "+ey5ex6DuyQ",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/Y_1uAAAAMAAJ",
+        "volumeInfo": {
+            "title": "Đất nước Việt Nam qua các đời",
+            "subtitle": "nghiên cứu địa lý học lịch sử Việt Nam",
+            "authors": [
+                "Duy Anh Đào"
+            ],
+            "publishedDate": "1994",
+            "description": "Vietnamese geography during the era of dynasties.",
+            "industryIdentifiers": [
+                {
+                    "type": "OTHER",
+                    "identifier": "UOM:39015040715651"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 286,
+            "printType": "BOOK",
+            "categories": [
+                "Vietnam"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.4.4.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=Y_1uAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=Y_1uAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "vi",
+            "previewLink": "http://books.google.com.vn/books?id=Y_1uAAAAMAAJ&q=%C4%91%E1%BB%8Ba+l%C3%AD&dq=%C4%91%E1%BB%8Ba+l%C3%AD&hl=&cd=40&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=Y_1uAAAAMAAJ&dq=%C4%91%E1%BB%8Ba+l%C3%AD&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/%C4%90%E1%BA%A5t_n%C6%B0%E1%BB%9Bc_Vi%E1%BB%87t_Nam_qua_c%C3%A1c_%C4%91%E1%BB%9D.html?hl=&id=Y_1uAAAAMAAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=Y_1uAAAAMAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "Vietnamese geography during the era of dynasties."
+        }
+    }
+]

@@ -1,0 +1,3468 @@
+[
+    {
+        "kind": "books#volume",
+        "id": "TrXd-gxPhVYC",
+        "etag": "l6h2Zzbt2j4",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/TrXd-gxPhVYC",
+        "volumeInfo": {
+            "title": "The Algorithm Design Manual: Text",
+            "authors": [
+                "Steven S. Skiena"
+            ],
+            "publisher": "Springer Science & Business Media",
+            "publishedDate": "1998",
+            "description": "This volume helps take some of the \"mystery\" out of identifying and dealing with key algorithms. Drawing heavily on the author's own real-world experiences, the book stresses design and analysis. Coverage is divided into two parts, the first being a general guide to techniques for the design and analysis of computer algorithms. The second is a reference section, which includes a catalog of the 75 most important algorithmic problems. By browsing this catalog, readers can quickly identify what the problem they have encountered is called, what is known about it, and how they should proceed if they need to solve it. This book is ideal for the working professional who uses algorithms on a daily basis and has need for a handy reference. This work can also readily be used in an upper-division course or as a student reference guide.THE ALGORITHM DESIGN MANUAL comes with a CD-ROM that contains:* a complete hypertext version of the full printed book.* the source code and URLs for all cited implementations.* over 30 hours of audio lectures on the design and analysis of algorithms are provided, all keyed to on-line lecture notes.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_10",
+                    "identifier": "0387948600"
+                },
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9780387948607"
+                }
+            ],
+            "readingModes": {
+                "text": true,
+                "image": true
+            },
+            "pageCount": 508,
+            "printType": "BOOK",
+            "categories": [
+                "Computers"
+            ],
+            "averageRating": 4,
+            "ratingsCount": 15,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": true,
+            "contentVersion": "0.4.8.0.preview.3",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=TrXd-gxPhVYC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=TrXd-gxPhVYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=TrXd-gxPhVYC&printsec=frontcover&dq=algorithm&hl=&cd=1&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=TrXd-gxPhVYC&dq=algorithm&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/The_Algorithm_Design_Manual_Text.html?hl=&id=TrXd-gxPhVYC"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/The_Algorithm_Design_Manual_Text-sample-epub.acsm?id=TrXd-gxPhVYC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "pdf": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/The_Algorithm_Design_Manual_Text-sample-pdf.acsm?id=TrXd-gxPhVYC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=TrXd-gxPhVYC&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "This volume helps take some of the &quot;mystery&quot; out of identifying and dealing with key algorithms. Drawing heavily on the author&#39;s own real-world experiences, the book stresses design and analysis."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "vZvIzaQbMYwC",
+        "etag": "ewFekfECNNM",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/vZvIzaQbMYwC",
+        "volumeInfo": {
+            "title": "Algorithms and Programming",
+            "subtitle": "Problems and Solutions",
+            "authors": [
+                "Alexander Shen"
+            ],
+            "publisher": "Springer Science & Business Media",
+            "publishedDate": "2011-03-23",
+            "description": "This text is structured in a problem-solution format that requires the student to think through the programming process. New to the second edition are additional chapters on suffix trees, games and strategies, and Huffman coding as well as an Appendix illustrating the ease of conversion from Pascal to C.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781441917485"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1441917489"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": true
+            },
+            "pageCount": 276,
+            "printType": "BOOK",
+            "categories": [
+                "Mathematics"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.1.1.0.preview.1",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=vZvIzaQbMYwC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=vZvIzaQbMYwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=vZvIzaQbMYwC&printsec=frontcover&dq=algorithm&hl=&cd=2&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=vZvIzaQbMYwC&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=vZvIzaQbMYwC"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+                "amount": 1316300,
+                "currencyCode": "VND"
+            },
+            "retailPrice": {
+                "amount": 921410,
+                "currencyCode": "VND"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=vZvIzaQbMYwC&rdid=book-vZvIzaQbMYwC&rdot=1&source=gbs_api",
+            "offers": [
+                {
+                    "finskyOfferType": 1,
+                    "listPrice": {
+                        "amountInMicros": 1316300000000,
+                        "currencyCode": "VND"
+                    },
+                    "retailPrice": {
+                        "amountInMicros": 921410000000,
+                        "currencyCode": "VND"
+                    }
+                }
+            ]
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/Algorithms_and_Programming-sample-pdf.acsm?id=vZvIzaQbMYwC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=vZvIzaQbMYwC&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "This text is structured in a problem-solution format that requires the student to think through the programming process."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "hGuixQMQS_0C",
+        "etag": "w6iZJ75xDsk",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/hGuixQMQS_0C",
+        "volumeInfo": {
+            "title": "How to Think About Algorithms",
+            "authors": [
+                "Jeff Edmonds"
+            ],
+            "publisher": "Cambridge University Press",
+            "publishedDate": "2008-05-19",
+            "description": "This textbook, for second- or third-year students of computer science, presents insights, notations, and analogies to help them describe and think about algorithms like an expert, without grinding through lots of formal proof. Solutions to many problems are provided to let students check their progress, while class-tested PowerPoint slides are on the web for anyone running the course. By looking at both the big picture and easy step-by-step methods for developing algorithms, the author guides students around the common pitfalls. He stresses paradigms such as loop invariants and recursion to unify a huge range of algorithms into a few meta-algorithms. The book fosters a deeper understanding of how and why each algorithm works. These insights are presented in a careful and clear way, helping students to think abstractly and preparing them for creating their own innovative ways to solve problems.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781139471756"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1139471759"
+                }
+            ],
+            "readingModes": {
+                "text": true,
+                "image": true
+            },
+            "pageCount": 409,
+            "printType": "BOOK",
+            "categories": [
+                "Computers"
+            ],
+            "averageRating": 4,
+            "ratingsCount": 2,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": true,
+            "contentVersion": "2.3.3.0.preview.3",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=hGuixQMQS_0C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=hGuixQMQS_0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=hGuixQMQS_0C&printsec=frontcover&dq=algorithm&hl=&cd=3&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=hGuixQMQS_0C&dq=algorithm&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/How_to_Think_About_Algorithms.html?hl=&id=hGuixQMQS_0C"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/How_to_Think_About_Algorithms-sample-epub.acsm?id=hGuixQMQS_0C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "pdf": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/How_to_Think_About_Algorithms-sample-pdf.acsm?id=hGuixQMQS_0C&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=hGuixQMQS_0C&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "He stresses paradigms such as loop invariants and recursion to unify a huge range of algorithms into a few meta-algorithms. The book fosters a deeper understanding of how and why each algorithm works."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "K2PFCwAAQBAJ",
+        "etag": "/4B04splWt8",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/K2PFCwAAQBAJ",
+        "volumeInfo": {
+            "title": "Algorithms",
+            "subtitle": "Design Techniques and Analysis(Revised Edition)",
+            "authors": [
+                "M H Alsuwaiyel"
+            ],
+            "publisher": "World Scientific",
+            "publishedDate": "2016-02-16",
+            "description": "Problem solving is an essential part of every scientific discipline. It has two components: (1) problem identification and formulation, and (2) the solution to the formulated problem. One can solve a problem on its own using ad hoc techniques or by following techniques that have produced efficient solutions to similar problems. This requires the understanding of various algorithm design techniques, how and when to use them to formulate solutions, and the context appropriate for each of them. Algorithms: Design Techniques and Analysis advocates the study of algorithm design by presenting the most useful techniques and illustrating them with numerous examples — emphasizing on design techniques in problem solving rather than algorithms topics like searching and sorting. Algorithmic analysis in connection with example algorithms are explored in detail. Each technique or strategy is covered in its own chapter through numerous examples of problems and their algorithms. Readers will be equipped with problem solving tools needed in advanced courses or research in science and engineering. Contents:Basic Concepts and Introduction to Algorithms:Basic Concepts in Algorithmic AnalysisData StructuresHeaps and the Disjoint Sets Data StructuresTechniques Based on Recursion:InductionDivide and ConquerDynamic ProgrammingFirst-Cut Techniques:The Greedy ApproachGraph TraversalComplexity of Problems:NP-Complete ProblemsIntroduction to Computational ComplexityLower BoundsCoping with Hardness:BacktrackingRandomized AlgorithmsApproximation AlgorithmsIteractive Improvement for Domain-Specific Problems:Network FlowMatchingTechniques in Computational Geometry:Geometric SweepingVoronoi DiagramsAppendices:Mathematical PreliminariesIntroduction to Discrete Probability Readership: Senior undergraduates, graduate students and professionals in software development. Readers in advanced courses or research in science and engineering. Key Features:It covers many topics that are not in any other book on algorithmsIt covers a wide range of design techniques each in its own chapterKeywords:Algorithms;Algorithm Design;Algorithm Analysis",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9789814723664"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "9814723665"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": true
+            },
+            "pageCount": 572,
+            "printType": "BOOK",
+            "categories": [
+                "Mathematics"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": true,
+            "contentVersion": "preview-1.0.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=K2PFCwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=K2PFCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=K2PFCwAAQBAJ&printsec=frontcover&dq=algorithm&hl=&cd=4&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=K2PFCwAAQBAJ&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=K2PFCwAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+                "amount": 1791232,
+                "currencyCode": "VND"
+            },
+            "retailPrice": {
+                "amount": 1253862,
+                "currencyCode": "VND"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=K2PFCwAAQBAJ&rdid=book-K2PFCwAAQBAJ&rdot=1&source=gbs_api",
+            "offers": [
+                {
+                    "finskyOfferType": 1,
+                    "listPrice": {
+                        "amountInMicros": 1791232000000,
+                        "currencyCode": "VND"
+                    },
+                    "retailPrice": {
+                        "amountInMicros": 1253862000000,
+                        "currencyCode": "VND"
+                    }
+                }
+            ]
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/Algorithms-sample-pdf.acsm?id=K2PFCwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=K2PFCwAAQBAJ&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "Problem solving is an essential part of every scientific discipline."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "fedVCgAAQBAJ",
+        "etag": "Mjuw3YesrEs",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/fedVCgAAQBAJ",
+        "volumeInfo": {
+            "title": "Algorithms in Java, Part 5",
+            "subtitle": "Graph Algorithms: Graph Algorithms",
+            "authors": [
+                "Robert Sedgewick"
+            ],
+            "publisher": "Addison-Wesley Professional",
+            "publishedDate": "2003-07-16",
+            "description": "Once again, Robert Sedgewick provides a current and comprehensive introduction to important algorithms. The focus this time is on graph algorithms, which are increasingly critical for a wide range of applications, such as network connectivity, circuit design, scheduling, transaction processing, and resource allocation. In this book, Sedgewick offers the same successful blend of theory and practice that has made his work popular with programmers for many years. Michael Schidlowsky and Sedgewick have developed concise new Java implementations that both express the methods in a natural and direct manner and also can be used in real applications. Algorithms in Java, Third Edition, Part 5: Graph Algorithms is the second book in Sedgewick's thoroughly revised and rewritten series. The first book, Parts 1-4, addresses fundamental algorithms, data structures, sorting, and searching. A forthcoming third book will focus on strings, geometry, and a range of advanced algorithms. Each book's expanded coverage features new algorithms and implementations, enhanced descriptions and diagrams, and a wealth of new exercises for polishing skills. The natural match between Java classes and abstract data type (ADT) implementations makes the code more broadly useful and relevant for the modern object-oriented programming environment. The Web site for this book (www.cs.princeton.edu/~rs/) provides additional source code for programmers along with a variety of academic support materials for educators. Coverage includes: A complete overview of graph properties and types Diagraphs and DAGs Minimum spanning trees Shortest paths Network flows Diagrams, sample Java code, and detailed algorithm descriptions A landmark revision, Algorithms in Java, Third Edition, Part 5 provides a complete tool set for programmers to implement, debug, and use graph algorithms across a wide range of computer applications.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9780134190075"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "0134190076"
+                }
+            ],
+            "readingModes": {
+                "text": true,
+                "image": true
+            },
+            "pageCount": 1002,
+            "printType": "BOOK",
+            "categories": [
+                "Computers"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "1.10.10.0.preview.3",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=fedVCgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=fedVCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=fedVCgAAQBAJ&printsec=frontcover&dq=algorithm&hl=&cd=5&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=fedVCgAAQBAJ&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=fedVCgAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+                "amount": 716479,
+                "currencyCode": "VND"
+            },
+            "retailPrice": {
+                "amount": 501535,
+                "currencyCode": "VND"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=fedVCgAAQBAJ&rdid=book-fedVCgAAQBAJ&rdot=1&source=gbs_api",
+            "offers": [
+                {
+                    "finskyOfferType": 1,
+                    "listPrice": {
+                        "amountInMicros": 716479000000,
+                        "currencyCode": "VND"
+                    },
+                    "retailPrice": {
+                        "amountInMicros": 501535000000,
+                        "currencyCode": "VND"
+                    }
+                }
+            ]
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+            "epub": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/Algorithms_in_Java_Part_5-sample-epub.acsm?id=fedVCgAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "pdf": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/Algorithms_in_Java_Part_5-sample-pdf.acsm?id=fedVCgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=fedVCgAAQBAJ&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "Algorithms in Java, Third Edition, Part 5: Graph Algorithms is the second book in Sedgewick&#39;s thoroughly revised and rewritten series. The first book, Parts 1-4, addresses fundamental algorithms, data structures, sorting, and searching."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "S-tXjl1hsUYC",
+        "etag": "EDak2fq8+go",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/S-tXjl1hsUYC",
+        "volumeInfo": {
+            "title": "An Introduction to Data Structures and Algorithms",
+            "authors": [
+                "J.A. Storer"
+            ],
+            "publisher": "Springer Science & Business Media",
+            "publishedDate": "2001-11-09",
+            "description": "Data structures and algorithms are presented at the college level in a highly accessible format that presents material with one-page displays in a way that will appeal to both teachers and students. The thirteen chapters cover: Models of Computation, Lists, Induction and Recursion, Trees, Algorithm Design, Hashing, Heaps, Balanced Trees, Sets Over a Small Universe, Graphs, Strings, Discrete Fourier Transform, Parallel Computation. Key features: Complicated concepts are expressed clearly in a single page with minimal notation and without the \"clutter\" of the syntax of a particular programming language; algorithms are presented with self-explanatory \"pseudo-code.\" * Chapters 1-4 focus on elementary concepts, the exposition unfolding at a slower pace. Sample exercises with solutions are provided. Sections that may be skipped for an introductory course are starred. Requires only some basic mathematics background and some computer programming experience. * Chapters 5-13 progress at a faster pace. The material is suitable for undergraduates or first-year graduates who need only review Chapters 1 -4. * This book may be used for a one-semester introductory course (based on Chapters 1-4 and portions of the chapters on algorithm design, hashing, and graph algorithms) and for a one-semester advanced course that starts at Chapter 5. A year-long course may be based on the entire book. * Sorting, often perceived as rather technical, is not treated as a separate chapter, but is used in many examples (including bubble sort, merge sort, tree sort, heap sort, quick sort, and several parallel algorithms). Also, lower bounds on sorting by comparisons are included with the presentation of heaps in the context of lower bounds for comparison-based structures. * Chapter 13 on parallel models of computation is something of a mini-book itself, and a good way to end a course. Although it is not clear what parallel",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_10",
+                    "identifier": "0817642536"
+                },
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9780817642532"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": true
+            },
+            "pageCount": 632,
+            "printType": "BOOK",
+            "categories": [
+                "Computers"
+            ],
+            "averageRating": 4.5,
+            "ratingsCount": 6,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "7.9.6.0.preview.1",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=S-tXjl1hsUYC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=S-tXjl1hsUYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=S-tXjl1hsUYC&printsec=frontcover&dq=algorithm&hl=&cd=6&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=S-tXjl1hsUYC&dq=algorithm&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/An_Introduction_to_Data_Structures_and_A.html?hl=&id=S-tXjl1hsUYC"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/An_Introduction_to_Data_Structures_and_A-sample-pdf.acsm?id=S-tXjl1hsUYC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=S-tXjl1hsUYC&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "The material is suitable for undergraduates or first-year graduates who need only review Chapters 1 -4. * This book may be used for a one-semester introductory course (based on Chapters 1-4 and portions of the chapters on algorithm design, ..."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "Me6VDwAAQBAJ",
+        "etag": "Qdaq7n3vtPA",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/Me6VDwAAQBAJ",
+        "volumeInfo": {
+            "title": "Essential Algorithms",
+            "subtitle": "A Practical Approach to Computer Algorithms Using Python and C#",
+            "authors": [
+                "Rod Stephens"
+            ],
+            "publisher": "John Wiley & Sons",
+            "publishedDate": "2019-05-29",
+            "description": "A friendly introduction to the most useful algorithms written in simple, intuitive English The revised and updated second edition of Essential Algorithms, offers an accessible introduction to computer algorithms. The book contains a description of important classical algorithms and explains when each is appropriate. The author shows how to analyze algorithms in order to understand their behavior and teaches techniques that the can be used to create new algorithms to meet future needs. The text includes useful algorithms such as: methods for manipulating common data structures, advanced data structures, network algorithms, and numerical algorithms. It also offers a variety of general problem-solving techniques. In addition to describing algorithms and approaches, the author offers details on how to analyze the performance of algorithms. The book is filled with exercises that can be used to explore ways to modify the algorithms in order to apply them to new situations. This updated edition of Essential Algorithms: Contains explanations of algorithms in simple terms, rather than complicated math Steps through powerful algorithms that can be used to solve difficult programming problems Helps prepare for programming job interviews that typically include algorithmic questions Offers methods can be applied to any programming language Includes exercises and solutions useful to both professionals and students Provides code examples updated and written in Python and C# Essential Algorithms has been updated and revised and offers professionals and students a hands-on guide to analyzing algorithms as well as the techniques and applications. The book also includes a collection of questions that may appear in a job interview. The book’s website will include reference implementations in Python and C# (which can be easily applied to Java and C++).",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781119575993"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1119575990"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": true
+            },
+            "pageCount": 800,
+            "printType": "BOOK",
+            "categories": [
+                "Computers"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.3.1.0.preview.1",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=Me6VDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=Me6VDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=Me6VDwAAQBAJ&printsec=frontcover&dq=algorithm&hl=&cd=7&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=Me6VDwAAQBAJ&dq=algorithm&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Essential_Algorithms.html?hl=&id=Me6VDwAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/Essential_Algorithms-sample-pdf.acsm?id=Me6VDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=Me6VDwAAQBAJ&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "This updated edition of Essential Algorithms: Contains explanations of algorithms in simple terms, rather than complicated math Steps through powerful algorithms that can be used to solve difficult programming problems Helps prepare for ..."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "jevDEAAAQBAJ",
+        "etag": "74/1YjAUIug",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/jevDEAAAQBAJ",
+        "volumeInfo": {
+            "title": "Pearls of Algorithm Engineering",
+            "authors": [
+                "Paolo Ferragina"
+            ],
+            "publisher": "Cambridge University Press",
+            "publishedDate": "2023-04-30",
+            "description": "There are many textbooks on algorithms focusing on big-O notation and basic design principles. This book offers a unique approach to taking the design and analyses to the level of predictable practical efficiency, discussing core and classic algorithmic problems that arise in the development of big data applications, and presenting elegant solutions of increasing sophistication and efficiency. Solutions are analyzed within the classic RAM model, and the more practically significant external-memory model that allows one to perform I/O-complexity evaluations. Chapters cover various data types, including integers, strings, trees, and graphs, algorithmic tools such as sampling, sorting, data compression, and searching in dictionaries and texts, and lastly, recent developments regarding compressed data structures. Algorithmic solutions are accompanied by detailed pseudocode and many running examples, thus enriching the toolboxes of students, researchers, and professionals interested in effective and efficient processing of big data.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781009358569"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1009358561"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": true
+            },
+            "pageCount": 320,
+            "printType": "BOOK",
+            "categories": [
+                "Computers"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "preview-1.0.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=jevDEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=jevDEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=jevDEAAAQBAJ&printsec=frontcover&dq=algorithm&hl=&cd=8&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=jevDEAAAQBAJ&dq=algorithm&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Pearls_of_Algorithm_Engineering.html?hl=&id=jevDEAAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/Pearls_of_Algorithm_Engineering-sample-pdf.acsm?id=jevDEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=jevDEAAAQBAJ&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "This book offers a unique approach to taking the design and analyses to the level of predictable practical efficiency, discussing core and classic algorithmic problems that arise in the development of big data applications, and presenting ..."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "tSxLkRIyvoIC",
+        "etag": "vTzZ0ENse3M",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/tSxLkRIyvoIC",
+        "volumeInfo": {
+            "title": "Text Algorithms",
+            "authors": [
+                "Maxime Crochemore",
+                "Wojciech Rytter"
+            ],
+            "publisher": "Maxime Crochemore",
+            "publishedDate": "1994",
+            "description": "This much-needed book on the design of algorithms and data structures for text processing emphasizes both theoretical foundations and practical applications. It is intended to serve both as a textbook for courses on algorithm design, especially those related to text processing, and as a reference for computer science professionals. The work takes a unique approach, one that goes more deeply into its topic than other more general books. It contains both classical algorithms and recent results of research on the subject. The book is the first text to contain a collection of a wide range of text algorithms, many of them quite new and appearing here for the first time. Other algorithms, while known by reputation, have never been published in the journal literature. Two such important algorithms are those of Karp, Miller and Rosenberg, and that of Weiner. Here they are presented together for the fist time. The core of the book is the material on suffix trees and subword graphs, applications of these data structures, new approaches to time-space optimal string-matching, and text compression. Also covered are basic parallel algorithms for text problems. Applications of all these algorithms are given for problems involving data retrieval systems, treatment of natural languages, investigation of genomes, data compression software, and text processing tools. From the theoretical point of view. the book is a goldmine of paradigms for the development of efficient algorithms, providing the necessary foundation to creating practical software dealing with sequences. A crucial point in the authors' approach is the development of a methodology for presenting text algorithms so they can be fully understood. Throughout, the book emphasizes the efficiency of algorithms, holding that the essence of their usefulness depends on it. This is especially important since the algorithms described here will find application in \"Big Science\" areas like molecular sequence analysis where the explosive growth of data has caused problems for the current generation of software. Finally, with its development of theoretical background, the book can be considered as a mathematical foundation for the analysis and production of text processing algorithms.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9780195086096"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "0195086090"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": true
+            },
+            "pageCount": 396,
+            "printType": "BOOK",
+            "categories": [
+                "Algorithms"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.2.2.0.preview.1",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=tSxLkRIyvoIC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=tSxLkRIyvoIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=tSxLkRIyvoIC&printsec=frontcover&dq=algorithm&hl=&cd=9&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=tSxLkRIyvoIC&dq=algorithm&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Text_Algorithms.html?hl=&id=tSxLkRIyvoIC"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/Text_Algorithms-sample-pdf.acsm?id=tSxLkRIyvoIC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=tSxLkRIyvoIC&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "This much-needed book on the design of algorithms and data structures for text processing emphasizes both theoretical foundations and practical applications."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "mJ4ZAQAAIAAJ",
+        "etag": "6G+YyrNj8bU",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/mJ4ZAQAAIAAJ",
+        "volumeInfo": {
+            "title": "Introduction to Algorithms",
+            "subtitle": "A Creative Approach",
+            "authors": [
+                "Udi Manber"
+            ],
+            "publisher": "Pearson",
+            "publishedDate": "1989",
+            "description": "This book emphasizes the creative aspects of algorithm design by examining steps used in the process of algorithm development. The heart of the creative process lies in an analogy between proving mathematical theorems by induction and designing combinatorial algorithms. The book contains hundreds of problems and examples. It is designed to enhance the reader's problem-solving abilities and understanding of the principles behind algorithm design. 0201120372B04062001",
+            "industryIdentifiers": [
+                {
+                    "type": "OTHER",
+                    "identifier": "STANFORD:36105025945499"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 504,
+            "printType": "BOOK",
+            "categories": [
+                "Computers"
+            ],
+            "averageRating": 5,
+            "ratingsCount": 1,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "1.4.1.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=mJ4ZAQAAIAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=mJ4ZAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=mJ4ZAQAAIAAJ&q=algorithm&dq=algorithm&hl=&cd=10&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=mJ4ZAQAAIAAJ&dq=algorithm&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Introduction_to_Algorithms.html?hl=&id=mJ4ZAQAAIAAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=mJ4ZAQAAIAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "This book emphasizes the creative aspects of algorithm design by examining steps used in the process of algorithm development."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "hOnLEAAAQBAJ",
+        "etag": "YJ9lHc5KOCg",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/hOnLEAAAQBAJ",
+        "volumeInfo": {
+            "title": "Computational Intelligence-based Optimization Algorithms",
+            "subtitle": "From Theory to Practice",
+            "authors": [
+                "Babak Zolghadr-Asli"
+            ],
+            "publisher": "CRC Press",
+            "publishedDate": "2023-10-11",
+            "description": "Computational intelligence-based optimization methods, also known as metaheuristic optimization algorithms, are a popular topic in mathematical programming. These methods have bridged the gap between various approaches and created a new school of thought to solve real-world optimization problems. In this book, we have selected some of the most effective and renowned algorithms in the literature. These algorithms are not only practical but also provide thought-provoking theoretical ideas to help readers understand how they solve optimization problems. Each chapter includes a brief review of the algorithm’s background and the fields it has been used in. Additionally, Python code is provided for all algorithms at the end of each chapter, making this book a valuable resource for beginner and intermediate programmers looking to understand these algorithms.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781000964707"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1000964701"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": true
+            },
+            "pageCount": 357,
+            "printType": "BOOK",
+            "categories": [
+                "Computers"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "preview-1.0.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=hOnLEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=hOnLEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=hOnLEAAAQBAJ&printsec=frontcover&dq=algorithm&hl=&cd=12&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=hOnLEAAAQBAJ&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=hOnLEAAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+                "amount": 1719798,
+                "currencyCode": "VND"
+            },
+            "retailPrice": {
+                "amount": 1306983,
+                "currencyCode": "VND"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=hOnLEAAAQBAJ&rdid=book-hOnLEAAAQBAJ&rdot=1&source=gbs_api",
+            "offers": [
+                {
+                    "finskyOfferType": 1,
+                    "listPrice": {
+                        "amountInMicros": 1719798000000,
+                        "currencyCode": "VND"
+                    },
+                    "retailPrice": {
+                        "amountInMicros": 1306983000000,
+                        "currencyCode": "VND"
+                    }
+                }
+            ]
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/Computational_Intelligence_based_Optimiz-sample-pdf.acsm?id=hOnLEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=hOnLEAAAQBAJ&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "- Gives theoretical descriptions of each presented algorithm and algorithm codes in a way that is easy to follow - Offers a robust literature review for each algorithm - Useful for a range of readers that may need to understand and apply ..."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "m7fNDwAAQBAJ",
+        "etag": "BmWMRlhdLHk",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/m7fNDwAAQBAJ",
+        "volumeInfo": {
+            "title": "Dive Into Algorithms",
+            "subtitle": "A Pythonic Adventure for the Intrepid Beginner",
+            "authors": [
+                "Bradford Tuckfield"
+            ],
+            "publisher": "No Starch Press",
+            "publishedDate": "2021-01-05",
+            "description": "Dive Into Algorithms is a broad introduction to algorithms using the Python Programming Language. Dive Into Algorithms is a wide-ranging, Pythonic tour of many of the world's most interesting algorithms. With little more than a bit of computer programming experience and basic high-school math, you'll explore standard computer science algorithms for searching, sorting, and optimization; human-based algorithms that help us determine how to catch a baseball or eat the right amount at a buffet; and advanced algorithms like ones used in machine learning and artificial intelligence. You'll even explore how ancient Egyptians and Russian peasants used algorithms to multiply numbers, how the ancient Greeks used them to find greatest common divisors, and how Japanese scholars in the age of samurai designed algorithms capable of generating magic squares. You'll explore algorithms that are useful in pure mathematics and learn how mathematical ideas can improve algorithms. You'll learn about an algorithm for generating continued fractions, one for quick calculations of square roots, and another for generating seemingly random sets of numbers. You'll also learn how to: • Use algorithms to debug code, maximize revenue, schedule tasks, and create decision trees • Measure the efficiency and speed of algorithms • Generate Voronoi diagrams for use in various geometric applications • Use algorithms to build a simple chatbot, win at board games, or solve sudoku puzzles • Write code for gradient ascent and descent algorithms that can find the maxima and minima of functions • Use simulated annealing to perform global optimization • Build a decision tree to predict happiness based on a person's characteristics Once you've finished this book you'll understand how to code and implement important algorithms as well as how to measure and optimize their performance, all while learning the nitty-gritty details of today's most powerful algorithms.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781718500693"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1718500696"
+                }
+            ],
+            "readingModes": {
+                "text": true,
+                "image": false
+            },
+            "pageCount": 250,
+            "printType": "BOOK",
+            "categories": [
+                "Computers"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": true,
+            "contentVersion": "preview-1.0.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=m7fNDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=m7fNDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=m7fNDwAAQBAJ&printsec=frontcover&dq=algorithm&hl=&cd=13&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=m7fNDwAAQBAJ&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=m7fNDwAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+                "amount": 834238,
+                "currencyCode": "VND"
+            },
+            "retailPrice": {
+                "amount": 583967,
+                "currencyCode": "VND"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=m7fNDwAAQBAJ&rdid=book-m7fNDwAAQBAJ&rdot=1&source=gbs_api",
+            "offers": [
+                {
+                    "finskyOfferType": 1,
+                    "listPrice": {
+                        "amountInMicros": 834238000000,
+                        "currencyCode": "VND"
+                    },
+                    "retailPrice": {
+                        "amountInMicros": 583967000000,
+                        "currencyCode": "VND"
+                    }
+                }
+            ]
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": true
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=m7fNDwAAQBAJ&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "You&#39;ll also learn how to: • Use algorithms to debug code, maximize revenue, schedule tasks, and create decision trees • Measure the efficiency and speed of algorithms • Generate Voronoi diagrams for use in various geometric ..."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "CQuK9C2hYVgC",
+        "etag": "7MRmZVQF/Ac",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/CQuK9C2hYVgC",
+        "volumeInfo": {
+            "title": "Algorithms Unplugged",
+            "authors": [
+                "Berthold Vöcking",
+                "Helmut Alt",
+                "Martin Dietzfelbinger",
+                "Rüdiger Reischuk",
+                "Christian Scheideler",
+                "Heribert Vollmer",
+                "Dorothea Wagner"
+            ],
+            "publisher": "Springer Science & Business Media",
+            "publishedDate": "2010-12-10",
+            "description": "Algorithms specify the way computers process information and how they execute tasks. Many recent technological innovations and achievements rely on algorithmic ideas – they facilitate new applications in science, medicine, production, logistics, traffic, communi¬cation and entertainment. Efficient algorithms not only enable your personal computer to execute the newest generation of games with features unimaginable only a few years ago, they are also key to several recent scientific breakthroughs – for example, the sequencing of the human genome would not have been possible without the invention of new algorithmic ideas that speed up computations by several orders of magnitude. The greatest improvements in the area of algorithms rely on beautiful ideas for tackling computational tasks more efficiently. The problems solved are not restricted to arithmetic tasks in a narrow sense but often relate to exciting questions of nonmathematical flavor, such as: How can I find the exit out of a maze? How can I partition a treasure map so that the treasure can only be found if all parts of the map are recombined? How should I plan my trip to minimize cost? Solving these challenging problems requires logical reasoning, geometric and combinatorial imagination, and, last but not least, creativity – the skills needed for the design and analysis of algorithms. In this book we present some of the most beautiful algorithmic ideas in 41 articles written in colloquial, nontechnical language. Most of the articles arose out of an initiative among German-language universities to communicate the fascination of algorithms and computer science to high-school students. The book can be understood without any prior knowledge of algorithms and computing, and it will be an enlightening and fun read for students and interested adults.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9783642153280"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "3642153283"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": true
+            },
+            "pageCount": 406,
+            "printType": "BOOK",
+            "categories": [
+                "Science"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.5.1.0.preview.1",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=CQuK9C2hYVgC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=CQuK9C2hYVgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=CQuK9C2hYVgC&printsec=frontcover&dq=algorithm&hl=&cd=14&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=CQuK9C2hYVgC&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=CQuK9C2hYVgC"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+                "amount": 2520819,
+                "currencyCode": "VND"
+            },
+            "retailPrice": {
+                "amount": 1764573,
+                "currencyCode": "VND"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=CQuK9C2hYVgC&rdid=book-CQuK9C2hYVgC&rdot=1&source=gbs_api",
+            "offers": [
+                {
+                    "finskyOfferType": 1,
+                    "listPrice": {
+                        "amountInMicros": 2520819000000,
+                        "currencyCode": "VND"
+                    },
+                    "retailPrice": {
+                        "amountInMicros": 1764573000000,
+                        "currencyCode": "VND"
+                    }
+                }
+            ]
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/Algorithms_Unplugged-sample-pdf.acsm?id=CQuK9C2hYVgC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=CQuK9C2hYVgC&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "In this book we present some of the most beautiful algorithmic ideas in 41 articles written in colloquial, nontechnical language."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "hDyFCwAAQBAJ",
+        "etag": "DHUoKsUgyLM",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/hDyFCwAAQBAJ",
+        "volumeInfo": {
+            "title": "Self-Organizing Migrating Algorithm",
+            "subtitle": "Methodology and Implementation",
+            "authors": [
+                "Donald Davendra",
+                "Ivan Zelinka"
+            ],
+            "publisher": "Springer",
+            "publishedDate": "2016-02-04",
+            "description": "This book brings together the current state of-the-art research in Self Organizing Migrating Algorithm (SOMA) as a novel population-based evolutionary algorithm, modeled on the predator-prey relationship, by its leading practitioners. As the first ever book on SOMA, this book is geared towards graduate students, academics and researchers, who are looking for a good optimization algorithm for their applications. This book presents the methodology of SOMA, covering both the real and discrete domains, and its various implementations in different research areas. The easy-to-follow and implement methodology used in the book will make it easier for a reader to implement, modify and utilize SOMA.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9783319281612"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "3319281615"
+                }
+            ],
+            "readingModes": {
+                "text": true,
+                "image": true
+            },
+            "pageCount": 289,
+            "printType": "BOOK",
+            "categories": [
+                "Technology & Engineering"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "2.5.4.0.preview.3",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=hDyFCwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=hDyFCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=hDyFCwAAQBAJ&printsec=frontcover&dq=algorithm&hl=&cd=15&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=hDyFCwAAQBAJ&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=hDyFCwAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+                "amount": 2520819,
+                "currencyCode": "VND"
+            },
+            "retailPrice": {
+                "amount": 1764573,
+                "currencyCode": "VND"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=hDyFCwAAQBAJ&rdid=book-hDyFCwAAQBAJ&rdot=1&source=gbs_api",
+            "offers": [
+                {
+                    "finskyOfferType": 1,
+                    "listPrice": {
+                        "amountInMicros": 2520819000000,
+                        "currencyCode": "VND"
+                    },
+                    "retailPrice": {
+                        "amountInMicros": 1764573000000,
+                        "currencyCode": "VND"
+                    }
+                }
+            ]
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/Self_Organizing_Migrating_Algorithm-sample-epub.acsm?id=hDyFCwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "pdf": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/Self_Organizing_Migrating_Algorithm-sample-pdf.acsm?id=hDyFCwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=hDyFCwAAQBAJ&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "This book brings together the current state of-the-art research in Self Organizing Migrating Algorithm (SOMA) as a novel population-based evolutionary algorithm, modeled on the predator-prey relationship, by its leading practitioners."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "pMGpCAAAQBAJ",
+        "etag": "FFp98yykAMs",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/pMGpCAAAQBAJ",
+        "volumeInfo": {
+            "title": "Algorithm Engineering",
+            "subtitle": "4th International Workshop, WAE 2000 Saarbrücken, Germany, September 5-8, 2000 Proceedings",
+            "authors": [
+                "Stefan Näher",
+                "Dorothea Wagner"
+            ],
+            "publisher": "Springer Science & Business Media",
+            "publishedDate": "2007-06-03",
+            "description": "This volume contains the papers accepted for the 4th Workshop on Algorithm Engineering (WAE 2000) held in Saarbruc ̈ ken, Germany, during 5–8 September 2000, together with the abstract of the invited lecture given by Karsten Weihe. The Workshop on Algorithm Engineering covers research on all aspects of the subject. The goal is to present recent research results and to identify and explore directions for future research. Previous meetings were held in Venice (1997), Saarbruc ̈ ken (1998), and London (1999). Papers were solicited describing original research in all aspects of algorithm engineering, including: – Development of software repositories and platforms which allow the use of and experimentation with e?cient discrete algorithms. – Novel uses of discrete algorithms in other disciplines and the evaluation of algorithms for realistic environments. – Methodological issues including standards in the context of empirical - search on algorithms and data structures. – Methodological issues regarding the process of converting user requirements into e?cient algorithmic solutions and implementations. The program committee accepted 16 from a total of 30 submissions. The program committee meeting was conducted electronically. The criteria for sel- tion were originality, quality, and relevance to the subject area of the workshop. Considerable e?ort was devoted to the evaluation of the submissions and to p- viding the authors with feedback. Each submission was reviewed by at least four program committee members (assisted by subreferees). A special issue of the ACM Journal of Experimental Algorithmics will be devoted to selected papers from WAE 2000.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9783540446910"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "3540446915"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": true
+            },
+            "pageCount": 251,
+            "printType": "BOOK",
+            "categories": [
+                "Computers"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "5.6.6.0.preview.1",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=pMGpCAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=pMGpCAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=pMGpCAAAQBAJ&pg=PA197&dq=algorithm&hl=&cd=16&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=pMGpCAAAQBAJ&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=pMGpCAAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+                "amount": 1400337,
+                "currencyCode": "VND"
+            },
+            "retailPrice": {
+                "amount": 980236,
+                "currencyCode": "VND"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=pMGpCAAAQBAJ&rdid=book-pMGpCAAAQBAJ&rdot=1&source=gbs_api",
+            "offers": [
+                {
+                    "finskyOfferType": 1,
+                    "listPrice": {
+                        "amountInMicros": 1400337000000,
+                        "currencyCode": "VND"
+                    },
+                    "retailPrice": {
+                        "amountInMicros": 980236000000,
+                        "currencyCode": "VND"
+                    }
+                }
+            ]
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/Algorithm_Engineering-sample-pdf.acsm?id=pMGpCAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=pMGpCAAAQBAJ&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "... <b>algorithm</b> for MWEDP in bidirected trees . This matches the approximation ratio of the best known <b>algorithm</b> for the unweighted case [ 7 ] . Path coloring is NP - hard for bidirected trees ( even in the case of binary trees ) , but there&nbsp;..."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "YbVQEAAAQBAJ",
+        "etag": "JQfVtDo6TyU",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/YbVQEAAAQBAJ",
+        "volumeInfo": {
+            "title": "Constraint Handling in Cohort Intelligence Algorithm",
+            "authors": [
+                "Ishaan R. Kale",
+                "Anand J. Kulkarni"
+            ],
+            "publisher": "CRC Press",
+            "publishedDate": "2021-12-27",
+            "description": "Mechanical Engineering domain problems are generally complex, consisting of different design variables and constraints. These problems may not be solved using gradient-based optimization techniques. The stochastic nature-inspired optimization techniques have been proposed in this book to efficiently handle the complex problems. The nature-inspired algorithms are classified as bio-inspired, swarm, and physics/chemical-based algorithms. Socio-inspired is one of the subdomains of bio-inspired algorithms, and Cohort Intelligence (CI) models the social tendencies of learning candidates with an inherent goal to achieve the best possible position. In this book, CI is investigated by solving ten discrete variable truss structural problems, eleven mixed variable design engineering problems, seventeen linear and nonlinear constrained test problems and two real-world applications from manufacturing domain. Static Penalty Function (SPF) is also adopted to handle the linear and nonlinear constraints, and limitations in CI and SPF approaches are examined. Constraint Handling in Cohort Intelligence Algorithm is a valuable reference to practitioners working in the industry as well as to students and researchers in the area of optimization methods.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781000520484"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "100052048X"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": true
+            },
+            "pageCount": 206,
+            "printType": "BOOK",
+            "categories": [
+                "Business & Economics"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "preview-1.0.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=YbVQEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=YbVQEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=YbVQEAAAQBAJ&printsec=frontcover&dq=algorithm&hl=&cd=17&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=YbVQEAAAQBAJ&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=YbVQEAAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+                "amount": 1589978,
+                "currencyCode": "VND"
+            },
+            "retailPrice": {
+                "amount": 1203128,
+                "currencyCode": "VND"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=YbVQEAAAQBAJ&rdid=book-YbVQEAAAQBAJ&rdot=1&source=gbs_api",
+            "offers": [
+                {
+                    "finskyOfferType": 1,
+                    "listPrice": {
+                        "amountInMicros": 1589978000000,
+                        "currencyCode": "VND"
+                    },
+                    "retailPrice": {
+                        "amountInMicros": 1203128000000,
+                        "currencyCode": "VND"
+                    }
+                }
+            ]
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/Constraint_Handling_in_Cohort_Intelligen-sample-pdf.acsm?id=YbVQEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=YbVQEAAAQBAJ&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "In this book, CI is investigated by solving ten discrete variable truss structural problems, eleven mixed variable design engineering problems, seventeen linear and nonlinear constrained test problems and two real-world applications from ..."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "BJRBETtWD8cC",
+        "etag": "6QSUNhMlRYA",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/BJRBETtWD8cC",
+        "volumeInfo": {
+            "title": "Algorithm Design",
+            "subtitle": "Foundations, Analysis, and Internet Examples",
+            "authors": [
+                "Michael T. Goodrich",
+                "Roberto Tamassia"
+            ],
+            "publisher": "John Wiley & Sons",
+            "publishedDate": "2001-10-15",
+            "description": "Michael Goodrich and Roberto Tamassia, authors of the successful, Data Structures and Algorithms in Java, 2/e, have written Algorithm Engineering, a text designed to provide a comprehensive introduction to the design, implementation and analysis of computer algorithms and data structures from a modern perspective. This book offers theoretical analysis techniques as well as algorithmic design patterns and experimental methods for the engineering of algorithms. Market: Computer Scientists; Programmers.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9780471383659"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "0471383651"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": true
+            },
+            "pageCount": 722,
+            "printType": "BOOK",
+            "categories": [
+                "Computers"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "1.1.2.0.preview.1",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=BJRBETtWD8cC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=BJRBETtWD8cC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=BJRBETtWD8cC&pg=PA372&dq=algorithm&hl=&cd=18&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=BJRBETtWD8cC&dq=algorithm&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Algorithm_Design.html?hl=&id=BJRBETtWD8cC"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/Algorithm_Design-sample-pdf.acsm?id=BJRBETtWD8cC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=BJRBETtWD8cC&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "... <b>Algorithm</b> Let us analyze the running time of Bar ̊uvka&#39;s <b>algorithm</b> (<b>Algorithm</b> 7.21). We can implement each round performing the searches to find the minimum-weight edge going out of each cluster by an exhaustive search through the&nbsp;..."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "blSReLACtToC",
+        "etag": "aFgoTs5Q/mE",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/blSReLACtToC",
+        "volumeInfo": {
+            "title": "Boosting",
+            "subtitle": "Foundations and Algorithms",
+            "authors": [
+                "Robert E. Schapire",
+                "Yoav Freund"
+            ],
+            "publisher": "MIT Press",
+            "publishedDate": "2012",
+            "description": "An accessible introduction and essential reference for an approach to machine learning that creates highly accurate prediction rules by combining many weak and inaccurate ones. Boosting is an approach to machine learning based on the idea of creating a highly accurate predictor by combining many weak and inaccurate \"rules of thumb.\" A remarkably rich theory has evolved around boosting, with connections to a range of topics, including statistics, game theory, convex optimization, and information geometry. Boosting algorithms have also enjoyed practical success in such fields as biology, vision, and speech processing. At various times in its history, boosting has been perceived as mysterious, controversial, even paradoxical. This book, written by the inventors of the method, brings together, organizes, simplifies, and substantially extends two decades of research on boosting, presenting both theory and applications in a way that is accessible to readers from diverse backgrounds while also providing an authoritative reference for advanced researchers. With its introductory treatment of all material and its inclusion of exercises in every chapter, the book is appropriate for course use as well. The book begins with a general introduction to machine learning algorithms and their analysis; then explores the core theory of boosting, especially its ability to generalize; examines some of the myriad other theoretical viewpoints that help to explain and understand boosting; provides practical extensions of boosting for more complex learning problems; and finally presents a number of advanced theoretical topics. Numerous applications and practical illustrations are offered throughout.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9780262017183"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "0262017180"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": true
+            },
+            "pageCount": 544,
+            "printType": "BOOK",
+            "categories": [
+                "Algorithms"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.1.0.0.preview.1",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=blSReLACtToC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=blSReLACtToC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=blSReLACtToC&printsec=frontcover&dq=algorithm&hl=&cd=19&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=blSReLACtToC&dq=algorithm&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Boosting.html?hl=&id=blSReLACtToC"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/Boosting-sample-pdf.acsm?id=blSReLACtToC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=blSReLACtToC&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "This book, written by the inventors of the method, brings together, organizes, simplifies, and substantially extends two decades of research on boosting, presenting both theory and applications in a way that is accessible to readers from ..."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "bUxUDwAAQBAJ",
+        "etag": "oyKTL6ifo90",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/bUxUDwAAQBAJ",
+        "volumeInfo": {
+            "title": "A Programmer's Companion to Algorithm Analysis",
+            "authors": [
+                "Ernst L. Leiss"
+            ],
+            "publisher": "CRC Press",
+            "publishedDate": "2006-09-26",
+            "description": "Until now, no other book examined the gap between the theory of algorithms and the production of software programs. Focusing on practical issues, A Programmer's Companion to Algorithm Analysis carefully details the transition from the design and analysis of an algorithm to the resulting software program. Consisting of two main complementary parts, the book emphasizes the concrete aspects of translating an algorithm into software that should perform based on what the algorithm analysis indicated. In the first part, the author describes the idealized universe that algorithm designers inhabit while the second part outlines how this ideal can be adapted to the real world of programming. The book explores analysis techniques, including crossover points, the influence of the memory hierarchy, implications of programming language aspects, such as recursion, and problems arising from excessively high computational complexities of solution methods. It concludes with four appendices that discuss basic algorithms; memory hierarchy, virtual memory management, optimizing compilers, and garbage collection; NP-completeness and higher complexity classes; and undecidability in practical terms. Applying the theory of algorithms to the production of software, A Programmer's Companion to Algorithm Analysis fulfills the needs of software programmers and developers as well as students by showing that with the correct algorithm, you can achieve a functional software program.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781420011708"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1420011707"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": true
+            },
+            "pageCount": 255,
+            "printType": "BOOK",
+            "categories": [
+                "Computers"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "preview-1.0.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=bUxUDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=bUxUDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=bUxUDwAAQBAJ&printsec=frontcover&dq=algorithm&hl=&cd=20&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=bUxUDwAAQBAJ&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=bUxUDwAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+                "amount": 2271530,
+                "currencyCode": "VND"
+            },
+            "retailPrice": {
+                "amount": 1748370,
+                "currencyCode": "VND"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=bUxUDwAAQBAJ&rdid=book-bUxUDwAAQBAJ&rdot=1&source=gbs_api",
+            "offers": [
+                {
+                    "finskyOfferType": 1,
+                    "listPrice": {
+                        "amountInMicros": 2271530000000,
+                        "currencyCode": "VND"
+                    },
+                    "retailPrice": {
+                        "amountInMicros": 1748370000000,
+                        "currencyCode": "VND"
+                    }
+                }
+            ]
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/A_Programmer_s_Companion_to_Algorithm_An-sample-pdf.acsm?id=bUxUDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=bUxUDwAAQBAJ&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "Focusing on practical issues, A Programmer&#39;s Companion to Algorithm Analysis carefully details the transition from the design and analysis of an algorithm to the resulting software program. Consisting of two main complementary"
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "wQZPBAAAQBAJ",
+        "etag": "igGHAKR7X2U",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/wQZPBAAAQBAJ",
+        "volumeInfo": {
+            "title": "Configurable Intelligent Optimization Algorithm",
+            "subtitle": "Design and Practice in Manufacturing",
+            "authors": [
+                "Fei Tao",
+                "Lin Zhang",
+                "Yuanjun Laili"
+            ],
+            "publisher": "Springer",
+            "publishedDate": "2014-08-18",
+            "description": "Presenting the concept and design and implementation of configurable intelligent optimization algorithms in manufacturing systems, this book provides a new configuration method to optimize manufacturing processes. It provides a comprehensive elaboration of basic intelligent optimization algorithms, and demonstrates how their improvement, hybridization and parallelization can be applied to manufacturing. Furthermore, various applications of these intelligent optimization algorithms are exemplified in detail, chapter by chapter. The intelligent optimization algorithm is not just a single algorithm; instead it is a general advanced optimization mechanism which is highly scalable with robustness and randomness. Therefore, this book demonstrates the flexibility of these algorithms, as well as their robustness and reusability in order to solve mass complicated problems in manufacturing. Since the genetic algorithm was presented decades ago, a large number of intelligent optimization algorithms and their improvements have been developed. However, little work has been done to extend their applications and verify their competence in solving complicated problems in manufacturing. This book will provide an invaluable resource to students, researchers, consultants and industry professionals interested in engineering optimization. It will also be particularly useful to three groups of readers: algorithm beginners, optimization engineers and senior algorithm designers. It offers a detailed description of intelligent optimization algorithms to algorithm beginners; recommends new configurable design methods for optimization engineers, and provides future trends and challenges of the new configuration mechanism to senior algorithm designers.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9783319088402"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "3319088408"
+                }
+            ],
+            "readingModes": {
+                "text": true,
+                "image": true
+            },
+            "pageCount": 361,
+            "printType": "BOOK",
+            "categories": [
+                "Computers"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "1.3.4.0.preview.3",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=wQZPBAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=wQZPBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=wQZPBAAAQBAJ&pg=PA8&dq=algorithm&hl=&cd=21&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=wQZPBAAAQBAJ&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=wQZPBAAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+                "amount": 2520819,
+                "currencyCode": "VND"
+            },
+            "retailPrice": {
+                "amount": 1764573,
+                "currencyCode": "VND"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=wQZPBAAAQBAJ&rdid=book-wQZPBAAAQBAJ&rdot=1&source=gbs_api",
+            "offers": [
+                {
+                    "finskyOfferType": 1,
+                    "listPrice": {
+                        "amountInMicros": 2520819000000,
+                        "currencyCode": "VND"
+                    },
+                    "retailPrice": {
+                        "amountInMicros": 1764573000000,
+                        "currencyCode": "VND"
+                    }
+                }
+            ]
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/Configurable_Intelligent_Optimization_Al-sample-epub.acsm?id=wQZPBAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "pdf": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/Configurable_Intelligent_Optimization_Al-sample-pdf.acsm?id=wQZPBAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=wQZPBAAAQBAJ&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "... <b>algorithm</b> generally has an upward trend in this decade. While in 2009 it reached a peak and had a stable development in the following years, especially in the past 3 years. Actually this research topic is quite popular and abounds great&nbsp;..."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "jYz1AAAAQBAJ",
+        "etag": "3Suhe8mr7Dg",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/jYz1AAAAQBAJ",
+        "volumeInfo": {
+            "title": "DESIGN AND ANALYSIS OF ALGORITHMS",
+            "authors": [
+                "MANAS RANJAN KABAT"
+            ],
+            "publisher": "PHI Learning Pvt. Ltd.",
+            "publishedDate": "2013-08-21",
+            "description": "Primarily designed as a text for undergraduate students of computer science and engineering and information technology, and postgraduate students of computer applications, the book would also be useful to postgraduate students of computer science and IT (M.Sc., Computer Science; M.Sc., IT). The objective of this book is to expose students to basic techniques in algorithm design and analysis. This well organized text provides the design techniques of algorithms in a simple and straightforward manner. Each concept is explained with an example that helps students to remember the algorithm devising techniques and analysis. The text describes the complete development of various algorithms along with their pseudo-codes in order to have an understanding of their applications. It also discusses the various design factors that make one algorithm more efficient than others, and explains how to devise the new algorithms or modify the existing ones. Key Features Randomized and approximation algorithms are explained well to reinforce the understanding of the subject matter. Various methods for solving recurrences are well explained with examples. NP-completeness of various problems are proved with simple explanation.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9788120348066"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "8120348060"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": true
+            },
+            "pageCount": 356,
+            "printType": "BOOK",
+            "categories": [
+                "Computers"
+            ],
+            "averageRating": 4,
+            "ratingsCount": 1,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": true,
+            "contentVersion": "preview-1.0.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=jYz1AAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=jYz1AAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=jYz1AAAAQBAJ&printsec=frontcover&dq=algorithm&hl=&cd=22&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=jYz1AAAAQBAJ&dq=algorithm&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/DESIGN_AND_ANALYSIS_OF_ALGORITHMS.html?hl=&id=jYz1AAAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/DESIGN_AND_ANALYSIS_OF_ALGORITHMS-sample-pdf.acsm?id=jYz1AAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=jYz1AAAAQBAJ&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "The objective of this book is to expose students to basic techniques in algorithm design and analysis. This well organized text provides the design techniques of algorithms in a simple and straightforward manner."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "Gs_sCgAAQBAJ",
+        "etag": "+ikPioFP7Qw",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/Gs_sCgAAQBAJ",
+        "volumeInfo": {
+            "title": "String Searching Algorithms",
+            "authors": [
+                "Graham A Stephen"
+            ],
+            "publisher": "World Scientific",
+            "publishedDate": "1994-10-17",
+            "description": "String searching is a subject of both theoretical and practical interest in computer science. This book presents a bibliographic overview of the field and an anthology of detailed descriptions of the principal algorithms available. The aim is twofold: on the one hand, to provide an easy-to-read comparison of the available techniques in each area, and on the other, to furnish the reader with a reference to in-depth descriptions of the major algorithms. Topics covered include methods for finding exact and approximate string matches, calculating ‘edit’ distances between strings, finding common sequences and finding the longest repetitions within strings. For clarity, all the algorithms are presented in a uniform format and notation.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9789814501866"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "9814501867"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": true
+            },
+            "pageCount": 257,
+            "printType": "BOOK",
+            "categories": [
+                "Computers"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": true,
+            "contentVersion": "1.2.1.0.preview.1",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=Gs_sCgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=Gs_sCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=Gs_sCgAAQBAJ&printsec=frontcover&dq=algorithm&hl=&cd=23&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=Gs_sCgAAQBAJ&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=Gs_sCgAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+                "amount": 870027,
+                "currencyCode": "VND"
+            },
+            "retailPrice": {
+                "amount": 609019,
+                "currencyCode": "VND"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=Gs_sCgAAQBAJ&rdid=book-Gs_sCgAAQBAJ&rdot=1&source=gbs_api",
+            "offers": [
+                {
+                    "finskyOfferType": 1,
+                    "listPrice": {
+                        "amountInMicros": 870027000000,
+                        "currencyCode": "VND"
+                    },
+                    "retailPrice": {
+                        "amountInMicros": 609019000000,
+                        "currencyCode": "VND"
+                    }
+                }
+            ]
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/String_Searching_Algorithms-sample-pdf.acsm?id=Gs_sCgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=Gs_sCgAAQBAJ&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "String searching is a subject of both theoretical and practical interest in computer science. This book presents a bibliographic overview of the field and an anthology of detailed descriptions of the principal algorithms available."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "6nyrCAAAQBAJ",
+        "etag": "tK6jFtC+ba4",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/6nyrCAAAQBAJ",
+        "volumeInfo": {
+            "title": "Algorithm Theory - SWAT 2002",
+            "subtitle": "8th Scandinavian Workshop on Algorithm Theory, Turku, Finland, July 3-5, 2002 Proceedings",
+            "authors": [
+                "Martti Penttonen",
+                "Erik Meineche Schmidt"
+            ],
+            "publisher": "Springer",
+            "publishedDate": "2003-08-02",
+            "description": "This book constitutes the refereed proceedings of the 8th Scandinavian Workshop on Algorithm Theory, SWAT 2002, held in Turku, Finland, in July 2002. The 43 revised full papers presented together with two invited contributions were carefully reviewed and selected from 103 submissions. The papers are organized in topical sections on scheduling, computational geometry, graph algorithms, robotics, approximation algorithms, data communication, computational biology, and data storage and manipulation.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9783540454717"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "3540454713"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": true
+            },
+            "pageCount": 452,
+            "printType": "BOOK",
+            "categories": [
+                "Computers"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "preview-1.0.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=6nyrCAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=6nyrCAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=6nyrCAAAQBAJ&pg=PA323&dq=algorithm&hl=&cd=24&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=6nyrCAAAQBAJ&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=6nyrCAAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+                "amount": 1400337,
+                "currencyCode": "VND"
+            },
+            "retailPrice": {
+                "amount": 980236,
+                "currencyCode": "VND"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=6nyrCAAAQBAJ&rdid=book-6nyrCAAAQBAJ&rdot=1&source=gbs_api",
+            "offers": [
+                {
+                    "finskyOfferType": 1,
+                    "listPrice": {
+                        "amountInMicros": 1400337000000,
+                        "currencyCode": "VND"
+                    },
+                    "retailPrice": {
+                        "amountInMicros": 980236000000,
+                        "currencyCode": "VND"
+                    }
+                }
+            ]
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/Algorithm_Theory_SWAT_2002-sample-pdf.acsm?id=6nyrCAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=6nyrCAAAQBAJ&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "... <b>algorithm</b> is O ( x2/ε · n1+1/ε ) which n times the running time of the Charikar et al. [CCC+99] <b>algorithm</b>. Our <b>algorithm</b> and its analysis are closely related and generalize the ideas from the [KP99] and [CCC+99] <b>algorithms</b>. In the full&nbsp;..."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "wH3oDwAAQBAJ",
+        "etag": "Nx+BCjlqBcQ",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/wH3oDwAAQBAJ",
+        "volumeInfo": {
+            "title": "7 Algorithm Design Paradigms",
+            "authors": [
+                "Sung-Hyuk Cha"
+            ],
+            "publisher": "Cha Academy llc",
+            "publishedDate": "2020-06-01",
+            "description": "The intended readership includes both undergraduate and graduate students majoring in computer science as well as researchers in the computer science area. The book is suitable either as a textbook or as a supplementary book in algorithm courses. Over 400 computational problems are covered with various algorithms to tackle them. Rather than providing students simply with the best known algorithm for a problem, this book presents various algorithms for readers to master various algorithm design paradigms. Beginners in computer science can train their algorithm design skills via trivial algorithms on elementary problem examples. Graduate students can test their abilities to apply the algorithm design paradigms to devise an efficient algorithm for intermediate-level or challenging problems. Key Features: Dictionary of computational problems: A table of over 400 computational problems with more than 1500 algorithms is provided. Indices and Hyperlinks: Algorithms, computational problems, equations, figures, lemmas, properties, tables, and theorems are indexed with unique identification numbers and page numbers in the printed book and hyperlinked in the e-book version. Extensive Figures: Over 435 figures illustrate the algorithms and describe computational problems. Comprehensive exercises: More than 352 exercises help students to improve their algorithm design and analysis skills. The answers for most questions are available in the accompanying solution manual.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781735168005"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1735168009"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": true
+            },
+            "pageCount": 798,
+            "printType": "BOOK",
+            "categories": [
+                "Computers"
+            ],
+            "averageRating": 5,
+            "ratingsCount": 1,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": true,
+            "contentVersion": "0.1.0.0.preview.1",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=wH3oDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=wH3oDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=wH3oDwAAQBAJ&pg=PR2&dq=algorithm&hl=&cd=25&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=wH3oDwAAQBAJ&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=wH3oDwAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+                "amount": 1279837,
+                "currencyCode": "VND"
+            },
+            "retailPrice": {
+                "amount": 895886,
+                "currencyCode": "VND"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=wH3oDwAAQBAJ&rdid=book-wH3oDwAAQBAJ&rdot=1&source=gbs_api",
+            "offers": [
+                {
+                    "finskyOfferType": 1,
+                    "listPrice": {
+                        "amountInMicros": 1279837000000,
+                        "currencyCode": "VND"
+                    },
+                    "retailPrice": {
+                        "amountInMicros": 895886000000,
+                        "currencyCode": "VND"
+                    }
+                }
+            ]
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/7_Algorithm_Design_Paradigms-sample-pdf.acsm?id=wH3oDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=wH3oDwAAQBAJ&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "... <b>algorithm</b> design paradigm in Chapter 2. Iterative programming is the more general term. The second <b>algorithm</b> design paradigm is the divide and conquer paradigm and covered in Chapter 3. Chapter 4 introduces the third paradigm called the&nbsp;..."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "Nf7sDwAAQBAJ",
+        "etag": "63h17lO3SLc",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/Nf7sDwAAQBAJ",
+        "volumeInfo": {
+            "title": "Applications of Cuckoo Search Algorithm and its Variants",
+            "authors": [
+                "Nilanjan Dey"
+            ],
+            "publisher": "Springer Nature",
+            "publishedDate": "2020-06-23",
+            "description": "This book highlights the basic concepts of the CS algorithm and its variants, and their use in solving diverse optimization problems in medical and engineering applications. Evolutionary-based meta-heuristic approaches are increasingly being applied to solve complicated optimization problems in several real-world applications. One of the most successful optimization algorithms is the Cuckoo search (CS), which has become an active research area to solve N-dimensional and linear/nonlinear optimization problems using simple mathematical processes. CS has attracted the attention of various researchers, resulting in the emergence of numerous variants of the basic CS with enhanced performance since 2019.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9789811551635"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "9811551634"
+                }
+            ],
+            "readingModes": {
+                "text": true,
+                "image": true
+            },
+            "pageCount": 328,
+            "printType": "BOOK",
+            "categories": [
+                "Technology & Engineering"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "1.1.1.0.preview.3",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=Nf7sDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=Nf7sDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=Nf7sDwAAQBAJ&pg=PA2&dq=algorithm&hl=&cd=26&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=Nf7sDwAAQBAJ&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=Nf7sDwAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+                "amount": 3921423,
+                "currencyCode": "VND"
+            },
+            "retailPrice": {
+                "amount": 2744996,
+                "currencyCode": "VND"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=Nf7sDwAAQBAJ&rdid=book-Nf7sDwAAQBAJ&rdot=1&source=gbs_api",
+            "offers": [
+                {
+                    "finskyOfferType": 1,
+                    "listPrice": {
+                        "amountInMicros": 3921423000000,
+                        "currencyCode": "VND"
+                    },
+                    "retailPrice": {
+                        "amountInMicros": 2744996000000,
+                        "currencyCode": "VND"
+                    }
+                }
+            ]
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/Applications_of_Cuckoo_Search_Algorithm-sample-epub.acsm?id=Nf7sDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "pdf": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/Applications_of_Cuckoo_Search_Algorithm-sample-pdf.acsm?id=Nf7sDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=Nf7sDwAAQBAJ&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "... <b>algorithm</b> by considering different components, such as the formulation of dependency between parameters [8]. The main objective of optimization <b>algorithms</b> is to find ... <b>Algorithms</b> in Digital Image Processing 2.1 Cuckoo Search <b>Algorithm</b>."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "xs1AEAAAQBAJ",
+        "etag": "eBFVkmTs/uA",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/xs1AEAAAQBAJ",
+        "volumeInfo": {
+            "title": "Neutrosophic Clustering Algorithm Based on Sparse Regular Term Constraint",
+            "authors": [
+                "Dan Zhang",
+                " Yingcang Ma",
+                "Hu Zhao",
+                "Xiaofei Yang"
+            ],
+            "publisher": "Infinite Study",
+            "description": "Clustering algorithm is one of the important research topics in the field of machine learning. Neutrosophic clustering is the generalization of fuzzy clustering and has been applied to many fields. this paper presents a new neutrosophic clustering algorithm with the help of regularization. Firstly, the regularization term is introduced into the FC-PFS algorithm to generate sparsity, which can reduce the complexity of the algorithm on large data sets. Secondly, we propose a method to simplify the process of determining regularization parameters. Finally, experiments show that the clustering results of this algorithm on artificial data sets and real data sets are mostly better than other clustering algorithms. Our clustering algorithm is effective in most cases.",
+            "readingModes": {
+                "text": false,
+                "image": true
+            },
+            "pageCount": 12,
+            "printType": "BOOK",
+            "categories": [
+                "Mathematics"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "preview-1.0.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=xs1AEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=xs1AEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=xs1AEAAAQBAJ&pg=PA2&dq=algorithm&hl=&cd=27&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=xs1AEAAAQBAJ&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=xs1AEAAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+                "amount": 0,
+                "currencyCode": "VND"
+            },
+            "retailPrice": {
+                "amount": 0,
+                "currencyCode": "VND"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=xs1AEAAAQBAJ&rdid=book-xs1AEAAAQBAJ&rdot=1&source=gbs_api"
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "ALL_PAGES",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/Neutrosophic_Clustering_Algorithm_Based-sample-pdf.acsm?id=xs1AEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=xs1AEAAAQBAJ&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "... <b>algorithms</b> FCM and FC-PFS. 2.1. FCM <b>Algorithm</b>. e FCM <b>algorithm</b> proposed in 1984 is a very well-known <b>algorithm</b>. It is not only used in fuzzy engineering but also popular in the fields of medical diagnosis and communication. e FCM <b>algorithm</b>&nbsp;..."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "ueK5BQAAQBAJ",
+        "etag": "ejDGOsdpO2s",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/ueK5BQAAQBAJ",
+        "volumeInfo": {
+            "title": "Cuckoo Search and Firefly Algorithm",
+            "subtitle": "Theory and Applications",
+            "authors": [
+                "Xin-She Yang"
+            ],
+            "publisher": "Springer",
+            "publishedDate": "2013-10-31",
+            "description": "Nature-inspired algorithms such as cuckoo search and firefly algorithm have become popular and widely used in recent years in many applications. These algorithms are flexible, efficient and easy to implement. New progress has been made in the last few years, and it is timely to summarize the latest developments of cuckoo search and firefly algorithm and their diverse applications. This book will review both theoretical studies and applications with detailed algorithm analysis, implementation and case studies so that readers can benefit most from this book. Application topics are contributed by many leading experts in the field. Topics include cuckoo search, firefly algorithm, algorithm analysis, feature selection, image processing, travelling salesman problem, neural network, GPU optimization, scheduling, queuing, multi-objective manufacturing optimization, semantic web service, shape optimization, and others. This book can serve as an ideal reference for both graduates and researchers in computer science, evolutionary computing, machine learning, computational intelligence, and optimization, as well as engineers in business intelligence, knowledge management and information technology.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9783319021416"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "3319021419"
+                }
+            ],
+            "readingModes": {
+                "text": true,
+                "image": true
+            },
+            "pageCount": 360,
+            "printType": "BOOK",
+            "categories": [
+                "Technology & Engineering"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "2.3.4.0.preview.3",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=ueK5BQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=ueK5BQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=ueK5BQAAQBAJ&pg=PA5&dq=algorithm&hl=&cd=28&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=ueK5BQAAQBAJ&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=ueK5BQAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+                "amount": 2520819,
+                "currencyCode": "VND"
+            },
+            "retailPrice": {
+                "amount": 1764573,
+                "currencyCode": "VND"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=ueK5BQAAQBAJ&rdid=book-ueK5BQAAQBAJ&rdot=1&source=gbs_api",
+            "offers": [
+                {
+                    "finskyOfferType": 1,
+                    "listPrice": {
+                        "amountInMicros": 2520819000000,
+                        "currencyCode": "VND"
+                    },
+                    "retailPrice": {
+                        "amountInMicros": 1764573000000,
+                        "currencyCode": "VND"
+                    }
+                }
+            ]
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/Cuckoo_Search_and_Firefly_Algorithm-sample-epub.acsm?id=ueK5BQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "pdf": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/Cuckoo_Search_and_Firefly_Algorithm-sample-pdf.acsm?id=ueK5BQAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=ueK5BQAAQBAJ&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "... <b>algorithm</b> may also depend on the type of problem S it solves. On the other hand, the final, global optimality is achievable or not (within a given number of iterations) will also ... <b>Algorithm</b>: Overview and Analysis 5 3.2 An Ideal <b>Algorithm</b>?"
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "_YxjDwAAQBAJ",
+        "etag": "XGSmy863rUM",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/_YxjDwAAQBAJ",
+        "volumeInfo": {
+            "title": "Analysis and Design of Algorithms",
+            "authors": [
+                "Singhal Shefali"
+            ],
+            "publisher": "BPB Publications",
+            "publishedDate": "2019-09-20",
+            "description": "A process or set of rules to be followed in calculations or other problem-solving operations, especially by a computerKey features This book is especially designed for beginners and explains all aspects of algorithm and its analysis in a simple and systematic manner. Algorithms and their working are explained in detail with the help of several illustrative examples. Important features like greedy algorithm, dynamic algorithm, string matching algorithm, branch and bound algorithm, NP hard and NP complete problems are suitably highlighted. Solved and frequently asked questions in the various competitive examinations, sample papers of the past examinations are provided which will serve as a useful reference source. Description The book has been written in such a way that the concepts and working of algorithms are explained in detail, with adequate examples. To make clarity on the topic, diagrams, calculation of complexity, algorithms are given extensively throughout. Many examples are provided which are helpful in understanding the algorithms by various strategies. This content is user-focused and has been highly updated including algorithms and their real-world examples.What will you learn Algorithm & Algorithmic Strategy, Complexity of Algorithms Divide-and-Conquer, Greedy, Backtracking, String-Matching Algorithm Dynamic Programming, P and NP Problems Graph Theory, Complexity of AlgorithmsWho this book is forThe book would serve as an extremely useful text for BCA, MCA, M. Sc. (Computer Science), PGDCA, BE (Information Technology) and B. Tech. and M. Tech. students.Table of contents1. Algorithm & Algorithmic Strategy2. Complexity of Algorithms3. Divide-and-Conquer Algorithms4. Greedy Algorithm5. Dynamic Programming6. Graph Theory7. Backtracking Algorithms8. Complexity of Algorithms9. String-Matching Algorithms10. P and NP ProblemsAbout the authorShefali Singhal is working as an Assistant professor in Computer science and Engineering department, Manav Rachna International University. She has completed her MTech. form YMCA University in Computer Engineering. Her research interest includes Programming Languages, Computer Network, Data mining, and Theory of computation.Neha Garg is working as an Assistant professor in in Computer science and Engineering department, Manav Rachna International University. She has completed her MTech. Form Banasthali University, Rajasthan in Information Technology. Her research interest includes Programming Languages, Data Structure, Operating System, Database Management Systems.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9789387284722"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "9387284727"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": true
+            },
+            "pageCount": 282,
+            "printType": "BOOK",
+            "categories": [
+                "Computers"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.1.0.0.preview.1",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=_YxjDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=_YxjDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=_YxjDwAAQBAJ&printsec=frontcover&dq=algorithm&hl=&cd=29&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=_YxjDwAAQBAJ&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=_YxjDwAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+                "amount": 254593,
+                "currencyCode": "VND"
+            },
+            "retailPrice": {
+                "amount": 173123,
+                "currencyCode": "VND"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=_YxjDwAAQBAJ&rdid=book-_YxjDwAAQBAJ&rdot=1&source=gbs_api",
+            "offers": [
+                {
+                    "finskyOfferType": 1,
+                    "listPrice": {
+                        "amountInMicros": 254593000000,
+                        "currencyCode": "VND"
+                    },
+                    "retailPrice": {
+                        "amountInMicros": 173123000000,
+                        "currencyCode": "VND"
+                    }
+                }
+            ]
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/Analysis_and_Design_of_Algorithms-sample-pdf.acsm?id=_YxjDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=_YxjDwAAQBAJ&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "The book has been written in such a way that the concepts and working of algorithms are explained in detail, with adequate examples."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "qAxtDwAAQBAJ",
+        "etag": "H/Vyg++1hFk",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/qAxtDwAAQBAJ",
+        "volumeInfo": {
+            "title": "Data Structure and Algorithm With C",
+            "authors": [
+                "Mayank Patel"
+            ],
+            "publisher": "Educreation Publishing",
+            "publishedDate": "2018-09-20",
+            "description": "The book is a special lead to all who want to learn the Data Structures and their implementation. Book covers most of the basic data structures. The implementations are explained with the help of algorithms and simple programs with nicely enumerated figures. Book has a comprehensive coverage of complicated topics like Array, Sparse Matrix, Linked Lists, Stack, Queue, Circular Queues, Tree, BST, AVL Tree, Graph, Searching and Sorting. The book also has brain storming sessions that has questions based on the real practical applications.",
+            "readingModes": {
+                "text": false,
+                "image": true
+            },
+            "pageCount": 227,
+            "printType": "BOOK",
+            "categories": [
+                "Education"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": true,
+            "contentVersion": "preview-1.0.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=qAxtDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=qAxtDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=qAxtDwAAQBAJ&pg=PA2&dq=algorithm&hl=&cd=30&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=qAxtDwAAQBAJ&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=qAxtDwAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+                "amount": 46142,
+                "currencyCode": "VND"
+            },
+            "retailPrice": {
+                "amount": 46142,
+                "currencyCode": "VND"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=qAxtDwAAQBAJ&rdid=book-qAxtDwAAQBAJ&rdot=1&source=gbs_api",
+            "offers": [
+                {
+                    "finskyOfferType": 1,
+                    "listPrice": {
+                        "amountInMicros": 46142000000,
+                        "currencyCode": "VND"
+                    },
+                    "retailPrice": {
+                        "amountInMicros": 46142000000,
+                        "currencyCode": "VND"
+                    }
+                }
+            ]
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/Data_Structure_and_Algorithm_With_C-sample-pdf.acsm?id=qAxtDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=qAxtDwAAQBAJ&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "... <b>algorithms</b>. 1.2 <b>Algorithm</b> Analysis The terms &quot;analysis of <b>algorithms</b>&quot; was coined by Knuth. Most people who implement <b>algorithms</b> want to know how much of a particular resource, such as time or storage, is required for the execution&nbsp;..."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "0Krwgl9_pxMC",
+        "etag": "//Qh10XdckM",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/0Krwgl9_pxMC",
+        "volumeInfo": {
+            "title": "Proceedings of the Fifth Workshop on Algorithm Engineering and Experiments",
+            "authors": [
+                "Richard E. Ladner"
+            ],
+            "publisher": "SIAM",
+            "publishedDate": "2003-01-01",
+            "description": "The ALENEX workshop provides a forum for the presentation of original research in the implementation and experimental evaluation of algorithms and data structures. This volume collects extended versions of the 12 papers that were selected for presentation.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_10",
+                    "identifier": "0898715423"
+                },
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9780898715422"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": true
+            },
+            "pageCount": 162,
+            "printType": "BOOK",
+            "categories": [
+                "Mathematics"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "1.4.6.0.preview.1",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=0Krwgl9_pxMC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=0Krwgl9_pxMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=0Krwgl9_pxMC&pg=PA50&dq=algorithm&hl=&cd=31&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=0Krwgl9_pxMC&dq=algorithm&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Proceedings_of_the_Fifth_Workshop_on_Alg.html?hl=&id=0Krwgl9_pxMC"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/Proceedings_of_the_Fifth_Workshop_on_Alg-sample-pdf.acsm?id=0Krwgl9_pxMC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=0Krwgl9_pxMC&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "... <b>Algorithm</b> 1 varies with dimension . Recall that the number of iterations is simply the size of the core - set that we compute . Note that , while the core - set size is seen to increase with dimension , it is no where near the worst&nbsp;..."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "LyHSBQAAQBAJ",
+        "etag": "Z2ZLsFCBqAw",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/LyHSBQAAQBAJ",
+        "volumeInfo": {
+            "title": "A Guide to Algorithm Design",
+            "subtitle": "Paradigms, Methods, and Complexity Analysis",
+            "authors": [
+                "Anne Benoit",
+                "Yves Robert",
+                "Frédéric Vivien"
+            ],
+            "publisher": "CRC Press",
+            "publishedDate": "2013-08-27",
+            "description": "Presenting a complementary perspective to standard books on algorithms, A Guide to Algorithm Design: Paradigms, Methods, and Complexity Analysis provides a roadmap for readers to determine the difficulty of an algorithmic problem by finding an optimal solution or proving complexity results. It gives a practical treatment of algorithmic complexity and guides readers in solving algorithmic problems. Divided into three parts, the book offers a comprehensive set of problems with solutions as well as in-depth case studies that demonstrate how to assess the complexity of a new problem. Part I helps readers understand the main design principles and design efficient algorithms. Part II covers polynomial reductions from NP-complete problems and approaches that go beyond NP-completeness. Part III supplies readers with tools and techniques to evaluate problem complexity, including how to determine which instances are polynomial and which are NP-hard. Drawing on the authors’ classroom-tested material, this text takes readers step by step through the concepts and methods for analyzing algorithmic complexity. Through many problems and detailed examples, readers can investigate polynomial-time algorithms and NP-completeness and beyond.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781439898130"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1439898138"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": true
+            },
+            "pageCount": 380,
+            "printType": "BOOK",
+            "categories": [
+                "Computers"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "1.4.4.0.preview.1",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=LyHSBQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=LyHSBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=LyHSBQAAQBAJ&pg=PA339&dq=algorithm&hl=&cd=32&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=LyHSBQAAQBAJ&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=LyHSBQAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+                "amount": 2693443,
+                "currencyCode": "VND"
+            },
+            "retailPrice": {
+                "amount": 2085900,
+                "currencyCode": "VND"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=LyHSBQAAQBAJ&rdid=book-LyHSBQAAQBAJ&rdot=1&source=gbs_api",
+            "offers": [
+                {
+                    "finskyOfferType": 1,
+                    "listPrice": {
+                        "amountInMicros": 2693443000000,
+                        "currencyCode": "VND"
+                    },
+                    "retailPrice": {
+                        "amountInMicros": 2085900000000,
+                        "currencyCode": "VND"
+                    }
+                }
+            ]
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/A_Guide_to_Algorithm_Design-sample-pdf.acsm?id=LyHSBQAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=LyHSBQAAQBAJ&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "... <b>algorithm</b> will always choose the same schedule when facing instance I. A randomized <b>algorithm</b> will toss a coin to decide which schedule to pick. The worst-case performance of a randomized <b>algorithm</b> is obviously the worst performance&nbsp;..."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "nIixDwAAQBAJ",
+        "etag": "G9GQ+q0Lz74",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/nIixDwAAQBAJ",
+        "volumeInfo": {
+            "title": "Battery Management Algorithm for Electric Vehicles",
+            "authors": [
+                "Rui Xiong"
+            ],
+            "publisher": "Springer Nature",
+            "publishedDate": "2019-09-23",
+            "description": "This book systematically introduces readers to the core algorithms of battery management system (BMS) for electric vehicles. These algorithms cover most of the technical bottlenecks encountered in BMS applications, including battery system modeling, state of charge (SOC) and state of health (SOH) estimation, state of power (SOP) estimation, remaining useful life (RUL) prediction, heating at low temperature, and optimization of charging. The book not only presents these algorithms, but also discusses their background, as well as related experimental and hardware developments. The concise figures and program codes provided make the calculation process easy to follow and apply, while the results obtained are presented in a comparative way, allowing readers to intuitively grasp the characteristics of different algorithms. Given its scope, the book is intended for researchers, senior undergraduate and graduate students, as well as engineers in the fields of electric vehicles and energy storage.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9789811502484"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "981150248X"
+                }
+            ],
+            "readingModes": {
+                "text": true,
+                "image": true
+            },
+            "pageCount": 310,
+            "printType": "BOOK",
+            "categories": [
+                "Technology & Engineering"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.1.1.0.preview.3",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=nIixDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=nIixDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=nIixDwAAQBAJ&pg=PA271&dq=algorithm&hl=&cd=33&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=nIixDwAAQBAJ&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=nIixDwAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+                "amount": 4201544,
+                "currencyCode": "VND"
+            },
+            "retailPrice": {
+                "amount": 2941081,
+                "currencyCode": "VND"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=nIixDwAAQBAJ&rdid=book-nIixDwAAQBAJ&rdot=1&source=gbs_api",
+            "offers": [
+                {
+                    "finskyOfferType": 1,
+                    "listPrice": {
+                        "amountInMicros": 4201544000000,
+                        "currencyCode": "VND"
+                    },
+                    "retailPrice": {
+                        "amountInMicros": 2941081000000,
+                        "currencyCode": "VND"
+                    }
+                }
+            ]
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/Battery_Management_Algorithm_for_Electri-sample-epub.acsm?id=nIixDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "pdf": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/Battery_Management_Algorithm_for_Electri-sample-pdf.acsm?id=nIixDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=nIixDwAAQBAJ&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "... <b>algorithm</b> in the theoretical design may lead to deviations in practical application. As a result, it is very important to download the <b>algorithm</b> to the real BMS ... <b>Algorithm</b> Development Process 8.1.1 General Process of <b>Algorithm</b> Development."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "B11q4S2Ls0wC",
+        "etag": "cDKqo0EpCSs",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/B11q4S2Ls0wC",
+        "volumeInfo": {
+            "title": "Music-Inspired Harmony Search Algorithm",
+            "subtitle": "Theory and Applications",
+            "authors": [
+                "Zong Woo Geem"
+            ],
+            "publisher": "Springer Science & Business Media",
+            "publishedDate": "2009-05-12",
+            "description": "Calculus has been used in solving many scientific and engineering problems. For optimization problems, however, the differential calculus technique sometimes has a drawback when the objective function is step-wise, discontinuous, or multi-modal, or when decision variables are discrete rather than continuous. Thus, researchers have recently turned their interests into metaheuristic algorithms that have been inspired by natural phenomena such as evolution, animal behavior, or metallic annealing. This book especially focuses on a music-inspired metaheuristic algorithm, harmony search. Interestingly, there exists an analogy between music and optimization: each musical instrument corresponds to each decision variable; musical note corresponds to variable value; and harmony corresponds to solution vector. Just like musicians in Jazz improvisation play notes randomly or based on experiences in order to find fantastic harmony, variables in the harmony search algorithm have random values or previously-memorized good values in order to find optimal solution.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9783642001840"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "364200184X"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": true
+            },
+            "pageCount": 210,
+            "printType": "BOOK",
+            "categories": [
+                "Mathematics"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "2.2.2.0.preview.1",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=B11q4S2Ls0wC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=B11q4S2Ls0wC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=B11q4S2Ls0wC&pg=PA12&dq=algorithm&hl=&cd=34&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=B11q4S2Ls0wC&dq=algorithm&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Music_Inspired_Harmony_Search_Algorithm.html?hl=&id=B11q4S2Ls0wC"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/Music_Inspired_Harmony_Search_Algorithm-sample-pdf.acsm?id=B11q4S2Ls0wC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=B11q4S2Ls0wC&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "... <b>algorithm</b> over other <b>algorithms</b>, as it will be demonstrated again in other chapters of this book. In addition, the structure of the HS <b>algorithm</b> is relatively easier. This advantage makes it very versatile to combine HS with other&nbsp;..."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "cxzZDwAAQBAJ",
+        "etag": "MvNjPn4topY",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/cxzZDwAAQBAJ",
+        "volumeInfo": {
+            "title": "Data Structures and Algorithms in Swift",
+            "subtitle": "Implement Stacks, Queues, Dictionaries, and Lists in Your Apps",
+            "authors": [
+                "Elshad Karimov"
+            ],
+            "publisher": "Apress",
+            "publishedDate": "2020-03-25",
+            "description": "Control the performance and stability of the apps you develop in Swift by working with and understanding advanced concepts in data structures and algorithms. All professional developers have to know which data structure and algorithms to use in their development process. Your choice directly affects the performance of your application. With this book, you’ll increase the performance of your software, become a better developer, and even pass tricky interview questions better when looking at professional development opportunities. Guided by compact and practical chapters, you'll learn the nature and proper use of data structures such as arrays, dictionaries, sets, stacks, queues, lists, hash tables, trie, heaps, binary trees, red black trees, and R-trees. Use the main differences among them to determine which will make your applications efficient and faster. Then tackle algorithms. Work with Big O notation; sorting algorithms such as Insertion, Merge, and Quick; Naive and Rabin Karp algorithms; and Graph Algorithms. Data Structures and Algorithms in Swift encourages you to further and understand how to best choose the perfect algorithm for your application’s needs. What You'll Learn Retrieve, add, and remove elements in arraysImplement stacks, queues, and lists in your appsSort algorithms and choose the best ones for your apps Who This Book Is For Developers who have intermediate knowledge in Swift and want to improve their code performance and pass more complex interviews",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781484257692"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1484257693"
+                }
+            ],
+            "readingModes": {
+                "text": true,
+                "image": true
+            },
+            "pageCount": 215,
+            "printType": "BOOK",
+            "categories": [
+                "Computers"
+            ],
+            "averageRating": 5,
+            "ratingsCount": 1,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.1.1.0.preview.3",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=cxzZDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=cxzZDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=cxzZDwAAQBAJ&printsec=frontcover&dq=algorithm&hl=&cd=35&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=cxzZDwAAQBAJ&dq=algorithm&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Data_Structures_and_Algorithms_in_Swift.html?hl=&id=cxzZDwAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/Data_Structures_and_Algorithms_in_Swift-sample-epub.acsm?id=cxzZDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "pdf": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/Data_Structures_and_Algorithms_in_Swift-sample-pdf.acsm?id=cxzZDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=cxzZDwAAQBAJ&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "With this book, you’ll increase the performance of your software, become a better developer, and even pass tricky interview questions better when looking at professional development opportunities."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "qK2qCAAAQBAJ",
+        "etag": "8nK8g3D+s+Q",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/qK2qCAAAQBAJ",
+        "volumeInfo": {
+            "title": "Algorithm Theory – SWAT 2008",
+            "subtitle": "11th Scandinavian Workshop on Algorithm Theory, Gothenburg, Sweden, July 2-4, 2008, Proceedings",
+            "authors": [
+                "Joachim Gudmundsson"
+            ],
+            "publisher": "Springer",
+            "publishedDate": "2008-07-02",
+            "description": "Annotation This book constitutes the refereed proceedings of the 11th Scandinavian Workshop on Algorithm Theory, SWAT 2008, held in Gothenborg, Sweden, in July 2008. The 36 revised full papers presented together with 2 invited lectures were carefully reviewed and selected from 111 submissions. Papers were solicited for original research on algorithms and data structures in all areas, including but not limited to: approximation algorithms, computational biology, computational geometry, distributed algorithms, external-memory algorithms, graph algorithms, online algorithms, optimization algorithms, parallel algorithms, randomized algorithms, string algorithms and algorithmic game theory.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9783540699033"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "3540699031"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": true
+            },
+            "pageCount": 438,
+            "printType": "BOOK",
+            "categories": [
+                "Computers"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "preview-1.0.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=qK2qCAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=qK2qCAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=qK2qCAAAQBAJ&pg=PA321&dq=algorithm&hl=&cd=36&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=qK2qCAAAQBAJ&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=qK2qCAAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+                "amount": 2520819,
+                "currencyCode": "VND"
+            },
+            "retailPrice": {
+                "amount": 1764573,
+                "currencyCode": "VND"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=qK2qCAAAQBAJ&rdid=book-qK2qCAAAQBAJ&rdot=1&source=gbs_api",
+            "offers": [
+                {
+                    "finskyOfferType": 1,
+                    "listPrice": {
+                        "amountInMicros": 2520819000000,
+                        "currencyCode": "VND"
+                    },
+                    "retailPrice": {
+                        "amountInMicros": 1764573000000,
+                        "currencyCode": "VND"
+                    }
+                }
+            ]
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/Algorithm_Theory_SWAT_2008-sample-pdf.acsm?id=qK2qCAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=qK2qCAAAQBAJ&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "... <b>algorithm</b> of [6] is O(logn) competitive on a general network. This is the best possible even among randomized <b>algorithms</b>, in the sense that there is a lower bound of Ω(logn) for non-preemptive <b>algorithms</b> for any allowed congestion even&nbsp;..."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "m3GSDwAAQBAJ",
+        "etag": "+5qSW7RNiqc",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/m3GSDwAAQBAJ",
+        "volumeInfo": {
+            "title": "Design and Analysis of Algorithms",
+            "subtitle": "A Contemporary Perspective",
+            "authors": [
+                "Sandeep Sen",
+                "Amit Kumar"
+            ],
+            "publisher": "Cambridge University Press",
+            "publishedDate": "2019-05-23",
+            "description": "Focuses on the interplay between algorithm design and the underlying computational models.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781108496827"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1108496822"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": true
+            },
+            "pageCount": 395,
+            "printType": "BOOK",
+            "categories": [
+                "Computers"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.0.2.0.preview.1",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=m3GSDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=m3GSDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=m3GSDwAAQBAJ&printsec=frontcover&dq=algorithm&hl=&cd=37&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=m3GSDwAAQBAJ&dq=algorithm&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Design_and_Analysis_of_Algorithms.html?hl=&id=m3GSDwAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/Design_and_Analysis_of_Algorithms-sample-pdf.acsm?id=m3GSDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=m3GSDwAAQBAJ&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "Focuses on the interplay between algorithm design and the underlying computational models."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "jI-4BAAAQBAJ",
+        "etag": "URN18Eo8ipQ",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/jI-4BAAAQBAJ",
+        "volumeInfo": {
+            "title": "Chemical Optimization Algorithm for Fuzzy Controller Design",
+            "authors": [
+                "Leslie Astudillo",
+                "Patricia Melin",
+                "Oscar Castillo"
+            ],
+            "publisher": "Springer Science & Business Media",
+            "publishedDate": "2014-03-13",
+            "description": "In this book, a novel optimization method inspired by a paradigm from nature is introduced. The chemical reactions are used as a paradigm to propose an optimization method that simulates these natural processes. The proposed algorithm is described in detail and then a set of typical complex benchmark functions is used to evaluate the performance of the algorithm. Simulation results show that the proposed optimization algorithm can outperform other methods in a set of benchmark functions. This chemical reaction optimization paradigm is also applied to solve the tracking problem for the dynamic model of a unicycle mobile robot by integrating a kinematic and a torque controller based on fuzzy logic theory. Computer simulations are presented confirming that this optimization paradigm is able to outperform other optimization techniques applied to this particular robot application.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9783319052458"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "3319052454"
+                }
+            ],
+            "readingModes": {
+                "text": true,
+                "image": true
+            },
+            "pageCount": 77,
+            "printType": "BOOK",
+            "categories": [
+                "Technology & Engineering"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "2.2.3.0.preview.3",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=jI-4BAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=jI-4BAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=jI-4BAAAQBAJ&pg=PA13&dq=algorithm&hl=&cd=38&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=jI-4BAAAQBAJ&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=jI-4BAAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+                "amount": 1400337,
+                "currencyCode": "VND"
+            },
+            "retailPrice": {
+                "amount": 980236,
+                "currencyCode": "VND"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=jI-4BAAAQBAJ&rdid=book-jI-4BAAAQBAJ&rdot=1&source=gbs_api",
+            "offers": [
+                {
+                    "finskyOfferType": 1,
+                    "listPrice": {
+                        "amountInMicros": 1400337000000,
+                        "currencyCode": "VND"
+                    },
+                    "retailPrice": {
+                        "amountInMicros": 980236000000,
+                        "currencyCode": "VND"
+                    }
+                }
+            ]
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/Chemical_Optimization_Algorithm_for_Fuzz-sample-epub.acsm?id=jI-4BAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "pdf": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/Chemical_Optimization_Algorithm_for_Fuzz-sample-pdf.acsm?id=jI-4BAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=jI-4BAAAQBAJ&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "... <b>algorithm</b> based in a paradigm inspired by nature, the chemical reactions. Keywords Chemical reactions • Optimization <b>algorithm</b> • Chemical <b>algorithm</b> This chapter introduces the chemical reaction <b>algorithm</b>; it describes the main&nbsp;..."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "knWADwAAQBAJ",
+        "etag": "Mp3SJ+r46kk",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/knWADwAAQBAJ",
+        "volumeInfo": {
+            "title": "Feature Selection and Enhanced Krill Herd Algorithm for Text Document Clustering",
+            "authors": [
+                "Laith Mohammad Qasim Abualigah"
+            ],
+            "publisher": "Springer",
+            "publishedDate": "2018-12-18",
+            "description": "This book puts forward a new method for solving the text document (TD) clustering problem, which is established in two main stages: (i) A new feature selection method based on a particle swarm optimization algorithm with a novel weighting scheme is proposed, as well as a detailed dimension reduction technique, in order to obtain a new subset of more informative features with low-dimensional space. This new subset is subsequently used to improve the performance of the text clustering (TC) algorithm and reduce its computation time. The k-mean clustering algorithm is used to evaluate the effectiveness of the obtained subsets. (ii) Four krill herd algorithms (KHAs), namely, the (a) basic KHA, (b) modified KHA, (c) hybrid KHA, and (d) multi-objective hybrid KHA, are proposed to solve the TC problem; each algorithm represents an incremental improvement on its predecessor. For the evaluation process, seven benchmark text datasets are used with different characterizations and complexities. Text document (TD) clustering is a new trend in text mining in which the TDs are separated into several coherent clusters, where all documents in the same cluster are similar. The findings presented here confirm that the proposed methods and algorithms delivered the best results in comparison with other, similar methods to be found in the literature.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9783030106744"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "3030106748"
+                }
+            ],
+            "readingModes": {
+                "text": true,
+                "image": true
+            },
+            "pageCount": 186,
+            "printType": "BOOK",
+            "categories": [
+                "Technology & Engineering"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "preview-1.0.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=knWADwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=knWADwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=knWADwAAQBAJ&pg=PA34&dq=algorithm&hl=&cd=39&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=knWADwAAQBAJ&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=knWADwAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+                "amount": 2520819,
+                "currencyCode": "VND"
+            },
+            "retailPrice": {
+                "amount": 1764573,
+                "currencyCode": "VND"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=knWADwAAQBAJ&rdid=book-knWADwAAQBAJ&rdot=1&source=gbs_api",
+            "offers": [
+                {
+                    "finskyOfferType": 1,
+                    "listPrice": {
+                        "amountInMicros": 2520819000000,
+                        "currencyCode": "VND"
+                    },
+                    "retailPrice": {
+                        "amountInMicros": 1764573000000,
+                        "currencyCode": "VND"
+                    }
+                }
+            ]
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/Feature_Selection_and_Enhanced_Krill_Her-sample-epub.acsm?id=knWADwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "pdf": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/Feature_Selection_and_Enhanced_Krill_Her-sample-pdf.acsm?id=knWADwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=knWADwAAQBAJ&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "... <b>algorithm</b> and k-mean text document clustering <b>algorithm</b> is similar. The only difference is that k-medoid clustering <b>algorithm</b> uses the document closest to the cluster center, but k-mean clustering <b>algorithm</b> uses average documents&nbsp;..."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "JZLLDQAAQBAJ",
+        "etag": "sdO2RsaN/wA",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/JZLLDQAAQBAJ",
+        "volumeInfo": {
+            "title": "Algorithms for Data Science",
+            "authors": [
+                "Brian Steele",
+                "John Chandler",
+                "Swarna Reddy"
+            ],
+            "publisher": "Springer",
+            "publishedDate": "2016-12-25",
+            "description": "This textbook on practical data analytics unites fundamental principles, algorithms, and data. Algorithms are the keystone of data analytics and the focal point of this textbook. Clear and intuitive explanations of the mathematical and statistical foundations make the algorithms transparent. But practical data analytics requires more than just the foundations. Problems and data are enormously variable and only the most elementary of algorithms can be used without modification. Programming fluency and experience with real and challenging data is indispensable and so the reader is immersed in Python and R and real data analysis. By the end of the book, the reader will have gained the ability to adapt algorithms to new problems and carry out innovative analyses. This book has three parts:(a) Data Reduction: Begins with the concepts of data reduction, data maps, and information extraction. The second chapter introduces associative statistics, the mathematical foundation of scalable algorithms and distributed computing. Practical aspects of distributed computing is the subject of the Hadoop and MapReduce chapter.(b) Extracting Information from Data: Linear regression and data visualization are the principal topics of Part II. The authors dedicate a chapter to the critical domain of Healthcare Analytics for an extended example of practical data analytics. The algorithms and analytics will be of much interest to practitioners interested in utilizing the large and unwieldly data sets of the Centers for Disease Control and Prevention's Behavioral Risk Factor Surveillance System.(c) Predictive Analytics Two foundational and widely used algorithms, k-nearest neighbors and naive Bayes, are developed in detail. A chapter is dedicated to forecasting. The last chapter focuses on streaming data and uses publicly accessible data streams originating from the Twitter API and the NASDAQ stock market in the tutorials. This book is intended for a one- or two-semester course in data analytics for upper-division undergraduate and graduate students in mathematics, statistics, and computer science. The prerequisites are kept low, and students with one or two courses in probability or statistics, an exposure to vectors and matrices, and a programming course will have no difficulty. The core material of every chapter is accessible to all with these prerequisites. The chapters often expand at the close with innovations of interest to practitioners of data science. Each chapter includes exercises of varying levels of difficulty. The text is eminently suitable for self-study and an exceptional resource for practitioners.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9783319457970"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "3319457977"
+                }
+            ],
+            "readingModes": {
+                "text": true,
+                "image": true
+            },
+            "pageCount": 430,
+            "printType": "BOOK",
+            "categories": [
+                "Computers"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "1.1.2.0.preview.3",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=JZLLDQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=JZLLDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=JZLLDQAAQBAJ&printsec=frontcover&dq=algorithm&hl=&cd=40&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=JZLLDQAAQBAJ&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=JZLLDQAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+                "amount": 1820518,
+                "currencyCode": "VND"
+            },
+            "retailPrice": {
+                "amount": 1274363,
+                "currencyCode": "VND"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=JZLLDQAAQBAJ&rdid=book-JZLLDQAAQBAJ&rdot=1&source=gbs_api",
+            "offers": [
+                {
+                    "finskyOfferType": 1,
+                    "listPrice": {
+                        "amountInMicros": 1820518000000,
+                        "currencyCode": "VND"
+                    },
+                    "retailPrice": {
+                        "amountInMicros": 1274363000000,
+                        "currencyCode": "VND"
+                    }
+                }
+            ]
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/Algorithms_for_Data_Science-sample-epub.acsm?id=JZLLDQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "pdf": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/Algorithms_for_Data_Science-sample-pdf.acsm?id=JZLLDQAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=JZLLDQAAQBAJ&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "This book has three parts:(a) Data Reduction: Begins with the concepts of data reduction, data maps, and information extraction."
+        }
+    }
+]

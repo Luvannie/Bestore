@@ -1,0 +1,2398 @@
+[
+    {
+        "kind": "books#volume",
+        "id": "fFlkAAAAMAAJ",
+        "etag": "dIqeBVDypD0",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/fFlkAAAAMAAJ",
+        "volumeInfo": {
+            "title": "Vì một nền lý luận - phê bình văn học chất lượng cao",
+            "subtitle": "tập tiểu luận lý luận - phê bình",
+            "authors": [
+                "Văn Dân Nguyễn"
+            ],
+            "publishedDate": "2005",
+            "description": "Literary criticism in Vietnam.",
+            "industryIdentifiers": [
+                {
+                    "type": "OTHER",
+                    "identifier": "UOM:39015063135563"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 308,
+            "printType": "BOOK",
+            "categories": [
+                "Vietnamese literature"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "1.4.1.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=fFlkAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=fFlkAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "vi",
+            "previewLink": "http://books.google.com.vn/books?id=fFlkAAAAMAAJ&q=v%C4%83n+h%E1%BB%8Dc&dq=v%C4%83n+h%E1%BB%8Dc&hl=&cd=1&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=fFlkAAAAMAAJ&dq=v%C4%83n+h%E1%BB%8Dc&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/V%C3%AC_m%E1%BB%99t_n%E1%BB%81n_l%C3%BD_lu%E1%BA%ADn_ph%C3%AA_b%C3%ACnh_v.html?hl=&id=fFlkAAAAMAAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=fFlkAAAAMAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "Literary criticism in Vietnam."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "jG_iAAAAMAAJ",
+        "etag": "SVTrXwQm5p4",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/jG_iAAAAMAAJ",
+        "volumeInfo": {
+            "title": "Những ngôi sao sáng trên bầu trời văn học Nam bộ nửa sau thế kỷ XIX",
+            "subtitle": "tiểu luận",
+            "authors": [
+                "Định Giang Bảo"
+            ],
+            "publishedDate": "1995",
+            "industryIdentifiers": [
+                {
+                    "type": "OTHER",
+                    "identifier": "UOM:39015037612150"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 498,
+            "printType": "BOOK",
+            "categories": [
+                "Authors"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.3.1.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=jG_iAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=jG_iAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "vi",
+            "previewLink": "http://books.google.com.vn/books?id=jG_iAAAAMAAJ&q=v%C4%83n+h%E1%BB%8Dc&dq=v%C4%83n+h%E1%BB%8Dc&hl=&cd=2&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=jG_iAAAAMAAJ&dq=v%C4%83n+h%E1%BB%8Dc&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Nh%E1%BB%AFng_ng%C3%B4i_sao_s%C3%A1ng_tr%C3%AAn_b%E1%BA%A7u_tr.html?hl=&id=jG_iAAAAMAAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=jG_iAAAAMAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "NR0MAAAAIAAJ",
+        "etag": "CjYkE6n0jBI",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/NR0MAAAAIAAJ",
+        "volumeInfo": {
+            "title": "Lược-kh̉ao văn-học: Nghiên cứu và phê bình văn học",
+            "authors": [
+                "Văn Trung Nguyễn"
+            ],
+            "publishedDate": "1963",
+            "industryIdentifiers": [
+                {
+                    "type": "OTHER",
+                    "identifier": "UOM:39015039581809"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 380,
+            "printType": "BOOK",
+            "categories": [
+                "Literature"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "2.6.2.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=NR0MAAAAIAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=NR0MAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "vi",
+            "previewLink": "http://books.google.com.vn/books?id=NR0MAAAAIAAJ&q=v%C4%83n+h%E1%BB%8Dc&dq=v%C4%83n+h%E1%BB%8Dc&hl=&cd=3&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=NR0MAAAAIAAJ&dq=v%C4%83n+h%E1%BB%8Dc&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/L%C6%B0%E1%BB%A3c_kh%CC%89ao_v%C4%83n_h%E1%BB%8Dc_Nghi%C3%AAn_c%E1%BB%A9u.html?hl=&id=NR0MAAAAIAAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=NR0MAAAAIAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "JTcnEAAAQBAJ",
+        "etag": "ZAWr/z7TdtE",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/JTcnEAAAQBAJ",
+        "volumeInfo": {
+            "title": "Sáng Tạo Trong Tình Thế Chuyển Đổi",
+            "subtitle": "Văn học và xã hội Việt Nam sau đổi mới",
+            "authors": [
+                "Đoàn Ánh Dương"
+            ],
+            "publisher": "Sách Tao Đàn",
+            "publishedDate": "2020",
+            "description": "Vượt ra ngoài khung khổ nghệ thuật ngôn từ để nhìn nhận văn học như là sự kiện xã hội và hiện tượng văn hóa, nghiên cứu này chú trọng việc tìm hiểu các phương diện sản xuất (sáng tạo), điều hành (xuất bản), phân phối (phát hành), tiêu thụ (tiếp nhận) văn học trong tình thế chuyển đổi ở Việt Nam từ Đổi mới (1986). Quá trình tạo tác văn hóa trong/qua/bằng văn học ấy ghi dấu việc kiểm soát và điều chỉnh, củng cố và chuyển hóa các hình dung và thức nhận về văn học nghệ thuật, đời sống xã hội và tinh thần con người, biểu hiện ở cả sự điều chỉnh chính sách của thể chế và sự tự vận động của nhà văn và độc giả trong không gian thường trực tính chính trị chuyển đổi. Tất cả cho thấy một tiến trình văn học ưu thắng sự tham dự vào các kiến tạo xã hội và dân tộc trong viễn tượng về nước Việt Nam mới từ thuộc địa đến toàn cầu hóa.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9786043065787"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "6043065789"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": true
+            },
+            "pageCount": 302,
+            "printType": "BOOK",
+            "categories": [
+                "Antiques & Collectibles"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": true,
+            "contentVersion": "2.0.1.0.preview.1",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=JTcnEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=JTcnEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "vi",
+            "previewLink": "http://books.google.com.vn/books?id=JTcnEAAAQBAJ&printsec=frontcover&dq=v%C4%83n+h%E1%BB%8Dc&hl=&cd=4&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=JTcnEAAAQBAJ&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=JTcnEAAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+                "amount": 31500,
+                "currencyCode": "VND"
+            },
+            "retailPrice": {
+                "amount": 31500,
+                "currencyCode": "VND"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=JTcnEAAAQBAJ&rdid=book-JTcnEAAAQBAJ&rdot=1&source=gbs_api",
+            "offers": [
+                {
+                    "finskyOfferType": 1,
+                    "listPrice": {
+                        "amountInMicros": 31500000000,
+                        "currencyCode": "VND"
+                    },
+                    "retailPrice": {
+                        "amountInMicros": 31500000000,
+                        "currencyCode": "VND"
+                    }
+                }
+            ]
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/S%C3%A1ng_T%E1%BA%A1o_Trong_T%C3%ACnh_Th%E1%BA%BF_Chuy%E1%BB%83n-sample-pdf.acsm?id=JTcnEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=JTcnEAAAQBAJ&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "Vượt ra ngoài khung khổ nghệ thuật ngôn từ để nhìn nhận văn học như là sự kiện xã hội và hiện tượng văn hóa, nghiên cứu này chú trọng việc tìm hiểu các phương diện sản xuất (sáng ..."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "DZcLAAAAMAAJ",
+        "etag": "IamofyQA6QY",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/DZcLAAAAMAAJ",
+        "volumeInfo": {
+            "title": "Phê bình văn học thế hệ 1932",
+            "authors": [
+                "Thanh Lãng"
+            ],
+            "publishedDate": "1972",
+            "industryIdentifiers": [
+                {
+                    "type": "OTHER",
+                    "identifier": "UOM:39015021597649"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 568,
+            "printType": "BOOK",
+            "categories": [
+                "Authors, Vietnamese"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "1.8.2.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=DZcLAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=DZcLAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "vi",
+            "previewLink": "http://books.google.com.vn/books?id=DZcLAAAAMAAJ&q=v%C4%83n+h%E1%BB%8Dc&dq=v%C4%83n+h%E1%BB%8Dc&hl=&cd=5&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=DZcLAAAAMAAJ&dq=v%C4%83n+h%E1%BB%8Dc&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Ph%C3%AA_b%C3%ACnh_v%C4%83n_h%E1%BB%8Dc_th%E1%BA%BF_h%E1%BB%87_1932.html?hl=&id=DZcLAAAAMAAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=DZcLAAAAMAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "eA3oH6RWCQQC",
+        "etag": "gIMn0vlolwY",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/eA3oH6RWCQQC",
+        "volumeInfo": {
+            "title": "Những vá̂n đè̂ văn học và ngôn ngữ học",
+            "subtitle": "30 năm thông tin các khoa học ngữ văn",
+            "authors": [
+                "Xuân Vĩnh Lê"
+            ],
+            "publishedDate": "2003",
+            "industryIdentifiers": [
+                {
+                    "type": "OTHER",
+                    "identifier": "UCR:31210022016230"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 1066,
+            "printType": "BOOK",
+            "categories": [
+                "Linguistic analysis (Linguistics)"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "1.3.1.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=eA3oH6RWCQQC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=eA3oH6RWCQQC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "vi",
+            "previewLink": "http://books.google.com.vn/books?id=eA3oH6RWCQQC&q=v%C4%83n+h%E1%BB%8Dc&dq=v%C4%83n+h%E1%BB%8Dc&hl=&cd=6&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=eA3oH6RWCQQC&dq=v%C4%83n+h%E1%BB%8Dc&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Nh%E1%BB%AFng_v%C3%A1%CC%82n_%C4%91%C3%A8%CC%82_v%C4%83n_h%E1%BB%8Dc_v%C3%A0_ng.html?hl=&id=eA3oH6RWCQQC"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=eA3oH6RWCQQC&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "GycMAAAAIAAJ",
+        "etag": "l2L2P8yIE5Q",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/GycMAAAAIAAJ",
+        "volumeInfo": {
+            "title": "Lược-khảo văn-học",
+            "authors": [
+                "Văn Trung Nguyẽ̂n"
+            ],
+            "publishedDate": "1963",
+            "industryIdentifiers": [
+                {
+                    "type": "OTHER",
+                    "identifier": "UOM:39015039581593"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 270,
+            "printType": "BOOK",
+            "categories": [
+                "Literature"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.8.4.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=GycMAAAAIAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=GycMAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "vi",
+            "previewLink": "http://books.google.com.vn/books?id=GycMAAAAIAAJ&q=v%C4%83n+h%E1%BB%8Dc&dq=v%C4%83n+h%E1%BB%8Dc&hl=&cd=7&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=GycMAAAAIAAJ&dq=v%C4%83n+h%E1%BB%8Dc&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/L%C6%B0%E1%BB%A3c_kh%E1%BA%A3o_v%C4%83n_h%E1%BB%8Dc.html?hl=&id=GycMAAAAIAAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=GycMAAAAIAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "yGFkAAAAMAAJ",
+        "etag": "60cv8+ohJ5U",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/yGFkAAAAMAAJ",
+        "volumeInfo": {
+            "title": "Nguyễn Tuân bàn về văn học nghệ thuật",
+            "authors": [
+                "Tuân Nguyẽ̂n"
+            ],
+            "publishedDate": "1999",
+            "industryIdentifiers": [
+                {
+                    "type": "OTHER",
+                    "identifier": "UOM:39015041638860"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 800,
+            "printType": "BOOK",
+            "categories": [
+                "Art and literature"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "1.5.1.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=yGFkAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=yGFkAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "vi",
+            "previewLink": "http://books.google.com.vn/books?id=yGFkAAAAMAAJ&q=v%C4%83n+h%E1%BB%8Dc&dq=v%C4%83n+h%E1%BB%8Dc&hl=&cd=8&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=yGFkAAAAMAAJ&dq=v%C4%83n+h%E1%BB%8Dc&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Nguy%E1%BB%85n_Tu%C3%A2n_b%C3%A0n_v%E1%BB%81_v%C4%83n_h%E1%BB%8Dc_ngh.html?hl=&id=yGFkAAAAMAAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=yGFkAAAAMAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "vU9kAAAAMAAJ",
+        "etag": "c3SU1nFKIqI",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/vU9kAAAAMAAJ",
+        "volumeInfo": {
+            "title": "Văn học với đời sống, đời sống văn học",
+            "subtitle": "tiểu luận văn học",
+            "authors": [
+                "Thảo Ngô"
+            ],
+            "publishedDate": "2000",
+            "industryIdentifiers": [
+                {
+                    "type": "OTHER",
+                    "identifier": "UOM:39015051962093"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 346,
+            "printType": "BOOK",
+            "categories": [
+                "Vietnamese literature"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "3.5.5.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=vU9kAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=vU9kAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "vi",
+            "previewLink": "http://books.google.com.vn/books?id=vU9kAAAAMAAJ&q=v%C4%83n+h%E1%BB%8Dc&dq=v%C4%83n+h%E1%BB%8Dc&hl=&cd=9&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=vU9kAAAAMAAJ&dq=v%C4%83n+h%E1%BB%8Dc&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/V%C4%83n_h%E1%BB%8Dc_v%E1%BB%9Bi_%C4%91%E1%BB%9Di_s%E1%BB%91ng_%C4%91%E1%BB%9Di_s.html?hl=&id=vU9kAAAAMAAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=vU9kAAAAMAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "OZkzAAAAMAAJ",
+        "etag": "42ntqareO5I",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/OZkzAAAAMAAJ",
+        "volumeInfo": {
+            "title": "40 năm văn học",
+            "authors": [
+                "Bành Bảo"
+            ],
+            "publishedDate": "1986",
+            "industryIdentifiers": [
+                {
+                    "type": "OTHER",
+                    "identifier": "UOM:39015014935251"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 248,
+            "printType": "BOOK",
+            "categories": [
+                "Vietnamese literature"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "1.8.1.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=OZkzAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=OZkzAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "vi",
+            "previewLink": "http://books.google.com.vn/books?id=OZkzAAAAMAAJ&q=v%C4%83n+h%E1%BB%8Dc&dq=v%C4%83n+h%E1%BB%8Dc&hl=&cd=10&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=OZkzAAAAMAAJ&dq=v%C4%83n+h%E1%BB%8Dc&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/40_n%C4%83m_v%C4%83n_h%E1%BB%8Dc.html?hl=&id=OZkzAAAAMAAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=OZkzAAAAMAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "o8kqAAAAMAAJ",
+        "etag": "5oHm/j/r8Dw",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/o8kqAAAAMAAJ",
+        "volumeInfo": {
+            "title": "Từ điển văn học",
+            "publishedDate": "1984",
+            "industryIdentifiers": [
+                {
+                    "type": "OTHER",
+                    "identifier": "UOM:39015039642445"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 682,
+            "printType": "BOOK",
+            "categories": [
+                "Literature"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.6.3.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=o8kqAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=o8kqAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "vi",
+            "previewLink": "http://books.google.com.vn/books?id=o8kqAAAAMAAJ&q=v%C4%83n+h%E1%BB%8Dc&dq=v%C4%83n+h%E1%BB%8Dc&hl=&cd=11&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=o8kqAAAAMAAJ&dq=v%C4%83n+h%E1%BB%8Dc&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/T%E1%BB%AB_%C4%91i%E1%BB%83n_v%C4%83n_h%E1%BB%8Dc.html?hl=&id=o8kqAAAAMAAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=o8kqAAAAMAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "elNkAAAAMAAJ",
+        "etag": "afQFkDJ3L8Q",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/elNkAAAAMAAJ",
+        "volumeInfo": {
+            "title": "Văn học sáng tạo và thả̂m định",
+            "authors": [
+                "Phúc Nguyẽ̂n"
+            ],
+            "publishedDate": "2004",
+            "industryIdentifiers": [
+                {
+                    "type": "OTHER",
+                    "identifier": "UOM:39015061503465"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 516,
+            "printType": "BOOK",
+            "categories": [
+                "Vietnamese literature"
+            ],
+            "averageRating": 5,
+            "ratingsCount": 1,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "1.8.3.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=elNkAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=elNkAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "vi",
+            "previewLink": "http://books.google.com.vn/books?id=elNkAAAAMAAJ&q=v%C4%83n+h%E1%BB%8Dc&dq=v%C4%83n+h%E1%BB%8Dc&hl=&cd=12&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=elNkAAAAMAAJ&dq=v%C4%83n+h%E1%BB%8Dc&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/V%C4%83n_h%E1%BB%8Dc_s%C3%A1ng_t%E1%BA%A1o_v%C3%A0_th%E1%BA%A3%CC%82m_%C4%91.html?hl=&id=elNkAAAAMAAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=elNkAAAAMAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "0R4MAAAAIAAJ",
+        "etag": "I+dzKumZEkk",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/0R4MAAAAIAAJ",
+        "volumeInfo": {
+            "title": "Văn-học đời Trần",
+            "subtitle": "Việt Nam văn học",
+            "authors": [
+                "Tất Tố Ngô"
+            ],
+            "publishedDate": "1987",
+            "industryIdentifiers": [
+                {
+                    "type": "OTHER",
+                    "identifier": "UOM:39015039581874"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 236,
+            "printType": "BOOK",
+            "categories": [
+                "Chinese literature"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.6.5.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=0R4MAAAAIAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=0R4MAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "vi",
+            "previewLink": "http://books.google.com.vn/books?id=0R4MAAAAIAAJ&q=v%C4%83n+h%E1%BB%8Dc&dq=v%C4%83n+h%E1%BB%8Dc&hl=&cd=13&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=0R4MAAAAIAAJ&dq=v%C4%83n+h%E1%BB%8Dc&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/V%C4%83n_h%E1%BB%8Dc_%C4%91%E1%BB%9Di_Tr%E1%BA%A7n.html?hl=&id=0R4MAAAAIAAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=0R4MAAAAIAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "L2RkAAAAMAAJ",
+        "etag": "5OWdu7OwOu0",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/L2RkAAAAMAAJ",
+        "volumeInfo": {
+            "title": "Văn học miền Nam",
+            "subtitle": "văn học Việt Nam nơi miền đất mới",
+            "authors": [
+                "Q. Thắng Nguyễn"
+            ],
+            "publishedDate": "2003",
+            "industryIdentifiers": [
+                {
+                    "type": "OTHER",
+                    "identifier": "UOM:39015060266056"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 1316,
+            "printType": "BOOK",
+            "categories": [
+                "Authors, Vietnamese"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "1.5.2.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=L2RkAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=L2RkAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "vi",
+            "previewLink": "http://books.google.com.vn/books?id=L2RkAAAAMAAJ&q=v%C4%83n+h%E1%BB%8Dc&dq=v%C4%83n+h%E1%BB%8Dc&hl=&cd=14&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=L2RkAAAAMAAJ&dq=v%C4%83n+h%E1%BB%8Dc&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/V%C4%83n_h%E1%BB%8Dc_mi%E1%BB%81n_Nam.html?hl=&id=L2RkAAAAMAAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=L2RkAAAAMAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "El9kAAAAMAAJ",
+        "etag": "+5yNZSNOB04",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/El9kAAAAMAAJ",
+        "volumeInfo": {
+            "title": "Một số vấn đề văn học Việt Nam",
+            "publishedDate": "1999",
+            "industryIdentifiers": [
+                {
+                    "type": "OTHER",
+                    "identifier": "UOM:39015052000158"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 324,
+            "printType": "BOOK",
+            "categories": [
+                "Vietnamese literature"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "1.4.1.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=El9kAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=El9kAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "vi",
+            "previewLink": "http://books.google.com.vn/books?id=El9kAAAAMAAJ&q=v%C4%83n+h%E1%BB%8Dc&dq=v%C4%83n+h%E1%BB%8Dc&hl=&cd=15&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=El9kAAAAMAAJ&dq=v%C4%83n+h%E1%BB%8Dc&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/M%E1%BB%99t_s%E1%BB%91_v%E1%BA%A5n_%C4%91%E1%BB%81_v%C4%83n_h%E1%BB%8Dc_Vi%E1%BB%87t.html?hl=&id=El9kAAAAMAAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=El9kAAAAMAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "j6hkAAAAMAAJ",
+        "etag": "86b5TQsA/3A",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/j6hkAAAAMAAJ",
+        "volumeInfo": {
+            "title": "Từ điển văn học Việt Nam: Từ nguồn gốc dến hết thế kỷ XIX",
+            "authors": [
+                "Nguyên Ân Lại"
+            ],
+            "publishedDate": "1999",
+            "industryIdentifiers": [
+                {
+                    "type": "OTHER",
+                    "identifier": "UOM:39015049580262"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 808,
+            "printType": "BOOK",
+            "categories": [
+                "Vietnamese literature"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "1.6.2.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=j6hkAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=j6hkAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "vi",
+            "previewLink": "http://books.google.com.vn/books?id=j6hkAAAAMAAJ&q=v%C4%83n+h%E1%BB%8Dc&dq=v%C4%83n+h%E1%BB%8Dc&hl=&cd=16&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=j6hkAAAAMAAJ&dq=v%C4%83n+h%E1%BB%8Dc&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/T%E1%BB%AB_%C4%91i%E1%BB%83n_v%C4%83n_h%E1%BB%8Dc_Vi%E1%BB%87t_Nam_T%E1%BB%AB.html?hl=&id=j6hkAAAAMAAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=j6hkAAAAMAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "_R0MAAAAIAAJ",
+        "etag": "kT2WnXPLzG0",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/_R0MAAAAIAAJ",
+        "volumeInfo": {
+            "title": "Lược-kh̉ao văn-học: Ngôn ngữ văn chương và kịch",
+            "authors": [
+                "Văn Trung Nguyễn"
+            ],
+            "publishedDate": "1963",
+            "industryIdentifiers": [
+                {
+                    "type": "OTHER",
+                    "identifier": "UOM:39015019174674"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 262,
+            "printType": "BOOK",
+            "categories": [
+                "Literature"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.4.1.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=_R0MAAAAIAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=_R0MAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "vi",
+            "previewLink": "http://books.google.com.vn/books?id=_R0MAAAAIAAJ&q=v%C4%83n+h%E1%BB%8Dc&dq=v%C4%83n+h%E1%BB%8Dc&hl=&cd=17&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=_R0MAAAAIAAJ&dq=v%C4%83n+h%E1%BB%8Dc&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/L%C6%B0%E1%BB%A3c_kh%CC%89ao_v%C4%83n_h%E1%BB%8Dc_Ng%C3%B4n_ng%E1%BB%AF_v.html?hl=&id=_R0MAAAAIAAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=_R0MAAAAIAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "IckqAAAAMAAJ",
+        "etag": "ja9vLbC1DOc",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/IckqAAAAMAAJ",
+        "volumeInfo": {
+            "title": "Từ điẻ̂n văn học",
+            "authors": [
+                "Đức Hiểu Đỗ"
+            ],
+            "publishedDate": "1983",
+            "industryIdentifiers": [
+                {
+                    "type": "OTHER",
+                    "identifier": "UOM:39015039642437"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 516,
+            "printType": "BOOK",
+            "categories": [
+                "Literature"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.6.2.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=IckqAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=IckqAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "vi",
+            "previewLink": "http://books.google.com.vn/books?id=IckqAAAAMAAJ&q=v%C4%83n+h%E1%BB%8Dc&dq=v%C4%83n+h%E1%BB%8Dc&hl=&cd=18&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=IckqAAAAMAAJ&dq=v%C4%83n+h%E1%BB%8Dc&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/T%E1%BB%AB_%C4%91i%E1%BA%BB%CC%82n_v%C4%83n_h%E1%BB%8Dc.html?hl=&id=IckqAAAAMAAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=IckqAAAAMAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "X1hkAAAAMAAJ",
+        "etag": "suJ+cYNh0YM",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/X1hkAAAAMAAJ",
+        "volumeInfo": {
+            "title": "Tạp chí văn học",
+            "publishedDate": "2003",
+            "industryIdentifiers": [
+                {
+                    "type": "OTHER",
+                    "identifier": "UOM:39015057997721"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 602,
+            "printType": "BOOK",
+            "categories": [
+                "Literature"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "1.4.1.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=X1hkAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=X1hkAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "vi",
+            "previewLink": "http://books.google.com.vn/books?id=X1hkAAAAMAAJ&q=v%C4%83n+h%E1%BB%8Dc&dq=v%C4%83n+h%E1%BB%8Dc&hl=&cd=19&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=X1hkAAAAMAAJ&dq=v%C4%83n+h%E1%BB%8Dc&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/T%E1%BA%A1p_ch%C3%AD_v%C4%83n_h%E1%BB%8Dc.html?hl=&id=X1hkAAAAMAAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=X1hkAAAAMAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "-mVkAAAAMAAJ",
+        "etag": "WCF03Er+sc4",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/-mVkAAAAMAAJ",
+        "volumeInfo": {
+            "title": "Tác phẩm văn học",
+            "publishedDate": "1990",
+            "industryIdentifiers": [
+                {
+                    "type": "OTHER",
+                    "identifier": "UOM:39015032782339"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 296,
+            "printType": "BOOK",
+            "categories": [
+                "Vietnamese literature"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "1.5.1.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=-mVkAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=-mVkAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "vi",
+            "previewLink": "http://books.google.com.vn/books?id=-mVkAAAAMAAJ&q=v%C4%83n+h%E1%BB%8Dc&dq=v%C4%83n+h%E1%BB%8Dc&hl=&cd=20&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=-mVkAAAAMAAJ&dq=v%C4%83n+h%E1%BB%8Dc&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/T%C3%A1c_ph%E1%BA%A9m_v%C4%83n_h%E1%BB%8Dc.html?hl=&id=-mVkAAAAMAAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=-mVkAAAAMAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "r1VkAAAAMAAJ",
+        "etag": "EVkIMtVc2NQ",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/r1VkAAAAMAAJ",
+        "volumeInfo": {
+            "title": "Văn học Việt Nam thế kỷ XX",
+            "publishedDate": "2003",
+            "industryIdentifiers": [
+                {
+                    "type": "OTHER",
+                    "identifier": "UOM:39015056126058"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 1140,
+            "printType": "BOOK",
+            "categories": [
+                "Vietnamese literature"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "1.4.1.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=r1VkAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=r1VkAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "zh-CN",
+            "previewLink": "http://books.google.com.vn/books?id=r1VkAAAAMAAJ&q=v%C4%83n+h%E1%BB%8Dc&dq=v%C4%83n+h%E1%BB%8Dc&hl=&cd=21&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=r1VkAAAAMAAJ&dq=v%C4%83n+h%E1%BB%8Dc&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/V%C4%83n_h%E1%BB%8Dc_Vi%E1%BB%87t_Nam_th%E1%BA%BF_k%E1%BB%B7_XX.html?hl=&id=r1VkAAAAMAAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=r1VkAAAAMAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "oKIKAAAAMAAJ",
+        "etag": "7L/V0hQkxj0",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/oKIKAAAAMAAJ",
+        "volumeInfo": {
+            "title": "Về văn học nghệ thuật",
+            "authors": [
+                "Hải Triều"
+            ],
+            "publishedDate": "1969",
+            "industryIdentifiers": [
+                {
+                    "type": "OTHER",
+                    "identifier": "UOM:39015021604304"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 118,
+            "printType": "BOOK",
+            "categories": [
+                "Arts and society"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.5.1.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=oKIKAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=oKIKAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "vi",
+            "previewLink": "http://books.google.com.vn/books?id=oKIKAAAAMAAJ&q=v%C4%83n+h%E1%BB%8Dc&dq=v%C4%83n+h%E1%BB%8Dc&hl=&cd=23&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=oKIKAAAAMAAJ&dq=v%C4%83n+h%E1%BB%8Dc&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/V%E1%BB%81_v%C4%83n_h%E1%BB%8Dc_ngh%E1%BB%87_thu%E1%BA%ADt.html?hl=&id=oKIKAAAAMAAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=oKIKAAAAMAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "8lpkAAAAMAAJ",
+        "etag": "am/Acu/nX3k",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/8lpkAAAAMAAJ",
+        "volumeInfo": {
+            "title": "Etudes littéraires",
+            "publishedDate": "2005",
+            "industryIdentifiers": [
+                {
+                    "type": "OTHER",
+                    "identifier": "UOM:39015063376134"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 664,
+            "printType": "BOOK",
+            "categories": [
+                "Vietnamese literature"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.6.1.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=8lpkAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=8lpkAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "vi",
+            "previewLink": "http://books.google.com.vn/books?id=8lpkAAAAMAAJ&q=v%C4%83n+h%E1%BB%8Dc&dq=v%C4%83n+h%E1%BB%8Dc&hl=&cd=24&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=8lpkAAAAMAAJ&dq=v%C4%83n+h%E1%BB%8Dc&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Etudes_litt%C3%A9raires.html?hl=&id=8lpkAAAAMAAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=8lpkAAAAMAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "q3OuAAAAIAAJ",
+        "etag": "sLVqDDkSRmg",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/q3OuAAAAIAAJ",
+        "volumeInfo": {
+            "title": "Nhà văn hiện đại",
+            "subtitle": "phê bình văn học",
+            "authors": [
+                "Ngọc Phan Vũ"
+            ],
+            "publishedDate": "1994",
+            "industryIdentifiers": [
+                {
+                    "type": "OTHER",
+                    "identifier": "UCSD:31822023425648"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 590,
+            "printType": "BOOK",
+            "categories": [
+                "Authors"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "1.5.3.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=q3OuAAAAIAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=q3OuAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "vi",
+            "previewLink": "http://books.google.com.vn/books?id=q3OuAAAAIAAJ&q=v%C4%83n+h%E1%BB%8Dc&dq=v%C4%83n+h%E1%BB%8Dc&hl=&cd=25&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=q3OuAAAAIAAJ&dq=v%C4%83n+h%E1%BB%8Dc&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Nh%C3%A0_v%C4%83n_hi%E1%BB%87n_%C4%91%E1%BA%A1i.html?hl=&id=q3OuAAAAIAAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=q3OuAAAAIAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "dppkAAAAMAAJ",
+        "etag": "HQUXZ0jqDZo",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/dppkAAAAMAAJ",
+        "volumeInfo": {
+            "title": "150 thuật ngữ văn học",
+            "authors": [
+                "Nguyên Ân Lại"
+            ],
+            "publishedDate": "1999",
+            "industryIdentifiers": [
+                {
+                    "type": "OTHER",
+                    "identifier": "UOM:39015052292284"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 480,
+            "printType": "BOOK",
+            "categories": [
+                "Vietnamese language"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.4.1.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=dppkAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=dppkAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "vi",
+            "previewLink": "http://books.google.com.vn/books?id=dppkAAAAMAAJ&q=v%C4%83n+h%E1%BB%8Dc&dq=v%C4%83n+h%E1%BB%8Dc&hl=&cd=26&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=dppkAAAAMAAJ&dq=v%C4%83n+h%E1%BB%8Dc&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/150_thu%E1%BA%ADt_ng%E1%BB%AF_v%C4%83n_h%E1%BB%8Dc.html?hl=&id=dppkAAAAMAAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=dppkAAAAMAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "4YfiAAAAMAAJ",
+        "etag": "T3SQFV44hWM",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/4YfiAAAAMAAJ",
+        "volumeInfo": {
+            "title": "Quá trình sáng tạo thơ",
+            "authors": [
+                "Công Hùng Bùi"
+            ],
+            "publishedDate": "1988",
+            "industryIdentifiers": [
+                {
+                    "type": "OTHER",
+                    "identifier": "UOM:39015024732722"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 190,
+            "printType": "BOOK",
+            "categories": [
+                "Vietnamese language"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "1.4.1.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=4YfiAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=4YfiAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "vi",
+            "previewLink": "http://books.google.com.vn/books?id=4YfiAAAAMAAJ&q=v%C4%83n+h%E1%BB%8Dc&dq=v%C4%83n+h%E1%BB%8Dc&hl=&cd=27&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=4YfiAAAAMAAJ&dq=v%C4%83n+h%E1%BB%8Dc&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Qu%C3%A1_tr%C3%ACnh_s%C3%A1ng_t%E1%BA%A1o_th%C6%A1.html?hl=&id=4YfiAAAAMAAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=4YfiAAAAMAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "BpwOAAAAMAAJ",
+        "etag": "CZjWJuTAqdY",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/BpwOAAAAMAAJ",
+        "volumeInfo": {
+            "title": "Lịch-sử văn-học Việt-Nam (từ thượng-cổ tới hiện-đại): Nguồn gőc văn-học Việt-Nam",
+            "authors": [
+                "Văn Siêu Lê"
+            ],
+            "publishedDate": "1956",
+            "industryIdentifiers": [
+                {
+                    "type": "OTHER",
+                    "identifier": "UOM:39015023991857"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 148,
+            "printType": "BOOK",
+            "categories": [
+                "Vietnamese literature"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.5.3.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=BpwOAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=BpwOAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "vi",
+            "previewLink": "http://books.google.com.vn/books?id=BpwOAAAAMAAJ&q=v%C4%83n+h%E1%BB%8Dc&dq=v%C4%83n+h%E1%BB%8Dc&hl=&cd=29&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=BpwOAAAAMAAJ&dq=v%C4%83n+h%E1%BB%8Dc&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/L%E1%BB%8Bch_s%E1%BB%AD_v%C4%83n_h%E1%BB%8Dc_Vi%E1%BB%87t_Nam_t%E1%BB%AB_t.html?hl=&id=BpwOAAAAMAAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=BpwOAAAAMAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "WGdkAAAAMAAJ",
+        "etag": "ILDnK+/C3nQ",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/WGdkAAAAMAAJ",
+        "volumeInfo": {
+            "title": "Văn học sử",
+            "subtitle": "những quan niệm mới, những tiếp cận mới",
+            "publishedDate": "2001",
+            "industryIdentifiers": [
+                {
+                    "type": "OTHER",
+                    "identifier": "UOM:39015052248930"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 206,
+            "printType": "BOOK",
+            "categories": [
+                "Vietnamese literature"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "1.4.1.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=WGdkAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=WGdkAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "vi",
+            "previewLink": "http://books.google.com.vn/books?id=WGdkAAAAMAAJ&q=v%C4%83n+h%E1%BB%8Dc&dq=v%C4%83n+h%E1%BB%8Dc&hl=&cd=30&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=WGdkAAAAMAAJ&dq=v%C4%83n+h%E1%BB%8Dc&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/V%C4%83n_h%E1%BB%8Dc_s%E1%BB%AD.html?hl=&id=WGdkAAAAMAAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=WGdkAAAAMAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "zFVkAAAAMAAJ",
+        "etag": "dXiKV6T6doY",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/zFVkAAAAMAAJ",
+        "volumeInfo": {
+            "title": "Đọc văn, học văn",
+            "subtitle": "đọc tác phả̂m văn học trong chương trình trung học",
+            "authors": [
+                "Đình Sử Trần"
+            ],
+            "publishedDate": "2001",
+            "industryIdentifiers": [
+                {
+                    "type": "OTHER",
+                    "identifier": "UOM:39015051582370"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 468,
+            "printType": "BOOK",
+            "categories": [
+                "Literature"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.4.1.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=zFVkAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=zFVkAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "vi",
+            "previewLink": "http://books.google.com.vn/books?id=zFVkAAAAMAAJ&q=v%C4%83n+h%E1%BB%8Dc&dq=v%C4%83n+h%E1%BB%8Dc&hl=&cd=31&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=zFVkAAAAMAAJ&dq=v%C4%83n+h%E1%BB%8Dc&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/%C4%90%E1%BB%8Dc_v%C4%83n_h%E1%BB%8Dc_v%C4%83n.html?hl=&id=zFVkAAAAMAAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=zFVkAAAAMAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "FOzgAAAAMAAJ",
+        "etag": "gltXnl16VN4",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/FOzgAAAAMAAJ",
+        "volumeInfo": {
+            "title": "50 năm Nhà xuất bản Văn học",
+            "publishedDate": "1998",
+            "industryIdentifiers": [
+                {
+                    "type": "OTHER",
+                    "identifier": "UOM:39015062047223"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 1172,
+            "printType": "BOOK",
+            "categories": [
+                "Catalogs, Publishers'"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "1.5.2.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=FOzgAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=FOzgAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "vi",
+            "previewLink": "http://books.google.com.vn/books?id=FOzgAAAAMAAJ&q=v%C4%83n+h%E1%BB%8Dc&dq=v%C4%83n+h%E1%BB%8Dc&hl=&cd=32&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=FOzgAAAAMAAJ&dq=v%C4%83n+h%E1%BB%8Dc&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/50_n%C4%83m_Nh%C3%A0_xu%E1%BA%A5t_b%E1%BA%A3n_V%C4%83n_h%E1%BB%8Dc.html?hl=&id=FOzgAAAAMAAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=FOzgAAAAMAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "6yYMAAAAIAAJ",
+        "etag": "Hz9Os4OR5QY",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/6yYMAAAAIAAJ",
+        "volumeInfo": {
+            "title": "Văn-học đời Lý",
+            "subtitle": "Việt Nam văn học",
+            "authors": [
+                "Tất Tố Ngô"
+            ],
+            "publishedDate": "1960",
+            "industryIdentifiers": [
+                {
+                    "type": "OTHER",
+                    "identifier": "UOM:39015004296490"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 126,
+            "printType": "BOOK",
+            "categories": [
+                "Authors, Vietnamese"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.8.5.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=6yYMAAAAIAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=6yYMAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "vi",
+            "previewLink": "http://books.google.com.vn/books?id=6yYMAAAAIAAJ&dq=v%C4%83n+h%E1%BB%8Dc&hl=&cd=33&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=6yYMAAAAIAAJ&dq=v%C4%83n+h%E1%BB%8Dc&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/V%C4%83n_h%E1%BB%8Dc_%C4%91%E1%BB%9Di_L%C3%BD.html?hl=&id=6yYMAAAAIAAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=6yYMAAAAIAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "SXFQAQAAMAAJ",
+        "etag": "FzUYA95RJsA",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/SXFQAQAAMAAJ",
+        "volumeInfo": {
+            "title": "Về văn hóa và văn học nghệ thuật",
+            "authors": [
+                "Văn Đồng Phạm"
+            ],
+            "publishedDate": "2006",
+            "industryIdentifiers": [
+                {
+                    "type": "OTHER",
+                    "identifier": "UCBK:C096211741"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 798,
+            "printType": "BOOK",
+            "categories": [
+                "Art"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "1.4.0.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=SXFQAQAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=SXFQAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "vi",
+            "previewLink": "http://books.google.com.vn/books?id=SXFQAQAAMAAJ&q=v%C4%83n+h%E1%BB%8Dc&dq=v%C4%83n+h%E1%BB%8Dc&hl=&cd=34&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=SXFQAQAAMAAJ&dq=v%C4%83n+h%E1%BB%8Dc&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/V%E1%BB%81_v%C4%83n_h%C3%B3a_v%C3%A0_v%C4%83n_h%E1%BB%8Dc_ngh%E1%BB%87_thu.html?hl=&id=SXFQAQAAMAAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=SXFQAQAAMAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "dm9qz5HCEJEC",
+        "etag": "7r2OPkX66Yc",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/dm9qz5HCEJEC",
+        "volumeInfo": {
+            "title": "Ngày văn học lên ngôi",
+            "subtitle": "tiẻ̂u luận, phê bình",
+            "authors": [
+                "Minh Tuấn Đỗ"
+            ],
+            "publishedDate": "1996",
+            "industryIdentifiers": [
+                {
+                    "type": "OTHER",
+                    "identifier": "UCBK:C064350050"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 424,
+            "printType": "BOOK",
+            "categories": [
+                "Vietnamese literature"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "1.3.1.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=dm9qz5HCEJEC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=dm9qz5HCEJEC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "vi",
+            "previewLink": "http://books.google.com.vn/books?id=dm9qz5HCEJEC&q=v%C4%83n+h%E1%BB%8Dc&dq=v%C4%83n+h%E1%BB%8Dc&hl=&cd=35&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=dm9qz5HCEJEC&dq=v%C4%83n+h%E1%BB%8Dc&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Ng%C3%A0y_v%C4%83n_h%E1%BB%8Dc_l%C3%AAn_ng%C3%B4i.html?hl=&id=dm9qz5HCEJEC"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=dm9qz5HCEJEC&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "mWFIAAAAMAAJ",
+        "etag": "JoP38N38KBs",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/mWFIAAAAMAAJ",
+        "volumeInfo": {
+            "title": "Nhà văn Hiện Đại",
+            "subtitle": "phĕ bình văn học",
+            "authors": [
+                "Ngọc Phan Vũ"
+            ],
+            "publishedDate": "1976",
+            "industryIdentifiers": [
+                {
+                    "type": "OTHER",
+                    "identifier": "UOM:39015015146379"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 368,
+            "printType": "BOOK",
+            "categories": [
+                "Authors, Vietnamese"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "1.3.1.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=mWFIAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=mWFIAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "vi",
+            "previewLink": "http://books.google.com.vn/books?id=mWFIAAAAMAAJ&q=v%C4%83n+h%E1%BB%8Dc&dq=v%C4%83n+h%E1%BB%8Dc&hl=&cd=36&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=mWFIAAAAMAAJ&dq=v%C4%83n+h%E1%BB%8Dc&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Nh%C3%A0_v%C4%83n_Hi%E1%BB%87n_%C4%90%E1%BA%A1i.html?hl=&id=mWFIAAAAMAAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=mWFIAAAAMAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "78BkAAAAMAAJ",
+        "etag": "z4HbIMb6JLw",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/78BkAAAAMAAJ",
+        "volumeInfo": {
+            "title": "Phương pháp luận nghiên cứu văn học",
+            "authors": [
+                "Văn Dân Nguyễn"
+            ],
+            "publishedDate": "2004",
+            "industryIdentifiers": [
+                {
+                    "type": "OTHER",
+                    "identifier": "UOM:39015061505973"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 334,
+            "printType": "BOOK",
+            "categories": [
+                "Literature"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "1.4.2.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=78BkAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=78BkAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "vi",
+            "previewLink": "http://books.google.com.vn/books?id=78BkAAAAMAAJ&q=v%C4%83n+h%E1%BB%8Dc&dq=v%C4%83n+h%E1%BB%8Dc&hl=&cd=37&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=78BkAAAAMAAJ&dq=v%C4%83n+h%E1%BB%8Dc&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Ph%C6%B0%C6%A1ng_ph%C3%A1p_lu%E1%BA%ADn_nghi%C3%AAn_c%E1%BB%A9u_v%C4%83n.html?hl=&id=78BkAAAAMAAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=78BkAAAAMAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "irkOAAAAMAAJ",
+        "etag": "rz40IYN3hCg",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/irkOAAAAMAAJ",
+        "volumeInfo": {
+            "title": "Việt Nam văn học",
+            "subtitle": "Văn học đời Trần",
+            "authors": [
+                "Tất Tố Ngô"
+            ],
+            "publishedDate": "1960",
+            "industryIdentifiers": [
+                {
+                    "type": "OTHER",
+                    "identifier": "UOM:39015021593358"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 236,
+            "printType": "BOOK",
+            "categories": [
+                "Chinese literature"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "1.7.3.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=irkOAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=irkOAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "vi",
+            "previewLink": "http://books.google.com.vn/books?id=irkOAAAAMAAJ&q=v%C4%83n+h%E1%BB%8Dc&dq=v%C4%83n+h%E1%BB%8Dc&hl=&cd=38&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=irkOAAAAMAAJ&dq=v%C4%83n+h%E1%BB%8Dc&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Vi%E1%BB%87t_Nam_v%C4%83n_h%E1%BB%8Dc.html?hl=&id=irkOAAAAMAAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=irkOAAAAMAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "s2BkAAAAMAAJ",
+        "etag": "ypnL/JmNcOU",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/s2BkAAAAMAAJ",
+        "volumeInfo": {
+            "title": "Ngôn ngữ học và văn học",
+            "authors": [
+                "Đức Tịnh Bùi"
+            ],
+            "publishedDate": "1999",
+            "industryIdentifiers": [
+                {
+                    "type": "OTHER",
+                    "identifier": "UOM:39015038388479"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 236,
+            "printType": "BOOK",
+            "categories": [
+                "Vietnamese language"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "1.4.1.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=s2BkAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=s2BkAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "vi",
+            "previewLink": "http://books.google.com.vn/books?id=s2BkAAAAMAAJ&q=v%C4%83n+h%E1%BB%8Dc&dq=v%C4%83n+h%E1%BB%8Dc&hl=&cd=40&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=s2BkAAAAMAAJ&dq=v%C4%83n+h%E1%BB%8Dc&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Ng%C3%B4n_ng%E1%BB%AF_h%E1%BB%8Dc_v%C3%A0_v%C4%83n_h%E1%BB%8Dc.html?hl=&id=s2BkAAAAMAAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=s2BkAAAAMAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        }
+    }
+]

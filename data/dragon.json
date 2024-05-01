@@ -1,0 +1,2863 @@
+[
+    {
+        "kind": "books#volume",
+        "id": "6b2KhYnxZScC",
+        "etag": "QKd/bdQe4J0",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/6b2KhYnxZScC",
+        "volumeInfo": {
+            "title": "Dragons and Dragon Lore",
+            "authors": [
+                "Ernest Ingersoll"
+            ],
+            "publisher": "Library of Alexandria",
+            "publishedDate": "1928",
+            "description": "I became intensely interested in Dragon Worship and the Dragon Myth during my recent journey in China and Mongolia in support of the Central Asiatic Expeditions of Roy Chapman Andrews. Especially, in the royal city of Peking appears the apotheosis of the Dragon in every conceivable form of symbolism and architecture. The Dragons leading up to the steps of the temples and palaces of the Manchu emperors, and the superb dragon-screen guarding the approach to one of the royal palaces, are but two of the innumerable examples of the universal former belief in these mythical animals, and of the still prevailing beliefs among the common people of China. For example, one night in a far distant telegraph station in the heart of the desert of Gobi, I overheard two men pointing out Leader Andrews and myself as ‘men of the Dragon bones.’ On inquiry, I learned that our great Central Asiatic Expedition was universally regarded by the natives as engaged in the quest of remains of extinct Dragons, and that this superstition is connected with the still universal belief among the natives that fossil bones, and especially fossil teeth have a high medicinal value. Not long after my return from Central Asia, I suggested to my friend, Ernest Ingersoll, that he write the present volume, preparing a fresh study of the history of the Dragon Myth which, now largely confined to China, once spread all over Asia and Europe, as dominant not only in mythology but entering even into the early teachings of Christianity, as so many other pagan myths have done. I knew that the author was well-qualified for a work of this character, because of his remarkable success in previous volumes for old and young, and in his original observations on various forms of animal life, from the American oyster to many birds and mammals. He is especially versed, perhaps, in regard to one very interesting question which is often asked, namely, how far the animals of myth and of legend, like the Dragon, the Hydra, the Phoenix, the Unicorn and the Mermaid, are products of pure imagination, and how far due to some fancied resemblance of a living form or to the tales of travelers. For example, it occurred to me, while examining the giant fossil eggs of the extinct ostrich of China (now known under the scientific name Struthiolithus, assigned by the late Doctor Eastman), that it may have given rise to the myth of the Phoenix or of the Roc.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781465503923"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1465503927"
+                }
+            ],
+            "readingModes": {
+                "text": true,
+                "image": false
+            },
+            "pageCount": 191,
+            "printType": "BOOK",
+            "categories": [
+                "Animals"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": true,
+            "contentVersion": "1.3.4.0.preview.2",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=6b2KhYnxZScC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=6b2KhYnxZScC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=6b2KhYnxZScC&printsec=frontcover&dq=dragon&hl=&cd=1&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=6b2KhYnxZScC&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=6b2KhYnxZScC"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+                "amount": 159709,
+                "currencyCode": "VND"
+            },
+            "retailPrice": {
+                "amount": 119782,
+                "currencyCode": "VND"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=6b2KhYnxZScC&rdid=book-6b2KhYnxZScC&rdot=1&source=gbs_api",
+            "offers": [
+                {
+                    "finskyOfferType": 1,
+                    "listPrice": {
+                        "amountInMicros": 159709000000,
+                        "currencyCode": "VND"
+                    },
+                    "retailPrice": {
+                        "amountInMicros": 119782000000,
+                        "currencyCode": "VND"
+                    }
+                }
+            ]
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/Dragons_and_Dragon_Lore-sample-epub.acsm?id=6b2KhYnxZScC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=6b2KhYnxZScC&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "Not long after my return from Central Asia, I suggested to my friend, Ernest Ingersoll, that he write the present volume, preparing a fresh study of the history of the Dragon Myth which, now largely confined to China, once spread all over ..."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "S1yJEAAAQBAJ",
+        "etag": "aMB3f9nylSo",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/S1yJEAAAQBAJ",
+        "volumeInfo": {
+            "title": "The Dragon's Touchstone",
+            "authors": [
+                "Irene Radford"
+            ],
+            "publisher": "Astra Publishing House",
+            "publishedDate": "1997-06-01",
+            "description": "Three hundred years before the time of The Glass Dragon, Coronnan is a kingdom at war with itself, magic is wild, and magicians uncontrolled, each working separately for his own goal. At the height of this age of chaos, the dragons decide to intervene, making their presence known to mortals through the healer Myrilandel.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781440673979"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1440673977"
+                }
+            ],
+            "readingModes": {
+                "text": true,
+                "image": true
+            },
+            "pageCount": 390,
+            "printType": "BOOK",
+            "categories": [
+                "Fiction"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "1.1.1.0.preview.3",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=S1yJEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=S1yJEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=S1yJEAAAQBAJ&printsec=frontcover&dq=dragon&hl=&cd=2&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=S1yJEAAAQBAJ&dq=dragon&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/The_Dragon_s_Touchstone.html?hl=&id=S1yJEAAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/The_Dragon_s_Touchstone-sample-epub.acsm?id=S1yJEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "pdf": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/The_Dragon_s_Touchstone-sample-pdf.acsm?id=S1yJEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=S1yJEAAAQBAJ&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "Three hundred years before the time of The Glass Dragon, Coronnan is a kingdom at war with itself, magic is wild, and magicians uncontrolled, each working separately for his own goal."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "arcFDgAAQBAJ",
+        "etag": "PIReVSqEMmU",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/arcFDgAAQBAJ",
+        "volumeInfo": {
+            "title": "How to Train Your Dragon: The Serpent's Heir",
+            "authors": [
+                "Dean Dubois"
+            ],
+            "publisher": "Dark Horse Comics",
+            "publishedDate": "2017-02-28",
+            "description": "The dragons of Berk are coming to Dark Horse! Hiccup, Toothless, and all their dragon-riding friends from DreamWorks Animation's acclaimed How to Train Your Dragon films are starting new adventures in comics! Created with the help of the film's writer, director, and producer Dean DeBlois, these graphic novellas will bridge the gap between the second film and the upcoming third film. More adventures, more dragon lore, and more fun! You won't have to wait years for more dragons; they are coming to you--in comics!",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781630086305"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1630086304"
+                }
+            ],
+            "readingModes": {
+                "text": true,
+                "image": true
+            },
+            "pageCount": 81,
+            "printType": "BOOK",
+            "categories": [
+                "Comics & Graphic Novels"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": true,
+            "contentVersion": "1.3.2.0.preview.3",
+            "panelizationSummary": {
+                "containsEpubBubbles": true,
+                "containsImageBubbles": true,
+                "epubBubbleVersion": "1364bfae91cc2c39",
+                "imageBubbleVersion": "1364bfae91cc2c39"
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=arcFDgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=arcFDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=arcFDgAAQBAJ&printsec=frontcover&dq=dragon&hl=&cd=3&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=arcFDgAAQBAJ&dq=dragon&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/How_to_Train_Your_Dragon_The_Serpent_s_H.html?hl=&id=arcFDgAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/How_to_Train_Your_Dragon_The_Serpent_s_H-sample-epub.acsm?id=arcFDgAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "pdf": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/How_to_Train_Your_Dragon_The_Serpent_s_H-sample-pdf.acsm?id=arcFDgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=arcFDgAAQBAJ&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "Created with the help of the film&#39;s writer, director, and producer Dean DeBlois, these graphic novellas will bridge the gap between the second film and the upcoming third film. More adventures, more dragon lore, and more fun!"
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "1WViDwAAQBAJ",
+        "etag": "O8bUHcTQgxs",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/1WViDwAAQBAJ",
+        "volumeInfo": {
+            "title": "Dragon Myths",
+            "authors": [
+                "Jennifer Mason"
+            ],
+            "publisher": "Gareth Stevens Publishing LLLP",
+            "publishedDate": "2017-12-15",
+            "description": "They're called drakon in Greek, azhdaha in Persian, kelekona in Hawaiian, and have names in numerous other cultures as well. They're dragons. Many cultures even agree on what the giant serpents look like, though they may differ on whether these mythical creatures are benevolent or evil. This ultra-compelling volume takes readers on a tour of world cultures and dragon lore. Sometimes, this folklore is entwined with actual historical events, such as a Roman general's supposed encounter with a water-spewing dragon on a march to Africa. Breathtaking images and fascinating fact boxes contribute to this extremely high-interest text.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781538214411"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1538214415"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": true
+            },
+            "pageCount": 50,
+            "printType": "BOOK",
+            "categories": [
+                "Juvenile Nonfiction"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "preview-1.0.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=1WViDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=1WViDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=1WViDwAAQBAJ&printsec=frontcover&dq=dragon&hl=&cd=4&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=1WViDwAAQBAJ&dq=dragon&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Dragon_Myths.html?hl=&id=1WViDwAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/Dragon_Myths-sample-pdf.acsm?id=1WViDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=1WViDwAAQBAJ&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "Many cultures even agree on what the giant serpents look like, though they may differ on whether these mythical creatures are benevolent or evil. This ultra-compelling volume takes readers on a tour of world cultures and dragon lore."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "hT4QEAAAQBAJ",
+        "etag": "hBMIZ2iLsd8",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/hT4QEAAAQBAJ",
+        "volumeInfo": {
+            "title": "Dragon City",
+            "authors": [
+                "Katie Tsang",
+                "Kevin Tsang"
+            ],
+            "publisher": "Simon and Schuster",
+            "publishedDate": "2021-09-02",
+            "description": "The third adventure in the ROARsome DRAGON REALM series for 9+ readers! Perfect for fans of magical fantasy, heartfelt friendships and time travel! Dragon Destiny, the fifth and final instalment in the Dragon Realm series, is available. But fear not, the new Dragon Force series has launched with Infinity's Secret. And don't miss A Dragon Realm Adventure, the special World Book Day story! 'A soaring, sizzling, fire-breathing gem of an adventure story' – Abi Elphinstone, bestselling author of SKY SONG In an alternate reality, 5,000 years in the future, the evil Dragon of Death has become ruler of Dragon City. Humans now live to serve the dragon population and it’s no different for Billy Chan and his friends. After losing contact with their own dragons, they’re determined to track them down in this new city, even if it means putting their own lives at risk. But one dragon has turned to the dark side and has no plans to return. With the help of a new clan of dragon friends, can Billy, Dylan, Charlotte and Ling-Fei undo the Dragon of Death’s villainous work or will she triumph eternally? Praise for DRAGON MOUNTAIN: 'Splendidly addictive' – Guardian 'Rollicking, escapist storytelling with a dragon-sized heart' – Kiran Millwood Hargrave, author of THE GIRL OF INK AND STARS 'A wonderful warm-hearted and action-packed adventure' – Katherine Woodfine, author of THE SINCLAIR'S MYSTERIES 'DRAGON MOUNTAIN is a joy of a thing: funny, sardonic, generous, with jokes so large-hearted you could swim in them. It’s for every child who has ever longed to bond with a dragon' – Katherine Rundell, author of THE ROOFTOPPERS 'Packed full of fun, heart and imagination, it will make you wish you had your own dragon bond' – Anna James, author of the PAGES & CO. series 'Brimming with warmth and originality, DRAGON MOUNTAIN combines edge-of-your-seat adventure, laugh-out-loud humour and hugely exciting dragons to create a sweeping fantasy that will captivate readers of all ages.’ – Catherine Doyle, author of THE STORM KEEPER’S ISLAND 'DRAGON MOUNTAIN has all of my favourite things! A rich mythology and a tale of friendship, snarky dragons and daring deeds...this is the kind of breathless tale that leaves you hungry for the next instalment' – Roshani Chokshi, author of the ARU SHAH series ‘DRAGON MOUNTAIN is a joy to read – adventurous and enchanting, with a heart of gold. It will make you re-live the moment you first looked at the sky and longed to see a dragon looking back’ – Samantha Shannon, author of THE PRIORY OF THE ORANGE TREE and THE BONE SEASON series",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781471193132"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1471193136"
+                }
+            ],
+            "readingModes": {
+                "text": true,
+                "image": false
+            },
+            "pageCount": 181,
+            "printType": "BOOK",
+            "categories": [
+                "Juvenile Fiction"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": true,
+            "contentVersion": "1.5.5.0.preview.2",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=hT4QEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=hT4QEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=hT4QEAAAQBAJ&printsec=frontcover&dq=dragon&hl=&cd=5&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=hT4QEAAAQBAJ&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=hT4QEAAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+                "amount": 205332,
+                "currencyCode": "VND"
+            },
+            "retailPrice": {
+                "amount": 139626,
+                "currencyCode": "VND"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=hT4QEAAAQBAJ&rdid=book-hT4QEAAAQBAJ&rdot=1&source=gbs_api",
+            "offers": [
+                {
+                    "finskyOfferType": 1,
+                    "listPrice": {
+                        "amountInMicros": 205332000000,
+                        "currencyCode": "VND"
+                    },
+                    "retailPrice": {
+                        "amountInMicros": 139626000000,
+                        "currencyCode": "VND"
+                    }
+                }
+            ]
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+            "epub": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/Dragon_City-sample-epub.acsm?id=hT4QEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=hT4QEAAAQBAJ&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "A rich mythology and a tale of friendship, snarky dragons and daring deeds...this is the kind of breathless tale that leaves you hungry for the next instalment&#39; – Roshani Chokshi, author of the ARU SHAH series ‘DRAGON MOUNTAIN is a joy ..."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "MvgYswEACAAJ",
+        "etag": "5dfczG3T0PM",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/MvgYswEACAAJ",
+        "volumeInfo": {
+            "title": "The Chronicles of Dragon Collection",
+            "authors": [
+                "Craig Halloran"
+            ],
+            "publisher": "Two-Ten Book Press",
+            "publishedDate": "2015-07-07",
+            "description": "Sink your teeth into this 832 page hardback Collector's Edition of the Best Selling Chronicles of Dragon series. All 10 books in the series are included in this one of a kind ultra-dragon adventure. This book is huge! Enjoy the gallery of 8.5 X 11 illustrations of all 10 covers and the major characters. This book is a must read and must have for all dragon lovers worldwide. ***** Welcome to the world of NALZAMBOR ... Nath is a special warrior. He is a man destined to be a dragon. In order to become a dragon, he must save the dragons. For countless years Nath has been on a quest to become a dragon, but his meddling with the other races tends to get in the way. The way of men is not the way of Nath Dragon his father has warned him. Yet, Nath, unable to control his fascination of the world men, elves, dwarves and even the despised orcs, tends to get caught up in their affairs. To earn his scales, there is a high road he must follow. With his close friend and ally, Brenwar the Dwarf, Nath, armed with a magic sword he calls Fang, travels to the Mountain of Doom, the Free City of Narnum and to Orcen Hold where nothing but trouble awaits. Will Nath Dragon, hero of the realm and protector of dragon kind choose the right path or wind up on a dark one? ***** This collector's edition includes the following 10 books: The Hero, The Sword and the Dragons, Dragon Bones and Tombstones, Terror at the Temple, Clutch of the Cleric, Hunt for the Hero, Siege at the Settlements, Strife in the Sky, Fight and the Fury, War in the Winds and Finale.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1941208371"
+                },
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781941208373"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 830,
+            "printType": "BOOK",
+            "categories": [
+                "Fiction"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "preview-1.0.0",
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=MvgYswEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=MvgYswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=MvgYswEACAAJ&dq=dragon&hl=&cd=6&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=MvgYswEACAAJ&dq=dragon&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/The_Chronicles_of_Dragon_Collection.html?hl=&id=MvgYswEACAAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=MvgYswEACAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "This book is huge! Enjoy the gallery of 8.5 X 11 illustrations of all 10 covers and the major characters. This book is a must read and must have for all dragon lovers worldwide. ***** Welcome to the world of NALZAMBOR ."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "aKkQEAAAQBAJ",
+        "etag": "hmHeFzc2X70",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/aKkQEAAAQBAJ",
+        "volumeInfo": {
+            "title": "Dragon World",
+            "authors": [
+                "Tamara Macfarlane"
+            ],
+            "publisher": "Penguin",
+            "publishedDate": "2021-03-16",
+            "description": "Immerse yourself in the rich, fascinating history of dragons in this illustrated gift ebook. Meet the fire-breathing beasts of mythology in this beautifully illustrated ebook brimming with scaled behemoths. Lurking in every corner of the earth, from the deepest depths of the oceans, to the tips of the tallest mountains, even tucked beneath the very ground that you tread on, dragons watch and wait. They take many forms--sea monsters, serpents, wild cats, eagles, and they represent many different things; Gods to be revered, evil kings to be feared, wise friends, and fierce foes. So, when you accidentally step on a sinewy vine and it whips out from under your feet, or invisible forces gently fan warm air across your face, or the acrid smell of cinders pokes at the back of your throat, how will you know whether to stand and wonder, or run and hide? Dragons have breathed fire into our minds since we could first imagine, but why do they exist in stories from every land in the world? Come in and explore Dragon World. Look into their lairs while they make shape-shifting mischief, playing with the weather and protecting earthly treasures. Soar across continents into tales as old as time. Prowl through the pages to discover rare dragon species. Find clues to track them and master how to draw them. Behold the earthly dragons of today!",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9780744044959"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "0744044952"
+                }
+            ],
+            "readingModes": {
+                "text": true,
+                "image": true
+            },
+            "pageCount": 82,
+            "printType": "BOOK",
+            "categories": [
+                "Juvenile Fiction"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "1.6.5.0.preview.3",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=aKkQEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=aKkQEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=aKkQEAAAQBAJ&printsec=frontcover&dq=dragon&hl=&cd=7&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=aKkQEAAAQBAJ&dq=dragon&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Dragon_World.html?hl=&id=aKkQEAAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/Dragon_World-sample-epub.acsm?id=aKkQEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "pdf": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/Dragon_World-sample-pdf.acsm?id=aKkQEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=aKkQEAAAQBAJ&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "Dragons have breathed fire into our minds since we could first imagine, but why do they exist in stories from every land in the world? Come in and explore Dragon World."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "i1ygAwAAQBAJ",
+        "etag": "uLrtkrgzqKg",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/i1ygAwAAQBAJ",
+        "volumeInfo": {
+            "title": "Dragon Spear",
+            "authors": [
+                "Jessica Day George"
+            ],
+            "publisher": "Bloomsbury Publishing USA",
+            "publishedDate": "2010-09-14",
+            "description": "Creel's adventures continue when she, her brother, and her betrothed travel across the seas to visit their dragon friends and become involved in a battle against an alien group of dragons that has kidnapped Queen Velika, endangering her and her expected litter of hatchlings.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781599905167"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1599905167"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": true
+            },
+            "pageCount": 257,
+            "printType": "BOOK",
+            "categories": [
+                "Juvenile Fiction"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.132.1.0.preview.1",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=i1ygAwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=i1ygAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=i1ygAwAAQBAJ&printsec=frontcover&dq=dragon&hl=&cd=8&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=i1ygAwAAQBAJ&dq=dragon&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Dragon_Spear.html?hl=&id=i1ygAwAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/Dragon_Spear-sample-pdf.acsm?id=i1ygAwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=i1ygAwAAQBAJ&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "Creel&#39;s adventures continue when she, her brother, and her betrothed travel across the seas to visit their dragon friends and become involved in a battle against an alien group of dragons that has kidnapped Queen Velika, endangering her and ..."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "0bPnEAAAQBAJ",
+        "etag": "VzzeYgbD3zA",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/0bPnEAAAQBAJ",
+        "volumeInfo": {
+            "title": "Dragon Trials",
+            "authors": [
+                "Ava Richardson"
+            ],
+            "publisher": "Relay Publishing",
+            "description": "Soar above the skies in this dragon rider epic... Sebastian Smith isn't meant to be a dragon rider. His family ekes out a living at the bottom of Torvald society. But his luck finally changes when he’s chosen to train as a Dragon Rider at the prestigious Dragon Academy. Thrust into a world where he doesn’t fit in, Seb finds the connection with his dragon more powerful than he ever imagined. Soon, he’s doing all he can to succeed and not embarrass his new dragon partner, Thea. High-born Agathea Flamma intends to bring honor to her family by following in her brothers’ footsteps and taking her rightful place as a Dragon Rider. If she does not succeed, her only other option is marriage, and Thea will not accept failure. She’s not thrilled with her awkward, scruffy partner, Seb, but their dragon has chosen, and now the unlikely duo must learn to work as a team. When Seb hears rumors that an old danger is reemerging, he and Thea begin to investigate. Armed only with their determination and the dragon they both ride, Thea and Seb may be the only defense against the Darkening that threatens to sweep the land. Together, they will have to learn to work together to save their kingdom…or watch it fall and along with it their own dreams.",
+            "readingModes": {
+                "text": true,
+                "image": true
+            },
+            "pageCount": 279,
+            "printType": "BOOK",
+            "categories": [
+                "Fiction"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.1.1.0.preview.3",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=0bPnEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=0bPnEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=0bPnEAAAQBAJ&printsec=frontcover&dq=dragon&hl=&cd=9&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=0bPnEAAAQBAJ&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=0bPnEAAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+                "amount": 127728,
+                "currencyCode": "VND"
+            },
+            "retailPrice": {
+                "amount": 95796,
+                "currencyCode": "VND"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=0bPnEAAAQBAJ&rdid=book-0bPnEAAAQBAJ&rdot=1&source=gbs_api",
+            "offers": [
+                {
+                    "finskyOfferType": 1,
+                    "listPrice": {
+                        "amountInMicros": 127728000000,
+                        "currencyCode": "VND"
+                    },
+                    "retailPrice": {
+                        "amountInMicros": 95796000000,
+                        "currencyCode": "VND"
+                    }
+                }
+            ]
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/Dragon_Trials-sample-epub.acsm?id=0bPnEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "pdf": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/Dragon_Trials-sample-pdf.acsm?id=0bPnEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=0bPnEAAAQBAJ&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "Soar above the skies in this dragon rider epic."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "Y8XnEAAAQBAJ",
+        "etag": "tBBZlg/zsFE",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/Y8XnEAAAQBAJ",
+        "volumeInfo": {
+            "title": "Dragons of Wild",
+            "subtitle": "A YA Dragon Fantasy Adventure With A Unique Magic Spin",
+            "authors": [
+                "Ava Richardson"
+            ],
+            "publisher": "Relay Publishing",
+            "description": "In a time of darkness, unlikely heroes will rise. The once-peaceful kingdom of Torvald has been ravaged by evil magic, forcing Riders to forget their dragons and their noble beasts to flee to the wilds. Now, anyone who dares to speak of dragons is deemed insane and put to death. Into this dark and twisted land, Saffron was born sixteen years ago. Blessed with the gift of dragon affinity, she has been forced into a life of exile, secretly dreaming of a normal life and the family she lost. Scholarly and reclusive, Bower is the son of a noble house on the brink of destruction. His mission is to fulfill a mysterious prophecy and save his kingdom from the rule of the evil King Enric, but all he wants is to be left alone. When he meets Saffron, Bower gains a powerful ally—but her magic is too wild to control. Their friendship might just have the power to change the course of history, but when the Dark Mage King Enric makes Saffron a tempting offer, their alliance will be shaken to the core.",
+            "readingModes": {
+                "text": true,
+                "image": true
+            },
+            "pageCount": 294,
+            "printType": "BOOK",
+            "categories": [
+                "Fiction"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.1.1.0.preview.3",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=Y8XnEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=Y8XnEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=Y8XnEAAAQBAJ&printsec=frontcover&dq=dragon&hl=&cd=10&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=Y8XnEAAAQBAJ&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=Y8XnEAAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+                "amount": 127728,
+                "currencyCode": "VND"
+            },
+            "retailPrice": {
+                "amount": 95796,
+                "currencyCode": "VND"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=Y8XnEAAAQBAJ&rdid=book-Y8XnEAAAQBAJ&rdot=1&source=gbs_api",
+            "offers": [
+                {
+                    "finskyOfferType": 1,
+                    "listPrice": {
+                        "amountInMicros": 127728000000,
+                        "currencyCode": "VND"
+                    },
+                    "retailPrice": {
+                        "amountInMicros": 95796000000,
+                        "currencyCode": "VND"
+                    }
+                }
+            ]
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/Dragons_of_Wild-sample-epub.acsm?id=Y8XnEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "pdf": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/Dragons_of_Wild-sample-pdf.acsm?id=Y8XnEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=Y8XnEAAAQBAJ&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "In a time of darkness, unlikely heroes will rise."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "l9_kPfrp3o0C",
+        "etag": "qwjfXZHBWsk",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/l9_kPfrp3o0C",
+        "volumeInfo": {
+            "title": "Dragon Scales",
+            "subtitle": "Dragon World Trilogy Book One",
+            "authors": [
+                "Brendan Hudson"
+            ],
+            "publisher": "Xlibris Corporation",
+            "publishedDate": "2012-08-31",
+            "description": "Some doors should never be opened. So when Emily steps through a doorway into another world, she never considers the consequences. For Emily Sutton, being thirteen years old is difficult enough. Now she has dragons to contend with. A world of mystery and adventure is waiting for her to explore. But she quickly discovers there is a reason for her being there, and that some dragons are not happy about it. With lies clouding the truth and danger around every corner, Emily must fight to save the dragon world and herself. The only problem is - who can she trust?",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781477156650"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1477156658"
+                }
+            ],
+            "readingModes": {
+                "text": true,
+                "image": true
+            },
+            "pageCount": 335,
+            "printType": "BOOK",
+            "categories": [
+                "Fiction"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "1.2.3.0.preview.3",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=l9_kPfrp3o0C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=l9_kPfrp3o0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=l9_kPfrp3o0C&printsec=frontcover&dq=dragon&hl=&cd=11&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=l9_kPfrp3o0C&dq=dragon&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Dragon_Scales.html?hl=&id=l9_kPfrp3o0C"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/Dragon_Scales-sample-epub.acsm?id=l9_kPfrp3o0C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "pdf": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/Dragon_Scales-sample-pdf.acsm?id=l9_kPfrp3o0C&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=l9_kPfrp3o0C&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "Some doors should never be opened."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "OtLzDwAAQBAJ",
+        "etag": "eNSUcw5ZZgk",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/OtLzDwAAQBAJ",
+        "volumeInfo": {
+            "title": "Dragon Red",
+            "authors": [
+                "Shoo Rayner"
+            ],
+            "publisher": "Firefly Press",
+            "publishedDate": "2017-03-01",
+            "description": "Harri knows the two dragons, Tân and Draca, are not thriving locked up in the castle. When Ryan's dad steals his white dragon, and goes on the run, the police ask Harri and Tân to help find him. Harri knows he has to set Tân free. But what will happen with two dragons flying wild? Is Harri's destiny about to come true?",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781910080498"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1910080497"
+                }
+            ],
+            "readingModes": {
+                "text": true,
+                "image": true
+            },
+            "pageCount": 87,
+            "printType": "BOOK",
+            "categories": [
+                "Juvenile Fiction"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "1.3.3.0.preview.3",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=OtLzDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=OtLzDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=OtLzDwAAQBAJ&printsec=frontcover&dq=dragon&hl=&cd=12&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=OtLzDwAAQBAJ&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=OtLzDwAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+                "amount": 109477,
+                "currencyCode": "VND"
+            },
+            "retailPrice": {
+                "amount": 82108,
+                "currencyCode": "VND"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=OtLzDwAAQBAJ&rdid=book-OtLzDwAAQBAJ&rdot=1&source=gbs_api",
+            "offers": [
+                {
+                    "finskyOfferType": 1,
+                    "listPrice": {
+                        "amountInMicros": 109477000000,
+                        "currencyCode": "VND"
+                    },
+                    "retailPrice": {
+                        "amountInMicros": 82108000000,
+                        "currencyCode": "VND"
+                    }
+                }
+            ]
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/Dragon_Red-sample-epub.acsm?id=OtLzDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "pdf": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/Dragon_Red-sample-pdf.acsm?id=OtLzDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=OtLzDwAAQBAJ&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "Harri knows the two dragons, Tân and Draca, are not thriving locked up in the castle."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "SCRjHBvJsZwC",
+        "etag": "dTrPw9WttXQ",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/SCRjHBvJsZwC",
+        "volumeInfo": {
+            "title": "Touched By Venom",
+            "subtitle": "Book One of the Dragon Temple Saga",
+            "authors": [
+                "Janine Cross"
+            ],
+            "publisher": "Penguin",
+            "publishedDate": "2006-08-01",
+            "description": "Like her half-breed mother, young Zarq Darquel can’t always hold her tongue. A peasant on a large dragon estate, she goes unnoticed by the Temple of the Dragon—until she accidentally captures the attention of an eccentric and dangerous dragonmaster, unleashing a storm of tragedy. Her clan is plunged into destitution, her beautiful sister, Waivia, sold into slavery, and her mother lost to madness. Desperate to find Waivia, Zarq and her delirious mother flee through the underworld of their land. Consumed with the desire for revenge, Zarq develops a taste for the highly addictive venom of the dragons she has been taught to revere—and with this poison, she imbibes their memories and glimpses a plot for social revolution. But to achieve it, she must defy not just sexual taboos and patriarchal conventions, but the Emperor who rules her nation.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781101099902"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1101099909"
+                }
+            ],
+            "readingModes": {
+                "text": true,
+                "image": false
+            },
+            "pageCount": 384,
+            "printType": "BOOK",
+            "categories": [
+                "Fiction"
+            ],
+            "averageRating": 5,
+            "ratingsCount": 1,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": true,
+            "contentVersion": "0.3.4.0.preview.2",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=SCRjHBvJsZwC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=SCRjHBvJsZwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=SCRjHBvJsZwC&printsec=frontcover&dq=dragon&hl=&cd=13&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=SCRjHBvJsZwC&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=SCRjHBvJsZwC"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+                "amount": 213346,
+                "currencyCode": "VND"
+            },
+            "retailPrice": {
+                "amount": 145075,
+                "currencyCode": "VND"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=SCRjHBvJsZwC&rdid=book-SCRjHBvJsZwC&rdot=1&source=gbs_api",
+            "offers": [
+                {
+                    "finskyOfferType": 1,
+                    "listPrice": {
+                        "amountInMicros": 213346000000,
+                        "currencyCode": "VND"
+                    },
+                    "retailPrice": {
+                        "amountInMicros": 145075000000,
+                        "currencyCode": "VND"
+                    }
+                }
+            ]
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/Touched_By_Venom-sample-epub.acsm?id=SCRjHBvJsZwC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=SCRjHBvJsZwC&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "Like her half-breed mother, young Zarq Darquel can’t always hold her tongue."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "2LVrDwAAQBAJ",
+        "etag": "BVgiNVyIwQ4",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/2LVrDwAAQBAJ",
+        "volumeInfo": {
+            "title": "Spine of the Dragon",
+            "subtitle": "Wake the Dragon #1",
+            "authors": [
+                "Kevin J. Anderson"
+            ],
+            "publisher": "Tor Books",
+            "publishedDate": "2019-06-04",
+            "description": "New York Times bestselling author Kevin J. Anderson triumphantly returns to epic fantasy with the Wake the Dragon series. Spine of the Dragon is a politically charged adventure of swords, sorcery, vengeance, and the rise of sleeping giants. Two continents at war, the Three Kingdoms and Ishara, are divided by past bloodshed. When an outside threat arises—the reawakening of a powerful ancient race that wants to remake the world—the two warring nations must somehow set aside generational hatreds and form an alliance to fight their true enemy. At the Publisher's request, this title is being sold without Digital Rights Management Software (DRM) applied.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781250302113"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1250302110"
+                }
+            ],
+            "readingModes": {
+                "text": true,
+                "image": false
+            },
+            "pageCount": 512,
+            "printType": "BOOK",
+            "categories": [
+                "Fiction"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": true,
+            "contentVersion": "1.3.3.0.preview.2",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=2LVrDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=2LVrDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=2LVrDwAAQBAJ&printsec=frontcover&dq=dragon&hl=&cd=14&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=2LVrDwAAQBAJ&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=2LVrDwAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+                "amount": 358003,
+                "currencyCode": "VND"
+            },
+            "retailPrice": {
+                "amount": 243442,
+                "currencyCode": "VND"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=2LVrDwAAQBAJ&rdid=book-2LVrDwAAQBAJ&rdot=1&source=gbs_api",
+            "offers": [
+                {
+                    "finskyOfferType": 1,
+                    "listPrice": {
+                        "amountInMicros": 358003000000,
+                        "currencyCode": "VND"
+                    },
+                    "retailPrice": {
+                        "amountInMicros": 243442000000,
+                        "currencyCode": "VND"
+                    }
+                }
+            ]
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": true
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=2LVrDwAAQBAJ&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "New York Times bestselling author Kevin J. Anderson triumphantly returns to epic fantasy with the Wake the Dragon series. Spine of the Dragon is a politically charged adventure of swords, sorcery, vengeance, and the rise of sleeping giants."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "unCjKrHbWTMC",
+        "etag": "p07sGwYilM0",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/unCjKrHbWTMC",
+        "volumeInfo": {
+            "title": "The Year of the Dragon",
+            "subtitle": "Tales from the Chinese Zodiac",
+            "authors": [
+                "Oliver Chin"
+            ],
+            "publisher": "Immedium",
+            "publishedDate": "2011-12",
+            "description": "Dominic the dragon befriends a boy named Bo as well as the other eleven animals of the Chinese lunar calendar and helps them enter the annual village boat race. Lists the birth years and characteristics of individuals born in the Chinese Year of the Dragon.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781597020282"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1597020281"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": true
+            },
+            "pageCount": 40,
+            "printType": "BOOK",
+            "categories": [
+                "Juvenile Fiction"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": true,
+            "contentVersion": "preview-1.0.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=unCjKrHbWTMC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=unCjKrHbWTMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=unCjKrHbWTMC&printsec=frontcover&dq=dragon&hl=&cd=15&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=unCjKrHbWTMC&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=unCjKrHbWTMC"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+                "amount": 127701,
+                "currencyCode": "VND"
+            },
+            "retailPrice": {
+                "amount": 95776,
+                "currencyCode": "VND"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=unCjKrHbWTMC&rdid=book-unCjKrHbWTMC&rdot=1&source=gbs_api",
+            "offers": [
+                {
+                    "finskyOfferType": 1,
+                    "listPrice": {
+                        "amountInMicros": 127701000000,
+                        "currencyCode": "VND"
+                    },
+                    "retailPrice": {
+                        "amountInMicros": 95776000000,
+                        "currencyCode": "VND"
+                    }
+                }
+            ]
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": true
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=unCjKrHbWTMC&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "Kids will also have fun spotting all of the animals from the Chinese zodiac hiding in the pages of the book.&quot;-- Paper Tigers The amusing tales of your favorite animals continue in The Year of the Dragon!"
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "0Jt6UX7G8e4C",
+        "etag": "cgmiHE9eYRY",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/0Jt6UX7G8e4C",
+        "volumeInfo": {
+            "title": "The Dragon Society",
+            "authors": [
+                "Lawrence Watt-Evans"
+            ],
+            "publisher": "Tor Books",
+            "publishedDate": "2003-03-14",
+            "description": "It all began with Dragon Weather: a wave of incredible heat, oppressive humidity, dark angry clouds . . . and dragons. Dragons with no remorse, no sympathy, and no use for humans. Dragons who destroyed an entire village and everyone in it. Everyone, that is, except the young boy Arlian. Orphaned and alone, Arlian was captured by looters and sold as a mining slave. Seven years later he escaped, fueled by years of hatred for the dragons, bandits, and slavers who took away his youth-and a personal vow to exact retribution from all those who have wronged him, including the powerful Lord Enziet Arlian's entire life has one purpose, and one purpose only: to mete out justice. And in the climactic battle of Dragon Weather Lord Enziet fell to this justice. In The Dragon Society Arlian returns to Manfort, the city that is home to The Dragon Society, whose sworn purpose is to stand against the dragon menace, and whose foremost member had been Lord Enziet. Arlian must immediately deal with the consequences of Enziet's death. But what he finds is shocking, for the doomed Enziet believes that Arlian might well be the best hope humanity will ever have for defeating the dragons . . . permanently. At the Publisher's request, this title is being sold without Digital Rights Management Software (DRM) applied.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781466840416"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1466840412"
+                }
+            ],
+            "readingModes": {
+                "text": true,
+                "image": false
+            },
+            "pageCount": 450,
+            "printType": "BOOK",
+            "categories": [
+                "Fiction"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": true,
+            "contentVersion": "3.3.4.0.preview.2",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=0Jt6UX7G8e4C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=0Jt6UX7G8e4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=0Jt6UX7G8e4C&printsec=frontcover&dq=dragon&hl=&cd=16&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=0Jt6UX7G8e4C&dq=dragon&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/The_Dragon_Society.html?hl=&id=0Jt6UX7G8e4C"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": true
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=0Jt6UX7G8e4C&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "In The Dragon Society Arlian returns to Manfort, the city that is home to The Dragon Society, whose sworn purpose is to stand against the dragon menace, and whose foremost member had been Lord Enziet."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "-f1h9dFVuKEC",
+        "etag": "NUSXUGhRV8o",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/-f1h9dFVuKEC",
+        "volumeInfo": {
+            "title": "Dragon Swirl",
+            "subtitle": "Book II",
+            "authors": [
+                "Lucinda Sibille"
+            ],
+            "publisher": "AuthorHouse",
+            "publishedDate": "2009-08",
+            "description": "CRACK WOOOOOSH POP - those are the sounds that introduce you to the realm of dragons. The entrance of a human baby into a gathering of dragons sets off a chain of events that leads to the dragons \"Coming Out\" to present themselves to humans in a way they have never done before. Read the stories of 13 dragons and see their special portraits. Follow them as they learn to use their gifts and sometimes get into lots of trouble when they decide to take short cuts or listen to the advice of a very precocious human baby who, by the way, has dragon blood running through his veins. Did you know that some humans have dragon blood running through their veins? Would you like to find out why? Open these pages and follow the adventures of the dragons and Lucas as they wend their way through the trials and tribulations of growing up. You will also be introduced to some of the special gifts that dragons have that they put to good use. Maybe you can learn those gifts too or find out that perhaps you already know how to use them. This book is especially for those who know how to believe.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781449010577"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1449010571"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": true
+            },
+            "pageCount": 30,
+            "printType": "BOOK",
+            "categories": [
+                "Fiction"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "1.3.2.0.preview.1",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=-f1h9dFVuKEC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=-f1h9dFVuKEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=-f1h9dFVuKEC&printsec=frontcover&dq=dragon&hl=&cd=17&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=-f1h9dFVuKEC&dq=dragon&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Dragon_Swirl.html?hl=&id=-f1h9dFVuKEC"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/Dragon_Swirl-sample-pdf.acsm?id=-f1h9dFVuKEC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=-f1h9dFVuKEC&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "Maybe you can learn those gifts too or find out that perhaps you already know how to use them. This book is especially for those who know how to believe."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "af76DwAAQBAJ",
+        "etag": "ZVy/9fI9Hng",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/af76DwAAQBAJ",
+        "volumeInfo": {
+            "title": "The Dragon Path: A Graphic Novel",
+            "authors": [
+                "Ethan Young"
+            ],
+            "publisher": "Scholastic Inc.",
+            "publishedDate": "2021-05-18",
+            "description": "In this action-adventure fantasy, young Prince Sing must overcome monstrous obstacles to help his clan return to their homeland. The Wong Clan must leave their ruined homeland for a better life in the mythical Old Land, but to get there they must follow the dragon path, where their sworn enemies, the Dragon Tribe, rule. During a surprise attack, Prince Sing is separated from his clan. With the help of Ming, a powerful mystic from the Old Land, and Midnight, a monstrous warrior beast, Prince Sing must do all he can to save both his family and the Dragon Tribe from mutual destruction.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781338746518"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1338746510"
+                }
+            ],
+            "readingModes": {
+                "text": true,
+                "image": true
+            },
+            "pageCount": 210,
+            "printType": "BOOK",
+            "categories": [
+                "Juvenile Fiction"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "1.7.5.0.preview.3",
+            "panelizationSummary": {
+                "containsEpubBubbles": true,
+                "containsImageBubbles": true,
+                "epubBubbleVersion": "80a1712bc1d6a2e8_A",
+                "imageBubbleVersion": "80a1712bc1d6a2e8_A"
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=af76DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=af76DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=af76DwAAQBAJ&printsec=frontcover&dq=dragon&hl=&cd=19&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=af76DwAAQBAJ&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=af76DwAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+                "amount": 332414,
+                "currencyCode": "VND"
+            },
+            "retailPrice": {
+                "amount": 226042,
+                "currencyCode": "VND"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=af76DwAAQBAJ&rdid=book-af76DwAAQBAJ&rdot=1&source=gbs_api",
+            "offers": [
+                {
+                    "finskyOfferType": 1,
+                    "listPrice": {
+                        "amountInMicros": 332414000000,
+                        "currencyCode": "VND"
+                    },
+                    "retailPrice": {
+                        "amountInMicros": 226042000000,
+                        "currencyCode": "VND"
+                    }
+                }
+            ]
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/The_Dragon_Path_A_Graphic_Novel-sample-epub.acsm?id=af76DwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "pdf": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/The_Dragon_Path_A_Graphic_Novel-sample-pdf.acsm?id=af76DwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=af76DwAAQBAJ&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "In this action-adventure fantasy, young Prince Sing must overcome monstrous obstacles to help his clan return to their homeland."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "brPSEAAAQBAJ",
+        "etag": "I2nYFZt74TI",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/brPSEAAAQBAJ",
+        "volumeInfo": {
+            "title": "Dragon's Curse",
+            "authors": [
+                "Sean Fletcher"
+            ],
+            "publisher": "Epic World Publishing",
+            "description": "The Slayers were once her biggest threat, but an even greater evil awaits… Kaylee may have survived the Slayers’ first attack on her life, but now the group dedicated to wiping out all dragon-kin is seeking an ancient relic far deadlier than any before: The Book of Kells. And not the Book Kaylee and the rest of the world knows. If the Slayers get their hands on this one, it won’t just be the end of Kaylee, but all dragon-kin. But even while the Slayer threat grows, a dangerous stranger from Kaylee’s past has arrived to mentor her unstable storm magic with methods that push Kaylee to her limits. Even with her relationship to Edwin growing, the emergence of deadly secrets close to home threaten to tear her friends and family apart. Soon, this could be a war on all sides. A war she might not win. Dragon’s Curse is the second book in the complete YA fantasy Heir of Dragons series. If you like snarky, fast-paced fantasies full of dragon shifters, twisting mysteries, and a slow-burn romance, this series is for you!",
+            "readingModes": {
+                "text": true,
+                "image": true
+            },
+            "pageCount": 294,
+            "printType": "BOOK",
+            "categories": [
+                "Young Adult Fiction"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": true,
+            "contentVersion": "1.3.2.0.preview.3",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=brPSEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=brPSEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=brPSEAAAQBAJ&pg=PT290&dq=dragon&hl=&cd=20&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=brPSEAAAQBAJ&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=brPSEAAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+                "amount": 127657,
+                "currencyCode": "VND"
+            },
+            "retailPrice": {
+                "amount": 95743,
+                "currencyCode": "VND"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=brPSEAAAQBAJ&rdid=book-brPSEAAAQBAJ&rdot=1&source=gbs_api",
+            "offers": [
+                {
+                    "finskyOfferType": 1,
+                    "listPrice": {
+                        "amountInMicros": 127657000000,
+                        "currencyCode": "VND"
+                    },
+                    "retailPrice": {
+                        "amountInMicros": 95743000000,
+                        "currencyCode": "VND"
+                    }
+                }
+            ]
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": true
+            },
+            "pdf": {
+                "isAvailable": true
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=brPSEAAAQBAJ&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "... <b>Dragon</b> Series <b>Dragon</b> Born <b>Dragon</b> Lost <b>Dragon</b> Unleashed <b>Dragon</b> Blood The Heir of <b>Dragons</b> Series: <b>Dragon&#39;s</b> Awakening <b>Dragon&#39;s</b> Curse <b>Dragon&#39;s</b> Bane <b>Dragon&#39;s</b> Fate Paranormal Outcasts Series: Elemental Outcast Elemental Trial Elemental Queen&nbsp;..."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "GEwuBQAAQBAJ",
+        "etag": "Xu18nsonsgA",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/GEwuBQAAQBAJ",
+        "volumeInfo": {
+            "title": "The Scarlet Dragon",
+            "authors": [
+                "Jordan Quinn"
+            ],
+            "publisher": "Simon and Schuster",
+            "publishedDate": "2014-04",
+            "description": "A newly-hatched, rare scarlet dragon comes under the special protection of the King and Prince Lucas, so when the dragon becomes ill Lucas and Clara set out for the forest of Burth to find the vixberries needed for a cure.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781442496934"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1442496932"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 128,
+            "printType": "BOOK",
+            "categories": [
+                "Juvenile Fiction"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.2.2.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=GEwuBQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=GEwuBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=GEwuBQAAQBAJ&printsec=frontcover&dq=dragon&hl=&cd=21&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=GEwuBQAAQBAJ&dq=dragon&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/The_Scarlet_Dragon.html?hl=&id=GEwuBQAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=GEwuBQAAQBAJ&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "A newly-hatched, rare scarlet dragon comes under the special protection of the King and Prince Lucas, so when the dragon becomes ill Lucas and Clara set out for the forest of Burth to find the vixberries needed for a cure."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "MXI5AQAAQBAJ",
+        "etag": "3X9n2JVI5dc",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/MXI5AQAAQBAJ",
+        "volumeInfo": {
+            "title": "A Dragon-Lover's Treasury of the Fantastic",
+            "authors": [
+                "Margaret Weis"
+            ],
+            "publisher": "Hachette UK",
+            "publishedDate": "2008-12-21",
+            "description": "Dragons are monsters, mages, heroes, horrors. Dragons thrill our dreams and haunt our legends. Now Margaret Weis, coauthor of the New York Times bestselling Dragonlance and Death Gate series, author of the Star of the Guardians series, and one of the world's leading dragonists and dracophiles, gathers the greatest classic dragon stories of our time, written by the winners of every award in the fields of fantasy and science fiction. Book jacket.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9780446555173"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "0446555177"
+                }
+            ],
+            "readingModes": {
+                "text": true,
+                "image": false
+            },
+            "pageCount": 432,
+            "printType": "BOOK",
+            "categories": [
+                "Fiction"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": true,
+            "contentVersion": "1.5.7.0.preview.2",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=MXI5AQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=MXI5AQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=MXI5AQAAQBAJ&printsec=frontcover&dq=dragon&hl=&cd=22&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=MXI5AQAAQBAJ&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=MXI5AQAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+                "amount": 51189,
+                "currencyCode": "VND"
+            },
+            "retailPrice": {
+                "amount": 51189,
+                "currencyCode": "VND"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=MXI5AQAAQBAJ&rdid=book-MXI5AQAAQBAJ&rdot=1&source=gbs_api",
+            "offers": [
+                {
+                    "finskyOfferType": 1,
+                    "listPrice": {
+                        "amountInMicros": 51189000000,
+                        "currencyCode": "VND"
+                    },
+                    "retailPrice": {
+                        "amountInMicros": 51189000000,
+                        "currencyCode": "VND"
+                    }
+                }
+            ]
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/A_Dragon_Lover_s_Treasury_of_the_Fantast-sample-epub.acsm?id=MXI5AQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=MXI5AQAAQBAJ&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "Now Margaret Weis, coauthor of the New York Times bestselling Dragonlance and Death Gate series, author of the Star of the Guardians series, and one of the world&#39;s leading dragonists and dracophiles, gathers the greatest classic dragon ..."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "iTAGEAAAQBAJ",
+        "etag": "Flih052R7rk",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/iTAGEAAAQBAJ",
+        "volumeInfo": {
+            "title": "The Dragon's Reign",
+            "authors": [
+                "Tim Mullins"
+            ],
+            "publisher": "Tim Mullins",
+            "publishedDate": "2020-08-14",
+            "description": "Nothing felt overly exciting for twenty-four-year-old Blake. His career as a courier driver was hardly something to brag about and although he raced cars on the weekend, life seemed to have slowed to a crawl. For his housemate and best friend James, however, life was peachy; he was about to ask out the girl of his dreams and was entering his final year at university. Social media sensation Emma Riley was living her best life: her following was booming, her sponsors were calling, and people just could not get enough of her. If only her father, Thomas, could get off her back once in a while. Will was ready for the next big step. The restaurant was booked, the evening was planned, and the diamond ring was perfect. All he hoped now was that Lila, his girlfriend of four years, would say yes. But after a mysterious fire-breathing creature leaves the Australian city of the Gold Coast in ruins, this group of strangers are forced to leave their old lives behind and band together in a fight for survival. With no way to communicate with the outside world and no help in sight, a greater mystery begins to unfold around them. What is the monster that attacked the city? Where did it come from? Is our reign, our way of life, really over? Is the dragon’s reign about to begin?",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781922460189"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1922460184"
+                }
+            ],
+            "readingModes": {
+                "text": true,
+                "image": true
+            },
+            "pageCount": 514,
+            "printType": "BOOK",
+            "categories": [
+                "Fiction"
+            ],
+            "maturityRating": "MATURE",
+            "allowAnonLogging": true,
+            "contentVersion": "1.2.2.0.preview.3",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=iTAGEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=iTAGEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=iTAGEAAAQBAJ&pg=PA393&dq=dragon&hl=&cd=24&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=iTAGEAAAQBAJ&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=iTAGEAAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+                "amount": 196245,
+                "currencyCode": "VND"
+            },
+            "retailPrice": {
+                "amount": 147184,
+                "currencyCode": "VND"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=iTAGEAAAQBAJ&rdid=book-iTAGEAAAQBAJ&rdot=1&source=gbs_api",
+            "offers": [
+                {
+                    "finskyOfferType": 1,
+                    "listPrice": {
+                        "amountInMicros": 196245000000,
+                        "currencyCode": "VND"
+                    },
+                    "retailPrice": {
+                        "amountInMicros": 147184000000,
+                        "currencyCode": "VND"
+                    }
+                }
+            ]
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/The_Dragon_s_Reign-sample-epub.acsm?id=iTAGEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "pdf": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/The_Dragon_s_Reign-sample-pdf.acsm?id=iTAGEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=iTAGEAAAQBAJ&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "... <b>dragon</b>. Gentlemen, we believe that this monster here may be the very creature from which all <b>dragon</b> mythology in Europe originated.” “It&#39;s more of a sandy white, really. Some parts are grey,” the colonel muttered. “Well, thank you&nbsp;..."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "GkAlDQAAQBAJ",
+        "etag": "OGuhLdR7HqA",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/GkAlDQAAQBAJ",
+        "volumeInfo": {
+            "title": "Cured by the Dragon",
+            "authors": [
+                "Jessie Donovan"
+            ],
+            "publisher": "Jessie Donovan",
+            "publishedDate": "2016-10-06",
+            "description": "STONEFIRE DRAGONS #8 Dr. Cassidy “Sid” Jackson’s inner dragon went silent over twenty years ago. Ever since, she’s battled episodes that have tested her sanity. Aware she doesn’t have much time left, she prepares for a new doctor to come to Stonefire and take her place. However, before the new doctor arrives, Sid is attacked. Dr. Gregor Innes lost his mate and son in childbirth over a decade ago and dedicates his life to ensuring his clan remains healthy. His dedication was renewed after meeting a certain dragonwoman doctor a few months ago. There is no way he will take another mate and risk her life. He’s determined to keep his distance. When Stonefire asks for assistance, Gregor has no choice but to see the female his dragon wants. Attraction builds, but Gregor and Sid both hold back. Will they find a way to overcome their obstacles to be together? Or will forces tear them apart? Keywords: dragons, dragon shifter, paranormal romance, shapeshifter, Scottish hero, second chance romance, humor, strong heroine, UK, tattooed hero, suspense, Stonefire Dragons, fated mates, doctor romance",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781942211396"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1942211392"
+                }
+            ],
+            "readingModes": {
+                "text": true,
+                "image": true
+            },
+            "pageCount": 270,
+            "printType": "BOOK",
+            "categories": [
+                "Fiction"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": true,
+            "contentVersion": "1.6.7.0.preview.3",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=GkAlDQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=GkAlDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=GkAlDQAAQBAJ&printsec=frontcover&dq=dragon&hl=&cd=25&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=GkAlDQAAQBAJ&dq=dragon&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Cured_by_the_Dragon.html?hl=&id=GkAlDQAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/Cured_by_the_Dragon-sample-epub.acsm?id=GkAlDQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "pdf": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/Cured_by_the_Dragon-sample-pdf.acsm?id=GkAlDQAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=GkAlDQAAQBAJ&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "STONEFIRE DRAGONS #8 Dr. Cassidy “Sid” Jackson’s inner dragon went silent over twenty years ago."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "-xgZEAAAQBAJ",
+        "etag": "/oasGbXonfw",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/-xgZEAAAQBAJ",
+        "volumeInfo": {
+            "title": "Dragon's Riddle",
+            "authors": [
+                "Cari Buziak"
+            ],
+            "publisher": "Lil' Llama Press",
+            "publishedDate": "2021-01-18",
+            "description": "A FORBIDDEN HALFBREED In a world where Dragons can take human form, mixing bloodlines can have disastrous consequences. Escaping the tomb her parents left her in, Wren must now live in hiding, fearing her predicted powers will one day emerge and wreak the evil her parents foresaw. When a storm brings a wounded warrior to her door, she is forced to leave her haven to aid him in his mission. Keeran, wielder of Blood Sense magic. As the kingdom’s spymaster, he will stop at nothing to complete his mission and unearth the truth. Who is behind the attacks on the Temples? Why are the kingdom’s children disappearing, and why are the few found nothing more than mindless, drooling shells? When a devastating event reveals that Wren’s powers are finally emerging, she must fight her destiny to retain her sanity and her soul. Only together will they save the children and the kingdom. If they don’t kill each other first. Dragon’s Riddle introduces fantasy fans to a world filled with peril, magic, and intrigue in this first installment of the Eldrake Chronicles. Adult fantasy with a light amount of enemies-to-lovers romance. No graphic sex or violence, suitable for older YA and NA audiences as well.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9780993847127"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "0993847129"
+                }
+            ],
+            "readingModes": {
+                "text": true,
+                "image": true
+            },
+            "pageCount": 242,
+            "printType": "BOOK",
+            "categories": [
+                "Fiction"
+            ],
+            "maturityRating": "MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "1.2.3.0.preview.3",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=-xgZEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=-xgZEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=-xgZEAAAQBAJ&pg=PP1&dq=dragon&hl=&cd=27&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=-xgZEAAAQBAJ&dq=dragon&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Dragon_s_Riddle.html?hl=&id=-xgZEAAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/Dragon_s_Riddle-sample-epub.acsm?id=-xgZEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "pdf": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/Dragon_s_Riddle-sample-pdf.acsm?id=-xgZEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=-xgZEAAAQBAJ&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "Cari Buziak. <b>Dragon&#39;s</b>. Riddle. All rights reserved. No part of this publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic, mechanical, recording or otherwise, without the prior&nbsp;..."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "1YAJEAAAQBAJ",
+        "etag": "c96nv7XWk8k",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/1YAJEAAAQBAJ",
+        "volumeInfo": {
+            "title": "Quinn the Jade Treasure Dragon (Dragon Girls #6)",
+            "authors": [
+                "Maddy Mara"
+            ],
+            "publisher": "Scholastic Inc.",
+            "publishedDate": "2021-11-02",
+            "description": "A super collectible series that celebrates the inner fire of everyday girls! Mei, Aisha, and Quinn are Treasure Dragon Girls. They draw on the power of precious gems to transform into mighty dragons. Tasked with keeping the the Magic Forest safe from harm, the Treasure Dragon Grls must come together as a team, embrace their clawsome new abilities, and save the day. Quinn's dragon powers are uniquely suited to help her find the last remaining item that the Shadow Sprites have taken from the Tree Queen: the Magic Mirror. The Shadow Sprites are growing stronger by the hour, but Quinn isn't worried. She is ready to fight back -- with the other Treasure Dragons at her side.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781338743616"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1338743619"
+                }
+            ],
+            "readingModes": {
+                "text": true,
+                "image": true
+            },
+            "pageCount": 77,
+            "printType": "BOOK",
+            "categories": [
+                "Juvenile Fiction"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": true,
+            "contentVersion": "1.1.1.0.preview.3",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=1YAJEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=1YAJEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=1YAJEAAAQBAJ&printsec=frontcover&dq=dragon&hl=&cd=28&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=1YAJEAAAQBAJ&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=1YAJEAAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+                "amount": 153290,
+                "currencyCode": "VND"
+            },
+            "retailPrice": {
+                "amount": 114968,
+                "currencyCode": "VND"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=1YAJEAAAQBAJ&rdid=book-1YAJEAAAQBAJ&rdot=1&source=gbs_api",
+            "offers": [
+                {
+                    "finskyOfferType": 1,
+                    "listPrice": {
+                        "amountInMicros": 153290000000,
+                        "currencyCode": "VND"
+                    },
+                    "retailPrice": {
+                        "amountInMicros": 114968000000,
+                        "currencyCode": "VND"
+                    }
+                }
+            ]
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/Quinn_the_Jade_Treasure_Dragon_Dragon_Gi-sample-epub.acsm?id=1YAJEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "pdf": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/Quinn_the_Jade_Treasure_Dragon_Dragon_Gi-sample-pdf.acsm?id=1YAJEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=1YAJEAAAQBAJ&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "A super collectible series that celebrates the inner fire of everyday girls!"
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "Z0rVCQAAQBAJ",
+        "etag": "+GBUyyUhrBg",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/Z0rVCQAAQBAJ",
+        "volumeInfo": {
+            "title": "How to Build a Dragon Fort",
+            "subtitle": "with audio recording",
+            "publisher": "Simon and Schuster",
+            "publishedDate": "2016-02-23",
+            "description": "Join Hiccup and the rest of the Dragon Riders as they build a dragon fort in this Level 2 Ready-to-Read based on a popular episode of DreamWorks Dragons: Race to the Edge! Hiccup and the other Dragon Riders think they have finally found the perfect place to build their dragon fort. There’s only one problem: there are wild dragons living there! Will Hiccup and his friends be able to come up with a solution—or will the hunt for the perfect spot for a dragon fort continue? DreamWorks Dragons © 2016 DreamWorks Animation LLC. All Rights Reserved.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781481452175"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1481452177"
+                }
+            ],
+            "readingModes": {
+                "text": true,
+                "image": true
+            },
+            "pageCount": 38,
+            "printType": "BOOK",
+            "categories": [
+                "Juvenile Fiction"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": true,
+            "contentVersion": "1.11.8.0.preview.3",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=Z0rVCQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=Z0rVCQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=Z0rVCQAAQBAJ&printsec=frontcover&dq=dragon&hl=&cd=29&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=Z0rVCQAAQBAJ&dq=dragon&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/How_to_Build_a_Dragon_Fort.html?hl=&id=Z0rVCQAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+            "epub": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/How_to_Build_a_Dragon_Fort-sample-epub.acsm?id=Z0rVCQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "pdf": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/How_to_Build_a_Dragon_Fort-sample-pdf.acsm?id=Z0rVCQAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=Z0rVCQAAQBAJ&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "Will Hiccup and his friends be able to come up with a solution—or will the hunt for the perfect spot for a dragon fort continue? DreamWorks Dragons © 2016 DreamWorks Animation LLC. All Rights Reserved."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "ySCjAgAAQBAJ",
+        "etag": "E/6OSO0tyRk",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/ySCjAgAAQBAJ",
+        "volumeInfo": {
+            "title": "The Story of Owen",
+            "subtitle": "Dragon Slayer of Trondheim",
+            "authors": [
+                "E. K. Johnston"
+            ],
+            "publisher": "Carolrhoda Lab ?",
+            "publishedDate": "2014-03-01",
+            "description": "Listen! For I sing of Owen Thorskard: valiant of heart, hopeless at algebra, last in a long line of legendary dragon slayers. Though he had few years and was not built for football, he stood between the town of Trondheim and creatures that threatened its survival. There have always been dragons. As far back as history is told, men and women have fought them, loyally defending their villages. Dragon slaying was a proud tradition. But dragons and humans have one thing in common: an insatiable appetite for fossil fuels. From the moment Henry Ford hired his first dragon slayer, no small town was safe. Dragon slayers flocked to cities, leaving more remote areas unprotected. Such was Trondheim's fate until Owen Thorskard arrived. At sixteen, with dragons advancing and his grades plummeting, Owen faced impossible odds?armed only with a sword, his legacy, and the classmate who agreed to be his bard. Listen! I am Siobhan McQuaid. I alone know the story of Owen, the story that changes everything. Listen!",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781467710664"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1467710660"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": true
+            },
+            "pageCount": 316,
+            "printType": "BOOK",
+            "categories": [
+                "Juvenile Fiction"
+            ],
+            "averageRating": 5,
+            "ratingsCount": 1,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.3.1.0.preview.1",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=ySCjAgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=ySCjAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=ySCjAgAAQBAJ&printsec=frontcover&dq=dragon&hl=&cd=30&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=ySCjAgAAQBAJ&dq=dragon&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/The_Story_of_Owen.html?hl=&id=ySCjAgAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/The_Story_of_Owen-sample-pdf.acsm?id=ySCjAgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=ySCjAgAAQBAJ&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "Listen! I am Siobhan McQuaid. I alone know the story of Owen, the story that changes everything. Listen!"
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "AjiTd_dwaPcC",
+        "etag": "UCXtnwcjQIs",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/AjiTd_dwaPcC",
+        "volumeInfo": {
+            "title": "Marin and the Dragon's Golden Treasure",
+            "subtitle": "A Lesson in Trading with Dragons",
+            "authors": [
+                "E Bonadio"
+            ],
+            "publisher": "iUniverse",
+            "publishedDate": "2006-07",
+            "description": "Marin's village is being held for ransom. Only a dragon's gold can prevent them from being destroyed. Marin is just a young boy, but he is the only one with the courage to save his family and their village. Armed with his wit and a dose of courage, Marin makes the trip up the mountain and into the dragon's lair. Facing his fears, Marin devises a plan to trade with the mighty beast. The dragon is not amused but listens to the boy's request for help. With an offer that the dragon cannot refuse, Marin saves his village and comes to understand that fair trade with a dragon can be very profitable.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9780595396566"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "0595396569"
+                }
+            ],
+            "readingModes": {
+                "text": true,
+                "image": true
+            },
+            "pageCount": 58,
+            "printType": "BOOK",
+            "categories": [
+                "Juvenile Fiction"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.0.1.0.preview.3",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=AjiTd_dwaPcC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=AjiTd_dwaPcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=AjiTd_dwaPcC&printsec=frontcover&dq=dragon&hl=&cd=32&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=AjiTd_dwaPcC&dq=dragon&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Marin_and_the_Dragon_s_Golden_Treasure.html?hl=&id=AjiTd_dwaPcC"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/Marin_and_the_Dragon_s_Golden_Treasure-sample-epub.acsm?id=AjiTd_dwaPcC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "pdf": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/Marin_and_the_Dragon_s_Golden_Treasure-sample-pdf.acsm?id=AjiTd_dwaPcC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=AjiTd_dwaPcC&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "Marin&#39;s village is being held for ransom."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "YJ2mDgAAQBAJ",
+        "etag": "Ru4YjQAUWag",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/YJ2mDgAAQBAJ",
+        "volumeInfo": {
+            "title": "Through The Dragon's Gate",
+            "subtitle": "Memories of a Hong Kong Childhood",
+            "authors": [
+                "Jean O'Hara"
+            ],
+            "publisher": "Mereo Books, mereobook, mereobooks",
+            "publishedDate": "2017-03-20",
+            "description": "Jean O'Hara is now a prominent psychiatrist in London, but she grew up in a humble tenement flat in Hong Kong in the 1960s, the daughter of an Anglo- Burmese librarian (later a senior civil servant) and his Chinese wife. Her childhood was a simple one, sleeping on a straw mat in a tiny bedroom which she at first shared with both her grandmother and sister. As Jean grew up she developed a fascination for medicine and moved to the UK to attend medical school, eventually becoming a consultant psychiatrist. This book is her account of a childhood steeped in the culture of China, and first steps in a career in medicine. Central to the story is the character of Jean's Chinese grandmother, a charismatic matriarch who gave her a rich understanding of Chinese culture and an oriental outlook which has never left her.ÿ",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781861517388"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1861517386"
+                }
+            ],
+            "readingModes": {
+                "text": true,
+                "image": true
+            },
+            "pageCount": 244,
+            "printType": "BOOK",
+            "categories": [
+                "Biography & Autobiography"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.0.1.0.preview.3",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=YJ2mDgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=YJ2mDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=YJ2mDgAAQBAJ&pg=PT110&dq=dragon&hl=&cd=34&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=YJ2mDgAAQBAJ&dq=dragon&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Through_The_Dragon_s_Gate.html?hl=&id=YJ2mDgAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/Through_The_Dragon_s_Gate-sample-epub.acsm?id=YJ2mDgAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "pdf": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/Through_The_Dragon_s_Gate-sample-pdf.acsm?id=YJ2mDgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=YJ2mDgAAQBAJ&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "... I have vivid memories of my petite grandmother waiting for us at the mouth of the cave, a rope at the ready, to haul us out should we need a helping hand. Hong Kong (&#39;Heung Gong&#39; in Cantonese) means &#39;fragrant harbour&#39;, and The <b>Dragon&#39;s</b>&nbsp;..."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "d6CK9Eb2XDIC",
+        "etag": "mnScq+wGJSs",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/d6CK9Eb2XDIC",
+        "volumeInfo": {
+            "title": "Bones of the Dragon",
+            "subtitle": "A Dragonships of Vindras Novel",
+            "authors": [
+                "Margaret Weis",
+                "Tracy Hickman"
+            ],
+            "publisher": "Macmillan",
+            "publishedDate": "2009-01-06",
+            "description": "Filled with heroes and heroines and spanning locales of exotic adventure in a magic-forged world, the Dragonships of Vindras series fully illustrates the mastery of world-building and storytelling that has made Weis and Hickman into the bestselling fantasy co-authors of all time. In Bones of the Dragon, Skylan Ivorson is a sea-raider of the Vindras and eventually becomes the Chief of Chiefs of all Vindras clans, an honor he truly feels he deserves as one who has been blessed by Skoval, the god of war. But sometimes a blessing is a curse in disguise. Skoval and the other ancient gods are under siege from a new generation of gods who are challenging them for the powers of creation... and the only way to stop these brash interlopers lies within the mysterious and hidden Five Bones of the Vektan Dragons. It will be up to the Vindras people, as the dragon-goddess's champions, to undertake the quest to recover all Five. The fate of the Old Gods and the Vindras rests on their recovery--for this is not only a quest to save the world. It is also a quest for redemption. Welcome to the World of Dragonships! At the Publisher's request, this title is being sold without Digital Rights Management Software (DRM) applied.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781429981521"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1429981520"
+                }
+            ],
+            "readingModes": {
+                "text": true,
+                "image": false
+            },
+            "pageCount": 548,
+            "printType": "BOOK",
+            "categories": [
+                "Fiction"
+            ],
+            "averageRating": 3.5,
+            "ratingsCount": 4,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": true,
+            "contentVersion": "0.4.8.0.preview.2",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=d6CK9Eb2XDIC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=d6CK9Eb2XDIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=d6CK9Eb2XDIC&printsec=frontcover&dq=dragon&hl=&cd=35&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=d6CK9Eb2XDIC&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=d6CK9Eb2XDIC"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+                "amount": 282454,
+                "currencyCode": "VND"
+            },
+            "retailPrice": {
+                "amount": 192069,
+                "currencyCode": "VND"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=d6CK9Eb2XDIC&rdid=book-d6CK9Eb2XDIC&rdot=1&source=gbs_api",
+            "offers": [
+                {
+                    "finskyOfferType": 1,
+                    "listPrice": {
+                        "amountInMicros": 282454000000,
+                        "currencyCode": "VND"
+                    },
+                    "retailPrice": {
+                        "amountInMicros": 192069000000,
+                        "currencyCode": "VND"
+                    }
+                }
+            ]
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": true
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=d6CK9Eb2XDIC&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "It will be up to the Vindras people, as the dragon-goddess&#39;s champions, to undertake the quest to recover all Five. The fate of the Old Gods and the Vindras rests on their recovery--for this is not only a quest to save the world."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "VTUFAAAACAAJ",
+        "etag": "4spweSR4/No",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/VTUFAAAACAAJ",
+        "volumeInfo": {
+            "title": "The Ultimate Dragon",
+            "authors": [
+                "Byron Preiss",
+                "John Betancourt",
+                "Keith R. A. DeCandido"
+            ],
+            "publisher": "iBooks",
+            "publishedDate": "2003",
+            "description": "In this mythic and wondrous collection, some of the world's best-known authors of fantasy explore the legends and lore of the fire-breathing creatures that have captured the imagination of adventure lovers everywhere - dragons. From S.P. Somtow's dramatic tale of an ancient dragon owned by a family in modern Thailand to Ursula K. Le Guin's classic story of the power of a dragon's naming, each short story exemplifies all the different characteristics and myths of dragons throughout the years. In this collection, Tanith Lee presents a portrait of a dying dragon while Harlan Ellison and Robert Silverberg tell of a dragon whose love for a human woman could spell doom for the whole Earth. Here are spectacular dragon stories transcending time and place.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_10",
+                    "identifier": "0743458680"
+                },
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9780743458689"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 0,
+            "printType": "BOOK",
+            "categories": [
+                "Dragons"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "preview-1.0.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=VTUFAAAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=VTUFAAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=VTUFAAAACAAJ&dq=dragon&hl=&cd=36&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=VTUFAAAACAAJ&dq=dragon&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/The_Ultimate_Dragon.html?hl=&id=VTUFAAAACAAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=VTUFAAAACAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "In this collection, Tanith Lee presents a portrait of a dying dragon while Harlan Ellison and Robert Silverberg tell of a dragon whose love for a human woman could spell doom for the whole Earth."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "x42IDwAAQBAJ",
+        "etag": "gUWrzQ8fA7k",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/x42IDwAAQBAJ",
+        "volumeInfo": {
+            "title": "The Bastard Dragon",
+            "subtitle": "The Covert Dragons Book 1",
+            "authors": [
+                "Viola Grace"
+            ],
+            "publisher": "Viola Grace",
+            "publishedDate": "2018",
+            "description": "Trin has been raised with the knowledge that her parentage was unknown and she was human. Those two items were the cornerstone of her existence.An altercation at a baby shower leads to her discovering another side to herself. That side was big, crystalline, and caused the other dragons in her vicinity to bow their heads. Defending her friend had led her into this new shape, and now, she was stuck with it.Taken to the central hub of the dragon council, she trades her cooperation for knowledge and freedoms. She had been an independent woman a lot longer than she had been a dragon, and she wasn't going to lose her lifestyle just because she could suddenly breathe blasts of pure energy.Along the way, she learns about where she came from, and it gives her an outline for the life she wants, with the dragon of her choosing.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781987969535"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1987969537"
+                }
+            ],
+            "readingModes": {
+                "text": true,
+                "image": true
+            },
+            "printType": "BOOK",
+            "categories": [
+                "Dragons"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": true,
+            "contentVersion": "1.1.1.0.preview.3",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=x42IDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=x42IDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=x42IDwAAQBAJ&printsec=frontcover&dq=dragon&hl=&cd=37&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=x42IDwAAQBAJ&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=x42IDwAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+                "amount": 127673,
+                "currencyCode": "VND"
+            },
+            "retailPrice": {
+                "amount": 95755,
+                "currencyCode": "VND"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=x42IDwAAQBAJ&rdid=book-x42IDwAAQBAJ&rdot=1&source=gbs_api",
+            "offers": [
+                {
+                    "finskyOfferType": 1,
+                    "listPrice": {
+                        "amountInMicros": 127673000000,
+                        "currencyCode": "VND"
+                    },
+                    "retailPrice": {
+                        "amountInMicros": 95755000000,
+                        "currencyCode": "VND"
+                    }
+                }
+            ]
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/The_Bastard_Dragon-sample-epub.acsm?id=x42IDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "pdf": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/The_Bastard_Dragon-sample-pdf.acsm?id=x42IDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=x42IDwAAQBAJ&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "Trin has been raised with the knowledge that her parentage was unknown and she was human."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "R8DXDwAAQBAJ",
+        "etag": "Q9XckGJ4+84",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/R8DXDwAAQBAJ",
+        "volumeInfo": {
+            "title": "Dragon Mage",
+            "authors": [
+                "Eve Langlais"
+            ],
+            "publisher": "Eve Langlais",
+            "publishedDate": "2021-02-16",
+            "description": "“The end is nigh!” according to the media, which is fascinated by the four cloaked figures riding out of the desert. A headline that’s about as believable as the existence of dragons. Truth or hoax? Daphne isn’t paying much attention because she’s busy geeking out over the awesome relics that just came into her museum. She’s giddy at the prospect of getting to see them up close, until she drops one. In her defense, she was attacked...by a guy made of smoke. Things might have turned out really bad if she’d not been rescued by a stranger. A man who is also a dragon. Yup. Dragon. It turns out they are real and super hot. Azrael is also domineering and dangerous with the most toe-curling embrace. But passion will have to wait. Azrael needs Daphne to help him save the world. With two of the seven seals broken, they will have to work fast before a monster is released from its prison. genre: dragon romance, horsemen of the apocalypse, paranormal romance, fantasy romance, action and adventure romance, wizard romance",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781773841601"
+                },
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1773841602"
+                }
+            ],
+            "readingModes": {
+                "text": true,
+                "image": false
+            },
+            "pageCount": 198,
+            "printType": "BOOK",
+            "categories": [
+                "Fiction"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": true,
+            "contentVersion": "2.2.3.0.preview.2",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=R8DXDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=R8DXDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=R8DXDwAAQBAJ&printsec=frontcover&dq=dragon&hl=&cd=39&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=R8DXDwAAQBAJ&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=R8DXDwAAQBAJ"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+                "amount": 102112,
+                "currencyCode": "VND"
+            },
+            "retailPrice": {
+                "amount": 76584,
+                "currencyCode": "VND"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=R8DXDwAAQBAJ&rdid=book-R8DXDwAAQBAJ&rdot=1&source=gbs_api",
+            "offers": [
+                {
+                    "finskyOfferType": 1,
+                    "listPrice": {
+                        "amountInMicros": 102112000000,
+                        "currencyCode": "VND"
+                    },
+                    "retailPrice": {
+                        "amountInMicros": 76584000000,
+                        "currencyCode": "VND"
+                    }
+                }
+            ]
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": true,
+                "acsTokenLink": "http://books.google.com.vn/books/download/Dragon_Mage-sample-epub.acsm?id=R8DXDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=R8DXDwAAQBAJ&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "“The end is nigh!” according to the media, which is fascinated by the four cloaked figures riding out of the desert."
+        }
+    },
+    {
+        "kind": "books#volume",
+        "id": "hrrvjF5Jm9MC",
+        "etag": "WZw/+6fYFc4",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/hrrvjF5Jm9MC",
+        "volumeInfo": {
+            "title": "The Pit Dragon Trilogy",
+            "authors": [
+                "Jane Yolen"
+            ],
+            "publishedDate": "1987",
+            "description": "Dragon's blood -- Heart's blood -- A sending of dragons.",
+            "industryIdentifiers": [
+                {
+                    "type": "ISBN_10",
+                    "identifier": "1568659008"
+                },
+                {
+                    "type": "ISBN_13",
+                    "identifier": "9781568659008"
+                }
+            ],
+            "readingModes": {
+                "text": false,
+                "image": false
+            },
+            "pageCount": 482,
+            "printType": "BOOK",
+            "categories": [
+                "Dragons"
+            ],
+            "averageRating": 5,
+            "ratingsCount": 1,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.8.2.0.preview.0",
+            "panelizationSummary": {
+                "containsEpubBubbles": false,
+                "containsImageBubbles": false
+            },
+            "imageLinks": {
+                "smallThumbnail": "http://books.google.com/books/content?id=hrrvjF5Jm9MC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                "thumbnail": "http://books.google.com/books/content?id=hrrvjF5Jm9MC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.com.vn/books?id=hrrvjF5Jm9MC&q=dragon&dq=dragon&hl=&cd=40&source=gbs_api",
+            "infoLink": "http://books.google.com.vn/books?id=hrrvjF5Jm9MC&dq=dragon&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/The_Pit_Dragon_Trilogy.html?hl=&id=hrrvjF5Jm9MC"
+        },
+        "saleInfo": {
+            "country": "VN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+        },
+        "accessInfo": {
+            "country": "VN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+                "isAvailable": false
+            },
+            "pdf": {
+                "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=hrrvjF5Jm9MC&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+            "textSnippet": "Dragon&#39;s blood -- Heart&#39;s blood -- A sending of dragons."
+        }
+    }
+]
