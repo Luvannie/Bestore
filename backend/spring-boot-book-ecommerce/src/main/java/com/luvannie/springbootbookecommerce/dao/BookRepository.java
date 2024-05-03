@@ -11,5 +11,6 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 public interface BookRepository extends JpaRepository<Book, Long> {
 
     Page<Book> findByCategoryId( @Param("id") Long id, Pageable pageable);
+    Page<Book> findByTitleContaining(@Param("title") String title, Pageable pageable);
 }
 

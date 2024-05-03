@@ -4,11 +4,23 @@
         <div class="container-fluid">
             <div class = row>
                 <div *ngFor="let tempbook of books" class="col-md-3" >
+                  
                     <div class ="product-box">
-                        <img src = "{{tempbook.thumbnail}}" class="img-responsive" >
-                        <h1>{{tempbook.title}}</h1>
+                        <a routerLink="/books/{{tempbook.id}}" class="img-responsive">
+                            <img src = "{{tempbook.thumbnail}}" class="img-responsive" >
+                        </a>
+
+                        <a routerLink="/books/{{tempbook.id}}" class="img-responsive">
+                            <h1>{{tempbook.title}}</h1>
+                        </a>
+                        
                         <div class = "price">{{tempbook.unitPrice | currency:'VND'}}</div>
                         <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+
+                    <!-- neu khong có sách -->
+                    <div *ngIf="books?.length == 0" class="alert alert-warning">
+                        Không tìm thấy sách
                     </div>
                 </div>
             </div>

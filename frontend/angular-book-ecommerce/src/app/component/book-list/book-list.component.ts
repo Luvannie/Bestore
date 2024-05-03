@@ -11,16 +11,37 @@ import { ActivatedRoute } from '@angular/router';
 export class BookListComponent implements OnInit{
   books: Book[] = [];
   currentCategoryId: number = 1;
+
+  searchMode: boolean = false;
   constructor(private bookService: BookService,
               private route: ActivatedRoute) { }
 
-  ngOnInit(): void{
+  ngOnInit(){
     this.route.paramMap.subscribe(() => {
       this.listBooks();
     });
     
   }
   listBooks() {
+    this.searchMode = this.route.snapshot.paramMap.has('keyword');
+
+    if(this.searchMode){
+      this.handleSearchBooks();
+    } else {
+      this.handleListBooks();
+    }
+    
+  }
+  handleSearchBooks() {
+    const theKeyword: string = this.route.snapshot.paramMap.get('keyword')!;
+    this.bookService.searchBooks(theKeyword).subscribe(
+      data => {
+        this.books = data;
+      }
+    );
+  }
+
+  handleListBooks() {
     // check if "id" parameter is available
     const hasCategoryId: boolean = this.route.snapshot.paramMap.has('id');
     if(hasCategoryId){
@@ -30,7 +51,7 @@ export class BookListComponent implements OnInit{
       // not category id available ... default to category id 1
       this.currentCategoryId = 1;
     }
-    this.bookService.getBookList().subscribe(
+    this.bookService.getBookList(this.currentCategoryId).subscribe(
       data => {
         this.books = data;
       }

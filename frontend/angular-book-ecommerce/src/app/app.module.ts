@@ -8,25 +8,25 @@ import { HttpClient } from '@angular/common/http';
 import { HttpClientModule } from '@angular/common/http';
 import { BookService } from './service/book.service';
 import { Router, RouterModule, Routes } from '@angular/router';
+import { BookCategoryMenuComponent } from './component/book-category-menu/book-category-menu.component';
+import { SearchComponent } from './component/search/search.component';
+import { BookDetailsComponent } from './component/book-details/book-details.component';
 
 
-const routes: Routes = [
-  { path: 'category/:id', component: BookListComponent },
-  { path: 'category', component: BookListComponent },
-  { path: 'books', component: BookListComponent },
-  { path: '', redirectTo: '/book', pathMatch: 'full' },
-  { path: '**', redirectTo: '/book', pathMatch: 'full' }
-]
+
 @NgModule({
   declarations: [
     AppComponent,
-    BookListComponent
+    BookListComponent,
+    BookCategoryMenuComponent,
+    SearchComponent,
+    BookDetailsComponent
   ],
   imports: [
-    BrowserModule,
     AppRoutingModule,
+    BrowserModule,
     HttpClientModule,
-    RouterModule.forRoot(routes)
+    
   ],
   providers: [BookService],
   bootstrap: [AppComponent]
