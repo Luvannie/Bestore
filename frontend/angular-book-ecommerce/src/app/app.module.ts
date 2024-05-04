@@ -12,6 +12,7 @@ import { BookCategoryMenuComponent } from './component/book-category-menu/book-c
 import { SearchComponent } from './component/search/search.component';
 import { BookDetailsComponent } from './component/book-details/book-details.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { CartStatusComponent } from './component/cart-status/cart-status.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     BookListComponent,
     BookCategoryMenuComponent,
     SearchComponent,
-    BookDetailsComponent
+    BookDetailsComponent,
+    CartStatusComponent
   ],
   imports: [
     AppRoutingModule,

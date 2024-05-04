@@ -7,7 +7,7 @@
         <h3>{{book.author}}</h3>    
         <div class="price">{{book.unitPrice | currency:'VND'}}</div>
 
-        <a href="#" class="btn btn-primary">Add to Cart</a>
+        <button (click)="addToCart()" class="btn btn-primary btn-sm">thêm vào giỏ hàng</button>
         <hr>
         <h4>Description</h4>
         <p>{{book.description}}</p>

@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { BookService } from '../../service/book.service';
 import { Book } from '../../common/book';
 import { ActivatedRoute } from '@angular/router';
+import { CartItem } from '../../common/cart-item';
+import { CartService } from '../../service/cart.service';
 
 @Component({
   selector: 'app-book-list',
@@ -24,7 +26,8 @@ export class BookListComponent implements OnInit{
 
 
   constructor(private bookService: BookService,
-              private route: ActivatedRoute) { }
+              private route: ActivatedRoute,
+              private cartService:CartService) { }
 
   ngOnInit(){
     this.route.paramMap.subscribe(() => {
@@ -67,7 +70,11 @@ export class BookListComponent implements OnInit{
       this.currentCategoryId = +this.route.snapshot.paramMap.get('id')!;
     } else {
       // not category id available ... default to category id 1
-      this.currentCategoryId = 1;
+      // this.currentCategoryId = 1;
+      this.bookService.getPagedBooks(this.thePageNumber - 1,
+        this.thePageSize,).subscribe(
+        this.processResult()
+      )
     }
 
     // neu co category id khac voi casi truoc do
@@ -95,5 +102,11 @@ export class BookListComponent implements OnInit{
       this.thePageSize = data.page.size;
       this.theTotalElements = data.page.totalElements;
     };
+  }
+
+  addToCart(theBook: Book){
+
+    const theCartItem = new CartItem(theBook);
+    this.cartService.addToCart(theCartItem);
   }
 }

@@ -15,7 +15,7 @@
                         </a>
                         
                         <div class = "price">{{tempbook.unitPrice | currency:'VND'}}</div>
-                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                        <button (click)="addToCart(tempbook)" class="btn btn-primary btn-sm">Thêm vào giỏ hàng</button>
                     </div>
 
                     <!-- neu khong có sách -->
