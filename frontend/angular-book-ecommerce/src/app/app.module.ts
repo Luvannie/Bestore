@@ -11,7 +11,7 @@ import { Router, RouterModule, Routes } from '@angular/router';
 import { BookCategoryMenuComponent } from './component/book-category-menu/book-category-menu.component';
 import { SearchComponent } from './component/search/search.component';
 import { BookDetailsComponent } from './component/book-details/book-details.component';
-
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 @NgModule({
@@ -26,6 +26,7 @@ import { BookDetailsComponent } from './component/book-details/book-details.comp
     AppRoutingModule,
     BrowserModule,
     HttpClientModule,
+    NgbModule
     
   ],
   providers: [BookService],

@@ -22,6 +22,13 @@ export class BookService {
     return this.getBooks(searchUrl);
   }
 
+  getBookListPaginate(thePage:number, thePageSize:number, theCategoryId:number): Observable<GetResponseBook> {
+    const searchUrl = `${this.baseUrl}/search/findByCategoryId?id=${theCategoryId}`
+                      + `&page=${thePage}&size=${thePageSize}`;
+    //Todo: need to build URL based on id, page and size
+    return this.httpClient.get<GetResponseBook>(searchUrl);
+  }
+
   getProductCategories(): Observable<BookCategory[]> {
     return this.httpClient.get<GetResponseBookCategory>(this.categoryUrl).pipe(
       map(response => response._embedded.bookCategory)
@@ -32,6 +39,13 @@ export class BookService {
     const searchTitleUrl = `${this.baseUrl}/search/findByTitleContaining?title=${theKeyword}`;
     //Todo: need to build URL based on category id
     return this.getBooks(searchTitleUrl);
+  }
+
+  searchBookListPaginate(thePage:number, thePageSize:number, theKeyword:string): Observable<GetResponseBook> {
+    const searchUrl = `${this.baseUrl}/search/findByTitleContaining?title=${theKeyword}`
+                      + `&page=${thePage}&size=${thePageSize}`;
+    //Todo: need to build URL based on id, page and size
+    return this.httpClient.get<GetResponseBook>(searchUrl);
   }
 
   private getBooks(searchUrl: string): Observable<Book[]> {
@@ -50,6 +64,12 @@ export class BookService {
 interface GetResponseBook {
   _embedded: {
     books: Book[];
+  },
+  page: {
+    size: number,
+    totalElements: number,
+    totalPages: number,
+    number: number
   }
 }
 

@@ -11,8 +11,18 @@ import { ActivatedRoute } from '@angular/router';
 export class BookListComponent implements OnInit{
   books: Book[] = [];
   currentCategoryId: number = 1;
-
+  previousCategoryId: number=1;
   searchMode: boolean = false;
+
+  //them dac diem cho pagination
+
+  thePageNumber: number = 1;
+  thePageSize: number = 10;
+  theTotalElements: number = 0;
+  
+  previousKeyword: string = "";
+
+
   constructor(private bookService: BookService,
               private route: ActivatedRoute) { }
 
@@ -34,11 +44,19 @@ export class BookListComponent implements OnInit{
   }
   handleSearchBooks() {
     const theKeyword: string = this.route.snapshot.paramMap.get('keyword')!;
-    this.bookService.searchBooks(theKeyword).subscribe(
-      data => {
-        this.books = data;
-      }
-    );
+
+    // neu keyword khac voi keyword truoc do
+    // thi set pageNumber ve 1
+    if(this.previousKeyword != theKeyword){
+      this.thePageNumber = 1;
+    }
+
+    this.previousKeyword = theKeyword;
+
+    console.log(`keyword=${theKeyword}, thePageNumber=${this.thePageNumber}`);
+    this.bookService.searchBookListPaginate(this.thePageNumber - 1,
+                                            this.thePageSize,
+                                            theKeyword).subscribe(this.processResult());
   }
 
   handleListBooks() {
@@ -51,10 +69,31 @@ export class BookListComponent implements OnInit{
       // not category id available ... default to category id 1
       this.currentCategoryId = 1;
     }
-    this.bookService.getBookList(this.currentCategoryId).subscribe(
-      data => {
-        this.books = data;
-      }
-    )
+
+    // neu co category id khac voi casi truoc do
+    // thi set pageNumber ve 1  
+    if(this.previousCategoryId != this.currentCategoryId){
+      this.thePageNumber = 1;
+    }
+
+    this.previousCategoryId = this.currentCategoryId;
+
+    console.log(`currentCategoryId=${this.currentCategoryId}, thePageNumber=${this.thePageNumber}`);
+
+    this.bookService.getBookListPaginate(this.thePageNumber - 1,
+                                          this.thePageSize,
+                                          this.currentCategoryId)
+                                          .subscribe(
+                                            this.processResult()
+                                          );
+  }
+
+  processResult() {
+    return (data:any) => {
+      this.books = data._embedded.books;
+      this.thePageNumber = data.page.number + 1;
+      this.thePageSize = data.page.size;
+      this.theTotalElements = data.page.totalElements;
+    };
   }
 }

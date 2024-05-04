@@ -19,11 +19,35 @@
                     </div>
 
                     <!-- neu khong có sách -->
-                    <div *ngIf="books?.length == 0" class="alert alert-warning">
-                        Không tìm thấy sách
+                   
+                </div>
+                <div *ngIf="books?.length == 0" class="alert alert-warning">
+                    Không tìm thấy sách
+                </div>
+            </div>
+            <!-- footer -->
+            <div class="footer-pagination">
+                <div class="row">
+                    <div class="col-md-6"></div>
+
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-9" style="padding-left: 30%;">
+                                <ngb-pagination
+                                    [(page)]="thePageNumber"
+                                    [pageSize]="thePageSize"
+                                    [collectionSize]="theTotalElements"
+                                    [maxSize]="5"
+                                    [boundaryLinks]="true"
+                                    (pageChange)="listBooks()">
+                                </ngb-pagination>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+
+            <!-- end footer -->
         </div>
     </div>
 
