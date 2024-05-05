@@ -1,0 +1,77 @@
+<div  class="main-content">
+    <div class ="section-content section-content-p30">
+        <div class="container-fluid">
+            <div *ngIf="cartItems.length == 0" class="alert alert-info">
+                <h3>Giỏ hàng của bạn trống</h3>
+            </div>
+            <div *ngIf="cartItems.length > 0">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th width="20%">Ảnh</th>
+                        <th width="50%">Chi tiết</th>
+                        <th width="30%">Tổng phụ</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let tempCartItem of cartItems">
+                        <td>
+                            <img src="{{tempCartItem.thumbnail}}" width="70%">
+                        </td>
+                        <td>
+                            <h4>{{tempCartItem.title}}</h4>
+                            <h5>{{tempCartItem.author}}</h5>
+                            <h5>{{tempCartItem.unitPrice | currency:'VND'}}</h5>
+
+                            <div class="items">
+                                <label>Quantity</label> 
+                                <div class="row no-gutters">
+                                    <div class="col-2">
+                                        <button class="btn btn-primary btn-sm" (click)="decrementQuantity(tempCartItem)">
+                                            <i class="fa fa-minus"></i>
+                                        </button>
+                                    </div>
+                                    <div class="col ml-2 mr-1">
+                                        {{tempCartItem.quantity}}
+                                    </div>
+                                    <div class="col-2">
+                                        <button class="btn btn-primary btn-sm" (click)="incrementQuantity(tempCartItem)">
+                                            <i class="fa fa-plus"></i>
+                                        </button>
+                                    </div>
+                                    <div class="col-2">
+                                        <button (click)="remove(tempCartItem)">
+                                            <i class="fa fa-trash"></i>
+                                        </button>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            
+                            
+                           
+                        </td>
+                        <td>
+                            
+
+                            <p class="mt-2">
+                                {{tempCartItem.unitPrice * tempCartItem.quantity | currency:'VND'}}
+                            </p>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="text-right">
+                            <h4>Tổng</h4>
+                        </td>
+                        <td style="font-weight: bold;">
+                            <h6>Tổng sô lượng sản phẩm{{totalQuantity}}</h6>
+                            <h6>Tổng giá trị: {{totalPrice | currency:'VND'}}</h6>
+                        </td>
+                </tbody>
+            </table>
+            </div>
+        </div>
+    </div>
+    
+</div>
