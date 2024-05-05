@@ -14,6 +14,8 @@ import { BookDetailsComponent } from './component/book-details/book-details.comp
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CartStatusComponent } from './component/cart-status/cart-status.component';
 import { CartDetailComponent } from './component/cart-detail/cart-detail.component';
+import { CheckoutComponent } from './component/checkout/checkout.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -24,13 +26,15 @@ import { CartDetailComponent } from './component/cart-detail/cart-detail.compone
     SearchComponent,
     BookDetailsComponent,
     CartStatusComponent,
-    CartDetailComponent
+    CartDetailComponent,
+    CheckoutComponent
   ],
   imports: [
     AppRoutingModule,
     BrowserModule,
     HttpClientModule,
-    NgbModule
+    NgbModule,
+    ReactiveFormsModule
     
   ],
   providers: [BookService],

@@ -3,8 +3,10 @@ import { RouterModule, Routes } from '@angular/router';
 import { BookListComponent } from './component/book-list/book-list.component';
 import { BookDetailsComponent } from './component/book-details/book-details.component';
 import { CartDetailComponent } from './component/cart-detail/cart-detail.component';
+import { CheckoutComponent } from './component/checkout/checkout.component';
 
 const routes: Routes = [
+  { path: 'checkout', component: CheckoutComponent},
   { path: 'cart-detail', component: CartDetailComponent},
   { path: 'books/:id', component: BookDetailsComponent},
   { path: 'search/:keyword', component: BookListComponent},

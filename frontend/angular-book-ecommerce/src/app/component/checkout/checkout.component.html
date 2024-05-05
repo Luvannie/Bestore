@@ -1,0 +1,322 @@
+<div class="main-content page-m">
+    <div class="section-content section-content-p30">
+        <div class="container-fluid">
+
+            <form [formGroup]="checkoutFormGroup" (ngSubmit)="onSubmit()">
+                <!-- customer -->
+                <div formGroupName="customer" class="form-area">
+                    <h3>Thông tin người nhận </h3>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <label>
+                                Họ và tên
+                            </label>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="input-space">
+                                <input type="text" formControlName="fullName" >
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-2">
+                            <label>
+                                Số điện thoại
+                            </label>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="input-space">
+                                <input type="text" formControlName="phoneNumber" >
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-2">
+                            <label>
+                                Email
+                            </label>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="input-space">
+                                <input type="text" formControlName="email" >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- shipping address -->
+                <div formGroupName="shippingAddress" class="form-area">
+                    <h3>Địa chỉ giao hàng </h3>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <label>
+                                Quốc gia
+                            </label>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="input-space">
+                                <select  formControlName="country" >
+                                    <option>1</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-2">
+                            <label>
+                                Tỉnh/Thành phố
+                            </label>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="input-space">
+                                <select  formControlName="city" >
+                                    <option>1</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-2">
+                            <label>
+                                Quận/Huyện
+                            </label>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="input-space">
+                                <input type="text" formControlName="district" >
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-2">
+                            <label>
+                                Đường/phố
+                            </label>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="input-space">
+                                <input type="text" formControlName="street" >
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-2">
+                            <label>
+                                Mã bưu điện
+                            </label>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="input-space">
+                                <input type="text" formControlName="zipcode" >
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-2">
+                            <label>
+                                địa chỉ nhận hàng
+                            </label>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="input-space">
+                                <input type="text" formControlName="shippingAddress" >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- add check bõ to check shipping same as billing -->
+                <div class="input-space">
+                    <label class="au-checkbox">
+                        <input type ="checkbox" (change)="copyShippingAddressToBillingAddress($event)">
+                        <span class="au-checkmark">Địa chỉ thanh toán cũng là địa chỉ giao hàng </span>
+                    </label>
+                </div>
+                <!-- billing address -->
+                <div formGroupName="billingAddress" class="form-area">
+                    <h3>Địa chỉ thanh toán</h3>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <label>
+                                Quốc gia
+                            </label>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="input-space">
+                                <select  formControlName="country" >
+                                    <option>1</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-2">
+                            <label>
+                                Tỉnh/Thành phố
+                            </label>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="input-space">
+                                <select  formControlName="city" >
+                                    <option>1</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-2">
+                            <label>
+                                Quận/Huyện
+                            </label>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="input-space">
+                                <input type="text" formControlName="district">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-2">
+                            <label>
+                                Đường/phố
+                            </label>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="input-space">
+                                <input type="text" formControlName="street" >
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-2">
+                            <label>
+                                Mã bưu điện
+                            </label>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="input-space">
+                                <input type="text" formControlName="zipcode" >
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-2">
+                            <label>
+                                địa chỉ thanh toán
+                            </label>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="input-space">
+                                <input type="text" formControlName="billingAddress" >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- credit card -->
+                <div formGroupName="creditCard" class="form-area">
+                    <h3>Thanh toán thẻ tin dụng</h3>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <label>
+                                Loại thẻ
+                            </label>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="input-space">
+                                <select  formControlName="cardType" >
+                                    <option>1</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-2">
+                            <label>
+                                tên thẻ
+                            </label>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="input-space">
+                                <input type="text" formControlName="nameOnCard" >
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-2">
+                            <label>
+                                Mã số thẻ
+                            </label>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="input-space">
+                                <input type="text" formControlName="cardNumber" >
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-2">
+                            <label>
+                                mã bảo mật
+                            </label>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="input-space">
+                                <input type="text" formControlName="securityCode" >
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-2">
+                            <label>
+                                tháng hết hạn
+                            </label>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="input-space">
+                                <select  formControlName="expirationMonth" >
+                                    <option>1</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-2">
+                            <label>
+                                Năm hết hạn
+                            </label>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="input-space">
+                                <select  formControlName="expirationYear" >
+                                    <option>1</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- submit button -->
+                <div class="text-center">
+                    <button class="btn btn-info" type="submit">Đặt hàng</button>
+                </div> 
+            </form>
+        </div>
+    </div>
+</div>
