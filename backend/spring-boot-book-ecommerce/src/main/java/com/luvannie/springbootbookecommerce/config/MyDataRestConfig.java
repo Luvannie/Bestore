@@ -2,11 +2,14 @@ package com.luvannie.springbootbookecommerce.config;
 
 import com.luvannie.springbootbookecommerce.entity.Book;
 import com.luvannie.springbootbookecommerce.entity.BookCategory;
+import com.luvannie.springbootbookecommerce.entity.City;
+import com.luvannie.springbootbookecommerce.entity.Country;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.metamodel.EntityType;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.rest.core.config.RepositoryRestConfiguration;
+import org.springframework.data.rest.core.mapping.ExposureConfigurer;
 import org.springframework.data.rest.webmvc.config.RepositoryRestConfigurer;
 import org.springframework.http.HttpMethod;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;
@@ -28,16 +31,23 @@ public class MyDataRestConfig implements RepositoryRestConfigurer {
     public void configureRepositoryRestConfiguration(RepositoryRestConfiguration config, CorsRegistry cors) {
         HttpMethod[] theUnsupportedActions = {HttpMethod.PUT, HttpMethod.POST, HttpMethod.DELETE};
         // disable HTTP methods for Product: PUT, POST and DELETE
-        config.getExposureConfiguration()
-                .forDomainType(Book.class)
-                .withItemExposure((metdata, httpMethods) -> httpMethods.disable(theUnsupportedActions))
-                .withCollectionExposure((metdata, httpMethods) -> httpMethods.disable(theUnsupportedActions));
-        config.getExposureConfiguration()
-                .forDomainType(BookCategory.class)
-                .withItemExposure((metdata, httpMethods) -> httpMethods.disable(theUnsupportedActions))
-                .withCollectionExposure((metdata, httpMethods) -> httpMethods.disable(theUnsupportedActions));
+        disableHttpMethods(config.getExposureConfiguration()
+                .forDomainType(Book.class), theUnsupportedActions);
+        disableHttpMethods(config.getExposureConfiguration()
+                .forDomainType(BookCategory.class), theUnsupportedActions);
+        disableHttpMethods(config.getExposureConfiguration()
+                .forDomainType(Country.class), theUnsupportedActions);
+        disableHttpMethods(config.getExposureConfiguration()
+                .forDomainType(City.class), theUnsupportedActions);
+
         // call an internal helper method
         exposeIds(config);
+    }
+
+    private static void disableHttpMethods(ExposureConfigurer config, HttpMethod[] theUnsupportedActions) {
+        config
+                .withItemExposure((metdata, httpMethods) -> httpMethods.disable(theUnsupportedActions))
+                .withCollectionExposure((metdata, httpMethods) -> httpMethods.disable(theUnsupportedActions));
     }
 
     private void exposeIds(RepositoryRestConfiguration config) {

@@ -70,11 +70,11 @@ export class BookListComponent implements OnInit{
       this.currentCategoryId = +this.route.snapshot.paramMap.get('id')!;
     } else {
       // not category id available ... default to category id 1
-      // this.currentCategoryId = 1;
-      this.bookService.getPagedBooks(this.thePageNumber - 1,
-        this.thePageSize,).subscribe(
-        this.processResult()
-      )
+      this.currentCategoryId = 1;
+      // this.bookService.getPagedBooks(this.thePageNumber - 1,
+      //   this.thePageSize,).subscribe(
+      //   this.processResult()
+      // )
     }
 
     // neu co category id khac voi casi truoc do

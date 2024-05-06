@@ -1,5 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
+import { BeFormService } from '../../service/be-form.service';
+import { CartService } from '../../service/cart.service';
+import { Country } from '../../common/country';
+import { City } from '../../common/city';
 
 @Component({
   selector: 'app-checkout',
@@ -9,8 +13,22 @@ import { FormBuilder, FormGroup } from '@angular/forms';
 export class CheckoutComponent implements OnInit{
 
     checkoutFormGroup!: FormGroup;
+    totalPrice: number = 0;
+    totalQuantity: number = 0;
+
+    creditCardYears: number[] = [];
+    creditCardMonths: number[] = [];
+
+    countries: Country[] = [];
+    cities: City[] = [];
+
+    shippingAddressCities: City[] = [];
+    billingAddressCities: City[] = [];
     
-    constructor(private formBuilder: FormBuilder,) { }
+    constructor(private formBuilder: FormBuilder,
+                private beFormService: BeFormService,
+                private cartService: CartService
+    ) { }
   
     ngOnInit(): void {
       this.checkoutFormGroup = this.formBuilder.group({
@@ -44,6 +62,32 @@ export class CheckoutComponent implements OnInit{
           expirationYear: ['']
         })
       });
+
+      // populate credit card months
+      const startMonth: number = new Date().getMonth() + 1;
+      this.beFormService.getCreditCardMonths(startMonth).subscribe(
+        data => {
+          this.creditCardMonths = data;
+          console.log("Retrieved credit card months: " + JSON.stringify(data));
+        }
+      );
+
+      // populate credit card years
+
+      this.beFormService.getCreditCardYears().subscribe(
+        data => {
+          this.creditCardYears = data;
+          console.log("Retrieved credit card years: " + JSON.stringify(data));
+        }
+      );
+
+      // populate countries
+      this.beFormService.getCountries().subscribe(
+        data => {
+          this.countries = data;
+          console.log("Retrieved countries: " + JSON.stringify(data));
+        }
+      );
     }
 
     onSubmit(){
@@ -59,6 +103,44 @@ export class CheckoutComponent implements OnInit{
       } else {
         this.checkoutFormGroup.controls['billingAddress'].reset();
       }
+    }
+
+    handleMonthsAndYears(){
+      const creditCardFormGroup = this.checkoutFormGroup.get('creditCard');
+      const currentYear: number = new Date().getFullYear();
+      const selectedYear: number = Number(creditCardFormGroup?.value.expirationYear);
+
+      let startMonth: number;
+
+      if(currentYear === selectedYear){
+        startMonth = new Date().getMonth() + 1;
+      } else {
+        startMonth = 1;
+      }
+
+      this.beFormService.getCreditCardMonths(startMonth).subscribe(
+        data => {
+          this.creditCardMonths = data;
+        }
+      );
+    }
+
+    getCities(formGroupName: string){
+      
+      const formGroup = this.checkoutFormGroup.get(formGroupName);
+      const countryCode = formGroup?.value.country.code;
+      console.log(`Country code: ${countryCode}`);
+      this.beFormService.getCities(countryCode).subscribe(
+        data => {
+          if(formGroupName === 'shippingAddress'){
+            this.shippingAddressCities = data;
+          } else {
+            this.billingAddressCities = data;
+          }
+          // select first item by default
+          formGroup?.get('city')?.setValue(data[0]);
+        }
+      );
     }
 
 }
