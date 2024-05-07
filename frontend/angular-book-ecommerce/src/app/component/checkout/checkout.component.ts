@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder, FormGroup } from '@angular/forms';
+import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import { BeFormService } from '../../service/be-form.service';
 import { CartService } from '../../service/cart.service';
 import { Country } from '../../common/country';
 import { City } from '../../common/city';
+import { BeValidate } from '../../validator/be-validate';
 
 @Component({
   selector: 'app-checkout',
@@ -33,31 +34,31 @@ export class CheckoutComponent implements OnInit{
     ngOnInit(): void {
       this.checkoutFormGroup = this.formBuilder.group({
         customer: this.formBuilder.group({
-          fullName: [''],
-          phoneNumber: [''],
-          email: ['']
+          fullName: new FormControl('',[Validators.required, Validators.minLength(3),BeValidate.allWhitespaceValidator]),
+          phoneNumber: new FormControl('', [Validators.required, Validators.minLength(10),BeValidate.allWhitespaceValidator]),
+          email: new FormControl('', [Validators.required, Validators.email,BeValidate.allWhitespaceValidator])
         }),
         shippingAddress: this.formBuilder.group({
-          street: [''],
-          district: [''],
-          city: [''],
-          country: [''],
-          zipCode: [''],
-          shippingAddress: ['']
+          street:  new FormControl('',[Validators.required, Validators.minLength(3),BeValidate.allWhitespaceValidator]),
+          district:  new FormControl('',[Validators.required, Validators.minLength(3),BeValidate.allWhitespaceValidator]),
+          city:  new FormControl('',[Validators.required]),
+          country:  new FormControl('',[Validators.required]),
+          zipCode:  new FormControl('',[Validators.required, Validators.minLength(5),BeValidate.allWhitespaceValidator]),
+          shippingAddress:  new FormControl('',[Validators.required, Validators.minLength(3),BeValidate.allWhitespaceValidator])
         }),
         billingAddress: this.formBuilder.group({
-          street: [''],
-          district: [''],
-          city: [''],
-          country: [''],
-          zipCode: [''],
-          billingAddress: ['']
+          street:  new FormControl('',[Validators.required, Validators.minLength(3),BeValidate.allWhitespaceValidator]),
+          district:  new FormControl('',[Validators.required, Validators.minLength(3),BeValidate.allWhitespaceValidator]),
+          city:  new FormControl('',[Validators.required]),
+          country:  new FormControl('',[Validators.required]),
+          zipCode:  new FormControl('',[Validators.required, Validators.minLength(5),BeValidate.allWhitespaceValidator]),
+          billingAddress:  new FormControl('',[Validators.required, Validators.minLength(3),BeValidate.allWhitespaceValidator])
         }),
         creditCard: this.formBuilder.group({
-          cardType: [''],
-          nameOnCard: [''],
-          cardNumber: [''],
-          securityCode: [''],
+          cardType: new FormControl('',[Validators.required]),
+          nameOnCard: new FormControl('',[Validators.required, Validators.minLength(2),BeValidate.allWhitespaceValidator]),
+          cardNumber: new FormControl('',[Validators.required, Validators.pattern('[0-9]{16}')]),
+          securityCode: new FormControl('',[Validators.required, Validators.pattern('[0-9]{3}')]),
           expirationMonth: [''],
           expirationYear: ['']
         })
@@ -92,8 +93,12 @@ export class CheckoutComponent implements OnInit{
 
     onSubmit(){
       console.log("Handling the submit button");
+      if(this.checkoutFormGroup.invalid){
+        this.checkoutFormGroup.markAllAsTouched();
+      }
       console.log(this.checkoutFormGroup.get('customer')?.value);
-      // console.log("The shipping address is " + this.checkoutFormGroup.get('shippingAddress')?.value.street);
+      console.log("The shipping address is " + this.checkoutFormGroup.get('shippingAddress')?.value);
+
     }
 
     copyShippingAddressToBillingAddress(event:any){
@@ -143,4 +148,79 @@ export class CheckoutComponent implements OnInit{
       );
     }
 
+    get fullName(){
+      return this.checkoutFormGroup.get('customer.fullName');
+    }
+
+    get phoneNumber(){
+      return this.checkoutFormGroup.get('customer.phoneNumber');
+    }
+
+    get email(){
+      return this.checkoutFormGroup.get('customer.email');
+    }
+
+    get shippingAddressStreet(){
+      return this.checkoutFormGroup.get('shippingAddress.street');
+    }
+
+    get shippingAddressDistrict(){
+      return this.checkoutFormGroup.get('shippingAddress.district');
+    }
+
+    get shippingAddressCity(){
+      return this.checkoutFormGroup.get('shippingAddress.city');
+    }
+
+    get shippingAddressCountry(){
+      return this.checkoutFormGroup.get('shippingAddress.country');
+    }
+
+    get shippingAddressZipCode(){
+      return this.checkoutFormGroup.get('shippingAddress.zipCode');
+    }
+
+    get shippingAddressShippingAddress(){
+      return this.checkoutFormGroup.get('shippingAddress.shippingAddress');
+    }
+
+    get billingAddressStreet(){
+      return this.checkoutFormGroup.get('billingAddress.street');
+    }
+
+    get billingAddressDistrict(){
+      return this.checkoutFormGroup.get('billingAddress.district');
+    }
+
+    get billingAddressCity(){
+      return this.checkoutFormGroup.get('billingAddress.city');
+    }
+
+    get billingAddressCountry(){
+      return this.checkoutFormGroup.get('billingAddress.country');
+    }
+
+    get billingAddressZipCode(){
+      return this.checkoutFormGroup.get('billingAddress.zipCode');
+    }
+
+    get billingAddressBillingAddress(){
+      return this.checkoutFormGroup.get('billingAddress.billingAddress');
+    }
+
+    get cardType(){
+      return this.checkoutFormGroup.get('creditCard.cardType');
+    }
+
+    get nameOnCard(){
+      return this.checkoutFormGroup.get('creditCard.nameOnCard');
+    }
+
+    get cardNumber(){
+      return this.checkoutFormGroup.get('creditCard.cardNumber');
+    }
+
+    get securityCode(){
+      return this.checkoutFormGroup.get('creditCard.securityCode');
+    }
 }
