@@ -16,6 +16,7 @@ import { CartStatusComponent } from './component/cart-status/cart-status.compone
 import { CartDetailComponent } from './component/cart-detail/cart-detail.component';
 import { CheckoutComponent } from './component/checkout/checkout.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { HomeComponent } from './component/home/home.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     BookDetailsComponent,
     CartStatusComponent,
     CartDetailComponent,
-    CheckoutComponent
+    CheckoutComponent,
+    HomeComponent
   ],
   imports: [
     AppRoutingModule,

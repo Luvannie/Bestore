@@ -16,9 +16,9 @@ export class BookService {
   private categoryUrl = 'http://localhost:8080/api/book-category';
   constructor(private httpClient:HttpClient) { }
 
-  getAllBooks(): Observable<Book[]> {
-    return this.getBooks(this.baseUrl);
-  }
+  // getAllBooks(): Observable<Book[]> {
+  //   return this.getBooks(this.baseUrl);
+  // }
 
   getPagedBooks(page: number, size: number): Observable<GetResponseBook> {
     const url = `${this.baseUrl}?page=${page}&size=${size}`;
