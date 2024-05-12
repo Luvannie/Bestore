@@ -168,7 +168,7 @@
                         </div>
                         <div class="col-md-10">
                             <div class="input-space">
-                                <input type="text" formControlName="zipcode" >
+                                <input type="text" formControlName="zipCode" >
                             </div>
                         </div>
                     </div>
@@ -181,12 +181,12 @@
                         </div>
                         <div class="col-md-10">
                             <div class="input-space">
-                                <input type="text" formControlName="shippingAddress" >
-                                <div *ngIf="shippingAddressShippingAddress?.invalid && (shippingAddressShippingAddress?.dirty || shippingAddressShippingAddress?.touched)" class="alert alert-danger">
-                                    <div *ngIf="shippingAddressShippingAddress?.errors?.['required']|| shippingAddressShippingAddress?.errors?.['allwhitespace']">
+                                <input type="text" formControlName="specificAddress" >
+                                <div *ngIf="shippingAddressSpecificAddress?.invalid && (shippingAddressSpecificAddress?.dirty ||shippingAddressSpecificAddress?.touched)" class="alert alert-danger">
+                                    <div *ngIf="shippingAddressSpecificAddress?.errors?.['required']|| shippingAddressSpecificAddress?.errors?.['allwhitespace']">
                                         địa chỉ nhận hàng không được để trống
                                     </div>
-                                    <div *ngIf="shippingAddressShippingAddress?.errors?.['minlength']">
+                                    <div *ngIf="shippingAddressSpecificAddress?.errors?.['minlength']">
                                         địa chỉ nhận hàng ít nhất 3 ký tự
                                     </div>
                                 </div>
@@ -195,133 +195,6 @@
                     </div>
                 </div>
                 
-                <!-- add check bõ to check shipping same as billing -->
-                <div class="input-space">
-                    <label class="au-checkbox">
-                        <input type ="checkbox" (change)="copyShippingAddressToBillingAddress($event)">
-                        <span class="au-checkmark">Địa chỉ thanh toán cũng là địa chỉ giao hàng </span>
-                    </label>
-                </div>
-                <!-- billing address -->
-                <div formGroupName="billingAddress" class="form-area">
-                    <h3>Địa chỉ thanh toán</h3>
-                    <div class="row">
-                        <div class="col-md-2">
-                            <label>
-                                Quốc gia
-                            </label>
-                        </div>
-                        <div class="col-md-10">
-                            <div class="input-space">
-                                <select  formControlName="country" (change)="getCities('billingAddress')">
-                                    <option *ngFor="let country of countries" [ngValue]="country">{{country.name}}</option>
-                                </select>
-                                <div *ngIf="billingAddressCountry?.invalid && (billingAddressCountry?.dirty || billingAddressCountry?.touched)" class="alert alert-danger">
-                                    <div *ngIf="(billingAddressCountry?.errors?.['required'] )">
-                                        Quốc gia không được để trống
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-md-2">
-                            <label>
-                                Tỉnh/Thành phố
-                            </label>
-                        </div>
-                        <div class="col-md-10">
-                            <div class="input-space">
-                                <select  formControlName="city" >
-                                    <option *ngFor="let city of billingAddressCities" [ngValue]="city">{{city.name}}</option>
-                                </select>
-                                <div *ngIf="billingAddressCity?.invalid && (billingAddressCity?.dirty || billingAddressCity?.touched)" class="alert alert-danger">
-                                    <div *ngIf="(billingAddressCity?.errors?.['required'] )">
-                                        Tỉnh/Thành phố không được để trống
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-md-2">
-                            <label>
-                                Quận/Huyện
-                            </label>
-                        </div>
-                        <div class="col-md-10">
-                            <div class="input-space">
-                                <input type="text" formControlName="district">
-
-                                <div *ngIf="billingAddressDistrict?.invalid && (billingAddressDistrict?.dirty || billingAddressDistrict?.touched)" class="alert alert-danger">
-                                    <div *ngIf="billingAddressDistrict?.errors?.['required']|| billingAddressDistrict?.errors?.['allwhitespace']">
-                                        Quận/Huyện không được để trống
-                                    </div>
-                                    <div *ngIf="billingAddressDistrict?.errors?.['minlength']">
-                                        Quận/Huyện ít nhất 3 ký tự
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-md-2">
-                            <label>
-                                Đường/phố
-                            </label>
-                        </div>
-                        <div class="col-md-10">
-                            <div class="input-space">
-                                <input type="text" formControlName="street" >
-                                <div *ngIf="billingAddressStreet?.invalid && (billingAddressStreet?.dirty || billingAddressStreet?.touched)" class="alert alert-danger">
-                                    <div *ngIf="billingAddressStreet?.errors?.['required']|| billingAddressStreet?.errors?.['allwhitespace']">
-                                        Đường/phố không được để trống
-                                    </div>
-                                    <div *ngIf="billingAddressStreet?.errors?.['minlength']">
-                                        Đường/phố ít nhất 3 ký tự
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-md-2">
-                            <label>
-                                Mã bưu điện
-                            </label>
-                        </div>
-                        <div class="col-md-10">
-                            <div class="input-space">
-                                <input type="text" formControlName="zipcode" >
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-md-2">
-                            <label>
-                                địa chỉ thanh toán
-                            </label>
-                        </div>
-                        <div class="col-md-10">
-                            <div class="input-space">
-                                <input type="text" formControlName="billingAddress" >
-                                <div *ngIf="billingAddressBillingAddress?.invalid && (billingAddressBillingAddress?.dirty || billingAddressBillingAddress?.touched)" class="alert alert-danger">
-                                    <div *ngIf="billingAddressBillingAddress?.errors?.['required']|| billingAddressBillingAddress?.errors?.['allwhitespace']">
-                                        địa chỉ thanh toán không được để trống
-                                    </div>
-                                    <div *ngIf="billingAddressBillingAddress?.errors?.['minlength']">
-                                        địa chỉ thanh toán ít nhất 3 ký tự
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
                 
                 <!-- credit card -->
                 <div formGroupName="creditCard" class="form-area">
@@ -445,6 +318,15 @@
                             </div>
                         </div>
                     </div>
+                </div>
+
+                <!-- review order -->
+
+                <div class="form-area">
+                    <h3>Đơn hàng của bạn</h3>
+                    <p>Tổng số lượng: {{totalQuantity}}</p>
+                    <p>Tổng tiền: {{totalPrice | currency:'VND':true}}</p>
+                    <p>Phí vận chuyển: Miễn phí</p>
                 </div>
                 <!-- submit button -->
                 <div class="text-center">

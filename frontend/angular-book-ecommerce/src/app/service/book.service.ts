@@ -13,7 +13,7 @@ export class BookService {
   
   private baseUrl = 'http://localhost:8080/api/books';
 
-  private categoryUrl = 'http://localhost:8080/api/book-category';
+  private categoryUrl = 'http://localhost:8080/api/book-category?size=80';
   constructor(private httpClient:HttpClient) { }
 
   // getAllBooks(): Observable<Book[]> {

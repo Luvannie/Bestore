@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -17,6 +17,16 @@ import { CartDetailComponent } from './component/cart-detail/cart-detail.compone
 import { CheckoutComponent } from './component/checkout/checkout.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HomeComponent } from './component/home/home.component';
+import { LoginComponent } from './component/login/login.component';
+import { LoginStatusComponent } from './component/login-status/login-status.component';
+import { OKTA_CONFIG, OktaAuthModule } from '@okta/okta-angular';
+import myAppConfig from './config/my-app-config';
+import { OktaAuth } from '@okta/okta-auth-js';
+import { RegisterComponent } from './component/register/register.component';
+
+const oktaConfig = myAppConfig.oidc;
+
+const oktaAuth = new OktaAuth(oktaConfig);
 
 
 @NgModule({
@@ -29,17 +39,23 @@ import { HomeComponent } from './component/home/home.component';
     CartStatusComponent,
     CartDetailComponent,
     CheckoutComponent,
-    HomeComponent
+    HomeComponent,
+    LoginComponent,
+    LoginStatusComponent,
+    RegisterComponent,
+    
   ],
   imports: [
     AppRoutingModule,
     BrowserModule,
     HttpClientModule,
     NgbModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    OktaAuthModule,
+    
     
   ],
-  providers: [BookService],
+  providers: [BookService,{provide: OKTA_CONFIG, useValue: {oktaAuth}}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

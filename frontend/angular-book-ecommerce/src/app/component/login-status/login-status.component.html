@@ -1,0 +1,8 @@
+<div class="login-status-hearder">
+    <div *ngIf="isAuthenticated" class="login-status-user-info ">
+        Chào mừng {{ userFullName }} đã đăng nhập
+    </div>
+
+    <button *ngIf="!isAuthenticated" routerLink="/login" class="security-btn">Đăng nhập</button>
+    <button *ngIf="isAuthenticated" (click)="logout()" class="security-btn">Đăng xuất</button>
+</div>

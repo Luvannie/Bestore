@@ -359,7 +359,9 @@ input.au-input.au-input-xl{
     position:relative;
     height:-webkit-calc(100vh - 75px);
     height:-moz-calc(100vh - 75px);
-    height:calc(100vh - 75px)
+    height:calc(100vh - 75px);
+    overflow-y:auto
+
 }
 
 .navbar-sidebar{
