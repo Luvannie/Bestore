@@ -1,6 +1,7 @@
 package com.luvannie.springbootbookecommerce.service;
 
 import com.luvannie.springbootbookecommerce.dao.CustomerRepository;
+import com.luvannie.springbootbookecommerce.dao.OrderRepository;
 import com.luvannie.springbootbookecommerce.dao.UserRepository;
 import com.luvannie.springbootbookecommerce.dto.Purchase;
 import com.luvannie.springbootbookecommerce.dto.PurchaseResponse;
@@ -12,6 +13,7 @@ import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
 import java.util.Set;
 import java.util.UUID;
 
@@ -21,10 +23,13 @@ public class CheckoutServiceImpl implements CheckoutService{
     private CustomerRepository customerRepository;
     private UserRepository userRepository;
 
+    private OrderRepository orderRepository;
+
     @Autowired
-    public CheckoutServiceImpl(CustomerRepository customerRepository, UserRepository userRepository) {
+    public CheckoutServiceImpl(CustomerRepository customerRepository, UserRepository userRepository, OrderRepository orderRepository){
         this.customerRepository = customerRepository;
         this.userRepository = userRepository;
+        this.orderRepository = orderRepository;
     }
     @Override
     @Transactional
@@ -43,6 +48,9 @@ public class CheckoutServiceImpl implements CheckoutService{
 
         // populate order with  shippingAddress
         order.setShippingAddress(purchase.getShippingAddress());
+
+        //chuyen active thanh 1
+        order.setActive(1);
 
         // populate order with user
         User user = purchase.getUser();
@@ -69,5 +77,11 @@ public class CheckoutServiceImpl implements CheckoutService{
     private String generateOrderTrackingNumber() {
         //tao ngau nhien ma tracking number
         return UUID.randomUUID().toString();
+    }
+
+    //find order by user_id
+
+    public List<Order> getOrdersByUserId(Long userId) {
+        return orderRepository.findByUserId(userId);
     }
 }

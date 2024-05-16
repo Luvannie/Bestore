@@ -1,9 +1,12 @@
 package com.luvannie.springbootbookecommerce.entity;
 
+import com.fasterxml.jackson.annotation.JsonManagedReference;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.util.Date;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -32,6 +35,21 @@ public class User {
     @Column(name = "email")
     private String email;
 
+    @Column(name = "date_of_birth")
+    private Date dateOfBirth;
+
+    @Column(name = "facebook_account_id")
+    private Integer facebookAccountId;
+
+    @Column(name = "google_account_id")
+    private Integer googleAccountId;
+
+    @ManyToOne
+    @JoinColumn(name = "role_id")
+
+    private Role role;
+
+//    @JsonManagedReference
     // You can add @OneToMany relationship here to link with Order
      @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
      private Set<Order> orders;
