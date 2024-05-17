@@ -25,7 +25,7 @@ public class OrderService {
 
     public void deleteOrder(Long orderId) {
         Order order = orderRepository.findById(orderId).get();
-        order.setActive(0);
+        order.setActive(Boolean.FALSE);
         orderRepository.save(order);
     }
 
@@ -34,6 +34,6 @@ public class OrderService {
     }
 
     public List<Order> getActiveOrdersByUserId(Long userId) {
-        return orderRepository.findByUserIdAndActiveNot(userId, 0);
+        return orderRepository.findByUserIdAndActiveNot(userId, Boolean.FALSE);
     }
 }

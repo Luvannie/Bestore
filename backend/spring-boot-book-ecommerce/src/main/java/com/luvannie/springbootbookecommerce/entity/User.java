@@ -6,9 +6,7 @@ import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 
-import java.util.Date;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
 
 @Entity
 @Table(name = "users")
@@ -44,23 +42,17 @@ public class User {
     @Column(name = "google_account_id")
     private Integer googleAccountId;
 
+    @Column(name = "is_active")
+    private boolean active;
+
     @ManyToOne
     @JoinColumn(name = "role_id")
-
     private Role role;
 
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
+    @JsonManagedReference
+    private List<Comment> comments = new ArrayList<>();
 //    @JsonManagedReference
     // You can add @OneToMany relationship here to link with Order
-     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
-     private Set<Order> orders;
 
-    public void add(Order order) {
-        if (order != null) {
-            if (orders == null) {
-                orders = new HashSet<>();
-            }
-            orders.add(order);
-            order.setUser(this);
-        }
-    }
 }

@@ -60,9 +60,8 @@ public class Order {
     private Address shippingAddress;
 
 //    @JsonManagedReference
-    @ManyToOne
-    @JoinColumn(name = "user_id")
-    private User user;
+    @Column(name = "user_id")
+    private Long userId;
 
     @Column(name = "payment_method")
     private String paymentMethod;
@@ -74,7 +73,7 @@ public class Order {
     private String shippingMethod;
 
     @Column(name = "active")
-    private Integer active;
+    private Boolean active;
 
     public void add(OrderItem item) {
         if (item != null) {

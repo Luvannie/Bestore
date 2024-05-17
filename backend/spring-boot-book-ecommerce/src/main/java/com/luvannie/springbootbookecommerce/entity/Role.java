@@ -37,4 +37,7 @@ public class Role {
     public void setName(String name) {
         this.name = name;
     }
+
+    public static String ADMIN = "ADMIN";
+    public static String USER = "USER";
 }

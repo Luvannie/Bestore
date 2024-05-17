@@ -50,7 +50,7 @@ public class CheckoutServiceImpl implements CheckoutService{
         order.setShippingAddress(purchase.getShippingAddress());
 
         //chuyen active thanh 1
-        order.setActive(1);
+        order.setActive(Boolean.TRUE);
 
         // populate order with user
         User user = purchase.getUser();
@@ -61,7 +61,7 @@ public class CheckoutServiceImpl implements CheckoutService{
         else{
             user = userRepository.save(user);
         }
-        order.setUser(user);
+        order.setUserId(user.getId());
 
         // populate customer with order
         Customer customer = purchase.getCustomer();
@@ -81,7 +81,5 @@ public class CheckoutServiceImpl implements CheckoutService{
 
     //find order by user_id
 
-    public List<Order> getOrdersByUserId(Long userId) {
-        return orderRepository.findByUserId(userId);
-    }
+
 }
