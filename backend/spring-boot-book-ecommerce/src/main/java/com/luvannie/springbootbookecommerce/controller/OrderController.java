@@ -1,7 +1,7 @@
 package com.luvannie.springbootbookecommerce.controller;
 
 import com.luvannie.springbootbookecommerce.entity.Order;
-import com.luvannie.springbootbookecommerce.service.OrderService;
+import com.luvannie.springbootbookecommerce.service.order.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

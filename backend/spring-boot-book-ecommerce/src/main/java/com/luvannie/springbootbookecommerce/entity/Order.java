@@ -34,7 +34,7 @@ public class Order {
     private int totalQuantity;
 
     @Column(name = "total_price")
-    private float totalPrice;
+    private double totalPrice;
 
     @Column(name = "status")
     private String status;

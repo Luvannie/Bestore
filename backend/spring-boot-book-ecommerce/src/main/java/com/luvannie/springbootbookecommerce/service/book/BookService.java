@@ -1,4 +1,4 @@
-package com.luvannie.springbootbookecommerce.service;
+package com.luvannie.springbootbookecommerce.service.book;
 
 import com.luvannie.springbootbookecommerce.dao.BookRepository;
 import com.luvannie.springbootbookecommerce.entity.Book;

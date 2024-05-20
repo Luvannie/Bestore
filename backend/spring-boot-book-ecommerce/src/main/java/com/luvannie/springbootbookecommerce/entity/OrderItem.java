@@ -4,6 +4,7 @@ import com.fasterxml.jackson.annotation.JsonIdentityInfo;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 import jakarta.persistence.*;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -11,7 +12,7 @@ import lombok.Setter;
 @Table(name = "order_item")
 @Getter
 @Setter
-
+@Builder
 @JsonIdentityInfo(
         generator = ObjectIdGenerators.PropertyGenerator.class,
         property = "id")
@@ -25,7 +26,7 @@ public class OrderItem {
     private String thumbnail;
 
     @Column(name = "unit_price")
-    private float unitPrice;
+    private double unitPrice;
 
     @Column(name = "quantity")
     private int quantity;

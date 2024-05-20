@@ -1,7 +1,7 @@
 package com.luvannie.springbootbookecommerce.controller;
 
 import com.luvannie.springbootbookecommerce.entity.User;
-import com.luvannie.springbootbookecommerce.service.UserService;
+import com.luvannie.springbootbookecommerce.service.user.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

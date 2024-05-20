@@ -16,7 +16,7 @@ import java.util.Optional;
 
 @RepositoryRestResource(collectionResourceRel = "users", path = "users")
 public interface UserRepository extends JpaRepository<User, Long> {
-    User findByAccount(String account);
+    Optional<User> findByAccount(String account);
 
     boolean existsByPhoneNumber(String phoneNumber);
     boolean existsByEmail(String email);
@@ -28,4 +28,6 @@ public interface UserRepository extends JpaRepository<User, Long> {
 //            "AND LOWER(o.role.name) = 'user'")
 //    Page<User> findAll(@Param("keyword") String keyword, Pageable pageable);
     List<User> findByRoleId(Long roleId);
+
+    boolean existsByAccount(String account);
 }

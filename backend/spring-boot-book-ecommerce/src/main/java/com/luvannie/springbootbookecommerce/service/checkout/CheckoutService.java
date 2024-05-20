@@ -1,4 +1,4 @@
-package com.luvannie.springbootbookecommerce.service;
+package com.luvannie.springbootbookecommerce.service.checkout;
 
 import com.luvannie.springbootbookecommerce.dto.Purchase;
 import com.luvannie.springbootbookecommerce.dto.PurchaseResponse;

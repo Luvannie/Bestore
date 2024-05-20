@@ -1,4 +1,4 @@
-package com.luvannie.springbootbookecommerce.service;
+package com.luvannie.springbootbookecommerce.service.order;
 
 import com.luvannie.springbootbookecommerce.dao.OrderRepository;
 import com.luvannie.springbootbookecommerce.entity.Order;

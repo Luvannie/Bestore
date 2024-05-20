@@ -1,7 +1,7 @@
 package com.luvannie.springbootbookecommerce.controller;
 
 import com.luvannie.springbootbookecommerce.entity.Book;
-import com.luvannie.springbootbookecommerce.service.BookService;
+import com.luvannie.springbootbookecommerce.service.book.BookService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

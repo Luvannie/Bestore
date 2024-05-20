@@ -2,13 +2,8 @@ package com.luvannie.springbootbookecommerce.controller;
 
 import com.luvannie.springbootbookecommerce.dto.Purchase;
 import com.luvannie.springbootbookecommerce.dto.PurchaseResponse;
-import com.luvannie.springbootbookecommerce.entity.Order;
-import com.luvannie.springbootbookecommerce.service.CheckoutService;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
+import com.luvannie.springbootbookecommerce.service.checkout.CheckoutService;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.List;
 
 @CrossOrigin("http://localhost:4200")
 @RestController

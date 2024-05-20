@@ -1,4 +1,4 @@
-package com.luvannie.springbootbookecommerce.service;
+package com.luvannie.springbootbookecommerce.service.checkout;
 
 import com.luvannie.springbootbookecommerce.dao.CustomerRepository;
 import com.luvannie.springbootbookecommerce.dao.OrderRepository;
@@ -9,16 +9,17 @@ import com.luvannie.springbootbookecommerce.entity.Customer;
 import com.luvannie.springbootbookecommerce.entity.Order;
 import com.luvannie.springbootbookecommerce.entity.OrderItem;
 import com.luvannie.springbootbookecommerce.entity.User;
+import com.luvannie.springbootbookecommerce.service.checkout.CheckoutService;
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
+import java.util.Optional;
 import java.util.Set;
 import java.util.UUID;
 
 @Service
-public class CheckoutServiceImpl implements CheckoutService{
+public class CheckoutServiceImpl implements CheckoutService {
 
     private CustomerRepository customerRepository;
     private UserRepository userRepository;
@@ -54,9 +55,10 @@ public class CheckoutServiceImpl implements CheckoutService{
 
         // populate order with user
         User user = purchase.getUser();
-        User user1 =userRepository.findByAccount(user.getAccount());
-        if(user1 != null){
-            user = user1;
+
+        Optional<User> optionalUser = userRepository.findByAccount(user.getAccount());
+        if(optionalUser.isPresent()){
+            user = optionalUser.get();
         }
         else{
             user = userRepository.save(user);

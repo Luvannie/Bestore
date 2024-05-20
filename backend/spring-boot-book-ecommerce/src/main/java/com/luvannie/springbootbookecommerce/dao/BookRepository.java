@@ -19,5 +19,7 @@ public interface BookRepository extends JpaRepository<Book, Long> {
     boolean existsByTitle(String title);
     Page<Book> findAll(Pageable pageable);//phân trang
     List<Book> findByCategory(BookCategory category);
+
+    Book findById(long id);
 }
 
