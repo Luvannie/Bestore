@@ -1,5 +1,6 @@
 package com.luvannie.springbootbookecommerce.entity;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonIdentityInfo;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import com.fasterxml.jackson.annotation.ObjectIdGenerators;
@@ -74,6 +75,11 @@ public class Order {
 
     @Column(name = "active")
     private Boolean active;
+
+    @ManyToOne
+    @JoinColumn(name = "coupon_id", nullable = true)
+    @JsonBackReference
+    private Coupon coupon = null;
 
     public void add(OrderItem item) {
         if (item != null) {

@@ -27,7 +27,7 @@ public class CommentResponse extends BaseResponse {
         return CommentResponse.builder()
                 .id(comment.getId())
                 .content(comment.getContent())
-                .user(UserResponse.fromEntity(comment.getUser()))
+                .user(UserResponse.fromUser(comment.getUser()))
                 .bookId(comment.getBook().getId())
                 .build();
     }

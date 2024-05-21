@@ -9,8 +9,7 @@ import lombok.*;
 @AllArgsConstructor
 @NoArgsConstructor
 public class BookDTO {
-    @JsonProperty("book_id")
-    private Long bookId;
+
 
     @JsonProperty("title")
     private String title;
@@ -26,4 +25,7 @@ public class BookDTO {
 
     @JsonProperty("thumbnail")
     private String thumbnail;
+
+    @JsonProperty("book_category_id")
+    private Long BookCategoryId;
 }

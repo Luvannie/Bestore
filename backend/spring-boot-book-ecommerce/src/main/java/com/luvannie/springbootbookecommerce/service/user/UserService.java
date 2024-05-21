@@ -8,11 +8,13 @@ import com.luvannie.springbootbookecommerce.dao.UserRepository;
 import com.luvannie.springbootbookecommerce.dto.UpdateUserDTO;
 import com.luvannie.springbootbookecommerce.dto.UserDTO;
 import com.luvannie.springbootbookecommerce.dto.UserLoginDTO;
+import com.luvannie.springbootbookecommerce.entity.Role;
+import com.luvannie.springbootbookecommerce.entity.Token;
 import com.luvannie.springbootbookecommerce.entity.User;
 import com.luvannie.springbootbookecommerce.exceptions.DataNotFoundException;
+import com.luvannie.springbootbookecommerce.exceptions.ExpiredTokenException;
 import com.luvannie.springbootbookecommerce.exceptions.InvalidPasswordException;
 import com.luvannie.springbootbookecommerce.utils.MessageKeys;
-import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 //import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
@@ -24,8 +26,12 @@ import org.springframework.security.authentication.BadCredentialsException;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
+import java.util.List;
 import java.util.Optional;
+
+import static com.luvannie.springbootbookecommerce.utils.ValidationUtils.isValidEmail;
 
 @Service
 @RequiredArgsConstructor
@@ -41,7 +47,7 @@ public class UserService implements IUserService {
 
 
 
-//    private BCryptPasswordEncoder passwordEncoder;
+
 
 
 
@@ -91,10 +97,11 @@ public class UserService implements IUserService {
         newUser.setAccount(userDTO.getAccount());
         String encodedpassword = passwordEncoder.encode(userDTO.getPassword());
         newUser.setPassword(encodedpassword); // Consider using password encoding here
-
         newUser.setPhoneNumber(userDTO.getPhoneNumber());
         newUser.setEmail(userDTO.getEmail());
-
+        Role role = roleRepository.findById(userDTO.getRoleId())
+                .orElseThrow(() -> new DataNotFoundException("Role not found"));
+        newUser.setRole(role);
         return userRepository.save(newUser);
     }
 
@@ -137,12 +144,22 @@ public class UserService implements IUserService {
 
     @Override
     public User getUserDetailsFromToken(String token) throws Exception {
-        return null;
+        if(jwtTokenUtil.isTokenExpired(token)) {
+            throw new ExpiredTokenException("Token is expired");
+        }
+        String subject = jwtTokenUtil.getSubject(token);
+        Optional<User> user;
+        user = userRepository.findByPhoneNumber(subject);
+        if (user.isEmpty() && isValidEmail(subject)) {
+            user = userRepository.findByEmail(subject);
+        }
+        return user.orElseThrow(() -> new Exception("User not found"));
     }
 
     @Override
     public User getUserDetailsFromRefreshToken(String token) throws Exception {
-        return null;
+        Token existingToken = tokenRepository.findByRefreshToken(token);
+        return getUserDetailsFromToken(existingToken.getToken());
     }
 
 //    @Override
@@ -197,12 +214,29 @@ public class UserService implements IUserService {
 
     @Override
     public void resetPassword(Long userId, String newPassword) throws InvalidPasswordException, DataNotFoundException {
-
+        User existingUser = userRepository.findById(userId)
+                .orElseThrow(() -> new DataNotFoundException("User not found"));
+        String encodedPassword = passwordEncoder.encode(newPassword);
+        existingUser.setPassword(encodedPassword);
+        userRepository.save(existingUser);
+        //reset password => clear token
+        List<Token> tokens = tokenRepository.findByUser(existingUser);
+        for (Token token : tokens) {
+            tokenRepository.delete(token);
+        }
     }
 
     @Override
     public void blockOrEnable(Long userId, Boolean active) throws DataNotFoundException {
+        User existingUser = userRepository.findById(userId)
+                .orElseThrow(() -> new DataNotFoundException("User not found"));
+        existingUser.setActive(active);
+        userRepository.save(existingUser);
+    }
 
+    @Override
+    public Page<User> findAll(String keyword, Pageable pageable) {
+        return userRepository.findAll(keyword, pageable);
     }
 
 

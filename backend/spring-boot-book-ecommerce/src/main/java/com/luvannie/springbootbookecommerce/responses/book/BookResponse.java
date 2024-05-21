@@ -25,7 +25,7 @@ import java.util.stream.Collectors;
 public class BookResponse extends BaseResponse {
     private Long id;
     private String title;
-    private Float unitPrice;
+    private Double unitPrice;
     private String thumbnail;
     private String description;
     // Thêm trường totalPages

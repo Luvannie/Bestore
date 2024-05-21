@@ -42,7 +42,7 @@ public class Book {
     @Column(name = "thumbnail")
     private String thumbnail;
     @Column(name = "unit_price")
-    private float unitPrice;
+    private double unitPrice;
     @Column(name = "active")
     private boolean active;
     @Column(name = "units_in_stock")

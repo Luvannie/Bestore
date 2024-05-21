@@ -6,11 +6,12 @@ import com.luvannie.springbootbookecommerce.entity.Token;
 import com.luvannie.springbootbookecommerce.entity.User;
 import com.luvannie.springbootbookecommerce.exceptions.DataNotFoundException;
 import com.luvannie.springbootbookecommerce.exceptions.ExpiredTokenException;
-import jakarta.transaction.Transactional;
+
 import lombok.RequiredArgsConstructor;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.time.LocalDateTime;
 import java.util.List;

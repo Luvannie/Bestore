@@ -5,10 +5,11 @@ import com.luvannie.springbootbookecommerce.dao.BookRepository;
 import com.luvannie.springbootbookecommerce.dto.BookCategoryDTO;
 import com.luvannie.springbootbookecommerce.entity.Book;
 import com.luvannie.springbootbookecommerce.entity.BookCategory;
-import jakarta.transaction.Transactional;
+
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.crossstore.ChangeSetPersister;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Collections;
 import java.util.List;

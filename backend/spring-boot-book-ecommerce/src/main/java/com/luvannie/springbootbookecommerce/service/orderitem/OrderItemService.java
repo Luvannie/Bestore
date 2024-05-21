@@ -8,9 +8,10 @@ import com.luvannie.springbootbookecommerce.entity.Book;
 import com.luvannie.springbootbookecommerce.entity.Order;
 import com.luvannie.springbootbookecommerce.entity.OrderItem;
 import com.luvannie.springbootbookecommerce.exceptions.DataNotFoundException;
-import jakarta.transaction.Transactional;
+
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 

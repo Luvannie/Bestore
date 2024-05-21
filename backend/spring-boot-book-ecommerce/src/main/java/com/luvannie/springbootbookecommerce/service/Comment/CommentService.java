@@ -1,5 +1,6 @@
 package com.luvannie.springbootbookecommerce.service.Comment;
 
+import com.github.javafaker.Faker;
 import com.luvannie.springbootbookecommerce.dao.BookRepository;
 import com.luvannie.springbootbookecommerce.dao.CommentRepository;
 import com.luvannie.springbootbookecommerce.dao.UserRepository;
@@ -9,13 +10,16 @@ import com.luvannie.springbootbookecommerce.entity.Comment;
 import com.luvannie.springbootbookecommerce.entity.User;
 import com.luvannie.springbootbookecommerce.exceptions.DataNotFoundException;
 import com.luvannie.springbootbookecommerce.responses.comment.CommentResponse;
-import jakarta.transaction.Transactional;
+
 import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 import java.util.stream.Collectors;
 
 @RequiredArgsConstructor
@@ -71,4 +75,40 @@ public class CommentService implements ICommentService {
                 .map(comment -> CommentResponse.fromComment(comment))
                 .collect(Collectors.toList());
     }
+
+    @Override
+    public void generateFakeComments() throws Exception {
+    Faker faker = new Faker();
+    Random random = new Random();
+    // Get all users
+    List<User> users = userRepository.findAll();
+    // Get all books
+    List<Book> books = bookRepository.findAll();
+    List<Comment> comments = new ArrayList<>();
+    final int totalRecords = 10_000;
+    final int batchSize = 1000;
+    for (int i = 0; i < totalRecords; i++) {
+
+        // Select a random user and book
+        User user = users.get(random.nextInt(users.size()));
+        Book book = books.get(random.nextInt(books.size()));
+
+        // Generate a fake comment
+        Comment comment = Comment.builder()
+                .content(faker.lorem().sentence())
+                .book(book)
+                .user(user)
+                .build();
+
+        // Save the comment
+        comments.add(comment);
+        if(comments.size() >= batchSize) {
+            commentRepository.saveAll(comments);
+            comments.clear();
+        }
+    }
+    if(!comments.isEmpty()) {
+        commentRepository.saveAll(comments);
+    }
+}
 }

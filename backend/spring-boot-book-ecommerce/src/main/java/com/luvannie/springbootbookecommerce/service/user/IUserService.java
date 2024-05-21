@@ -16,7 +16,7 @@ public interface IUserService {
     User getUserDetailsFromRefreshToken(String token) throws Exception;
     User updateUser(Long userId, UpdateUserDTO updatedUserDTO) throws Exception;
 
-
+    Page<User> findAll(String keyword, Pageable pageable) throws Exception;
     void resetPassword(Long userId, String newPassword)
             throws InvalidPasswordException, DataNotFoundException;
     void blockOrEnable(Long userId, Boolean active) throws DataNotFoundException;
