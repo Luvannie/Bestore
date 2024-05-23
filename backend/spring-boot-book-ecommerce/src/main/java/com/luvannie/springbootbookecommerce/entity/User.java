@@ -42,10 +42,10 @@ public class User implements UserDetails {
     private Date dateOfBirth;
 
     @Column(name = "facebook_account_id")
-    private Integer facebookAccountId;
+    private int facebookAccountId;
 
     @Column(name = "google_account_id")
-    private Integer googleAccountId;
+    private int googleAccountId;
 
     @Column(name = "is_active")
     private boolean active;

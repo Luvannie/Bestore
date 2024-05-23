@@ -41,7 +41,7 @@ public class CommentController {
                 .build());
     }
     @PutMapping("/{id}")
-    @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_USER')")
+//    @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_USER')")
     public ResponseEntity<ResponseObject> updateComment(
             @PathVariable("id") Long commentId,
             @RequestBody CommentDTO commentDTO
@@ -62,7 +62,7 @@ public class CommentController {
                         HttpStatus.OK, null));
     }
     @PostMapping("")
-    @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_USER')")
+//    @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_USER')")
     public ResponseEntity<ResponseObject> insertComment(
              @RequestBody CommentDTO commentDTO
     ) {
@@ -83,7 +83,7 @@ public class CommentController {
                         .build());
     }
     @PostMapping("/generateFakeComments")
-    @PreAuthorize("hasRole('ROLE_ADMIN')")
+//    @PreAuthorize("hasRole('ROLE_ADMIN')")
     public ResponseEntity<ResponseObject> generateFakeComments() throws Exception {
         commentService.generateFakeComments();
         return ResponseEntity.ok(ResponseObject.builder()

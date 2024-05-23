@@ -27,7 +27,7 @@ public class BookCategoryController {
     private final KafkaTemplate<String, Object> kafkaTemplate;
 
     @PostMapping("")
-    @PreAuthorize("hasRole('ROLE_ADMIN')")
+//    @PreAuthorize("hasRole('ROLE_ADMIN')")
     public ResponseEntity<ResponseObject> createBookCategory(
             BookCategoryDTO bookCategoryDTO,
             BindingResult result) {
@@ -78,7 +78,7 @@ public class BookCategoryController {
                 .build());
     }
     @PutMapping("/{id}")
-    @PreAuthorize("hasRole('ROLE_ADMIN')")
+//    @PreAuthorize("hasRole('ROLE_ADMIN')")
     public ResponseEntity<ResponseObject> updateBookCategory(
             @PathVariable Long id,
             @RequestBody BookCategoryDTO bookCategoryDTO
@@ -91,7 +91,7 @@ public class BookCategoryController {
                 .build());
     }
     @DeleteMapping("/{id}")
-    @PreAuthorize("hasRole('ROLE_ADMIN')")
+//    @PreAuthorize("hasRole('ROLE_ADMIN')")
     public ResponseEntity<ResponseObject> deleteBookCategory(@PathVariable Long id) throws Exception{
         bookCategoryService.deleteBookCategory(id);
         return ResponseEntity.ok(

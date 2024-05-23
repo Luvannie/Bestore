@@ -36,7 +36,7 @@ public class BookController {
     private final SecurityUtils securityUtils;
 
     @PostMapping
-    @PreAuthorize("hasRole('ROLE_ADMIN')")
+//    @PreAuthorize("hasRole('ROLE_ADMIN')")
     public ResponseEntity<Book> createBook(@RequestBody BookDTO bookDTO) throws Exception {
         return new ResponseEntity<>(bookService.createBook(bookDTO), HttpStatus.CREATED);
     }
@@ -115,7 +115,7 @@ public class BookController {
     }
 
     @DeleteMapping("/{id}")
-    @PreAuthorize("hasRole('ROLE_ADMIN')")
+//    @PreAuthorize("hasRole('ROLE_ADMIN')")
     public ResponseEntity<ResponseObject> deleteBook(@PathVariable long id) {
         bookService.deleteBook(id);
         return ResponseEntity.ok(ResponseObject.builder()
@@ -126,7 +126,7 @@ public class BookController {
     }
 
     @PostMapping("/like/{bookId}")
-    @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_USER')")
+//    @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_USER')")
     public ResponseEntity<ResponseObject> likeBook(@PathVariable Long bookId) throws Exception {
         User loginUser = securityUtils.getLoggedInUser();
         Book likedBook = bookService.likeBook(loginUser.getId(), bookId);
@@ -138,7 +138,7 @@ public class BookController {
     }
 
     @PostMapping("/unlike/{bookId}")
-    @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_USER')")
+//    @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_USER')")
     public ResponseEntity<ResponseObject> unlikeBook(@PathVariable Long bookId) throws Exception {
         User loginUser = securityUtils.getLoggedInUser();
         Book unlikedBook = bookService.unlikeBook(loginUser.getId(), bookId);
@@ -150,7 +150,7 @@ public class BookController {
     }
 
     @GetMapping("/favorites")
-    @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_USER')")
+//    @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_USER')")
     public ResponseEntity<ResponseObject> findFavoriteBooksByUserId() throws Exception {
         User loginUser = securityUtils.getLoggedInUser();
         List<BookResponse> favoriteBooks = bookService.findFavoriteBooksByUserId(loginUser.getId());

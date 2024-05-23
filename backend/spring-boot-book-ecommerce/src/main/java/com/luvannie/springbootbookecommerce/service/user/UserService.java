@@ -43,35 +43,10 @@ public class UserService implements IUserService {
     private final JwtTokenUtils jwtTokenUtil;
     private final AuthenticationManager authenticationManager;
     private final LocalizationUtils localizationUtils;
-    private static String UPLOADS_FOLDER = "uploads";
 
 
 
-
-
-
-
-    public User register(User user) {
-        System.out.println("register: " + user.getUsername() + " " + user.getAccount() + " " + user.getPassword() + " " + user.getPhoneNumber() + " " + user.getEmail() );
-        user.setUsername(user.getUsername());
-        user.setAccount(user.getAccount());
-        user.setPassword(user.getPassword());
-//        user.setPassword(passwordEncoder.encode(user.getPassword()));
-        user.setPhoneNumber(user.getPhoneNumber());
-        user.setEmail(user.getEmail());
-        return userRepository.save(user);
-    }
-
-//    public User login(String account, String password) {
-//        User user = userRepository.findByAccount(account);
-////        if (user != null && passwordEncoder.matches(password, user.getPassword())) {
-////            return user;
-////        }
-//        if(user != null && password.equals(user.getPassword())){
-//            return user;
-//        }
-//        return null;
-//    }
+//
 
     @Override
     @Transactional
@@ -97,6 +72,7 @@ public class UserService implements IUserService {
         newUser.setAccount(userDTO.getAccount());
         String encodedpassword = passwordEncoder.encode(userDTO.getPassword());
         newUser.setPassword(encodedpassword); // Consider using password encoding here
+//        newUser.setPassword(userDTO.getPassword());
         newUser.setPhoneNumber(userDTO.getPhoneNumber());
         newUser.setEmail(userDTO.getEmail());
         Role role = roleRepository.findById(userDTO.getRoleId())
@@ -123,7 +99,7 @@ public class UserService implements IUserService {
         //check password
         if (existingUser.getFacebookAccountId() == 0
                 && existingUser.getGoogleAccountId() == 0) {
-            if(!passwordEncoder.matches(userLoginDTO.getPassword(), existingUser.getPassword())) {
+            if(!passwordEncoder.matches(userLoginDTO.getPassword(), existingUser.getPassword())){
                 throw new BadCredentialsException(localizationUtils.getLocalizedMessage(MessageKeys.WRONG_ACCOUNT_PASSWORD));
             }
         }
@@ -149,7 +125,7 @@ public class UserService implements IUserService {
         }
         String subject = jwtTokenUtil.getSubject(token);
         Optional<User> user;
-        user = userRepository.findByPhoneNumber(subject);
+        user = userRepository.findByAccount(subject);
         if (user.isEmpty() && isValidEmail(subject)) {
             user = userRepository.findByEmail(subject);
         }

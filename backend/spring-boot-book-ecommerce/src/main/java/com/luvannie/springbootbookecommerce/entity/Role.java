@@ -1,6 +1,9 @@
 package com.luvannie.springbootbookecommerce.entity;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.NoArgsConstructor;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -8,6 +11,9 @@ import java.util.Set;
 
 @Entity
 @Table(name = "roles")
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
 public class Role {
 
     @Id

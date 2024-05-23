@@ -15,7 +15,7 @@ public class PurchaseDTO {
 
     private Set<OrderItem> orderItems;
 
-    private User user;
+    private Long userId;
 
     private String couponCode;
 

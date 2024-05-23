@@ -22,3 +22,4 @@ public class MessageKeys {
     public static final String WRONG_ACCOUNT_PASSWORD = "user.login.wrong_account_password";
     public static final String DELETE_ORDER_ITEM_SUCCESSFULLY = "order.delete_order_item.delete_successfully"; ;
 }
+

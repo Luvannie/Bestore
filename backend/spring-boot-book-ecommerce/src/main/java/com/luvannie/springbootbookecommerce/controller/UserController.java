@@ -49,7 +49,7 @@ public class UserController {
     private final SecurityUtils securityUtils;
 
     @GetMapping("")
-    @PreAuthorize("hasRole('ROLE_ADMIN')")
+//    @PreAuthorize("hasRole('ROLE_ADMIN')")
     public ResponseEntity<ResponseObject> getAllUser(
             @RequestParam(defaultValue = "", required = false) String keyword,
             @RequestParam(defaultValue = "0") int page,
@@ -199,7 +199,7 @@ public class UserController {
     }
 
     @PostMapping("/details")
-    @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_USER')")
+//    @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_USER')")
     public ResponseEntity<ResponseObject> getUserDetails(
             @RequestHeader("Authorization") String authorizationHeader
     ) throws Exception {
@@ -215,7 +215,7 @@ public class UserController {
     }
 
     @PutMapping("/details/{userId}")
-    @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_USER')")
+//    @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_USER')")
 //    @Operation(security = { @SecurityRequirement(name = "bearer-key") })
     public ResponseEntity<ResponseObject> updateUserDetails(
             @PathVariable Long userId,
@@ -239,7 +239,7 @@ public class UserController {
     }
 
     @PutMapping("/reset-password/{userId}")
-    @PreAuthorize("hasRole('ROLE_ADMIN')")
+//    @PreAuthorize("hasRole('ROLE_ADMIN')")
     public ResponseEntity<ResponseObject> resetPassword( @PathVariable long userId){
         try {
             String newPassword = UUID.randomUUID().toString().substring(0, 5); // Tạo mật khẩu mới
@@ -265,7 +265,7 @@ public class UserController {
     }
 
     @PutMapping("/block/{userId}/{active}")
-    @PreAuthorize("hasRole('ROLE_ADMIN')")
+//    @PreAuthorize("hasRole('ROLE_ADMIN')")
     public ResponseEntity<ResponseObject> blockOrEnable(
              @PathVariable long userId,
              @PathVariable int active

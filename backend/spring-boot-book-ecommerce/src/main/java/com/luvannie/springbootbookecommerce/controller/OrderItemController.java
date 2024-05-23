@@ -30,7 +30,7 @@ public class OrderItemController {
     }
 
     @PostMapping("")
-    @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_USER')")
+//    @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_USER')")
     public ResponseEntity<ResponseObject> createOrderItem( @RequestBody OrderItemDTO orderItemDTO) throws Exception {
         OrderItem newOrderItem = orderItemService.createOrderItem(orderItemDTO);
         OrderItemResponse orderItemResponse = OrderItemResponse.fromOrderItem(newOrderItem);
@@ -73,7 +73,7 @@ public class OrderItemController {
     }
 
     @PutMapping("/{id}")
-    @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_USER')")
+//    @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_USER')")
     public ResponseEntity<ResponseObject> updateOrderItem( @PathVariable("id") Long id, @RequestBody OrderItemDTO orderItemDTO) throws DataNotFoundException, Exception {
         OrderItem orderItem = orderItemService.updateOrderItem(id, orderItemDTO);
         return ResponseEntity.ok().body(ResponseObject
@@ -85,7 +85,7 @@ public class OrderItemController {
     }
 
     @DeleteMapping("/{id}")
-    @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_USER')")
+//    @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_USER')")
     public ResponseEntity<ResponseObject> deleteOrderItem( @PathVariable("id") Long id) throws DataNotFoundException {
         orderItemService.deleteOrderItem(id);
         return ResponseEntity.ok()
