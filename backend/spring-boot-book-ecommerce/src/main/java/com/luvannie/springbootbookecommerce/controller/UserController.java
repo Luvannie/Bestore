@@ -154,7 +154,7 @@ public class UserController {
         Token jwtToken = tokenService.addToken(userDetail, token, isMobileDevice(userAgent));
 
         LoginResponse loginResponse = LoginResponse.builder()
-                .message(localizationUtils.getLocalizedMessage(MessageKeys.LOGIN_SUCCESSFULLY))
+                .message("Login successfully")
                 .token(jwtToken.getToken())
                 .tokenType(jwtToken.getTokenType())
                 .refreshToken(jwtToken.getRefreshToken())

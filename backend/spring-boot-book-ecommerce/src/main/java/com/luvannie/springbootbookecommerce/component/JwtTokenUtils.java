@@ -36,7 +36,7 @@ public class JwtTokenUtils {
     public String generateToken(User user) throws Exception{
         //properties => claims
         Map<String, Object> claims = new HashMap<>();
-        // Add subject identifier (phone number or email)
+        // Add subject identifier (phone number or account)
         String subject = getSubject(user);
         claims.put("subject", subject);
         // Add user ID
@@ -55,15 +55,7 @@ public class JwtTokenUtils {
             //return null;
         }
     }
-//    private static String getSubject(User user) {
-//        // Determine subject identifier (phone number or email)
-//        String subject = user.getPhoneNumber();
-//        if (subject == null || subject.isBlank()) {
-//            // If phone number is null or blank, use email as subject
-//            subject = user.getEmail();
-//        }
-//        return subject;
-//    }
+//
 
     private static String getSubject(User user) {
         // Determine subject identifier (account or phone number)
@@ -79,13 +71,13 @@ public class JwtTokenUtils {
         //Keys.hmacShaKeyFor(Decoders.BASE64.decode("TaqlmGv1iEDMRiFp/pHuID1+T84IABfuA0xXh4GhiUI="));
         return Keys.hmacShaKeyFor(bytes);
     }
-    private String generateSecretKey() {
-        SecureRandom random = new SecureRandom();
-        byte[] keyBytes = new byte[32]; // 256-bit key
-        random.nextBytes(keyBytes);
-        String secretKey = Encoders.BASE64.encode(keyBytes);
-        return secretKey;
-    }
+//    private String generateSecretKey() {
+//        SecureRandom random = new SecureRandom();
+//        byte[] keyBytes = new byte[32]; // 256-bit key
+//        random.nextBytes(keyBytes);
+//        String secretKey = Encoders.BASE64.encode(keyBytes);
+//        return secretKey;
+//    }
     private Claims extractAllClaims(String token) {
         return Jwts.parserBuilder()
                 .setSigningKey(getSignInKey())
@@ -105,6 +97,8 @@ public class JwtTokenUtils {
     public String getSubject(String token) {
         return  extractClaim(token, Claims::getSubject);
     }
+
+
 //    public boolean validateToken(String token, User userDetails) {
 //        try {
 //            String subject = extractClaim(token, Claims::getSubject);
