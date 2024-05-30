@@ -14,6 +14,7 @@ import com.luvannie.springbootbookecommerce.entity.User;
 import com.luvannie.springbootbookecommerce.exceptions.DataNotFoundException;
 import com.luvannie.springbootbookecommerce.exceptions.ExpiredTokenException;
 import com.luvannie.springbootbookecommerce.exceptions.InvalidPasswordException;
+import com.luvannie.springbootbookecommerce.exceptions.PermissionDenyException;
 import com.luvannie.springbootbookecommerce.utils.MessageKeys;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -66,6 +67,11 @@ public class UserService implements IUserService {
             throw new DataIntegrityViolationException("Email already exists");
         }
 
+        Role role =roleRepository.findById(userDTO.getRoleId())
+                .orElseThrow(() -> new DataNotFoundException("Role not found"));
+        if (role.getName().equalsIgnoreCase(Role.ADMIN)) {
+            throw new PermissionDenyException("Registering admin accounts is not allowed");
+        }
         // Convert from UserDTO to User
         User newUser = new User();
         newUser.setUsername(userDTO.getUsername());
@@ -75,9 +81,10 @@ public class UserService implements IUserService {
 //        newUser.setPassword(userDTO.getPassword());
         newUser.setPhoneNumber(userDTO.getPhoneNumber());
         newUser.setEmail(userDTO.getEmail());
-        Role role = roleRepository.findById(userDTO.getRoleId())
+        role = roleRepository.findById(userDTO.getRoleId())
                 .orElseThrow(() -> new DataNotFoundException("Role not found"));
         newUser.setRole(role);
+        newUser.setActive(true);
         return userRepository.save(newUser);
     }
 

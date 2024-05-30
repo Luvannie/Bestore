@@ -1,4 +1,105 @@
+<div class="main-content page-m">
+    <div class="section-content section-content-p30">
+        <div class="container">
+            <form [formGroup]="loginFormGroup" (ngSubmit)="onSubmit()">
+                <div class="row">
+                    <div class="col-md-6 offset-md-3">
+                        <div class="login-form mx-auto">
+                            <h2 class="login-header">Đăng nhập tài khoản</h2>
 
-<div class="pt-5">
-    <div id="okta-sign-in-widget" class="pt-5"></div>
+                            <div formGroupName="user">
+                                <div class="form-group">
+                                    <label for="account">Tài khoản</label>
+                                    <input
+                                        type="text"
+                                        formControlName="account"
+                                        class="form-control"
+                                        id="account"
+                                    />
+                                    <div class="divider-nospace"></div>
+                                    <div
+                                        *ngIf="
+                                            account?.invalid && (account?.dirty || account?.touched)
+                                        "
+                                        class="text-danger"
+                                    >
+                                        <div
+                                            *ngIf="(account?.errors?.['required'] || account?.errors?.['allwhitespace'] )"
+                                        >
+                                            Tài khoản không được để trống
+                                        </div>
+                                        <div *ngIf="account?.errors?.['minlength']">
+                                            Tài khoản phải có ít nhất 6 ký tự
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group password-field">
+                                    <label for="password">Mật khẩu</label>
+                                    <input
+                                        type="password"
+                                        formControlName="password"
+                                        class="form-control"
+                                        id="password"
+                                    />
+                                    <div class="divider-nospace"></div>
+                                    <div
+                                        *ngIf="
+                                            password?.invalid &&
+                                            (password?.dirty || password?.touched)
+                                        "
+                                        class="text-danger"
+                                    >
+                                        <div
+                                            *ngIf="(password?.errors?.['required'] || password?.errors?.['allwhitespace'] )"
+                                        >
+                                            Mật khẩu không được để trống
+                                        </div>
+                                        <div *ngIf="password?.errors?.['minlength']">
+                                            Mật khẩu phải có ít nhất 6 ký tự
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="form-check checkbox-text">
+                                      <span style="display: flex;">
+                                        <input type="checkbox" 
+                                            class="form-check-input" 
+                                            id="remember" 
+                                            [(ngModel)]="rememberMe">
+                                        <label class="form-check-label text-start" for="remember">
+                                          Ghi nhớ đăng nhập</label>
+                                      </span>
+                                      <a href="#" class="register-link">Quên mật khẩu</a>
+                                    </div>
+                                  </div>
+                                  
+                                <div class="form-group">
+                                    <select class="form-control access-right"
+                                        [(ngModel)]="selectedRole">
+                                        <option selected disabled>Quyền đăng nhập</option>
+                                        @for(role of roles; track role.name) {
+                                            <option [ngValue]="role">
+                                                {{ role.name }}
+                                            </option>
+                                        }                        
+                                    </select>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="text-center">
+                        <button class="btn btn-info" type="submit">Đăng nhập</button>
+                    </div>
+
+                    <div class="divider"></div>
+                    <p class="text-center">Bạn chưa có tài khoản? <span>
+                            <a href="#" class="login-link">Đăng ký</a></span></p>
+                </div>
+            </form>
+        </div>
+    </div>
 </div>
+

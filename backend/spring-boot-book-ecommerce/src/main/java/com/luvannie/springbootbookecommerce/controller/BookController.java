@@ -36,7 +36,7 @@ public class BookController {
     private final SecurityUtils securityUtils;
 
     @PostMapping
-//    @PreAuthorize("hasRole('ROLE_ADMIN')")
+    @PreAuthorize("hasRole('ROLE_ADMIN')")
     public ResponseEntity<Book> createBook(@RequestBody BookDTO bookDTO) throws Exception {
         return new ResponseEntity<>(bookService.createBook(bookDTO), HttpStatus.CREATED);
     }
@@ -115,7 +115,7 @@ public class BookController {
     }
 
     @DeleteMapping("/{id}")
-//    @PreAuthorize("hasRole('ROLE_ADMIN')")
+    @PreAuthorize("hasRole('ROLE_ADMIN')")
     public ResponseEntity<ResponseObject> deleteBook(@PathVariable long id) {
         bookService.deleteBook(id);
         return ResponseEntity.ok(ResponseObject.builder()

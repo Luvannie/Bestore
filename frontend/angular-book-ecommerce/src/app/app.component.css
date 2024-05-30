@@ -1,0 +1,39 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.app-search {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.account-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.account-wrap button {
+    background: none;
+    border: none;
+    margin-left: 10px;
+}
+
+.notification-icon img,
+.cart-icon img,
+.account-icon img,
+.language-icon img {
+    width: 24px;
+    height: 24px;
+}

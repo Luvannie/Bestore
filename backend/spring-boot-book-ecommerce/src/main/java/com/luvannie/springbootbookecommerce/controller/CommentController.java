@@ -83,7 +83,7 @@ public class CommentController {
                         .build());
     }
     @PostMapping("/generateFakeComments")
-//    @PreAuthorize("hasRole('ROLE_ADMIN')")
+    @PreAuthorize("hasRole('ROLE_ADMIN')")
     public ResponseEntity<ResponseObject> generateFakeComments() throws Exception {
         commentService.generateFakeComments();
         return ResponseEntity.ok(ResponseObject.builder()

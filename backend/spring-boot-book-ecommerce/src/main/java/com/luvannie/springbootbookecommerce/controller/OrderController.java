@@ -48,7 +48,7 @@ public class OrderController {
 
 
     @DeleteMapping("/{orderId}")
-//    @PreAuthorize("hasRole('ROLE_ADMIN')")
+    @PreAuthorize("hasRole('ROLE_ADMIN')")
     public ResponseEntity<ResponseObject> deleteOrder( @PathVariable Long id) {
         //xóa mềm => cập nhật trường active = false
         orderService.deleteOrder(id);
@@ -74,7 +74,7 @@ public class OrderController {
     }
 
     @PutMapping("/{id}")
-//    @PreAuthorize("hasRole('ROLE_ADMIN')")
+    @PreAuthorize("hasRole('ROLE_ADMIN')")
     public ResponseEntity<ResponseObject> updateOrder(
              @PathVariable long id,
              @RequestBody OrderDTO orderDTO) throws Exception {

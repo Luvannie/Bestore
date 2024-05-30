@@ -1,11 +1,12 @@
 <div class="form-header" >
               <input #myInput
                 placeholder="Tìm sách theo tên ..."
-                class="au-input au-input-xl"
+                class="form-control me-2"
                 type="text"
                 (keyup.enter)="doSearch(myInput.value)"
+                aria-label="Search"
               />
-              <button (click)="doSearch(myInput.value)" class="au-btn-submit" type="submit">
+              <button (click)="doSearch(myInput.value)" class="btn btn-outline-success" type="submit">
                 Tìm kiếm
             </button>
 </div>

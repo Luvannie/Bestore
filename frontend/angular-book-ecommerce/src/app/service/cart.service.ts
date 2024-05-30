@@ -6,6 +6,9 @@ import { BehaviorSubject, Subject } from 'rxjs';
   providedIn: 'root'
 })
 export class CartService {
+  refreshCart() {
+    throw new Error('Method not implemented.');
+  }
   
 
   cartItems: CartItem[] = [];

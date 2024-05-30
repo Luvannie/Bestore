@@ -1,133 +1,176 @@
+
 <div class="main-content page-m">
-    <div class="section-content section-content-p30">
-        <div class="container-fluid">
+  <div class="section-content section-content-p30">
+    <div class="container">
+      <form [formGroup]="registerFormGroup" (ngSubmit)="onSubmit()">
+        <div class="row">
+          <div class="col-md-6 offset-md-3">
+            <div class="register-form mx-auto">
+              <h2 class="register-header">Đăng ký tài khoản</h2>
 
-            <form [formGroup]="registerFormGroup" (ngSubmit)="onSubmit()">
-                <!-- user -->
-                <div formGroupName="user" class="form-area">
-                    <h3>Đăng ký tài khoản</h3>
-
-                    <div class="row">
-                        <div class="col-md-2">
-                            <label>
-                                Tài khoản
-                            </label>
-                        </div>
-                        <div class="col-md-10">
-                            <div class="input-space">
-                                <input type="text" formControlName="account" >
-
-                                <div *ngIf="account?.invalid && (account?.dirty || account?.touched)" class="alert alert-danger">
-                                    <div *ngIf="(account?.errors?.['required'] || account?.errors?.['allwhitespace'] )">
-                                        tài khoản không được để trống
-                                    </div>
-                                    <div *ngIf="account?.errors?.['minlength']">
-                                        Mật khẩu ít nhất  6 ký tự
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+              <div formGroupName="user">
+                <div class="form-group">
+                  <label for="account">Tài khoản</label>
+                  <input
+                    type="text"
+                    formControlName="account"
+                    class="form-control"
+                    id="account"
+                  />
+                  <div class="divider-nospace"></div>
+                  <div
+                    *ngIf="
+                      account?.invalid && (account?.dirty || account?.touched)
+                    "
+                    class="text-danger"
+                  >
+                    <div
+                      *ngIf="(account?.errors?.['required'] || account?.errors?.['allwhitespace'] )"
+                    >
+                      Tài khoản không được để trống
                     </div>
-
-                    <div class="row">
-                        <div class="col-md-2">
-                            <label>
-                                Mật khẩu
-                            </label>
-                        </div>
-                        <div class="col-md-10">
-                            <div class="input-space">
-                                <input type="password" formControlName="password" >
-
-                                <div *ngIf="password?.invalid && (password?.dirty || password?.touched)" class="alert alert-danger">
-                                    <div *ngIf="(password?.errors?.['required'] || password?.errors?.['allwhitespace'] )">
-                                        Mật khẩu không được để trống
-                                    </div>
-                                    <div *ngIf="password?.errors?.['minlength']">
-                                        Mật khẩu ít nhất  6 ký tự
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <div *ngIf="account?.errors?.['minlength']">
+                      Tài khoản phải có ít nhất 6 ký tự
                     </div>
-
-                    <div class="row">
-                        <div class="col-md-2">
-                            <label>
-                                Họ và tên
-                            </label>
-                        </div>
-                        <div class="col-md-10">
-                            <div class="input-space">
-                                <input type="text" formControlName="username" >
-
-                                <div *ngIf="username?.invalid && (username?.dirty || username?.touched)" class="alert alert-danger">
-                                    <div *ngIf="(username?.errors?.['required'] || username?.errors?.['allwhitespace'] )">
-                                        Họ và tên không được để trống
-                                    </div>
-                                    <div *ngIf="username?.errors?.['minlength']">
-                                        Họ và tên ít nhất  3 ký tự
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-md-2">
-                            <label>
-                                Số điện thoại
-                            </label>
-                        </div>
-                        <!-- Add more fields as needed -->
-                        <div class="col-md-10">
-                            <div class="input-space">
-                                <input type="text" formControlName="phoneNumber" >
-
-                                <div *ngIf="phoneNumber?.invalid && (phoneNumber?.dirty || phoneNumber?.touched)" class="alert alert-danger">
-                                    <div *ngIf="(phoneNumber?.errors?.['required'] || phoneNumber?.errors?.['allwhitespace'] )">
-                                        Số điện thoại không được để trống
-                                    </div>
-                                    <div *ngIf="phoneNumber?.errors?.['minlength']">
-                                        Số điện thoại ít nhất  10 ký tự
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-md-2">
-                            <label>
-                                Email
-                            </label>
-                        </div>
-                        <div class="col-md-10">
-                            <div class="input-space">
-                                <input type="text" formControlName="email" >
-
-                                <div *ngIf="email?.invalid && (email?.dirty || email?.touched)" class="alert alert-danger">
-                                    <div *ngIf="(email?.errors?.['required'] || email?.errors?.['allwhitespace'] )">
-                                        Email không được để trống
-                                    </div>
-                                    <div *ngIf="email?.errors?.['email']">
-                                        Email không đúng định dạng
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    
-                    
-                    
-
-                    <div class="text-center">
-                        <button class="btn btn-info" type="submit">Đăng ký</button>
-                    </div> 
-
+                  </div>
                 </div>
-            </form>
+
+                <div class="mt-3"></div>
+                <div class="form-group password-field">
+                  <label for="password">Mật khẩu</label>
+                  <input
+                    type="password"
+                    formControlName="password"
+                    class="form-control"
+                    id="password"
+                  />
+                  <div class="divider-nospace"></div>
+                  <div
+                    *ngIf="
+                      password?.invalid &&
+                      (password?.dirty || password?.touched)
+                    "
+                    class="text-danger"
+                  >
+                    <div
+                      *ngIf="(password?.errors?.['required'] || password?.errors?.['allwhitespace'] )"
+                    >
+                      Mật khẩu không được để trống
+                    </div>
+                    <div *ngIf="password?.errors?.['minlength']">
+                      Mật khẩu phải có ít nhất 6 ký tự
+                    </div>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="retype_password">Nhập lại mật khẩu</label>
+                  <input type="password" 
+                      formControlName="retype_password" 
+                      class="form-control" 
+                      id="retype_password"
+                      (change)="checkPasswordsMatch()">
+                  <div class="divider-nospace"></div>
+                  <div *ngIf="retype_password?.invalid && (retype_password?.dirty || retype_password?.touched)" class="text-danger">
+                      <div *ngIf="(retype_password?.errors?.['required'] || retype_password?.errors?.['allwhitespace'] )">
+                          Nhập lại mật khẩu không được để trống
+                      </div>
+                      <div *ngIf="retype_password?.errors?.['passwordMismatch']">
+                          Mật khẩu nhập lại không khớp
+                      </div>
+                  </div>
+              </div>
+
+                <div class="form-group">
+                  <label for="username">Họ và tên</label>
+                  <input
+                    type="text"
+                    formControlName="username"
+                    class="form-control"
+                    id="username"
+                  />
+                  <div class="divider-nospace"></div>
+                  <div
+                    *ngIf="
+                      username?.invalid &&
+                      (username?.dirty || username?.touched)
+                    "
+                    class="text-danger"
+                  >
+                    <div
+                      *ngIf="(username?.errors?.['required'] || username?.errors?.['allwhitespace'] )"
+                    >
+                      Họ và tên không được để trống
+                    </div>
+                    <div *ngIf="username?.errors?.['minlength']">
+                      Họ và tên phải có ít nhất 3 ký tự
+                    </div>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="phoneNumber">Số điện thoại</label>
+                  <input
+                    type="text"
+                    formControlName="phone_number"
+                    class="form-control"
+                    id="phone_number"
+                  />
+                  <div class="divider-nospace"></div>
+                  <div
+                    *ngIf="
+                      phoneNumber?.invalid &&
+                      (phoneNumber?.dirty || phoneNumber?.touched)
+                    "
+                    class="text-danger"
+                  >
+                    <div
+                      *ngIf="(phoneNumber?.errors?.['required'] || phoneNumber?.errors?.['allwhitespace'] )"
+                    >
+                      Số điện thoại không được để trống
+                    </div>
+                    <div *ngIf="phoneNumber?.errors?.['minlength']">
+                      Số điện thoại phải có ít nhất 10 ký tự
+                    </div>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input
+                    type="email"
+                    formControlName="email"
+                    class="form-control"
+                    id="email"
+                  />
+                  <div class="divider-nospace"></div>
+                  <div
+                    *ngIf="email?.invalid && (email?.dirty || email?.touched)"
+                    class="text-danger"
+                  >
+                    <div
+                      *ngIf="(email?.errors?.['required'] || email?.errors?.['allwhitespace'] )"
+                    >
+                      Email không được để trống
+                    </div>
+                    <div *ngIf="email?.errors?.['email']">
+                      Định dạng email không hợp lệ
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="text-center">
+            <button class="btn btn-info" type="submit">Đăng ký</button>
+          </div>
+
+          <div class="divider"></div>
+          <p class="text-center">Bạn đã có tài khoản? <span>
+              <a href="#" class="register-link">Đăng nhập</a></span></p>
         </div>
+      </form>
     </div>
+  </div>
 </div>

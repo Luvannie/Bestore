@@ -154,7 +154,7 @@ public class UserController {
         Token jwtToken = tokenService.addToken(userDetail, token, isMobileDevice(userAgent));
 
         LoginResponse loginResponse = LoginResponse.builder()
-                .message("Login successfully")
+                .message("Login successfullyyy")
                 .token(jwtToken.getToken())
                 .tokenType(jwtToken.getTokenType())
                 .refreshToken(jwtToken.getRefreshToken())
@@ -265,7 +265,7 @@ public class UserController {
     }
 
     @PutMapping("/block/{userId}/{active}")
-//    @PreAuthorize("hasRole('ROLE_ADMIN')")
+    @PreAuthorize("hasRole('ROLE_ADMIN')")
     public ResponseEntity<ResponseObject> blockOrEnable(
              @PathVariable long userId,
              @PathVariable int active

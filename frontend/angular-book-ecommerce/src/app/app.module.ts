@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BookListComponent } from './component/book-list/book-list.component';
 import { HttpClient } from '@angular/common/http';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClientModule,HTTP_INTERCEPTORS } from '@angular/common/http';
 import { BookService } from './service/book.service';
 import { Router, RouterModule, Routes } from '@angular/router';
 import { BookCategoryMenuComponent } from './component/book-category-menu/book-category-menu.component';
@@ -15,7 +15,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CartStatusComponent } from './component/cart-status/cart-status.component';
 import { CartDetailComponent } from './component/cart-detail/cart-detail.component';
 import { CheckoutComponent } from './component/checkout/checkout.component';
-import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HomeComponent } from './component/home/home.component';
 import { LoginComponent } from './component/login/login.component';
 import { LoginStatusComponent } from './component/login-status/login-status.component';
@@ -23,6 +23,9 @@ import { OKTA_CONFIG, OktaAuthModule } from '@okta/okta-angular';
 import myAppConfig from './config/my-app-config';
 import { OktaAuth } from '@okta/okta-auth-js';
 import { RegisterComponent } from './component/register/register.component';
+import { TokenInterceptor } from './interceptor/token.interceptor';
+import { Form } from '@okta/okta-signin-widget/types/packages/@okta/courage-dist/types';
+
 
 const oktaConfig = myAppConfig.oidc;
 
@@ -52,6 +55,7 @@ const oktaAuth = new OktaAuth(oktaConfig);
     NgbModule,
     ReactiveFormsModule,
     OktaAuthModule,
+    FormsModule,
     
     
   ],

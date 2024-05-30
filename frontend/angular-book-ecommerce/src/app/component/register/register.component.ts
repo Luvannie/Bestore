@@ -27,7 +27,11 @@ export class RegisterComponent implements OnInit{
           account: new FormControl('',[Validators.required, Validators.minLength(6),BeValidate.allWhitespaceValidator]),
           password:new FormControl('',[Validators.required, Validators.minLength(6),BeValidate.allWhitespaceValidator]),
           email: new FormControl('', [Validators.required, Validators.email,BeValidate.allWhitespaceValidator]),
-          phoneNumber: new FormControl('',[Validators.required, Validators.minLength(10),BeValidate.allWhitespaceValidator]),
+          phone_number: new FormControl('',[Validators.required, Validators.minLength(10),BeValidate.allWhitespaceValidator]),
+          retype_password: new FormControl('',[Validators.required, Validators.minLength(6),BeValidate.allWhitespaceValidator]),
+          facebook_account_id: new FormControl(0),
+          google_account_id: new FormControl(0),
+          role_id: new FormControl(1)
 
         })
       });
@@ -71,8 +75,20 @@ export class RegisterComponent implements OnInit{
   }
 
   get phoneNumber(){
-    return this.registerFormGroup.get('user.phoneNumber');
+    return this.registerFormGroup.get('user.phone_number');
   }
+
+  get retype_password(){
+    return this.registerFormGroup.get('user.retype_password');
+  }
+
+  checkPasswordsMatch() {    
+    if (this.registerFormGroup.get('user.password')?.value !== this.registerFormGroup.get('user.retype_password')?.value) {
+        this.registerFormGroup.get('user.retype_password')?.setErrors({ 'passwordMismatch': true });
+    } else {
+        this.registerFormGroup.get('user.retype_password')?.setErrors(null);
+    }
+}
 
 
 }

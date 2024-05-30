@@ -77,7 +77,7 @@ public class JwtTokenFilter extends OncePerRequestFilter{
     private boolean isBypassToken(@NonNull HttpServletRequest request) {
         final List<Pair<String, String>> bypassTokens = Arrays.asList(
                 // Healthcheck request, no JWT token required
-                Pair.of(String.format("%s/healthcheck/health", apiPrefix), "GET"),
+//                Pair.of(String.format("%s/healthcheck/health", apiPrefix), "GET"),
                 Pair.of(String.format("%s/actuator/**", apiPrefix), "GET"),
 
                 Pair.of(String.format("%s/roles**", apiPrefix), "GET"),
@@ -86,8 +86,8 @@ public class JwtTokenFilter extends OncePerRequestFilter{
                 Pair.of(String.format("%s/coupons**", apiPrefix), "GET"),
 
                 Pair.of(String.format("%s/books**", apiPrefix), "GET"),
-                Pair.of(String.format("%s/book_categories**", apiPrefix), "GET"),
-
+                Pair.of(String.format("%s/book-category**", apiPrefix), "GET"),
+                Pair.of(String.format("%s/book_categories/**", apiPrefix), "GET"),
                 Pair.of(String.format("%s/users/register", apiPrefix), "POST"),
                 Pair.of(String.format("%s/users/login", apiPrefix), "POST"),
                 Pair.of(String.format("%s/users/refreshToken", apiPrefix), "POST")
