@@ -194,16 +194,52 @@
                         </div>
                     </div>
                 </div>
-                
-                
+
+                <!-- method -->
+                <div formGroupName="method" class="form-area">
+                    <h3>Phương thức thanh toán và phương thức vận chuyển</h3>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <label>
+                                Phương thức thanh toán
+                            </label>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="input-space">
+                                <select formControlName="paymentMethod" >
+                                    <option value="COD">Thanh toán khi nhận hàng</option>
+                                    <option value="CREDIT_CARD">Thanh toán bằng thẻ</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div> 
+                    
+                    <div class="row">
+                        <div class="col-md-2">
+                            <label>
+                                Phương thức vận chuyển
+                            </label>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="input-space">
+                                <select formControlName="shippingMethod"  >
+                                    <option value="NORMAL">vận chuyển thường</option>
+                                    <option value="EXPRESS">Vận chuyển hỏa tốc</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+
+
                 <!-- Stripe Elements Credit Card Section -->
-                <div formGroupName="creditCard" class="form-area">
+                <div formGroupName="creditCard" class="form-area" >
                     <h3>Credit or debit card</h3>
 
                     <div id="card-element">
-                        <!-- A Stripe Element will be inserted here. -->
+                       
                     </div>
-                    <!-- display card error -->
+                  
                     <div id="card-errors" class="displayError.textContent!=='':'alert alert-danger mt-1'"></div>
 
                 </div>

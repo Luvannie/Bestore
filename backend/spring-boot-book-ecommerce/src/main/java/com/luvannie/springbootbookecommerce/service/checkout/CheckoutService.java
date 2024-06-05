@@ -1,19 +1,19 @@
 package com.luvannie.springbootbookecommerce.service.checkout;
 
+import com.luvannie.springbootbookecommerce.component.SecurityUtils;
 import com.luvannie.springbootbookecommerce.dao.CouponRepository;
 import com.luvannie.springbootbookecommerce.dao.CustomerRepository;
 import com.luvannie.springbootbookecommerce.dao.OrderRepository;
 import com.luvannie.springbootbookecommerce.dao.UserRepository;
 import com.luvannie.springbootbookecommerce.dto.PaymentInfoDTO;
 import com.luvannie.springbootbookecommerce.dto.PurchaseDTO;
-import com.luvannie.springbootbookecommerce.dto.PurchaseResponse;
+import com.luvannie.springbootbookecommerce.responses.purchase.PurchaseResponse;
 import com.luvannie.springbootbookecommerce.entity.*;
 //import jakarta.transaction.Transactional;
 import com.luvannie.springbootbookecommerce.exceptions.DataNotFoundException;
 import com.stripe.Stripe;
 import com.stripe.exception.StripeException;
 import com.stripe.model.PaymentIntent;
-import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -29,16 +29,18 @@ public class CheckoutService implements ICheckoutService {
 
     private final OrderRepository orderRepository;
     private final CouponRepository couponRepository;
+    private final SecurityUtils securityUtils;
 
 
 
     public CheckoutService(CustomerRepository customerRepository, UserRepository userRepository,
-                           OrderRepository orderRepository, CouponRepository couponRepository,
+                           OrderRepository orderRepository, CouponRepository couponRepository, SecurityUtils securityUtils,
                            @Value("${STRIPE_SECRET_KEY}" ) String stripeSecretKey) {
         this.customerRepository = customerRepository;
         this.userRepository = userRepository;
         this.orderRepository = orderRepository;
         this.couponRepository = couponRepository;
+        this.securityUtils = securityUtils;
         Stripe.apiKey = stripeSecretKey;
     }
 
@@ -62,8 +64,10 @@ public class CheckoutService implements ICheckoutService {
 
         //chuyen active thanh 1
         order.setActive(Boolean.TRUE);
-
+        //chuyen status thanh pending
+        order.setStatus(OrderStatus.PENDING);
         // populate order with user
+
         User user = userRepository
                 .findById(purchaseDTO.getUserId())
                 .orElseThrow(() -> new DataNotFoundException("Cannot find user with id: "+purchaseDTO.getUserId()));

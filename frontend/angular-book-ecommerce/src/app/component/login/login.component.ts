@@ -48,16 +48,16 @@ export class LoginComponent implements OnInit{
 
     this.roleService.getRoles().subscribe({      
       next: (apiResponse: ApiResponse) => { // Sử dụng kiểu Role[]
-        debugger
+        // debugger
         const roles = apiResponse.data
         this.roles = roles;
         this.selectedRole = roles.length > 0 ? roles[0] : undefined;
       },
       complete: () => {
-        debugger
+        // debugger
       },  
       error: (error: HttpErrorResponse) => {
-        debugger;
+        // debugger;
         console.error(error?.error?.message ?? '');
       } 
     });
@@ -73,32 +73,36 @@ export class LoginComponent implements OnInit{
   
     this.userService.login(loginDTO).subscribe({
       next: (apiResponse: ApiResponse) => {
-        debugger
+         debugger
         const { token } = apiResponse.data;
         if(this.rememberMe){
           this.tokenService.setToken(token);
-          debugger
+           debugger
           this.userService.getUserDetail(token).subscribe({
             next: (apiResponse2: ApiResponse) => {
-              debugger
+               debugger
               this.userResponse = {
                 ...apiResponse2.data,
               };    
               this.userService.saveUserResponseToLocalStorage(this.userResponse); 
               if(this.userResponse?.role.name == 'admin') {
-                this.router.navigate(['/admin']);    
+                console.log('Admin login successfully');
+                this.router.navigateByUrl("/admin");    
               } else if(this.userResponse?.role.name == 'user') {
-                this.router.navigate(['/']);                      
+                console.log('User login successfully');
+                this.router.navigateByUrl("/books");    
+                // this.router.navigate(['/admin']);                     
               }
               
             },
             complete: () => {
               this.resetCart();
-              debugger;
+               debugger;
             },
             error: (error: HttpErrorResponse) => {
-              debugger;
+              // debugger;
               console.error(error?.error?.message ?? '');
+              console.error('Error getting user detail:', error);
             } 
           })
         }

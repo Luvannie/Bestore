@@ -25,6 +25,9 @@ import { OktaAuth } from '@okta/okta-auth-js';
 import { RegisterComponent } from './component/register/register.component';
 import { TokenInterceptor } from './interceptor/token.interceptor';
 import { Form } from '@okta/okta-signin-widget/types/packages/@okta/courage-dist/types';
+import { HeaderComponent } from './component/header/header.component';
+import { UserProfileComponent } from './component/user-profile/user-profile.component';
+import { AdminComponent } from './component/admin/admin.component';
 
 
 const oktaConfig = myAppConfig.oidc;
@@ -46,6 +49,9 @@ const oktaAuth = new OktaAuth(oktaConfig);
     LoginComponent,
     LoginStatusComponent,
     RegisterComponent,
+    HeaderComponent,
+    UserProfileComponent,
+    AdminComponent,
     
   ],
   imports: [

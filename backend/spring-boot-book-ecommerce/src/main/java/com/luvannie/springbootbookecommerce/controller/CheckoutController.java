@@ -3,7 +3,7 @@ package com.luvannie.springbootbookecommerce.controller;
 import com.luvannie.springbootbookecommerce.component.SecurityUtils;
 import com.luvannie.springbootbookecommerce.dto.PaymentInfoDTO;
 import com.luvannie.springbootbookecommerce.dto.PurchaseDTO;
-import com.luvannie.springbootbookecommerce.dto.PurchaseResponse;
+import com.luvannie.springbootbookecommerce.responses.purchase.PurchaseResponse;
 import com.luvannie.springbootbookecommerce.entity.User;
 import com.luvannie.springbootbookecommerce.exceptions.DataNotFoundException;
 import com.luvannie.springbootbookecommerce.service.checkout.ICheckoutService;
@@ -27,7 +27,7 @@ public class CheckoutController {
     @PostMapping("/purchase")
     public PurchaseResponse placeOrder(@RequestBody PurchaseDTO purchaseDTO) throws DataNotFoundException {
         User loginUser = securityUtils.getLoggedInUser();
-        if(purchaseDTO.getUserId() == null) {
+        if(purchaseDTO.getUserId == null) {
             purchaseDTO.setUserId(loginUser.getId());
         }
         PurchaseResponse purchaseResponse = checkoutService.placeOrder(purchaseDTO);

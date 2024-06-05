@@ -2,7 +2,7 @@ package com.luvannie.springbootbookecommerce.service.checkout;
 
 import com.luvannie.springbootbookecommerce.dto.PaymentInfoDTO;
 import com.luvannie.springbootbookecommerce.dto.PurchaseDTO;
-import com.luvannie.springbootbookecommerce.dto.PurchaseResponse;
+import com.luvannie.springbootbookecommerce.responses.purchase.PurchaseResponse;
 import com.luvannie.springbootbookecommerce.exceptions.DataNotFoundException;
 import com.stripe.exception.StripeException;
 import com.stripe.model.PaymentIntent;

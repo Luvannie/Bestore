@@ -1,108 +1,101 @@
-<div class="page-wrapper">
-  <!-- MENU SIDEBAR-->
-  <aside class="menu-sidebar d-none d-lg-block">
-    <div class="logo">
-      <a href="#">
-        <img
-          src="assets/images/logo.png"
-          alt="BESTORE"
-          height="75"
-          width="200"
-        />
-      </a>
-    </div>
-
-    <app-book-category-menu></app-book-category-menu>
-  </aside>
-  <!-- END MENU SIDEBAR-->
-  <!-- PAGE CONTAINER-->
-  <div class="page-container">
-    <!-- HEADER DESKTOP-->
-    <!-- <header class="header-desktop">
-      <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-        <div class="container-fluid">
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Trang chủ</a>
-              </li>
-              <li class="nav-item">
-                <app-cart-status></app-cart-status>
-              </li>
-              <li class="nav-item">
-                <a routerLink="/register" class="btn btn-primary">Đăng ký</a>
-              </li>
-              
-            </ul>
-
-            <app-search></app-search>
-            <div class="account-wrap"></div>
-          </div>
-        </div>
-
-         
-      </nav>
-    </header> -->
-
-    <!-- <header class="header-desktop">
-      <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-          <div class="container-fluid">
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="display: flex; justify-content: space-between;">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Trang chủ</a>
-                  </li>
-                  <app-search></app-search>
-                    <li class="nav-item">
-                        <app-cart-status></app-cart-status>
-                    </li>
-                    <li class="nav-item">
-                        <a routerLink="/register" class="btn btn-primary">Đăng ký</a>
-                    </li>
-                </ul>
-              </div>
-          </div>
-      </nav>
-  </header> -->
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Trang chủ</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <div class="mx-auto">
-            <app-search></app-search>
-          </div>
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <app-cart-status></app-cart-status>
-            </li>
-            <li class="nav-item">
-              <a routerLink="/register" class="btn btn-primary">Đăng ký</a>
-            </li>
-          </ul>
-        </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="page-wrapper">
+    <!-- MENU SIDEBAR-->
+    <aside class="menu-sidebar d-none d-lg-block">
+      <div class="logo" style="background-color: #00d29a;">
+        <a href="#">
+          <img
+            src="assets/images/logo.png"
+            alt="BESTORE"
+            width="200"
+            style="height: 75px; object-fit: cover;"
+          />
+        </a>
       </div>
-    </nav>
-  </header>
   
-
-    <!-- END HEADER DESKTOP-->
-
-    <!-- MAIN CONTENT-->
-    <app-login></app-login>
-    <!-- <router-outlet></router-outlet> -->
-
-    <!-- <app-book-list></app-book-list> -->
+      <app-book-category-menu ></app-book-category-menu>
+    </aside>
+    <div>
+      
+    </div>
+    <!-- END MENU SIDEBAR-->
+    <!-- PAGE CONTAINER-->
+    <div class="page-container">
+      <!-- HEADER DESKTOP-->
+      <!-- <header class="header-desktop">
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+          <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Trang chủ</a>
+                </li>
+                <li class="nav-item">
+                  <app-cart-status></app-cart-status>
+                </li>
+                <li class="nav-item">
+                  <a routerLink="/register" class="btn btn-primary">Đăng ký</a>
+                </li>
+                
+              </ul>
+  
+              <app-search></app-search>
+              <div class="account-wrap"></div>
+            </div>
+          </div>
+  
+           
+        </nav>
+      </header> -->
+  
+      <!-- <header class="header-desktop">
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="display: flex; justify-content: space-between;">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Trang chủ</a>
+                    </li>
+                    <app-search></app-search>
+                      <li class="nav-item">
+                          <app-cart-status></app-cart-status>
+                      </li>
+                      <li class="nav-item">
+                          <a routerLink="/register" class="btn btn-primary">Đăng ký</a>
+                      </li>
+                  </ul>
+                </div>
+            </div>
+        </nav>
+    </header> -->
+    <app-header></app-header>
+    
+  
+      <!-- END HEADER DESKTOP-->
+  
+      <!-- MAIN CONTENT-->
+      <!-- <app-login></app-login> -->
+      <app-admin></app-admin>
+      <router-outlet style="padding-top: 75px;"></router-outlet>
+   
+      <!-- <app-book-list></app-book-list> -->
+    </div>
   </div>
-</div>
-
-<footer>
-  <ul>
-    <li><a href="#">About Us</a></li>
-    <li><a href="#">Contact Us</a></li>
-    <li><a href="#">Help</a></li>
-  </ul>
-</footer>
+  
+  <footer  style="background-color: #00d29a; height: 75px; bottom: 0; width: calc(100%); z-index: 11;">
+    <ul>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Contact Us</a></li>
+      <li><a href="#">Help</a></li>
+    </ul>
+  </footer>
+  
+</body>
+</html>

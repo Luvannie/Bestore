@@ -23,7 +23,8 @@ public class UserResponse {
     @JsonProperty("is_active")
     private boolean active;
 
-
+    @JsonProperty("email")
+    private String email;
 
     @JsonProperty("facebook_account_id")
     private int facebookAccountId;
@@ -39,6 +40,7 @@ public class UserResponse {
                 .id(user.getId())
                 .userName(user.getUsername())
                 .phoneNumber(user.getPhoneNumber())
+                .email(user.getEmail())
                 .active(user.isActive())
                 .facebookAccountId(user.getFacebookAccountId())
                 .googleAccountId(user.getGoogleAccountId())

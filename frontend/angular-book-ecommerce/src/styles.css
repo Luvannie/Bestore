@@ -107,7 +107,7 @@ a,a:hover{
 
 .page-wrapper{
     overflow:hidden;
-    background:#e5e5e5;
+    /* background:#e5e5e5; */
     padding-bottom:8vh
 }
 
@@ -117,13 +117,13 @@ a,a:hover{
 }
 
 .main-content{
-    padding-top:116px;
+    padding-top:100px;
     min-height:100vh
 }
 
 aside.menu-sidebar.d-none.d-lg-block.clr{
     background:0 0;
-    z-index:99999999;
+    /* z-index:99999999; */
     height:75px;
     box-shadow:-2px 0 4px #0000003b
 }
@@ -150,7 +150,6 @@ aside.menu-sidebar.d-none.d-lg-block.clr{
 .header-desktop .section-content{
     overflow:visible;
     position:absolute;
-    top:50%;
     left:0;
     right:0;
     -webkit-transform:translateY(-50%);
@@ -341,7 +340,7 @@ input.au-input.au-input-xl{
     -webkit-box-shadow:0 2px 5px 0 rgba(0,0,0,.1);
     -moz-box-shadow:0 2px 5px 0 rgba(0,0,0,.1);
     box-shadow:0 2px 5px 0 rgba(0,0,0,.1);
-    border-right:1px solid #e5e5e5;
+    /* border-right:1px solid #e5e5e5; */
     position:relative;
     z-index:3
 }
@@ -527,7 +526,8 @@ input.au-input.au-input-xl{
  */
 
 .product-box img {
-    width: 150px;
+    width: 250px;
+    height: 380px;
 }
 
 .items select {
@@ -553,7 +553,8 @@ input.au-input.au-input-xl{
     padding-bottom:5px;
     font-weight:600;
     padding-top:12px;
-    margin-bottom:7px
+    margin-bottom:7px;
+    -webkit-line-clamp: 1;
 }
 .product-box h2{
     font-size:15px;
@@ -982,7 +983,7 @@ footer ul li{
         text-align:center
     }
     .product-box{
-        text-align:centerg
+        text-align:center
     }
     .page-container{
         position:relative;
@@ -1041,5 +1042,11 @@ footer ul li{
         background:#fff;
         border:0;
         padding:8px 0
+    }
+
+    .transparent-background{
+        background-image: url('./assets/images/background.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }

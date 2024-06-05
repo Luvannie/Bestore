@@ -1,12 +1,42 @@
-<div class="form-header" >
-              <input #myInput
-                placeholder="Tìm sách theo tên ..."
-                class="form-control me-2"
-                type="text"
-                (keyup.enter)="doSearch(myInput.value)"
-                aria-label="Search"
-              />
-              <button (click)="doSearch(myInput.value)" class="btn btn-outline-success" type="submit">
-                Tìm kiếm
-            </button>
+<style>
+  .search-button {
+    height: 40px;
+    width: 44px; /* Make the button a perfect circle */
+    border-radius: 50%; /* Make the button a perfect circle */
+    background-color: #008CBA;
+    border: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    display: flex; /* Center the icon */
+    justify-content: center; /* Center the icon */
+    align-items: center; /* Center the icon */
+  }
+
+  .search-button:hover {
+    background-color: #00688B;
+    box-shadow: 0 12px 24px 0 rgba(0,0,0,0.2);
+  }
+
+  .search-button img {
+    filter: invert(1); /* Change the icon color to white */
+  }
+</style>
+
+<div class="form-header">
+  <input
+    #myInput
+    placeholder="Tìm sách theo tên ..."
+    class="form-control me-2"
+    style="height: 40px;"
+    type="text"
+    (keyup.enter)="doSearch(myInput.value)"
+    aria-label="Search"
+  />
+  <button
+    (click)="doSearch(myInput.value)"
+    class="btn btn-outline-success search-button"
+    type="submit"
+  >
+   <img src="../../../assets/images/products/search.png" alt="Search">
+  </button>
 </div>

@@ -1,13 +1,14 @@
 import { HttpClient, HttpHeaders } from '@angular/common/http';
-import { Injectable, inject } from '@angular/core';
+import { Inject, Injectable, inject } from '@angular/core';
 import { User } from '../common/user';
 import { LoginDTO } from '../common/loginDTO';
-import { Observable } from 'rxjs';
+import { Observable, catchError } from 'rxjs';
 import { environment } from '../../environments/environment';
 import { HttpUtilService } from './http.util.service';
 import { ApiResponse } from '../response/api.response';
 import { UserResponse } from '../response/user/user.response';
 import { UpdateUserDTO } from '../common/update-user-dto';
+import { DOCUMENT } from '@angular/common';
 
 @Injectable({
   providedIn: 'root'
@@ -24,7 +25,9 @@ export class UserService {
   private apiConfig={
     headers: this.httpUtilService.createHeaders(),
   }
-  constructor(private httpClient:HttpClient) { }
+  constructor(private httpClient:HttpClient,
+    @Inject(DOCUMENT) private document: Document
+  ) {this.localStorage = document.defaultView?.localStorage; }
 
   //register a new user
   registerUser(newUser: User){
@@ -38,31 +41,62 @@ export class UserService {
     return this.httpClient.post(loginUrl, loginDTO,this.apiConfig);
   }
 
+  // getUserDetail(token: string): Observable<ApiResponse> {
+  //   return this.http.post<ApiResponse>(this.apiUserDetail, {
+  //     headers: new HttpHeaders({
+  //       'Content-Type': 'application/json',
+  //       Authorization: `Bearer ${token}`
+  //     })
+  //   })
+  // }
+
   getUserDetail(token: string): Observable<ApiResponse> {
-    return this.http.post<ApiResponse>(this.apiUserDetail, {
-      headers: new HttpHeaders({
-        'Content-Type': 'application/json',
-        Authorization: `Bearer ${token}`
-      })
-    })
+    const headers = new HttpHeaders({
+      'Content-Type': 'application/json',
+      'Authorization': `Bearer ${token}`
+    });
+  
+    return this.http.post<ApiResponse>(this.apiUserDetail, {}, { headers: headers });
   }
+
+  // updateUserDetail(token: string, updateUserDTO: UpdateUserDTO): Observable<ApiResponse>  {
+  //   // debugger
+  //   const headers = new HttpHeaders({
+  //     'Content-Type': 'application/json',
+  //     'Authorization': `Bearer ${token}`
+  //   });
+  //   let userResponse = this.getUserResponseFromLocalStorage();        
+  //   return this.http.put<ApiResponse>(`${this.apiUserDetail}/${userResponse?.id}`,updateUserDTO, { headers: headers });
+  // }
 
   updateUserDetail(token: string, updateUserDTO: UpdateUserDTO): Observable<ApiResponse>  {
-    debugger
-    let userResponse = this.getUserResponseFromLocalStorage();        
-    return this.http.put<ApiResponse>(`${this.apiUserDetail}/${userResponse?.id}`,updateUserDTO,{
-      headers: new HttpHeaders({
-        'Content-Type': 'application/json',
-        Authorization: `Bearer ${token}`
-      })
-    })
-  }
+    const headers = new HttpHeaders({
+      'Content-Type': 'application/json',
+      'Authorization': `Bearer ${token}`
+    });
+    let userResponse = this.getUserResponseFromLocalStorage(); 
+
+    if (!userResponse || !userResponse.id) {
+        console.error('User response or user ID is not defined');
+        throw new Error('User response or user ID is not defined');
+    }
+        
+    return this.http.put<ApiResponse>(`${this.apiUserDetail}/${userResponse.id}`, updateUserDTO, { headers: headers })
+      .pipe(
+        catchError(err => {
+          console.error(err);
+          throw err;
+        })
+      );
+}
 
   getUserResponseFromLocalStorage():UserResponse | null {
+    // debugger
     try {
       // Retrieve the JSON string from local storage using the key
       const userResponseJSON = this.localStorage?.getItem('user'); 
       if(userResponseJSON == null || userResponseJSON == undefined) {
+        console.log('User response not found in local storage.');
         return null;
       }
       // Parse the JSON string back to an object
@@ -77,7 +111,7 @@ export class UserService {
 
   saveUserResponseToLocalStorage(userResponse?: UserResponse) {
     try {
-      debugger
+      // debugger
       if(userResponse == null || !userResponse) {
         return;
       }
@@ -86,6 +120,7 @@ export class UserService {
       // Save the JSON string to local storage with a key (e.g., "userResponse")
       this.localStorage?.setItem('user', userResponseJSON);  
       console.log('User response saved to local storage.');
+      console.log( this.localStorage?.getItem('user'));
     } catch (error) {
       console.error('Error saving user response to local storage:', error);
     }

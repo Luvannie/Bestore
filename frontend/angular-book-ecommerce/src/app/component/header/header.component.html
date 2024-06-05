@@ -1,0 +1,104 @@
+<header  style="background-color: #00d29a; height: 75px; position: fixed; top: 0; width: calc(100% - 200px); z-index: 1100000000;">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand ml-2" style="color: white; font-weight: 700; font-size: 22px;" href="#">Trang chủ</a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="mx-auto">
+            <app-search></app-search>
+          </div>
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <app-cart-status></app-cart-status>
+            </li>
+            <li class="nav-item">
+              @if(userResponse) {
+                <ng-container>
+                  <ng-container
+                    ngbPopover="Tài khoản của tôi,Đơn mua,Đăng xuất"
+                    popoverTitle="User Actions"
+                    triggers="click"
+                    [placement]="'bottom'"
+                  >
+                    <a
+                      class="nav-link"                              
+                      [ngbPopover]="popoverContent"
+                      (click)="togglePopover($event)"
+                    >
+                      {{ userResponse.username }}
+                    </a>
+                    <ng-template #popoverContent>
+                      <div class="popover-list">
+                        <a class="popover-item" 
+                            (click)="handleItemClick(0)">Tài khoản của tôi</a>
+                        <a class="popover-item" 
+                            (click)="handleItemClick(1)">Đơn mua</a>
+                        <a class="popover-item" 
+                            (click)="handleItemClick(2)">Đăng xuất</a>
+                      </div>
+                    </ng-template>
+                  </ng-container>
+                </ng-container>
+              } @else {
+                <ng-container>
+                  <a class="nav-link" 
+                    style="display: inline-block; 
+                    border: 2px solid; 
+                    background-color: #008CBA; 
+                    color: white; 
+                    font-size: 16px;
+                    margin: 5px 10px 0 10px;
+                    padding: 10px 20px; 
+                    text-align: center; 
+                    text-decoration: none; 
+                    transition: 0.3s; border-radius: 20px;" routerLink="/login">
+                    Đăng nhập
+                  </a>
+                </ng-container>
+              }                                                
+            </li>  
+            <li class="nav-item">
+              <a class="nav-link" 
+                    style="display: inline-block; 
+                    border: 2px solid; 
+                    background-color: #008CBA; 
+                    color: white; 
+                    font-size: 16px;
+                    margin: 5px 10px 0 10px;
+                    padding: 10px 20px; 
+                    text-align: center; 
+                    text-decoration: none; 
+                    transition: 0.3s; border-radius: 20px;" routerLink="/register">
+                    Đăng ký
+                  </a>
+            </li>                             
+
+            <!-- <li class="nav-item">
+              <a class="nav-link" 
+                  style="display: inline-block; 
+                  border: 2px solid; 
+                  background-color: #008CBA; 
+                  color: white; 
+                  font-size: 16px;
+                  margin: 5px 10px 0 10px;
+                  padding: 10px 20px; 
+                  text-align: center; 
+                  text-decoration: none; 
+                  transition: 0.3s; border-radius: 20px;" routerLink="/login">
+                  Đăng nhập
+                </a>
+
+
+              
+            </li> -->
+          </ul>
+        </div>
+      </div>
+      
+    </nav>
+  </header>
+
+ 
+
+
+  
+  

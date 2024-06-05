@@ -215,7 +215,7 @@ public class UserController {
     }
 
     @PutMapping("/details/{userId}")
-//    @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_USER')")
+    @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_USER')")
 //    @Operation(security = { @SecurityRequirement(name = "bearer-key") })
     public ResponseEntity<ResponseObject> updateUserDetails(
             @PathVariable Long userId,

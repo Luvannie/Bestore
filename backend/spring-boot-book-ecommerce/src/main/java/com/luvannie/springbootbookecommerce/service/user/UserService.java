@@ -179,6 +179,15 @@ public class UserService implements IUserService {
         if (updatedUserDTO.getGoogleAccountId() > 0) {
             existingUser.setGoogleAccountId(updatedUserDTO.getGoogleAccountId());
         }
+        //update phone number
+        if (updatedUserDTO.getPhoneNumber() != null) {
+            existingUser.setPhoneNumber(updatedUserDTO.getPhoneNumber());
+        }
+
+        //update email
+        if (updatedUserDTO.getEmail() != null) {
+            existingUser.setEmail(updatedUserDTO.getEmail());
+        }
 
         // Update the password if it is provided in the DTO
         if (updatedUserDTO.getPassword() != null

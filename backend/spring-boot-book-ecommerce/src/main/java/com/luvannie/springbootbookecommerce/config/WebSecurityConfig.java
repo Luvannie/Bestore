@@ -55,6 +55,18 @@ public class WebSecurityConfig {
                                     String.format("%s/orders/**", apiPrefix)).permitAll()
                             .requestMatchers(GET,
                                     String.format("%s/order_items/**", apiPrefix)).permitAll()
+                            .requestMatchers(GET,
+                                    String.format("%s/coupons/**", apiPrefix)).permitAll()
+                            .requestMatchers(GET,
+                                    String.format("%s/countries**", apiPrefix)).permitAll()
+                            .requestMatchers(GET,
+                                    String.format("%s/cities**", apiPrefix)).permitAll()
+                            .requestMatchers(POST,
+                                    String.format("%s/checkout/**", apiPrefix)).permitAll()
+                            .requestMatchers(GET,
+                                    String.format("%s/cities/**", apiPrefix)).permitAll()
+                            .requestMatchers(POST,
+                                    String.format("%s/checkout**", apiPrefix)).permitAll()
                             .anyRequest()
                             .authenticated();
 
