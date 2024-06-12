@@ -1,8 +1,4 @@
 import { Component, Inject, OnInit } from '@angular/core';
-import { OktaSignIn } from '@okta/okta-signin-widget';
-import myAppConfig from '../../config/my-app-config';
-import { OKTA_AUTH } from '@okta/okta-angular';
-import { OktaAuth } from '@okta/okta-auth-js';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import { UserService } from '../../service/user.service';
 import { BeFormService } from '../../service/be-form.service';
@@ -14,7 +10,7 @@ import { HttpErrorResponse } from '@angular/common/http';
 import { TokenService } from '../../service/token.service';
 import { RoleService } from '../../service/role.service';
 import { ApiResponse } from '../../response/api.response';
-import { Role } from '../../common/role';
+import { Role } from '../../common/model/role';
 import { UserResponse } from '../../response/user/user.response';
 import { CartService } from '../../service/cart.service';
 @Component({
@@ -31,7 +27,6 @@ export class LoginComponent implements OnInit{
   constructor(
     private userService: UserService,
     private formBuilder: FormBuilder,
-    private beFormService: BeFormService,
     private router: Router,
     private tokenService: TokenService,
     private roleService: RoleService,
@@ -85,14 +80,17 @@ export class LoginComponent implements OnInit{
                 ...apiResponse2.data,
               };    
               this.userService.saveUserResponseToLocalStorage(this.userResponse); 
+              console.log('User response:', this.userResponse);
               if(this.userResponse?.role.name == 'admin') {
                 console.log('Admin login successfully');
                 this.router.navigateByUrl("/admin");    
               } else if(this.userResponse?.role.name == 'user') {
                 console.log('User login successfully');
-                this.router.navigateByUrl("/books");    
+                this.router.navigateByUrl("/");    
+                
                 // this.router.navigate(['/admin']);                     
               }
+              
               
             },
             complete: () => {
@@ -132,7 +130,7 @@ export class LoginComponent implements OnInit{
     this.cartService.totalQuantity.next(0);
 
     // navigate back to the products page
-    this.router.navigateByUrl("/books");
+   
   }
     
 

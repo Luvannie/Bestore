@@ -6,6 +6,7 @@ import { UserService } from '../../service/user.service';
 import { UserResponse } from '../../response/user/user.response';
 import { HttpErrorResponse } from '@angular/common/http';
 import { UpdateUserDTO } from '../../common/update-user-dto';
+import { ApiResponse } from '../../response/api.response';
 
 @Component({
   selector: 'app-user-profile',
@@ -26,7 +27,6 @@ export class UserProfileComponent implements OnInit{
   ) {}
 
   ngOnInit(){
-    this.user_id = this.tokenService.getUserId();
     this.userProfileForm = this.formBuilder.group({
       username : new FormControl(''),
       email : new FormControl('',[Validators.email]),
@@ -34,7 +34,7 @@ export class UserProfileComponent implements OnInit{
       facebook_account_id: new FormControl(''),
       google_account_id: new FormControl(''),
       password: new FormControl('',[Validators.minLength(6)]),
-      retypePassword: new FormControl('',[Validators.minLength(6)]),
+      retype_password: new FormControl('',[Validators.minLength(6)]),
     },
     {
       validators: this.passwordMatchValidator// Custom validator function for password match
@@ -44,10 +44,10 @@ export class UserProfileComponent implements OnInit{
     this.token = this.tokenService.getToken();
     
     this.userService.getUserDetail(this.token).subscribe({
-      next: (response: any) => {
+      next: (response: ApiResponse) => {
         // debugger
         this.userResponse = {
-          ...response,
+          ...response.data,
         };    
         this.userProfileForm.patchValue({
           username: this.userResponse?.username ?? '',
@@ -70,6 +70,7 @@ export class UserProfileComponent implements OnInit{
     return (formGroup: AbstractControl): ValidationErrors | null => {
       const password = formGroup.get('password')?.value;
       const retypedPassword = formGroup.get('retype_password')?.value;
+      console.log('mật khẩu gõ lại',retypedPassword)
       if (password !== retypedPassword) {
         return { passwordMismatch: true };
       }
@@ -90,20 +91,21 @@ export class UserProfileComponent implements OnInit{
         google_account_id: this.userProfileForm.get('google_account_id')?.value,
         
       };
-      console.log(updateUserDTO)
+      console.log('Update user DTO:', updateUserDTO);
       
       this.token = this.tokenService.getToken();
       
       this.userService.updateUserDetail(this.token, updateUserDTO)
         .subscribe({
           next: (response: any) => {
-            console.log(response);
+            console.log('update response:',response);
             this.userService.removeUserFromLocalStorage();
             this.tokenService.removeToken();
             this.router.navigateByUrl("/login");
           },
           error: (error: HttpErrorResponse) => {
             // debugger;
+            console.log('Error updating user profile:')
             console.error(error?.error?.message ?? '');
           } 
         });
@@ -135,10 +137,12 @@ export class UserProfileComponent implements OnInit{
   }
 
   get password() {
+    console.log('mật khẩu',this.userProfileForm.get('password'))
     return this.userProfileForm.get('password');
   }
 
   get retypePassword() {
+    console.log('mật khẩu gõ lại',this.userProfileForm.get('retype_password'))
     return this.userProfileForm.get('retype_password');
   }
 

@@ -4,13 +4,13 @@ import com.luvannie.springbootbookecommerce.dao.*;
 import com.luvannie.springbootbookecommerce.dto.OrderDTO;
 import com.luvannie.springbootbookecommerce.entity.Coupon;
 import com.luvannie.springbootbookecommerce.entity.Order;
-import com.luvannie.springbootbookecommerce.entity.OrderItem;
 import com.luvannie.springbootbookecommerce.entity.User;
 import com.luvannie.springbootbookecommerce.exceptions.DataNotFoundException;
 import com.luvannie.springbootbookecommerce.responses.order.OrderResponse;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
-import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -87,5 +87,10 @@ public class OrderService implements IOrderService {
 
     public List<Order> getActiveOrdersByUserId(Long userId) {
         return orderRepository.findByUserIdAndActiveNot(userId, Boolean.FALSE);
+    }
+
+    @Override
+    public Page<Order> getOrdersByKeyword(String keyword, Pageable pageable) {
+        return orderRepository.findByKeyword(keyword, pageable);
     }
 }

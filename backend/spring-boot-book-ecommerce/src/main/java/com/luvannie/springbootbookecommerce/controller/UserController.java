@@ -49,7 +49,7 @@ public class UserController {
     private final SecurityUtils securityUtils;
 
     @GetMapping("")
-//    @PreAuthorize("hasRole('ROLE_ADMIN')")
+    @PreAuthorize("hasRole('ROLE_ADMIN')")
     public ResponseEntity<ResponseObject> getAllUser(
             @RequestParam(defaultValue = "", required = false) String keyword,
             @RequestParam(defaultValue = "0") int page,
@@ -79,14 +79,6 @@ public class UserController {
                 .build());
     }
 
-//    @PostMapping("/login")
-//    public ResponseEntity<User> login(@RequestBody User user) {
-//        User authenticatedUser = userService.login(user.getAccount(), user.getPassword());
-//        if (authenticatedUser != null) {
-//            return ResponseEntity.ok(authenticatedUser);
-//        }
-//        return ResponseEntity.status(401).build();
-//    }
 
     @PostMapping("/register")
     //can we register an "admin" user ?
@@ -199,7 +191,7 @@ public class UserController {
     }
 
     @PostMapping("/details")
-//    @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_USER')")
+    @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_USER')")
     public ResponseEntity<ResponseObject> getUserDetails(
             @RequestHeader("Authorization") String authorizationHeader
     ) throws Exception {

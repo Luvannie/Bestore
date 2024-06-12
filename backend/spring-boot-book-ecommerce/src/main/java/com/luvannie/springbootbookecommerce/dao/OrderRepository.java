@@ -14,11 +14,14 @@ public interface OrderRepository  extends JpaRepository<Order, Long> {
 
     List<Order> findByUserIdAndActiveNot(Long userId, Boolean active);
 
-//    @Query("SELECT o FROM Order o WHERE o.active = true AND (:keyword IS NULL OR :keyword = '' OR " +
-//            "o.fullName LIKE %:keyword% " +
-//            "OR o.address LIKE %:keyword% " +
-//            "OR o.note LIKE %:keyword% " +
-//            "OR o.email LIKE %:keyword%) "
-//
-//    Page<Order> findByKeyword(@Param("keyword") String keyword, Pageable pageable);
+
+
+    @Query(value = "SELECT o.*, u.username, u.email FROM orders o " +
+            "JOIN users u ON o.user_id = u.id " +
+            "WHERE (u.username LIKE %:keyword% OR u.email LIKE %:keyword% OR o.tracking_number LIKE %:keyword%)",
+            countQuery = "SELECT count(*) FROM orders o " +
+                    "JOIN users u ON o.user_id = u.id " +
+                    "WHERE (u.username LIKE %:keyword% OR u.email LIKE %:keyword% OR o.tracking_number LIKE %:keyword%)",
+            nativeQuery = true)
+    Page<Order> findByKeyword(@Param("keyword") String keyword, Pageable pageable);
 }

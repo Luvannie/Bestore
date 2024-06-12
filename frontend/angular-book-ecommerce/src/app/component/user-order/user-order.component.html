@@ -1,0 +1,56 @@
+
+<div class="container" style="margin-top:75px">
+    <div class="intro-section">
+        <h2>Chi tiết đơn hàng</h2>
+        <p>Xem thông tin chi tiết đơn hàng</p>
+    </div>
+    
+    <!-- Thông tin người nhận -->
+    <div *ngFor="let order of orderResponses">
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Thông tin người nhận</h3>
+                <div class="mb-3">
+                    <p class="form-label">Họ và tên: {{ order.customerName }}</p>
+                    <p class="form-label">Email: {{ order.customerEmail }}</p>
+                    <p class="form-label">Số điện thoại: {{ order.customerPhone }}</p>
+                    <p class="form-label">Địa chỉ: {{ order.shippingAddress }}</p>
+                    <p class="form-label">Phương thức vận chuyển: {{ order.shippingMethod }}</p>
+                    <p class="form-label">Phương thức thanh toán: {{ order.paymentMethod }}</p>
+                    <button class="btn btn-primary" (click)="complain(order.orderId)">Khiếu nại</button>
+                </div>                        
+            </div>
+    
+            <!-- Sản phẩm đã đặt hàng -->
+            <div class="col-md-6">
+                <h3>Sản phẩm đã đặt hàng</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th scope="col" class="text-start">Sản phẩm</th>
+                            <th scope="col">Số lượng</th>
+                            <th scope="col">Đơn giá</th>
+                            <th scope="col">Tổng giá</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let item of order.orderItems; trackBy: trackByBookId">
+                            <td>
+                                <div class="product-info">
+                                    <img [src]="item.thumbnail" alt="Product Image" class="product-image">
+                                    <span class="product-name">{{ item.bookId }}</span>
+                                </div>
+                            </td>
+                            <td>{{ item.quantity }}</td>
+                            <td>{{ item.unitPrice | number:'1.2-2' }}</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="text-start mt-3">
+                    <h4 class="header-text text-end">Tổng giá: {{ order.totalPrice | number:'1.2-2' }}</h4>
+                    
+                </div>            
+            </div>
+        </div>    
+    </div>    
+</div>

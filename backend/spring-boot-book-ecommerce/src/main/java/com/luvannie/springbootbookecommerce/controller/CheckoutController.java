@@ -20,14 +20,15 @@ public class CheckoutController {
     private ICheckoutService checkoutService;
     private SecurityUtils securityUtils;
 
-    public CheckoutController(ICheckoutService checkoutService) {
+    public CheckoutController(ICheckoutService checkoutService, SecurityUtils securityUtils) {
         this.checkoutService = checkoutService;
+        this.securityUtils = securityUtils;
     }
 
     @PostMapping("/purchase")
     public PurchaseResponse placeOrder(@RequestBody PurchaseDTO purchaseDTO) throws DataNotFoundException {
         User loginUser = securityUtils.getLoggedInUser();
-        if(purchaseDTO.getUserId == null) {
+        if(purchaseDTO.getUserId() == null) {
             purchaseDTO.setUserId(loginUser.getId());
         }
         PurchaseResponse purchaseResponse = checkoutService.placeOrder(purchaseDTO);

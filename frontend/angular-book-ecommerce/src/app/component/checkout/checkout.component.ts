@@ -2,16 +2,16 @@ import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import { BeFormService } from '../../service/be-form.service';
 import { CartService } from '../../service/cart.service';
-import { Country } from '../../common/country';
-import { City } from '../../common/city';
+import { Country } from '../../common/model/country';
+import { City } from '../../common/model/city';
 import { BeValidate } from '../../validator/be-validate';
 import { CheckoutService } from '../../service/checkout.service';
 import { Router } from '@angular/router';
-import { Order } from '../../common/order';
-import { OrderItem } from '../../common/order-item';
-import { Purchase } from '../../common/purchase';
+import { Order } from '../../common/model/order';
+import { OrderItem } from '../../common/model/order-item';
+import { Purchase } from '../../common/model/purchase';
 import { environment } from '../../../environments/environment';
-import { PaymentInfo } from '../../common/payment-info';
+import { PaymentInfo } from '../../common/model/payment-info';
 import { TokenService } from '../../service/token.service';
 
 @Component({
@@ -88,7 +88,8 @@ export class CheckoutComponent implements OnInit{
         }),
         method: this.formBuilder.group({
           paymentMethod: new FormControl('',),
-          shippingMethod: new FormControl('',)
+          shippingMethod: new FormControl('',),
+          coupon_code: new FormControl('',)
         })
       });
 
@@ -152,7 +153,7 @@ export class CheckoutComponent implements OnInit{
       console.log(this.checkoutFormGroup.get('customer')?.value);
       console.log(this.checkoutFormGroup.get('shippingAddress')?.value);
 
-      let order = new Order(this.totalPrice,this.totalQuantity);
+      let order = new Order(this.totalQuantity,this.totalPrice);
 
       const cartItems = this.cartService.cartItems;
       let orderItems :OrderItem[] = cartItems.map(tempCartItem => new OrderItem(tempCartItem));
@@ -176,6 +177,7 @@ export class CheckoutComponent implements OnInit{
       purchase.payment_method = this.checkoutFormGroup.controls['method'].value.paymentMethod;
 
       purchase.user_id = this.user_id;
+      purchase.coupon_code = this.checkoutFormGroup.controls['method'].value.coupon_code;
 
       //compute payment info
       this.paymentInfo.amount = this.totalPrice/1000;
@@ -340,5 +342,9 @@ export class CheckoutComponent implements OnInit{
 
     get paymentMethod(){
       return this.checkoutFormGroup.get('method.paymentMethod');
+    }
+
+    get coupon_code(){
+      return this.checkoutFormGroup.get('method.coupon_code');
     }
 }

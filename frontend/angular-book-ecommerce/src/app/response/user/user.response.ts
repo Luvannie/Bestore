@@ -1,4 +1,4 @@
-import { Role } from "../../common/role";
+import { Role } from "../../common/model/role";
 
 export interface UserResponse {
     id: number;

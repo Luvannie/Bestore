@@ -18,7 +18,6 @@ import { CheckoutComponent } from './component/checkout/checkout.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HomeComponent } from './component/home/home.component';
 import { LoginComponent } from './component/login/login.component';
-import { LoginStatusComponent } from './component/login-status/login-status.component';
 import { OKTA_CONFIG, OktaAuthModule } from '@okta/okta-angular';
 import myAppConfig from './config/my-app-config';
 import { OktaAuth } from '@okta/okta-auth-js';
@@ -28,6 +27,18 @@ import { Form } from '@okta/okta-signin-widget/types/packages/@okta/courage-dist
 import { HeaderComponent } from './component/header/header.component';
 import { UserProfileComponent } from './component/user-profile/user-profile.component';
 import { AdminComponent } from './component/admin/admin.component';
+import { OrderAdminComponent } from './component/admin/order-admin/order-admin.component';
+import { UserOrderComponent } from './component/user-order/user-order.component';
+import { BooksAdminComponent } from './component/admin/books-admin/books-admin.component';
+import { CategoryAdminComponent } from './component/admin/category-admin/category-admin.component';
+import { DetailOrderAdminComponent } from './component/admin/detail-order-admin/detail-order-admin.component';
+import { UpdateBookAdminComponent } from './component/admin/books-admin/update-book-admin/update-book-admin.component';
+import { UpdateCategoryAdminComponent } from './component/admin/category-admin/update-category-admin/update-category-admin.component';
+import { InsertCategoryAdminComponent } from './component/admin/category-admin/insert-category-admin/insert-category-admin.component';
+import { InsertBookAdminComponent } from './component/admin/books-admin/insert-book-admin/insert-book-admin.component';
+import { UserAdminComponent } from './component/admin/detail-order-admin/user-admin/user-admin.component';
+import { AdminModule } from './component/admin/admin.module';
+import { ComplainComponent } from './component/complain/complain.component';
 
 
 const oktaConfig = myAppConfig.oidc;
@@ -37,23 +48,22 @@ const oktaAuth = new OktaAuth(oktaConfig);
 
 @NgModule({
   declarations: [
-    AppComponent,
-    BookListComponent,
-    BookCategoryMenuComponent,
-    SearchComponent,
-    BookDetailsComponent,
-    CartStatusComponent,
-    CartDetailComponent,
-    CheckoutComponent,
-    HomeComponent,
-    LoginComponent,
-    LoginStatusComponent,
-    RegisterComponent,
-    HeaderComponent,
-    UserProfileComponent,
-    AdminComponent,
-    
-  ],
+      AppComponent,
+      BookListComponent,
+      BookCategoryMenuComponent,
+      SearchComponent,
+      BookDetailsComponent,
+      CartStatusComponent,
+      CartDetailComponent,
+      CheckoutComponent,
+      HomeComponent,
+      LoginComponent,
+      RegisterComponent,
+      HeaderComponent,
+      UserOrderComponent,
+      UserProfileComponent,
+      ComplainComponent,
+    ],
   imports: [
     AppRoutingModule,
     BrowserModule,
@@ -62,6 +72,8 @@ const oktaAuth = new OktaAuth(oktaConfig);
     ReactiveFormsModule,
     OktaAuthModule,
     FormsModule,
+    AdminModule
+   
     
     
   ],

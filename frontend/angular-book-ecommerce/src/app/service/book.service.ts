@@ -1,8 +1,8 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Book } from '../common/book';
+import { Book } from '../common/model/book';
 import { Observable, map } from 'rxjs';
-import { BookCategory } from '../common/book-category';
+import { BookCategory } from '../common/model/book-category';
 
 
 @Injectable({

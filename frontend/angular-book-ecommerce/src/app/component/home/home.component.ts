@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { BookService } from '../../service/book.service';
-import { Book } from '../../common/book';
+import { Book } from '../../common/model/book';
 import { ActivatedRoute } from '@angular/router';
 import { CartService } from '../../service/cart.service';
-import { CartItem } from '../../common/cart-item';
+import { CartItem } from '../../common/model/cart-item';
 
 @Component({
   selector: 'app-home',

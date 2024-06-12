@@ -11,6 +11,9 @@ import com.luvannie.springbootbookecommerce.service.order.OrderService;
 import com.luvannie.springbootbookecommerce.utils.MessageKeys;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Sort;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
@@ -33,7 +36,7 @@ public class OrderController {
 
     // Other methods...
 
-    @GetMapping("/user/{userId}")
+    @GetMapping("/user/{user_id}")
     public ResponseEntity<ResponseObject> getOrders( @PathVariable("user_id") Long userId) {
         User loginUser = securityUtils.getLoggedInUser();
         boolean isUserIdBlank = userId == null || userId <= 0;
@@ -62,6 +65,7 @@ public class OrderController {
     }
 
     @GetMapping("/active/{userId}")
+//    @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_USER')")
     public ResponseEntity<List<Order>> getActiveOrdersByUserId(@PathVariable Long userId) {
         List<Order> orders = orderService.getActiveOrdersByUserId(userId);
         return new ResponseEntity<>(orders, HttpStatus.OK);
@@ -81,5 +85,30 @@ public class OrderController {
 
         Order order = orderService.updateOrder(id, orderDTO);
         return ResponseEntity.ok(new ResponseObject("Update order successfully", HttpStatus.OK, order));
+    }
+
+    @GetMapping("/get-orders-by-keyword")
+    public ResponseEntity<ResponseObject> getOrdersByKeyword(
+            @RequestParam(defaultValue = "", required = false) String keyword,
+            @RequestParam(defaultValue = "0") int page,
+            @RequestParam(defaultValue = "10") int limit
+    ) {
+        // Tạo Pageable từ thông tin trang và giới hạn
+        PageRequest pageRequest = PageRequest.of(
+                page, limit,
+                //Sort.by("createdAt").descending()
+                Sort.by("id").ascending()
+        );
+        Page<OrderResponse> orderPage = orderService
+                .getOrdersByKeyword(keyword, pageRequest)
+                .map(OrderResponse::fromOrder);
+        // Lấy tổng số trang
+        int totalPages = orderPage.getTotalPages();
+        List<OrderResponse> orderResponses = orderPage.getContent();
+        return ResponseEntity.ok().body(ResponseObject.builder()
+                .message("Get orders successfully")
+                .status(HttpStatus.OK)
+                .data(orderResponses)
+                .build());
     }
 }

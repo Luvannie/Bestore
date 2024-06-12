@@ -1,122 +1,119 @@
-<div class="main-content page-m">
-  <div class="section-content section-content-p30">
-    <div class="container">
-      <form [formGroup]="userProfileForm">
-        <div class="row">
-          <div class="col-md-3 mx-auto">
-            <h2 class="product-header">Thông tin người dùng</h2>
-            <div class="mb-3">
-              <label for="username" class="form-label">Username</label>
-              <input
-                type="text"
-                formControlName="username"
-                class="form-control"
-                id="username"
-                [class.is-invalid]="
-                  userProfileForm.get('username')!.invalid &&
-                  userProfileForm.get('username')!.touched
-                "
-              />
-              <div
-                *ngIf="
-                  userProfileForm.get('username')!.invalid &&
-                  userProfileForm.get('username')!.touched
-                "
-                class="invalid-feedback"
-              >
-                Username là trường bắt buộc.
-              </div>
-            </div>
-            <div class="mb-3">
-              <label for="phone_number" class="form-label">Phone Number</label>
-              <input
-                type="text"
-                formControlName="phone_number"
-                class="form-control"
-                id="phone_number"
-                [class.is-invalid]="
-                  userProfileForm.get('phone_number')!.invalid &&
-                  userProfileForm.get('phone_number')!.touched
-                "
-              />
-            </div>
-            <div class="mb-3">
-              <label for="facebook_account_id" class="form-label"
-                >Facebook Account ID</label
-              >
-              <input
-                type="text"
-                formControlName="facebook_account_id"
-                class="form-control"
-                id="facebook_account_id"
-              />
-            </div>
-            <div class="mb-3">
-              <label for="google_account_id" class="form-label"
-                >Google Account ID</label
-              >
-              <input
-                type="text"
-                formControlName="google_account_id"
-                class="form-control"
-                id="google_account_id"
-              />
-            </div>
-            <div class="mb-3">
-              <label for="password" class="form-label">Mật khẩu</label>
-              <input
-                type="password"
-                class="form-control"
-                formControlName="password"
-                placeholder="Mật khẩu"
-                required
-                id="password"
-                [class.is-invalid]="
-                  userProfileForm.get('password')!.invalid &&
-                  userProfileForm.get('password')!.touched
-                "
-              />
-              <div
-                *ngIf="
-                  userProfileForm.get('password')!.invalid &&
-                  userProfileForm.get('password')!.touched
-                "
-                class="invalid-feedback"
-              >
-                Mật khẩu ít nhất 6 ký tự.
-              </div>
-            </div>
-            <div class="mb-3">
-              <label for="retypePassword" class="form-label"
-                >Nhập lại mật khẩu</label
-              >
-              <input
-                type="password"
-                class="form-control"
-                formControlName="retypePassword"
-                placeholder="Nhập lại mật khẩu"
-                required
-                id="retypePassword"
-                [class.is-invalid]="
-                  userProfileForm.get('retypePassword')!.invalid &&
-                  userProfileForm.get('retypePassword')!.touched
-                "
-              />
-              <div
-                *ngIf="userProfileForm.hasError('passwordMismatch')"
-                class="invalid-feedback"
-              >
-                Mật khẩu không khớp.
-              </div>
-            </div>
-            <div class="text-center">
-              <button type="button" (click)="save()" class="btn btn-primary">
-                Lưu thay đổi
-              </button>
-            </div>
+
+<div class="container" style="margin-top: 75px;">
+  <form [formGroup]="userProfileForm">
+    <div class="row">
+      <div class="col-md-3 mx-auto">
+        <h2 class="product-header">Thông tin người dùng</h2>
+        <div class="mb-3">
+          <label for="username" class="form-label">Username</label>
+          <input
+            type="text"
+            formControlName="username"
+            class="form-control"
+            id="username"
+            [class.is-invalid]="
+              userProfileForm.get('username')!.invalid &&
+              userProfileForm.get('username')!.touched
+            "
+          />
+          <div
+            *ngIf="
+              userProfileForm.get('username')!.invalid &&
+              userProfileForm.get('username')!.touched
+            "
+            class="invalid-feedback"
+          >
+            Username là trường bắt buộc.
           </div>
         </div>
-      </form>
+        <div class="mb-3">
+          <label for="phone_number" class="form-label">Phone Number</label>
+          <input
+            type="text"
+            formControlName="phone_number"
+            class="form-control"
+            id="phone_number"
+            [class.is-invalid]="
+              userProfileForm.get('phone_number')!.invalid &&
+              userProfileForm.get('phone_number')!.touched
+            "
+          />
+        </div>
+        <div class="mb-3">
+          <label for="facebook_account_id" class="form-label"
+            >Facebook Account ID</label
+          >
+          <input
+            type="text"
+            formControlName="facebook_account_id"
+            class="form-control"
+            id="facebook_account_id"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="google_account_id" class="form-label"
+            >Google Account ID</label
+          >
+          <input
+            type="text"
+            formControlName="google_account_id"
+            class="form-control"
+            id="google_account_id"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="password" class="form-label">Mật khẩu</label>
+          <input
+            type="password"
+            class="form-control"
+            formControlName="password"
+            placeholder="Mật khẩu"
+            required
+            id="password"
+            [class.is-invalid]="
+              userProfileForm.get('password')!.invalid &&
+              userProfileForm.get('password')!.touched
+            "
+          />
+          <div
+            *ngIf="
+              userProfileForm.get('password')!.invalid &&
+              userProfileForm.get('password')!.touched
+            "
+            class="invalid-feedback"
+          >
+            Mật khẩu ít nhất 6 ký tự.
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="retypePassword" class="form-label"
+            >Nhập lại mật khẩu</label
+          >
+          <input
+            type="password"
+            class="form-control"
+            formControlName="retype_password"
+            placeholder="Nhập lại mật khẩu"
+            required
+            id="retype_password"
+            [class.is-invalid]="
+              userProfileForm.get('retype_password')!.invalid &&
+              userProfileForm.get('retype_password')!.touched
+            "
+          />
+          <div
+            *ngIf="userProfileForm.hasError('passwordMismatch')"
+            class="invalid-feedback"
+          >
+            Mật khẩu không khớp.
+          </div>
+        </div>
+        <div class="text-center">
+          <button type="button" (click)="save()" class="btn btn-primary">
+            Lưu thay đổi
+          </button>
+        </div>
+      </div>
     </div>
-  </div>
+  </form>
 </div>

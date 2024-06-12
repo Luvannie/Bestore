@@ -1,0 +1,50 @@
+<div class="container" style="margin-top: 75px">
+    
+    <div class="container">
+        <h2>Biểu mẫu khiếu nại</h2>
+        <form [formGroup]="complainFormGroup" (ngSubmit)="onSubmit()">
+            <div class="form-area">
+                <h3>Nội dung khiếu nại</h3>
+                <div class="row">
+                    <div class="col-md-2">
+                        <label for="complain_content">Nội dung:</label>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="input-space">
+                            <textarea
+                                id="complain_content"
+                                formControlName="complain_content"
+                                class="form-control"
+                                rows="5"
+                            ></textarea>
+                            <div
+                                *ngIf="
+                                    complain_content &&
+                                    complain_content.invalid &&
+                                    (complain_content.dirty || complain_content.touched)
+                                "
+                                class="alert alert-danger"
+                            >
+                                <div *ngIf="complain_content?.errors?.['required']">
+                                    Nội dung khiếu nại không được để trống.
+                                </div>
+                                <div *ngIf="complain_content?.errors?.['minlength']">
+                                    Nội dung khiếu nại phải có ít nhất 6 ký tự.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <button
+                    type="submit"
+                    class="btn btn-info"
+                    [disabled]="!complainFormGroup.valid"
+                >
+                    Gửi khiếu nại
+                </button>
+            </div>
+        </form>
+    </div>
+</div>

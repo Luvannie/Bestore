@@ -67,6 +67,8 @@ public class WebSecurityConfig {
                                     String.format("%s/cities/**", apiPrefix)).permitAll()
                             .requestMatchers(POST,
                                     String.format("%s/checkout**", apiPrefix)).permitAll()
+                            .requestMatchers(POST,
+                                    String.format("%s/complains/**", apiPrefix)).permitAll()
                             .anyRequest()
                             .authenticated();
 

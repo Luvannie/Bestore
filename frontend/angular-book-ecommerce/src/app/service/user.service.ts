@@ -1,6 +1,6 @@
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Inject, Injectable, inject } from '@angular/core';
-import { User } from '../common/user';
+import { User } from '../common/model/user';
 import { LoginDTO } from '../common/loginDTO';
 import { Observable, catchError } from 'rxjs';
 import { environment } from '../../environments/environment';
@@ -75,7 +75,7 @@ export class UserService {
       'Authorization': `Bearer ${token}`
     });
     let userResponse = this.getUserResponseFromLocalStorage(); 
-
+    console.log('User response for updateusser:', userResponse);
     if (!userResponse || !userResponse.id) {
         console.error('User response or user ID is not defined');
         throw new Error('User response or user ID is not defined');

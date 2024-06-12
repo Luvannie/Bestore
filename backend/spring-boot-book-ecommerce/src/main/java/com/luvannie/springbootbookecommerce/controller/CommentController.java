@@ -26,13 +26,13 @@ public class CommentController {
     @GetMapping("")
     public ResponseEntity<ResponseObject> getAllComments(
             @RequestParam(value = "user_id", required = false) Long userId,
-            @RequestParam("product_id") Long productId
+            @RequestParam("book_id") Long bookId
     ) {
         List<CommentResponse> commentResponses;
         if (userId == null) {
-            commentResponses = commentService.getCommentsByProduct(productId);
+            commentResponses = commentService.getCommentsByProduct(bookId);
         } else {
-            commentResponses = commentService.getCommentsByUserAndProduct(userId, productId);
+            commentResponses = commentService.getCommentsByUserAndProduct(userId, bookId);
         }
         return ResponseEntity.ok().body(ResponseObject.builder()
                 .message("Get comments successfully")
@@ -41,7 +41,7 @@ public class CommentController {
                 .build());
     }
     @PutMapping("/{id}")
-//    @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_USER')")
+    @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_USER')")
     public ResponseEntity<ResponseObject> updateComment(
             @PathVariable("id") Long commentId,
             @RequestBody CommentDTO commentDTO
@@ -62,7 +62,7 @@ public class CommentController {
                         HttpStatus.OK, null));
     }
     @PostMapping("")
-//    @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_USER')")
+    @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_USER')")
     public ResponseEntity<ResponseObject> insertComment(
              @RequestBody CommentDTO commentDTO
     ) {

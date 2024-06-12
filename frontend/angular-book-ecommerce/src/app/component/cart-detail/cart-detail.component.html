@@ -1,4 +1,5 @@
-<div  class="main-content">
+<!-- 
+<div  class="main-content" style="margin-top:75px">
     <div class ="section-content section-content-p30">
         <div class="container-fluid">
             <div *ngIf="cartItems.length == 0" class="alert alert-info">
@@ -75,4 +76,47 @@
         </div>
     </div>
     
+</div> -->
+
+
+<div class="main-content" style="margin-top:75px">
+    <div class="section-content section-content-p30">
+        <div class="container-fluid">
+            <div *ngIf="cartItems.length == 0" class="alert alert-info">
+                <h3>Giỏ hàng của bạn trống</h3>
+            </div>
+            <div *ngIf="cartItems.length > 0">
+                <div class="order-summary">
+                    <h2>Order summary</h2>
+                    <div *ngFor="let tempCartItem of cartItems" class="order-item">
+                        <img src="{{tempCartItem.thumbnail}}" class="item-thumbnail">
+                        <div class="item-details">
+                            <h4>{{tempCartItem.title}}</h4>
+                            <p>{{tempCartItem.author}}</p>
+                            <p>{{tempCartItem.unitPrice | currency:'USD'}}</p>
+                        </div>
+                        <div class="item-actions">
+                            <button class="btn-quantity" (click)="decrementQuantity(tempCartItem)">
+                                <i class="fa fa-minus"></i>
+                            </button>
+                            <span>{{tempCartItem.quantity}}</span>
+                            <button class="btn-quantity" (click)="incrementQuantity(tempCartItem)">
+                                <i class="fa fa-plus"></i>
+                            </button>
+                            <button (click)="remove(tempCartItem)" class="btn-remove">
+                                <i class="fa fa-trash"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="order-total">
+                        <div class="totals-row total">
+                            <span>Total</span>
+                            <span>{{totalPrice | currency:'VND'}}</span>
+                        </div>
+                    </div>
+                    <a routerLink="/checkout" class="btn btn-primary">Xác nhận đơn hàng</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

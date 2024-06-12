@@ -11,25 +11,79 @@ import { UserProfileComponent } from './component/user-profile/user-profile.comp
 
 import myAppConfig from './config/my-app-config';
 import { LoginComponent } from './component/login/login.component';
-import { LoginStatusComponent } from './component/login-status/login-status.component';
 import { RegisterComponent } from './component/register/register.component';
 import { AdminComponent } from './component/admin/admin.component';
 import { AdminGuardFn } from './guard/admin.guard';
+import { AuthGuardFn } from './guard/auth.guard';
+import { UserOrderComponent } from './component/user-order/user-order.component';
+import { OrderAdminComponent } from './component/admin/order-admin/order-admin.component';
+import { BooksAdminComponent } from './component/admin/books-admin/books-admin.component';
+import { CategoryAdminComponent } from './component/admin/category-admin/category-admin.component';
+import { DetailOrderAdminComponent } from './component/admin/detail-order-admin/detail-order-admin.component';
+import { UpdateBookAdminComponent } from './component/admin/books-admin/update-book-admin/update-book-admin.component';
+import { InsertBookAdminComponent } from './component/admin/books-admin/insert-book-admin/insert-book-admin.component';
+import { UpdateCategoryAdminComponent } from './component/admin/category-admin/update-category-admin/update-category-admin.component';
+import { InsertCategoryAdminComponent } from './component/admin/category-admin/insert-category-admin/insert-category-admin.component';
+import { UserAdminComponent } from './component/admin/detail-order-admin/user-admin/user-admin.component';
+import { ComplainComponent } from './component/complain/complain.component';
 
 
 
 const routes: Routes = [
   { path: 'register',component:RegisterComponent},
   { path: 'login',component:LoginComponent},
-  { path: 'checkout', component: CheckoutComponent},
+  { path: 'checkout', component: CheckoutComponent,canActivate:[AuthGuardFn] },
   { path: 'cart-detail', component: CartDetailComponent},
   { path: 'books/:id', component: BookDetailsComponent},
   { path: 'search/:keyword', component: BookListComponent},
   { path: 'book-category/:id', component: BookListComponent },
   { path: 'book-category', component: BookListComponent },
   { path: 'books', component: HomeComponent },
-  { path: 'user-profile', component: UserProfileComponent },
-  { path: 'admin',component:AdminComponent },
+  { path: 'user-profile', component: UserProfileComponent,canActivate:[AuthGuardFn]  },
+  { path: 'admin',component:AdminComponent,canActivate:[AdminGuardFn],
+    children: [
+      {
+          path: 'orders',
+          component: OrderAdminComponent
+      },            
+      {
+          path: 'books',
+          component: BooksAdminComponent
+      },
+      {
+          path: 'categories',
+          component: CategoryAdminComponent
+      },
+      //sub path
+      {
+          path: 'orders/:id',
+          component: DetailOrderAdminComponent
+      },
+      {
+          path: 'books/update/:id',
+          component: UpdateBookAdminComponent
+      },
+      {
+          path: 'books/insert',
+          component: InsertBookAdminComponent
+      },
+      //categories            
+      {
+          path: 'categories/update/:id',
+          component: UpdateCategoryAdminComponent
+      },
+      {
+          path: 'categories/insert',
+          component: InsertCategoryAdminComponent
+      },
+      {
+          path: 'users',
+          component: UserAdminComponent
+      },  
+  ]
+   },
+  { path: 'user-orders',component:UserOrderComponent},
+  {path: 'complain', component:ComplainComponent},
   { path: '', redirectTo: '/books', pathMatch: 'full' },
   { path: '**', redirectTo: '/books', pathMatch: 'full' }
 ]

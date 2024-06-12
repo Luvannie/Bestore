@@ -57,13 +57,19 @@ public class BookResponse extends BaseResponse {
                 .build();
 
        Date date = book.getDateCreated();
-       LocalDateTime createdDateTime = date.toInstant()
-               .atZone(ZoneId.systemDefault())
-               .toLocalDateTime();
+       LocalDateTime createdDateTime = null;
+       if (date != null) {
+           createdDateTime = date.toInstant()
+                   .atZone(ZoneId.systemDefault())
+                   .toLocalDateTime();
+       }
        Date date1 = book.getLastUpdated();
-       LocalDateTime lastUpdateDateTime = date.toInstant()
-               .atZone(ZoneId.systemDefault())
-               .toLocalDateTime();
+       LocalDateTime lastUpdateDateTime = null;
+       if (date1 != null) {
+           lastUpdateDateTime = date1.toInstant()
+                   .atZone(ZoneId.systemDefault())
+                   .toLocalDateTime();
+       }
         bookResponse.setDateCreated(createdDateTime);
         bookResponse.setLastUpdated(lastUpdateDateTime);
         return bookResponse;

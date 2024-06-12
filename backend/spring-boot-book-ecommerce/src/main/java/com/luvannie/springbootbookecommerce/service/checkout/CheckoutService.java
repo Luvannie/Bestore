@@ -92,6 +92,18 @@ public class CheckoutService implements ICheckoutService {
             order.setCoupon(null);
         }
 
+        Random rand = new Random();
+        int randomNum = rand.nextInt((7 - 3) + 1) + 3;
+        Calendar cal = Calendar.getInstance();
+        cal.setTime(order.getDateCreated());
+        cal.add(Calendar.DATE, randomNum);
+        order.setShippingDate(cal.getTime());
+
+        // Set shippingMethod to "NORMAL" if it's null
+        if (order.getShippingMethod() == null) {
+            order.setShippingMethod("NORMAL");
+        }
+
         // save to the database
         customerRepository.save(customer);
 

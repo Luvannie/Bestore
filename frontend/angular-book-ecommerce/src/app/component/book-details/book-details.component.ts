@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import { Book } from '../../common/book';
+import { Book } from '../../common/model/book';
 import { BookService } from '../../service/book.service';
 import { ActivatedRoute } from '@angular/router';
 import { CartService } from '../../service/cart.service';
-import { CartItem } from '../../common/cart-item';
+import { CartItem } from '../../common/model/cart-item';
 
 @Component({
   selector: 'app-book-details',
