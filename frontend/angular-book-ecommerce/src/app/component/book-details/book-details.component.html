@@ -1,4 +1,4 @@
-
+<!-- 
 <div class="detail-section ">
     <div class="container-fluid transparent-background">
         <img src="{{book.thumbnail}}" class="detail-img">
@@ -16,4 +16,37 @@
 
         <a routerLink="/book" class="btn btn-primary">Trở về</a>
     </div>
+</div> -->
+
+<div class="detail-section">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-6">
+        <img src="{{ book.thumbnail }}" class="detail-img" />
+      </div>
+      <div class="col-md-6">
+        <h3>{{ book.title }}</h3>
+        <h4>{{ book.author }}</h4>
+        <div class="price">{{ book.unitPrice | currency : "VND" }}</div>
+
+        <button (click)="addToCart()" class="btn btn-warning btn-sm">
+          Thêm vào giỏ
+        </button>
+      </div>
+    </div>
+    <hr />
+    <h4>Giới thiệu sách</h4>
+    <!-- <p>{{ book.description }}</p> -->
+    <p>{{ isExpanded ? book.description : (book.description | slice:0:100) + '...' }}</p>
+            <button (click)="toggleDescription()" class="btn btn-link">
+                {{ isExpanded ? 'Thu gọn' : 'Xem thêm' }}
+            </button>
+    <h4>Ngôn ngữ</h4>
+    <p>{{ book.language }}</p>
+
+    <a routerLink="/book" class="btn btn-primary">Trở về</a>
+  </div>
+  <div class="relevant-content">
+    <app-relevant></app-relevant>
+  </div>
 </div>

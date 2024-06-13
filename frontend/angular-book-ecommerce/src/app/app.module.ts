@@ -39,6 +39,7 @@ import { InsertBookAdminComponent } from './component/admin/books-admin/insert-b
 import { UserAdminComponent } from './component/admin/detail-order-admin/user-admin/user-admin.component';
 import { AdminModule } from './component/admin/admin.module';
 import { ComplainComponent } from './component/complain/complain.component';
+import { RelevantComponent } from './component/relevant/relevant.component';
 
 
 const oktaConfig = myAppConfig.oidc;
@@ -63,6 +64,7 @@ const oktaAuth = new OktaAuth(oktaConfig);
       UserOrderComponent,
       UserProfileComponent,
       ComplainComponent,
+      RelevantComponent,
     ],
   imports: [
     AppRoutingModule,

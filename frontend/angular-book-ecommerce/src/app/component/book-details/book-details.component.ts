@@ -11,6 +11,7 @@ import { CartItem } from '../../common/model/cart-item';
   styleUrl: './book-details.component.css'
 })
 export class BookDetailsComponent implements OnInit {
+  isExpanded: boolean = false;
     book!:Book;
     constructor(private bookService: BookService,
                 private route: ActivatedRoute,
@@ -38,5 +39,9 @@ export class BookDetailsComponent implements OnInit {
       console.log(`Adding to cart: ${this.book.title}, ${this.book.unitPrice}`);
       const theCartItem = new CartItem(this.book);
       this.cartService.addToCart(theCartItem);
+    }
+
+    toggleDescription() {
+      this.isExpanded = !this.isExpanded;
     }
 }

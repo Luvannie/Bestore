@@ -1,11 +1,13 @@
-import { Injectable } from '@angular/core';
+import { Inject, Injectable } from '@angular/core';
 import { CartItem } from '../common/model/cart-item';
 import { BehaviorSubject, Subject } from 'rxjs';
+import { DOCUMENT } from '@angular/common';
 
 @Injectable({
   providedIn: 'root'
 })
 export class CartService {
+  localStorage?:Storage;
   refreshCart() {
     throw new Error('Method not implemented.');
   }
@@ -38,6 +40,7 @@ export class CartService {
 
     // tinh lai tong tien va tong so luong
     this.computeCartTotals();
+    this.localStorage?.setItem('cartItems', JSON.stringify(this.cartItems));
   }
 
   decrementQuantity(theCartItem: CartItem) {
@@ -87,5 +90,14 @@ export class CartService {
     console.log('-----------------');
   }
 
-  constructor() { }
+  constructor(@Inject(DOCUMENT) private document: Document) {
+    this.localStorage = document.defaultView?.localStorage;
+    const storedCartItems = this.localStorage?.getItem('cartItems');
+    if(storedCartItems){
+      this.cartItems = JSON.parse(storedCartItems);
+    
+    }
+   
+
+   }
 }
