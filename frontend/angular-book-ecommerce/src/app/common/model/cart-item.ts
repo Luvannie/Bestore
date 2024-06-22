@@ -2,20 +2,40 @@ import { Book } from './book';
 
 export class CartItem {
     id: number;
-    title: string;
+    book_id: number;
     thumbnail: string;
-    unitPrice: number;
+    unit_price: number;
     
     quantity: number;
-    author: string;
+    user_id: number;
     
-    constructor(book: Book){
-        this.id = book.id;
-        this.title = book.title;
-        this.author = book.author;
-        this.thumbnail= book.thumbnail;
-        this.unitPrice = book.unitPrice;
-    
+    constructor(data: any){
+        this.id = data.id;
+        this.book_id = data.id;
+        
+        this.thumbnail= data.thumbnail;
+        this.unit_price = data.unitPrice;
+        this.user_id = data.user_id;
         this.quantity = 1;
     }
+
+    // id: number;
+    // title: string;
+    // thumbnail: string;
+    // unitPrice: number;
+    
+    // quantity: number;
+    // author: string;
+    
+    // constructor(book: Book){
+    //     this.id = book.id;
+    //     this.title = book.title;
+    //     this.author = book.author;
+    //     this.thumbnail= book.thumbnail;
+    //     this.unitPrice = book.unitPrice;
+    
+    //     this.quantity = 1;
+    // }
+
+   
 }

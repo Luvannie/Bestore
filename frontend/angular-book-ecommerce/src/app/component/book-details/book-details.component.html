@@ -1,23 +1,6 @@
-<!-- 
-<div class="detail-section ">
-    <div class="container-fluid transparent-background">
-        <img src="{{book.thumbnail}}" class="detail-img">
-            
-        <h3>{{book.title}}</h3>
-        <h3>{{book.author}}</h3>    
-        <div class="price">{{book.unitPrice | currency:'VND'}}</div>
-
-        <button (click)="addToCart()" class="btn btn-primary btn-sm">thêm vào giỏ hàng</button>
-        <hr>
-        <h4>Description</h4>
-        <p>{{book.description}}</p>
-        <h4>Ngôn ngữ</h4>
-        <p>{{book.language}}</p>
-
-        <a routerLink="/book" class="btn btn-primary">Trở về</a>
-    </div>
-</div> -->
-
+<app-aside></app-aside>
+<div class="page-container">
+<app-header></app-header>
 <div class="detail-section">
   <div class="container-fluid">
     <div class="row">
@@ -49,4 +32,6 @@
   <div class="relevant-content">
     <app-relevant></app-relevant>
   </div>
+</div>
+<app-footer></app-footer>
 </div>

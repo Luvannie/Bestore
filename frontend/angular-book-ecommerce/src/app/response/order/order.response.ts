@@ -2,23 +2,23 @@ import { OrderItem } from '../../common/model/order-item';
 
 
 export interface OrderResponse {
-    orderId: number;
-    userId: number;
-    totalPrice: number;
-    orderDate: Date;
+    order_id: number;
+    user_id: number;
+    total_price: number;
+    order_date: Date;
     status: string;
-    shippingMethod: string;
-    shippingAddress: string;
-    shippingDate: Date;
-    paymentMethod: string;
-    customerId: number;
-    trackingNumber: string;
-    customerName: string;
-    customerEmail: string;
-    customerPhone: string;
-    shippingCountry: string;
-    shippingCity: string;
-    shippingDistrict: string;
-    orderItems: OrderItem[];
-    dateCreated: Date;
+    shipping_method: string;
+    shipping_address: string;
+    shipping_date: Date;
+    payment_method: string;
+    customer_id: number;
+    tracking_number: string;
+    customer_name: string;
+    customer_email: string;
+    customer_phone: string;
+    shipping_country: string;
+    shipping_city: string;
+    shipping_district: string;
+    order_items: OrderItem[];
+    date_created: Date;
 }

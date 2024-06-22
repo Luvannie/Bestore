@@ -14,25 +14,25 @@ import { DOCUMENT } from '@angular/common';
 })
 export class UserOrderComponent implements OnInit {
   orderResponse: OrderResponse = {
-    orderId: 0,
-    userId: 0,
-    totalPrice: 0,
-    orderDate: new Date(),
+    order_id: 0,
+    user_id: 0,
+    total_price: 0,
+    order_date: new Date(),
     status: '',
-    shippingMethod: '',
-    shippingAddress: '',
-    shippingDate: new Date(),
-    paymentMethod: '',
-    customerId: 0,
-    trackingNumber: '',
-    customerName: '',
-    customerEmail: '',
-    customerPhone: '',
-    shippingCountry: '',
-    shippingCity: '',
-    shippingDistrict: '',
-    orderItems: [],
-    dateCreated: new Date(),
+    shipping_method: '',
+    shipping_address: '',
+    shipping_date: new Date(),
+    payment_method: '',
+    customer_id: 0,
+    tracking_number: '',
+    customer_name: '',
+    customer_email: '',
+    customer_phone: '',
+    shipping_country: '',
+    shipping_city: '',
+    shipping_district: '',
+    order_items: [],
+    date_created: new Date(),
   };
 
   orderResponses: OrderResponse[] = [];
@@ -60,24 +60,24 @@ export class UserOrderComponent implements OnInit {
         const response = apiResponse.data;
         this.orderResponses = response.map((order: any) => {
           return {
-            orderId: order.order_id,
-            userId: order.user_id,
-            totalPrice: order.total_price,
-            orderDate: order.order_date ? new Date(order.order_date) : null,
+            order_id: order.order_id,
+            user_id: order.user_id,
+            total_price: order.total_price,
+            order_date: order.order_date ? new Date(order.order_date) : null,
             status: order.status,
-            shippingMethod: order.shipping_method,
-            shippingAddress: order.shipping_address,
-            shippingDate: order.shipping_date ? new Date(order.shipping_date[0], order.shipping_date[1] - 1, order.shipping_date[2]) : null,
-            paymentMethod: order.payment_method,
-            customerId: order.customer_id,
-            trackingNumber: order.tracking_number,
-            customerName: order.customer_name,
-            customerEmail: order.customer_email,
-            customerPhone: order.customer_phone,
-            shippingCountry: order.shipping_country,
-            shippingCity: order.shipping_city,
-            shippingDistrict: order.shipping_district,
-            orderItems: order.order_items.map((item: any) => {
+            shipping_method: order.shipping_method,
+            shipping_address: order.shipping_address,
+            shipping_date: order.shipping_date ? new Date(order.shipping_date[0], order.shipping_date[1] - 1, order.shipping_date[2]) : null,
+            payment_method: order.payment_method,
+            customer_id: order.customer_id,
+            tracking_number: order.tracking_number,
+            customer_name: order.customer_name,
+            customer_email: order.customer_email,
+            customer_phone: order.customer_phone,
+            shipping_country: order.shipping_country,
+            shipping_city: order.shipping_city,
+            shipping_district: order.shipping_district,
+            order_items: order.order_items.map((item: any) => {
               return {
                 ...item,
                 bookId: item.book_id,
@@ -85,7 +85,7 @@ export class UserOrderComponent implements OnInit {
                 quantity: item.quantity,
               };
             }),
-            dateCreated: order.date_created ? new Date(order.date_created) : null,
+            date_created: order.date_created ? new Date(order.date_created) : null,
           };
         });
         console.log(this.orderResponses); // Kiểm tra dữ liệu nhận được

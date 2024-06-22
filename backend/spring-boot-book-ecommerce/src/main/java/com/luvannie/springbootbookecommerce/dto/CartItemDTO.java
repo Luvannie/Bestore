@@ -15,4 +15,13 @@ public class CartItemDTO {
 
     @JsonProperty("quantity")
     private Integer quantity;
+
+    @JsonProperty("thumbnail")
+    private String thumbnail;
+
+    @JsonProperty("unit_price")
+    private Double unitPrice;
+
+    @JsonProperty("user_id")
+    private Long userId;
 }

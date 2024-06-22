@@ -69,6 +69,33 @@ public class WebSecurityConfig {
                                     String.format("%s/checkout**", apiPrefix)).permitAll()
                             .requestMatchers(POST,
                                     String.format("%s/complains/**", apiPrefix)).permitAll()
+                            .requestMatchers(PUT,
+                                    String.format("%s/cart_item/**", apiPrefix)).permitAll()
+                            .requestMatchers(DELETE,
+                                    String.format("%s/cart_item/**", apiPrefix)).permitAll()
+                            .requestMatchers(GET,
+                                    String.format("%s/cart_item/**", apiPrefix)).permitAll()
+                            .requestMatchers(POST,
+                                    String.format("%s/cart_item/**", apiPrefix)).permitAll()
+                            .requestMatchers(GET,
+                                    String.format("%s/books_admin/**", apiPrefix)).permitAll()
+                            .requestMatchers(POST,
+                                    String.format("%s/books_admin/**", apiPrefix)).permitAll()
+                            .requestMatchers(PUT,
+                                    String.format("%s/books_admin/**", apiPrefix)).permitAll()
+                            .requestMatchers(DELETE,
+                                    String.format("%s/books_admin/**", apiPrefix)).permitAll()
+//                            .requestMatchers(GET,
+//                                    String.format("%s/book_categories_admin/**", apiPrefix)).permitAll()
+//                            .requestMatchers(POST,
+//                                    String.format("%s/book_categories_admin/**", apiPrefix)).permitAll()
+//                            .requestMatchers(PUT,
+//                                    String.format("%s/book_categories_admin/**", apiPrefix)).permitAll()
+//                            .requestMatchers(DELETE,
+//                                    String.format("%s/book_categories_admin/**", apiPrefix)).permitAll()
+                            .requestMatchers(GET,
+                                    String.format("%s/payment/**", apiPrefix)).permitAll()
+
                             .anyRequest()
                             .authenticated();
 

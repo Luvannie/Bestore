@@ -20,12 +20,12 @@ public class BookDTO {
     @JsonProperty("description")
     private String description;
 
-    @JsonProperty("price")
+    @JsonProperty("unitPrice")
     private Double price;
 
     @JsonProperty("thumbnail")
     private String thumbnail;
 
-    @JsonProperty("book_category_id")
+    @JsonProperty("category_id")
     private Long BookCategoryId;
 }

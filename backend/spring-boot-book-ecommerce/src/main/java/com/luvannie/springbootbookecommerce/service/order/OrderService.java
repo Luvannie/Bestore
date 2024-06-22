@@ -73,13 +73,17 @@ public class OrderService implements IOrderService {
             order.setTotalPrice(orderDTO.getTotalPrice());
         }
 
-        if (orderDTO.getOrderDate() != null) {
-            order.setDateCreated(orderDTO.getOrderDate());
+        if (orderDTO.getDateCreated() != null) {
+            order.setDateCreated(orderDTO.getDateCreated());
         }
 
         if (orderDTO.getCouponCode() != null) {
             Coupon coupon = couponRepository.findByCode(orderDTO.getCouponCode()).orElse(null);
             order.setCoupon(coupon);
+        }
+
+        if(orderDTO.getStatus()!= null) {
+            order.setStatus(orderDTO.getStatus());
         }
 
     return orderRepository.save(order);

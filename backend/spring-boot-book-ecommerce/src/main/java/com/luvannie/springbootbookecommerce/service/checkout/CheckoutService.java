@@ -95,13 +95,17 @@ public class CheckoutService implements ICheckoutService {
         Random rand = new Random();
         int randomNum = rand.nextInt((7 - 3) + 1) + 3;
         Calendar cal = Calendar.getInstance();
-        cal.setTime(order.getDateCreated());
+//        cal.setTime(order.getDateCreated());
         cal.add(Calendar.DATE, randomNum);
         order.setShippingDate(cal.getTime());
 
         // Set shippingMethod to "NORMAL" if it's null
         if (order.getShippingMethod() == null) {
             order.setShippingMethod("NORMAL");
+        }
+
+        if (order.getPaymentMethod() == null) {
+            order.setPaymentMethod("VNPAY");
         }
 
         // save to the database

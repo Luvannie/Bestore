@@ -6,6 +6,7 @@ import com.luvannie.springbootbookecommerce.dto.BookDTO;
 import com.luvannie.springbootbookecommerce.entity.Book;
 import com.luvannie.springbootbookecommerce.entity.User;
 import com.luvannie.springbootbookecommerce.responses.ResponseObject;
+import com.luvannie.springbootbookecommerce.responses.ResponsePageObject;
 import com.luvannie.springbootbookecommerce.responses.book.BookListResponse;
 import com.luvannie.springbootbookecommerce.responses.book.BookResponse;
 import com.luvannie.springbootbookecommerce.service.book.BookService;
@@ -23,8 +24,9 @@ import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
-@CrossOrigin("http://localhost:4200")
+@CrossOrigin(origins = {"http://localhost:4200", "http://localhost:4300"})
 @RestController
 @RequestMapping("/api/books_admin")
 @RequiredArgsConstructor
@@ -35,10 +37,17 @@ public class BookController {
     private static final Logger logger = LoggerFactory.getLogger(BookController.class);
     private final SecurityUtils securityUtils;
 
-    @PostMapping
+    @PostMapping("")
     @PreAuthorize("hasRole('ROLE_ADMIN')")
-    public ResponseEntity<Book> createBook(@RequestBody BookDTO bookDTO) throws Exception {
-        return new ResponseEntity<>(bookService.createBook(bookDTO), HttpStatus.CREATED);
+    public ResponseEntity<ResponseObject> createBook(@RequestBody BookDTO bookDTO) throws Exception {
+        System.out.println("bookDTO: " + bookDTO);
+        Book newBook = bookService.createBook(bookDTO);
+        BookResponse bookResponse = BookResponse.fromBook(newBook);
+        return ResponseEntity.ok().body(ResponseObject.builder()
+                .message("Create book successfully")
+                .status(HttpStatus.CREATED)
+                .data(bookResponse)
+                .build());
     }
 
     @GetMapping("/{id}")
@@ -51,56 +60,43 @@ public class BookController {
                 .build());
     }
 
+
+
     @GetMapping("")
-    public ResponseEntity<ResponseObject> getAllBooks(
-            @RequestParam(defaultValue = "") String keyword,
-            @RequestParam(defaultValue = "0", name = "category_id") Long categoryId,
-            @RequestParam(defaultValue = "0") int page,
-            @RequestParam(defaultValue = "10") int limit
-    ) throws JsonProcessingException {
-        int totalPages = 0;
-        //bookRedisService.clear();
-        // Create Pageable from page and limit information
-        PageRequest pageRequest = PageRequest.of(
-                page, limit,
-                //Sort.by("createdAt").descending()
-                Sort.by("id").ascending()
-        );
-        logger.info(String.format("keyword = %s, category_id = %d, page = %d, limit = %d",
-                keyword, categoryId, page, limit));
-        List<BookResponse> bookResponses = bookRedisService
-                .getAllBooks(keyword, categoryId, pageRequest);
-        if (bookResponses!=null && !bookResponses.isEmpty()) {
-            totalPages = bookResponses.get(0).getTotalPages();
-        }
-        if(bookResponses == null) {
-            Page<BookResponse> bookPage = bookService
-                    .getAllBooks(keyword, categoryId, pageRequest);
-            // Get total number of pages
-            totalPages = bookPage.getTotalPages();
-            bookResponses = bookPage.getContent();
-            // Add totalPages to each BookResponse object
+public ResponseEntity<ResponseObject> getAllBooks(
+        @RequestParam(defaultValue = "") String keyword,
+        @RequestParam(defaultValue = "0", name = "category_id") Long categoryId,
+        @RequestParam(defaultValue = "0") int page,
+        @RequestParam(defaultValue = "10") int limit
+) {
+    // Tạo Pageable từ thông tin trang và giới hạn
+    PageRequest pageRequest = PageRequest.of(
+            page, limit,
+            Sort.by("id").ascending()
+    );
+    Page<BookResponse> bookPage = bookService
+            .getAllBooks(keyword,categoryId ,pageRequest);
+    // Lấy tổng số trang
+    int totalPages = bookPage.getTotalPages();
+
+//
+    List<BookResponse> bookResponses = bookPage.getContent();
+//         Add totalPages to each BookResponse object
             for (BookResponse book : bookResponses) {
                 book.setTotalPages(totalPages);
             }
-            bookRedisService.saveAllBooks(
-                    bookResponses,
-                    keyword,
-                    categoryId,
-                    pageRequest
-            );
-        }
-        BookListResponse bookListResponse = BookListResponse
+
+                BookListResponse bookListResponse = BookListResponse
                 .builder()
                 .books(bookResponses)
                 .totalPages(totalPages)
                 .build();
-        return ResponseEntity.ok().body(ResponseObject.builder()
-                .message("Get books successfully")
-                .status(HttpStatus.OK)
-                .data(bookListResponse)
-                .build());
-    }
+    return ResponseEntity.ok().body(ResponseObject.builder()
+            .message("Get books successfully")
+            .status(HttpStatus.OK)
+            .data(bookListResponse)
+            .build());
+}
 
     @PutMapping("/{id}")
     public ResponseEntity<ResponseObject> updateBook(
@@ -115,7 +111,7 @@ public class BookController {
     }
 
     @DeleteMapping("/{id}")
-    @PreAuthorize("hasRole('ROLE_ADMIN')")
+//    @PreAuthorize("hasRole('ROLE_ADMIN')")
     public ResponseEntity<ResponseObject> deleteBook(@PathVariable long id) {
         bookService.deleteBook(id);
         return ResponseEntity.ok(ResponseObject.builder()
@@ -125,39 +121,39 @@ public class BookController {
                 .build());
     }
 
-    @PostMapping("/like/{bookId}")
-//    @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_USER')")
-    public ResponseEntity<ResponseObject> likeBook(@PathVariable Long bookId) throws Exception {
-        User loginUser = securityUtils.getLoggedInUser();
-        Book likedBook = bookService.likeBook(loginUser.getId(), bookId);
-        return ResponseEntity.ok(ResponseObject.builder()
-                .data(BookResponse.fromBook(likedBook))
-                .message("Like book successfully")
-                .status(HttpStatus.OK)
-                .build());
-    }
+//    @PostMapping("/like/{bookId}")
+////    @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_USER')")
+//    public ResponseEntity<ResponseObject> likeBook(@PathVariable Long bookId) throws Exception {
+//        User loginUser = securityUtils.getLoggedInUser();
+//        Book likedBook = bookService.likeBook(loginUser.getId(), bookId);
+//        return ResponseEntity.ok(ResponseObject.builder()
+//                .data(BookResponse.fromBook(likedBook))
+//                .message("Like book successfully")
+//                .status(HttpStatus.OK)
+//                .build());
+//    }
 
-    @PostMapping("/unlike/{bookId}")
-//    @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_USER')")
-    public ResponseEntity<ResponseObject> unlikeBook(@PathVariable Long bookId) throws Exception {
-        User loginUser = securityUtils.getLoggedInUser();
-        Book unlikedBook = bookService.unlikeBook(loginUser.getId(), bookId);
-        return ResponseEntity.ok(ResponseObject.builder()
-                .data(BookResponse.fromBook(unlikedBook))
-                .message("Unlike book successfully")
-                .status(HttpStatus.OK)
-                .build());
-    }
+//    @PostMapping("/unlike/{bookId}")
+////    @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_USER')")
+//    public ResponseEntity<ResponseObject> unlikeBook(@PathVariable Long bookId) throws Exception {
+//        User loginUser = securityUtils.getLoggedInUser();
+//        Book unlikedBook = bookService.unlikeBook(loginUser.getId(), bookId);
+//        return ResponseEntity.ok(ResponseObject.builder()
+//                .data(BookResponse.fromBook(unlikedBook))
+//                .message("Unlike book successfully")
+//                .status(HttpStatus.OK)
+//                .build());
+//    }
 
-    @GetMapping("/favorites")
-//    @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_USER')")
-    public ResponseEntity<ResponseObject> findFavoriteBooksByUserId() throws Exception {
-        User loginUser = securityUtils.getLoggedInUser();
-        List<BookResponse> favoriteBooks = bookService.findFavoriteBooksByUserId(loginUser.getId());
-        return ResponseEntity.ok(ResponseObject.builder()
-                .data(favoriteBooks)
-                .message("Favorite books retrieved successfully")
-                .status(HttpStatus.OK)
-                .build());
-    }
+//    @GetMapping("/favorites")
+////    @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_USER')")
+//    public ResponseEntity<ResponseObject> findFavoriteBooksByUserId() throws Exception {
+//        User loginUser = securityUtils.getLoggedInUser();
+//        List<BookResponse> favoriteBooks = bookService.findFavoriteBooksByUserId(loginUser.getId());
+//        return ResponseEntity.ok(ResponseObject.builder()
+//                .data(favoriteBooks)
+//                .message("Favorite books retrieved successfully")
+//                .status(HttpStatus.OK)
+//                .build());
+//    }
 }

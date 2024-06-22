@@ -18,10 +18,10 @@ public interface OrderRepository  extends JpaRepository<Order, Long> {
 
     @Query(value = "SELECT o.*, u.username, u.email FROM orders o " +
             "JOIN users u ON o.user_id = u.id " +
-            "WHERE (u.username LIKE %:keyword% OR u.email LIKE %:keyword% OR o.tracking_number LIKE %:keyword%)",
+            "WHERE (u.username LIKE %:keyword% OR u.email LIKE %:keyword% OR o.order_tracking_number LIKE %:keyword%)",
             countQuery = "SELECT count(*) FROM orders o " +
                     "JOIN users u ON o.user_id = u.id " +
-                    "WHERE (u.username LIKE %:keyword% OR u.email LIKE %:keyword% OR o.tracking_number LIKE %:keyword%)",
+                    "WHERE (u.username LIKE %:keyword% OR u.email LIKE %:keyword% OR o.order_tracking_number LIKE %:keyword%)",
             nativeQuery = true)
     Page<Order> findByKeyword(@Param("keyword") String keyword, Pageable pageable);
 }

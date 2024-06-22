@@ -37,8 +37,7 @@ export class BookDetailsComponent implements OnInit {
 
     addToCart(){
       console.log(`Adding to cart: ${this.book.title}, ${this.book.unitPrice}`);
-      const theCartItem = new CartItem(this.book);
-      this.cartService.addToCart(theCartItem);
+      this.cartService.addToCart(this.book);
     }
 
     toggleDescription() {

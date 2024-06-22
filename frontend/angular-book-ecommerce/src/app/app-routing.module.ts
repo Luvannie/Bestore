@@ -16,7 +16,6 @@ import { AdminComponent } from './component/admin/admin.component';
 import { AdminGuardFn } from './guard/admin.guard';
 import { AuthGuardFn } from './guard/auth.guard';
 import { UserOrderComponent } from './component/user-order/user-order.component';
-import { OrderAdminComponent } from './component/admin/order-admin/order-admin.component';
 import { BooksAdminComponent } from './component/admin/books-admin/books-admin.component';
 import { CategoryAdminComponent } from './component/admin/category-admin/category-admin.component';
 import { DetailOrderAdminComponent } from './component/admin/detail-order-admin/detail-order-admin.component';
@@ -26,6 +25,8 @@ import { UpdateCategoryAdminComponent } from './component/admin/category-admin/u
 import { InsertCategoryAdminComponent } from './component/admin/category-admin/insert-category-admin/insert-category-admin.component';
 import { UserAdminComponent } from './component/admin/detail-order-admin/user-admin/user-admin.component';
 import { ComplainComponent } from './component/complain/complain.component';
+import { ComplainAdminComponent } from './component/admin/complain-admin/complain-admin.component';
+import { OrdersAdminComponent } from './component/admin/orders-admin/orders-admin.component';
 
 
 
@@ -41,11 +42,7 @@ const routes: Routes = [
   { path: 'books', component: HomeComponent },
   { path: 'user-profile', component: UserProfileComponent,canActivate:[AuthGuardFn]  },
   { path: 'admin',component:AdminComponent,canActivate:[AdminGuardFn],
-    children: [
-      {
-          path: 'orders',
-          component: OrderAdminComponent
-      },            
+    children: [           
       {
           path: 'books',
           component: BooksAdminComponent
@@ -80,6 +77,14 @@ const routes: Routes = [
           path: 'users',
           component: UserAdminComponent
       },  
+      {
+        path:'complains',
+        component: ComplainAdminComponent
+        },
+        {
+            path:'orders',
+            component:OrdersAdminComponent
+        }    
   ]
    },
   { path: 'user-orders',component:UserOrderComponent},

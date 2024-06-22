@@ -27,7 +27,6 @@ import { Form } from '@okta/okta-signin-widget/types/packages/@okta/courage-dist
 import { HeaderComponent } from './component/header/header.component';
 import { UserProfileComponent } from './component/user-profile/user-profile.component';
 import { AdminComponent } from './component/admin/admin.component';
-import { OrderAdminComponent } from './component/admin/order-admin/order-admin.component';
 import { UserOrderComponent } from './component/user-order/user-order.component';
 import { BooksAdminComponent } from './component/admin/books-admin/books-admin.component';
 import { CategoryAdminComponent } from './component/admin/category-admin/category-admin.component';
@@ -40,6 +39,8 @@ import { UserAdminComponent } from './component/admin/detail-order-admin/user-ad
 import { AdminModule } from './component/admin/admin.module';
 import { ComplainComponent } from './component/complain/complain.component';
 import { RelevantComponent } from './component/relevant/relevant.component';
+import { FooterComponent } from './component/footer/footer.component';
+import { AsideComponent } from './component/aside/aside.component';
 
 
 const oktaConfig = myAppConfig.oidc;
@@ -65,6 +66,8 @@ const oktaAuth = new OktaAuth(oktaConfig);
       UserProfileComponent,
       ComplainComponent,
       RelevantComponent,
+      FooterComponent,
+      AsideComponent,
     ],
   imports: [
     AppRoutingModule,

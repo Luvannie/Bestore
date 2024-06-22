@@ -6,6 +6,7 @@ import com.luvannie.springbootbookecommerce.dto.OrderDTO;
 import com.luvannie.springbootbookecommerce.entity.Order;
 import com.luvannie.springbootbookecommerce.entity.User;
 import com.luvannie.springbootbookecommerce.responses.ResponseObject;
+import com.luvannie.springbootbookecommerce.responses.ResponsePageObject;
 import com.luvannie.springbootbookecommerce.responses.order.OrderResponse;
 import com.luvannie.springbootbookecommerce.service.order.OrderService;
 import com.luvannie.springbootbookecommerce.utils.MessageKeys;
@@ -21,7 +22,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@CrossOrigin("http://localhost:4200")
+@CrossOrigin(origins = {"http://localhost:4200", "http://localhost:4300"})
 @RestController
 @RequestMapping("/api/orders")
 @RequiredArgsConstructor
@@ -72,9 +73,15 @@ public class OrderController {
     }
 
     @GetMapping("/{orderId}")
-    public ResponseEntity<Order> getOrderById(@PathVariable Long orderId) {
+    public ResponseEntity<ResponseObject> getOrderById(@PathVariable Long orderId) {
         Order order = orderService.getOrderById(orderId);
-        return new ResponseEntity<>(order, HttpStatus.OK);
+        OrderResponse orderResponse = OrderResponse.fromOrder(order);
+
+        return ResponseEntity.ok().body(ResponseObject.builder()
+                .message("Get order successfully")
+                .status(HttpStatus.OK)
+                .data(orderResponse)
+                .build());
     }
 
     @PutMapping("/{id}")
@@ -88,7 +95,7 @@ public class OrderController {
     }
 
     @GetMapping("/get-orders-by-keyword")
-    public ResponseEntity<ResponseObject> getOrdersByKeyword(
+    public ResponseEntity<ResponsePageObject> getOrdersByKeyword(
             @RequestParam(defaultValue = "", required = false) String keyword,
             @RequestParam(defaultValue = "0") int page,
             @RequestParam(defaultValue = "10") int limit
@@ -105,10 +112,11 @@ public class OrderController {
         // Lấy tổng số trang
         int totalPages = orderPage.getTotalPages();
         List<OrderResponse> orderResponses = orderPage.getContent();
-        return ResponseEntity.ok().body(ResponseObject.builder()
+        return ResponseEntity.ok().body(ResponsePageObject.builder()
                 .message("Get orders successfully")
                 .status(HttpStatus.OK)
                 .data(orderResponses)
+                .totalPages(totalPages)
                 .build());
     }
 }

@@ -22,8 +22,8 @@ public interface IBookService {
     //String storeFile(MultipartFile file) throws IOException; //chuyển sang FileUtils
     //void deleteFile(String filename) throws IOException;
 
-    Book likeBook(Long userId, Long bookId) throws Exception;
-    Book unlikeBook(Long userId, Long bookId) throws Exception;
-    List<BookResponse> findFavoriteBooksByUserId(Long userId) throws Exception;
-    void generateFakeLikes() throws Exception;
+//    Book likeBook(Long userId, Long bookId) throws Exception;
+//    Book unlikeBook(Long userId, Long bookId) throws Exception;
+//    List<BookResponse> findFavoriteBooksByUserId(Long userId) throws Exception;
+//    void generateFakeLikes() throws Exception;
 }

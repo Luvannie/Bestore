@@ -136,9 +136,13 @@ export class UserService {
       // Handle the error as needed
     }
   }
-  getUsers(params: { page: number, limit: number, keyword: string }): Observable<ApiResponse> {
+  getUsers(params: { page: number, limit: number, keyword: string },token:string): Observable<ApiResponse> {
+    const headers = new HttpHeaders({
+      'Content-Type': 'application/json',
+      'Authorization': `Bearer ${token}`
+    });
     const url = `${environment.apiBaseUrl}/users`;
-    return this.http.get<ApiResponse>(url, { params: params });
+    return this.http.get<ApiResponse>(url,  { params: params, headers: headers, responseType: 'json' });
   }
 
   resetPassword(userId: number): Observable<ApiResponse> {
@@ -146,8 +150,12 @@ export class UserService {
     return this.http.put<ApiResponse>(url, null, this.apiConfig);
   }
 
-  toggleUserStatus(params: { userId: number, enable: boolean }): Observable<ApiResponse> {
+  toggleUserStatus(params: { userId: number, enable: boolean },token:string): Observable<ApiResponse> {
+    const headers = new HttpHeaders({
+      'Content-Type': 'application/json',
+      'Authorization': `Bearer ${token}`
+    });
     const url = `${environment.apiBaseUrl}/users/block/${params.userId}/${params.enable ? '1' : '0'}`;
-    return this.http.put<ApiResponse>(url, null, this.apiConfig);
+    return this.http.put<ApiResponse>(url, null, { headers: headers });
   }
 }

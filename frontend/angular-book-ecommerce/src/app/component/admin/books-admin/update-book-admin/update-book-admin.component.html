@@ -1,1 +1,51 @@
 <p>update-book-admin works!</p>
+<ng-container *ngIf="book">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <h3>Update Book</h3>
+                <form (ngSubmit)="updateBook()">
+                    <div class="form-group">
+                        <label for="title">Title:</label>
+                        <input type="text" id="title" [(ngModel)]="updatedBook.title" name="title" class="form-control" required>
+                    </div>
+
+                    <div class="form-group mb-3">
+                        <label for="unitPrice">Unit Price:</label>
+                        <input type="text" id="unitPrice" [(ngModel)]="updatedBook.unitPrice" name="unitPrice" class="form-control col-md-3" required>
+                    </div>
+
+                    <div class="form-group mb-3">
+                        <label for="description">Description:</label>
+                        <textarea id="description" [(ngModel)]="updatedBook.description" name="description" class="form-control" required></textarea>
+                    </div>
+
+                    <div class="form-group mb-3">
+                        <label for="category">Category:</label>
+                        <select id="category" [(ngModel)]="updatedBook.category_id" name="category" class="form-control" required>
+                            <option *ngFor="let category of categories" [value]="category.id">{{ category.categoryName }}</option>
+                        </select>
+                    </div>
+
+                    <!-- <div class="row mb-3">
+                        <div class="thumbnail-container">
+                            <div *ngFor="let bookImage of book.book_images; let i = index" class="thumbnail-item" [ngClass]="{'active': i === currentImageIndex}" (click)="thumbnailClick(i)">
+                                <img [src]="bookImage.image_url" class="thumbnail-image" alt="Thumbnail Image">
+                                <button type="button" class="btn btn-sm remove-image" (click)="deleteImage(bookImage)">
+                                    <i class="fa fa-times-circle text-danger"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group mb-3">
+                        <label for="images">Add images (up to 5):</label>
+                        <input type="file" id="images" name="images" multiple (change)="onFileChange($event)" accept="image/*">
+                    </div> -->
+
+                    <button type="submit" class="btn btn-primary">Update</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</ng-container>

@@ -10,6 +10,7 @@ import { PaymentInfo } from '../common/model/payment-info';
 export class CheckoutService {
   private purchaseUrl = 'http://localhost:8080/api/checkout/purchase';
   private paymentIntentUrl = 'http://localhost:8080/api/checkout/payment-intent';
+  private paymentUrl = 'http://localhost:8080/api/payment/create_payment';
 
   constructor(private httpClient: HttpClient) { }
 
@@ -19,5 +20,10 @@ export class CheckoutService {
 
   createPaymentIntent(paymentInfo: PaymentInfo):Observable<any> {
     return this.httpClient.post(this.paymentIntentUrl, paymentInfo);
+  }
+
+  createPayment(totalPrice: number):Observable<any> {
+    const url = `${this.paymentUrl}/${totalPrice}`;
+    return this.httpClient.get(url);
   }
 }

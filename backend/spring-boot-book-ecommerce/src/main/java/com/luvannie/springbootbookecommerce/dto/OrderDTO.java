@@ -22,8 +22,8 @@ public class OrderDTO {
     @JsonProperty("total_price")
     private Double totalPrice;
 
-    @JsonProperty("order_date")
-    private Date orderDate;
+    @JsonProperty("dateCreated")
+    private Date dateCreated;
 
     @JsonProperty("status")
     private String status;
@@ -37,8 +37,8 @@ public class OrderDTO {
     @JsonProperty("shipping_address")
     private String shippingAddress;
 
-    @JsonProperty("shipping_date")
-    private LocalDate shippingDate;
+//    @JsonProperty("shipping_date")
+//    private LocalDate shippingDate;
 
     @JsonProperty("payment_method")
     private String paymentMethod;

@@ -23,8 +23,8 @@ public interface BookRepository extends JpaRepository<Book, Long> {
 
     Book findById(long id);
 
-    @Query("SELECT p FROM Book p JOIN p.favorites f WHERE f.user.id = :userId")
-    List<Book> findFavoriteBooksByUserId(@Param("userId") Long userId);
+//    @Query("SELECT p FROM Book p JOIN p.favorites f WHERE f.user.id = :userId")
+//    List<Book> findFavoriteBooksByUserId(@Param("userId") Long userId);
 
     @Query("SELECT b FROM Book b WHERE " +
             "(:categoryId IS NULL OR :categoryId = 0 OR b.category.id = :categoryId) " +

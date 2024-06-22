@@ -1,10 +1,11 @@
 import { Component, Inject, OnInit } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
-import { complain } from '../../common/model/complain';
+import { Complain } from '../../common/model/complain';
 import { DOCUMENT } from '@angular/common';
 import { TokenService } from '../../service/token.service';
 import { ComplainService } from '../../service/complain.service';
 import { Router } from '@angular/router';
+import { ComplainDTO } from '../../common/complain-dto';
 
 @Component({
   selector: 'app-complain',
@@ -14,7 +15,7 @@ import { Router } from '@angular/router';
 export class ComplainComponent implements OnInit {
   complainFormGroup!: FormGroup;
   localStorage?: Storage;
-  complain: complain = {
+  complain: ComplainDTO = {
     user_id: 0,
     order_id: 0,
     complain: ''

@@ -13,7 +13,7 @@ public interface ICommentService {
     void deleteComment(Long commentId);
     void updateComment(Long id, CommentDTO commentDTO) throws DataNotFoundException;
 
-    List<CommentResponse> getCommentsByUserAndProduct(Long userId, Long productId);
-    List<CommentResponse> getCommentsByProduct(Long productId);
+//    List<CommentResponse> getCommentsByUserAndProduct(Long userId, Long productId);
+//    List<CommentResponse> getCommentsByProduct(Long productId);
     void generateFakeComments() throws Exception;
 }

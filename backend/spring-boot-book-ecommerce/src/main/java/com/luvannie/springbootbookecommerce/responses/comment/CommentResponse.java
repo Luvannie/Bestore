@@ -17,8 +17,8 @@ public class CommentResponse extends BaseResponse {
     @JsonProperty("content")
     private String content;
 
-    @JsonProperty("user")
-    private UserResponse user;
+    @JsonProperty("user_id")
+    private Long userId;
 
     @JsonProperty("book_id")
     private Long bookId;
@@ -27,8 +27,8 @@ public class CommentResponse extends BaseResponse {
         return CommentResponse.builder()
                 .id(comment.getId())
                 .content(comment.getContent())
-                .user(UserResponse.fromUser(comment.getUser()))
-                .bookId(comment.getBook().getId())
+                .userId(comment.getUserId())
+                .bookId(comment.getBookId())
                 .build();
     }
 }

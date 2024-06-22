@@ -1,6 +1,8 @@
 package com.luvannie.springbootbookecommerce.dao;
 
 import com.luvannie.springbootbookecommerce.entity.BookCategory;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -18,4 +20,5 @@ trả về. Trong trường hợp này, tên của tài nguyên sẽ là `bookCa
 Vì vậy, khi bạn gọi API, bạn sẽ thấy một tài nguyên `bookCategory` tại đường dẫn `/book-category`.*/
 @CrossOrigin("http://localhost:4200")
 public interface BookCategoryRepository extends JpaRepository<BookCategory,Long> {
+    Page<BookCategory> findAll( Pageable pageable);
 }

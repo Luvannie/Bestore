@@ -25,12 +25,15 @@ public class ComplainResponse {
     @JsonProperty("is_finish")
     private boolean isFinish;
 
+    private int totalPages;
     public static ComplainResponse fromComplain(Complain complain) {
         return ComplainResponse.builder()
+                .id(complain.getId())
                 .complain(complain.getComplain())
                 .userId(complain.getUserId())
                 .orderId(complain.getOrderId())
                 .isFinish(complain.isFinish())
+                .totalPages(0)
                 .build();
     }
 }

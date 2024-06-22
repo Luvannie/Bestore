@@ -1,5 +1,6 @@
 package com.luvannie.springbootbookecommerce.dto;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.validation.constraints.NotEmpty;
 import lombok.*;
 
@@ -10,7 +11,8 @@ import lombok.*;
 @NoArgsConstructor
 public class BookCategoryDTO {
     @NotEmpty(message = "Category's name cannot be empty")
-    private String name;
+    @JsonProperty("categoryName")
+    private String categoryName;
 
 
 

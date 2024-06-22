@@ -96,7 +96,21 @@ public class JwtTokenFilter extends OncePerRequestFilter{
                 Pair.of(String.format("%s/users/register", apiPrefix), "POST"),
                 Pair.of(String.format("%s/users/login", apiPrefix), "POST"),
                 Pair.of(String.format("%s/users/refreshToken", apiPrefix), "POST"),
-                Pair.of(String.format("%s/complain/**", apiPrefix), "POST")
+                Pair.of(String.format("%s/complain/**", apiPrefix), "POST"),
+                Pair.of(String.format("%s/cart_item/**", apiPrefix), "PUT"),
+                Pair.of(String.format("%s/cart_item/**", apiPrefix), "DELETE"),
+                Pair.of(String.format("%s/cart_item/**", apiPrefix), "GET"),
+                Pair.of(String.format("%s/cart_item/**", apiPrefix), "GET"),
+                Pair.of(String.format("%s/books_admin/**", apiPrefix), "GET"),
+                Pair.of(String.format("%s/books_admin/**", apiPrefix), "POST"),
+                Pair.of(String.format("%s/books_admin/**", apiPrefix), "PUT"),
+                Pair.of(String.format("%s/books_admin/**", apiPrefix), "DELETE"),
+//                Pair.of(String.format("%s/book_categories_admin/**", apiPrefix), "GET"),
+//                Pair.of(String.format("%s/book_categories_admin/**", apiPrefix), "POST"),
+//                Pair.of(String.format("%s/book_categories_admin/**", apiPrefix), "PUT"),
+//                Pair.of(String.format("%s/book_categories_admin/**", apiPrefix), "DELETE"),
+                Pair.of(String.format("%s/payment/**", apiPrefix), "GET")
+
 
                 // Swagger
 //                Pair.of("/api-docs","GET"),

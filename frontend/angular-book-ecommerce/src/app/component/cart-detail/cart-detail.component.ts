@@ -1,6 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { CartItem } from '../../common/model/cart-item';
 import { CartService } from '../../service/cart.service';
+import { Book } from 'lucide-angular';
+import { CartItemDTO } from '../../common/cart-item-dto';
+import { ApiResponse } from '../../response/api.response';
 
 @Component({
   selector: 'app-cart-detail',
@@ -29,7 +32,24 @@ export class CartDetailComponent implements OnInit{
   }
 
   incrementQuantity(theCartItem: CartItem){
-    this.cartService.addToCart(theCartItem);
+    theCartItem.quantity++;
+    const updateCartItem : CartItem ={
+      id: theCartItem.id,
+      user_id: theCartItem.user_id,
+      book_id: theCartItem.book_id,
+      thumbnail: theCartItem.thumbnail,
+      unit_price: theCartItem.unit_price,
+      quantity: theCartItem.quantity
+    }
+    this.cartService.updateCartItem(updateCartItem).subscribe({
+      next: (apiresponse:ApiResponse) => {
+        console.log(apiresponse);
+        this.cartService.computeCartTotals();
+      },
+      error: (error: any) => {
+        console.log(error);
+      }
+    });
   }
   decrementQuantity(theCartItem: CartItem){
     this.cartService.decrementQuantity(theCartItem);

@@ -20,8 +20,8 @@ public class FavoriteResponse {
     public static FavoriteResponse fromFavorite(Favorite favorite) {
         return FavoriteResponse.builder()
                 .id(favorite.getId())
-                .bookId(favorite.getBook().getId())
-                .userId(favorite.getUser().getId())
+                .bookId(favorite.getBook_id())
+                .userId(favorite.getUser_id())
                 .build();
     }
 }

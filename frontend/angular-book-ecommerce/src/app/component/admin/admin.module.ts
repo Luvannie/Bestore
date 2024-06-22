@@ -1,7 +1,6 @@
 import { NgModule } from "@angular/core";
 import { AdminComponent } from "./admin.component";
 import { Order } from "../../common/model/order";
-import { OrderAdminComponent } from "./order-admin/order-admin.component";
 import { DetailOrderAdminComponent } from "./detail-order-admin/detail-order-admin.component";
 import { Book } from "lucide-angular";
 import { BooksAdminComponent } from "./books-admin/books-admin.component";
@@ -13,20 +12,25 @@ import { UserAdminComponent } from "./detail-order-admin/user-admin/user-admin.c
 import { AdminRoutingModule, } from "./admin-routing.module";
 import { CommonModule } from "@angular/common";
 import { FormsModule } from "@angular/forms";
+import { ComplainAdminComponent } from './complain-admin/complain-admin.component';
+import { OrdersAdminComponent } from './orders-admin/orders-admin.component';
+import { UpdateCategoryAdminComponent } from "./category-admin/update-category-admin/update-category-admin.component";
 
 @NgModule({
     declarations:
     [
         AdminComponent,
-        OrderAdminComponent,
         DetailOrderAdminComponent,
         BooksAdminComponent,
         CategoryAdminComponent,
         InsertBookAdminComponent,
         UpdateBookAdminComponent,
-        InsertBookAdminComponent,
         InsertCategoryAdminComponent,
-        UserAdminComponent
+        UserAdminComponent,
+        ComplainAdminComponent,
+        OrdersAdminComponent,
+        UpdateCategoryAdminComponent,
+        InsertCategoryAdminComponent
 
         
     ],

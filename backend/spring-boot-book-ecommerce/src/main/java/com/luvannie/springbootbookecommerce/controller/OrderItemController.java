@@ -17,7 +17,7 @@ import com.luvannie.springbootbookecommerce.utils.MessageKeys;
 import java.util.List;
 import java.util.stream.Collectors;
 
-@CrossOrigin("http://localhost:4200")
+@CrossOrigin(origins = {"http://localhost:4200", "http://localhost:4300"})
 @RestController
 @RequestMapping("/api/orderItem")
 public class OrderItemController {

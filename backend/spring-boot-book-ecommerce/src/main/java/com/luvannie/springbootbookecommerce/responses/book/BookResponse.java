@@ -41,9 +41,7 @@ public class BookResponse extends BaseResponse {
     private Long categoryId;
 
    public static BookResponse fromBook(Book book) {
-        List<Comment> comments = book.getComments().stream().sorted(Comparator.comparing(Comment::getDateCreated).reversed()) // Sort comments by createdAt in descending order
-                .collect(Collectors.toList());
-        List<Favorite> favorites = book.getFavorites();
+
         BookResponse bookResponse = BookResponse.builder()
                 .id(book.getId())
                 .title(book.getTitle())
@@ -51,8 +49,6 @@ public class BookResponse extends BaseResponse {
                 .thumbnail(book.getThumbnail())
                 .description(book.getDescription())
                 .categoryId(book.getCategory().getId())
-                .comments(comments.stream().map(CommentResponse::fromComment).toList())
-                .favorites(favorites.stream().map(FavoriteResponse::fromFavorite).toList())
                 .totalPages(0)
                 .build();
 

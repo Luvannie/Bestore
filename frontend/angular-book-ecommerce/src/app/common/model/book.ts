@@ -11,7 +11,8 @@ export class Book {
                 public unitsInStock: number,
                 public unitPrice: number,
                 public dateCreated: Date,
-                public lastUpdated: Date
+                public lastUpdated: Date,
+                public category_id: number,
             ) {
     }
 }

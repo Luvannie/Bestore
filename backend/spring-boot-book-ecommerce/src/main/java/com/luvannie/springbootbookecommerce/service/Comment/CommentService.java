@@ -38,8 +38,8 @@ public class CommentService implements ICommentService {
             throw new IllegalArgumentException("User or product not found");
         }
         Comment newComment = Comment.builder()
-                .user(user)
-                .book(book)
+                .userId(user.getId())
+                .bookId(book.getId())
                 .content(comment.getContent())
                 .build();
         return commentRepository.save(newComment);
@@ -60,21 +60,21 @@ public class CommentService implements ICommentService {
         commentRepository.save(existingComment);
     }
 
-    @Override
-    public List<CommentResponse> getCommentsByUserAndProduct(Long userId, Long bookId) {
-        List<Comment> comments = commentRepository.findByUserIdAndBookId(userId, bookId);
-        return comments.stream()
-                .map(comment -> CommentResponse.fromComment(comment))
-                .collect(Collectors.toList());
-    }
-
-    @Override
-    public List<CommentResponse> getCommentsByProduct(Long productId) {
-        List<Comment> comments = commentRepository.findByBookId(productId);
-        return comments.stream()
-                .map(comment -> CommentResponse.fromComment(comment))
-                .collect(Collectors.toList());
-    }
+//    @Override
+//    public List<CommentResponse> getCommentsByUserAndProduct(Long userId, Long bookId) {
+//        List<Comment> comments = commentRepository.findByUserIdAndBookId(userId, bookId);
+//        return comments.stream()
+//                .map(comment -> CommentResponse.fromComment(comment))
+//                .collect(Collectors.toList());
+//    }
+//
+//    @Override
+//    public List<CommentResponse> getCommentsByProduct(Long productId) {
+//        List<Comment> comments = commentRepository.findByBookId(productId);
+//        return comments.stream()
+//                .map(comment -> CommentResponse.fromComment(comment))
+//                .collect(Collectors.toList());
+//    }
 
     @Override
     public void generateFakeComments() throws Exception {
@@ -96,8 +96,8 @@ public class CommentService implements ICommentService {
         // Generate a fake comment
         Comment comment = Comment.builder()
                 .content(faker.lorem().sentence())
-                .book(book)
-                .user(user)
+                .bookId(book.getId())
+                .userId(user.getId())
                 .build();
 
         // Save the comment

@@ -1,4 +1,6 @@
-
+<app-aside></app-aside>
+<div class="page-container">
+<app-header></app-header>
 <div class="container" style="margin-top: 75px;">
   <form [formGroup]="userProfileForm">
     <div class="row">
@@ -62,6 +64,37 @@
           />
         </div>
         <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input
+            type="email"
+            formControlName="email"
+            class="form-control"
+            id="email"
+            [class.is-invalid]="
+              userProfileForm.get('email')!.invalid &&
+              userProfileForm.get('email')!.touched
+            "
+          />
+          <div
+            *ngIf="
+              userProfileForm.get('email')!.invalid &&
+              userProfileForm.get('email')!.touched
+            "
+            class="invalid-feedback"
+          >
+            Email không hợp lệ.
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="date_of_birth" class="form-label">Ngày sinh</label>
+          <input
+            type="date"
+            formControlName="date_of_birth"
+            class="form-control"
+            id="date_of_birth"
+          />
+        </div>
+        <div class="mb-3">
           <label for="password" class="form-label">Mật khẩu</label>
           <input
             type="password"
@@ -116,4 +149,6 @@
       </div>
     </div>
   </form>
+</div>
+<app-footer></app-footer>
 </div>

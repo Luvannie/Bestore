@@ -1,1 +1,82 @@
 <p>books-admin works!</p>
+<div class="container">
+        <h1>Book Admin</h1>
+        <div class="row mb-3">
+            <div class="col-md-8">
+                <input type="text" class="form-control search-input" placeholder="Tìm sách" [(ngModel)]="keyword">
+            </div>
+            <div class="col-md-4">
+                <button class="btn btn-primary" (click)="searchBooks()">Tìm kiếm</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 ">
+                <button class="btn btn-success" (click)="insertBook()">Thêm sách mới</button>
+            </div>      
+        </div>
+        
+        <table class="table">
+            <thead class="table-light">
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Thumbnail</th>
+                    <th>Description</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>        
+                <tr *ngFor="let book of books; ">
+                        <td>{{ book.id }}</td>
+                        <td>{{ book.title }}</td>
+                        <td>{{ book.unitPrice }}</td>
+                        <td>
+                            <img src="{{ book.thumbnail }}" 
+                                class="rounded-square" alt="Thumbnail"
+                                width="100" height="100">
+                        </td>
+                        <td><p>{{ isExpanded ? book.description : (book.description | slice:0:100) + '...' }}</p>
+                            <button (click)="toggleDescription()" class="btn btn-link">
+                              {{ isExpanded ? 'Thu gọn' : 'Xem thêm' }}
+                            </button></td>
+                        <td>
+                            <div style="display: flex; gap: 10px;">
+                                <button class="btn btn-primary" 
+                                        (click)="updateBook(book.id)">
+                                    Update
+                                </button>
+                                <button class="btn btn-danger" 
+                                    (click)="deleteBook(book)">Delete
+                                </button>            
+                                </div>
+                        </td>          
+                    </tr>      
+            </tbody>
+        </table>
+        <div class="d-flex justify-content-center">
+            <nav aria-label="Page navigation">
+                <ul class="pagination">
+                    <li class="page-item" *ngIf="currentPage > 0">
+                            <a class="page-link" (click)="onPageChange(0)">First</a>
+                        </li>
+                        <li class="page-item" *ngIf="currentPage > 0">
+                            <a class="page-link" (click)="onPageChange(currentPage - 1)">
+                                <i class="fa fa-chevron-left"></i>
+                            </a>
+                        </li>
+                    <li class="page-item" *ngFor="let page of visiblePages; " [ngClass]="{'active': page === currentPage + 1}">
+                        <a class="page-link" (click)="onPageChange(page - 1)">{{ page }}</a>
+                    </li>
+                    <li class="page-item" *ngIf="currentPage < totalPages - 1">
+                            <a class="page-link" (click)="onPageChange(currentPage + 1)">
+                                <i class="fa fa-chevron-right"></i>
+                            </a>
+                        </li>
+                        <li class="page-item" *ngIf="currentPage < totalPages - 1">
+                            <a class="page-link" (click)="onPageChange(totalPages - 1)">Last</a>
+                        </li>
+                </ul>
+            </nav>
+        </div>
+    </div>

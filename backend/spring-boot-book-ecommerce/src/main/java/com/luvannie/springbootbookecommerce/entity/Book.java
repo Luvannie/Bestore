@@ -55,13 +55,6 @@ public class Book {
     @UpdateTimestamp
     private Date lastUpdated;
 
-    @OneToMany(mappedBy = "book", cascade = CascadeType.ALL)
-    @JsonManagedReference
-    private List<Comment> comments = new ArrayList<>();
 
-    @OneToMany(mappedBy = "book",
-            cascade = CascadeType.ALL,
-            fetch = FetchType.LAZY)
-    private List<Favorite> favorites = new ArrayList<>();
 
 }

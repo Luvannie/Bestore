@@ -1,8 +1,10 @@
 import { Injectable } from '@angular/core';
 import { environment } from '../../environments/environment';
-import { HttpClient, HttpParams } from '@angular/common/http';
+import { HttpClient, HttpHeaders, HttpParams } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { ApiResponse } from '../response/api.response';
+import { ApiPageResponse } from '../response/api.response.page';
+import { OrderDTO } from '../common/order-dto';
 
 @Injectable({
   providedIn: 'root'
@@ -20,12 +22,12 @@ export class OrderService {
   }
   getAllOrders(keyword:string,
     page: number, limit: number
-  ): Observable<ApiResponse> {
+  ): Observable<ApiPageResponse> {
       const params = new HttpParams()
       .set('keyword', keyword)      
       .set('page', page.toString())
       .set('limit', limit.toString());            
-      return this.http.get<ApiResponse>(this.apiGetAllOrders, { params });
+      return this.http.get<ApiPageResponse>(this.apiGetAllOrders, { params });
   }
   // updateOrder(orderId: number, orderData: OrderDTO): Observable<ApiResponse> {
   //   const url = `${environment.apiBaseUrl}/orders/${orderId}`;
@@ -40,6 +42,15 @@ export class OrderService {
   deleteOrder(orderId: number): Observable<ApiResponse> {
     const url = `${environment.apiBaseUrl}/orders/${orderId}`;
     return this.http.delete<ApiResponse>(url);
+  }
+
+  updateOrder(token:string,orderId: number, orderData: OrderDTO): Observable<ApiResponse> {
+    const headers = new HttpHeaders({
+      'Content-Type': 'application/json',
+      'Authorization': `Bearer ${token}`
+    });
+    const url = `${environment.apiBaseUrl}/orders/${orderId}`;
+    return this.http.put<ApiResponse>(url, orderData, { headers: headers });
   }
 
   

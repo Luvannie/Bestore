@@ -35,6 +35,8 @@ export class UserProfileComponent implements OnInit{
       google_account_id: new FormControl(''),
       password: new FormControl('',[Validators.minLength(6)]),
       retype_password: new FormControl('',[Validators.minLength(6)]),
+      date_of_birth: new FormControl(''),
+      
     },
     {
       validators: this.passwordMatchValidator// Custom validator function for password match
@@ -89,6 +91,8 @@ export class UserProfileComponent implements OnInit{
         retype_password: this.userProfileForm.get('retype_password')?.value,
         facebook_account_id: this.userProfileForm.get('facebook_account_id')?.value,
         google_account_id: this.userProfileForm.get('google_account_id')?.value,
+        email: this.userProfileForm.get('email')?.value,
+        date_of_birth: this.userProfileForm.get('date_of_birth')?.value,
         
       };
       console.log('Update user DTO:', updateUserDTO);
@@ -145,5 +149,10 @@ export class UserProfileComponent implements OnInit{
     console.log('mật khẩu gõ lại',this.userProfileForm.get('retype_password'))
     return this.userProfileForm.get('retype_password');
   }
+
+  get dateOfBirth() {
+    return this.userProfileForm.get('date_of_birth');
+  }
+
 
 }

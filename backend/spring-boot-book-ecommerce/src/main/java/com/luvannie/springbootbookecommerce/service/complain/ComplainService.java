@@ -4,11 +4,15 @@ import com.luvannie.springbootbookecommerce.dao.ComplainRepository;
 import com.luvannie.springbootbookecommerce.dao.OrderRepository;
 import com.luvannie.springbootbookecommerce.dao.UserRepository;
 import com.luvannie.springbootbookecommerce.dto.ComplainDTO;
+import com.luvannie.springbootbookecommerce.entity.Book;
 import com.luvannie.springbootbookecommerce.entity.Complain;
 import com.luvannie.springbootbookecommerce.entity.Order;
 import com.luvannie.springbootbookecommerce.entity.User;
 import com.luvannie.springbootbookecommerce.exceptions.DataNotFoundException;
+import com.luvannie.springbootbookecommerce.responses.complain.ComplainResponse;
 import lombok.RequiredArgsConstructor;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -48,8 +52,10 @@ public class ComplainService implements IComplainService {
     }
 
     @Override
-    public List<Complain> findUnfinishedComplains() throws Exception {
-        return complainRepository.findByIsFinishIsFalse();
+    public Page<ComplainResponse> findUnfinishedComplains(PageRequest pageRequest) throws Exception {
+        Page<Complain> complainsPage;
+        complainsPage = complainRepository.findByIsFinishIsFalse(pageRequest);
+       return complainsPage.map(ComplainResponse::fromComplain);
     }
 
 

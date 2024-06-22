@@ -8,6 +8,8 @@ import com.luvannie.springbootbookecommerce.entity.BookCategory;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.crossstore.ChangeSetPersister;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -25,7 +27,7 @@ public class BookCategoryService implements IBookCategoryService {
     public BookCategory createBookCategory(BookCategoryDTO bookCategoryDTO) {
         BookCategory newCategory = BookCategory
                 .builder()
-                .categoryName(bookCategoryDTO.getName())
+                .categoryName(bookCategoryDTO.getCategoryName())
                 .build();
         return bookCategoryRepository.save(newCategory);
     }
@@ -38,16 +40,16 @@ public class BookCategoryService implements IBookCategoryService {
     }
 
     @Override
-    public List<BookCategory> getAllBookCategories() {
+    public Page<BookCategory> getAllBookCategories(PageRequest pageRequest) {
         // Implement the logic to get all book categories
-        return bookCategoryRepository.findAll();
+        return bookCategoryRepository.findAll(pageRequest);
     }
 
     @Override
     public BookCategory updateBookCategory(Long bookCategoryId, BookCategoryDTO bookCategory) {
         // Implement the logic to update a book category
         BookCategory bookCategory1 = getBookCategoryById(bookCategoryId);
-        bookCategory1.setCategoryName(bookCategory.getName());
+        bookCategory1.setCategoryName(bookCategory.getCategoryName());
         bookCategoryRepository.save(bookCategory1);
         return bookCategory1;
     }

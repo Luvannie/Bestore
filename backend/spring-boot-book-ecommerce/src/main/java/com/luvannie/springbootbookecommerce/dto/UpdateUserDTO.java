@@ -3,6 +3,8 @@ package com.luvannie.springbootbookecommerce.dto;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.*;
 
+import java.util.Date;
+
 @Data
 @Getter
 @Setter
@@ -34,4 +36,7 @@ public class UpdateUserDTO {
 
     @JsonProperty("phone_number")
     private String phoneNumber;
+
+    @JsonProperty("date_of_birth")
+    private Date dateOfBirth;
 }

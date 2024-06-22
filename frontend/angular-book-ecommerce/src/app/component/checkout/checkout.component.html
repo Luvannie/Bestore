@@ -1,4 +1,6 @@
-
+<app-aside></app-aside>
+<div class="page-container">
+<app-header></app-header>
 <div class="main-content page-m">
     <div class="section-content section-content-p30">
         <div class="container-fluid">
@@ -239,7 +241,7 @@
                         </div>
                         <div class="col-md-10">
                             <div class="input-space">
-                                <select formControlName="shippingMethod"  >
+                                <select formControlName="coupon_code"  >
                                     <option value="HEAVEN">giảm 1 nửa</option>
                                     <option value="DISCOUNT20">giảm 20%</option>
                                 </select>
@@ -250,7 +252,7 @@
 
 
                 <!-- Stripe Elements Credit Card Section -->
-                <div formGroupName="creditCard" class="form-area" >
+                <!-- <div formGroupName="creditCard" class="form-area" >
                     <h3>Credit or debit card</h3>
 
                     <div id="card-element">
@@ -259,7 +261,7 @@
                   
                     <div id="card-errors" class="displayError.textContent!=='':'alert alert-danger mt-1'"></div>
 
-                </div>
+                </div> -->
 
                 <!-- review order -->
 
@@ -276,4 +278,6 @@
             </form>
         </div>
     </div>
+</div>
+<app-footer></app-footer>
 </div>

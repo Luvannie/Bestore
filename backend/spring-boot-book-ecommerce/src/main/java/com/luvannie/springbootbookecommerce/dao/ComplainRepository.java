@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Optional;
 
 public interface ComplainRepository extends JpaRepository<Complain, Long> {
-    List<Complain> findByIsFinishIsFalse();
+    Page<Complain> findByIsFinishIsFalse(Pageable pageable);
     Optional<Complain> findById(Long Id);
 
 }

@@ -8,18 +8,15 @@ import { InsertCategoryAdminComponent } from "./category-admin/insert-category-a
 import { UpdateCategoryAdminComponent } from "./category-admin/update-category-admin/update-category-admin.component";
 import { DetailOrderAdminComponent } from "./detail-order-admin/detail-order-admin.component";
 import { UserAdminComponent } from "./detail-order-admin/user-admin/user-admin.component";
-import { OrderAdminComponent } from "./order-admin/order-admin.component";
 import { NgModule } from "@angular/core";
+import { ComplainAdminComponent } from "./complain-admin/complain-admin.component";
+import { OrdersAdminComponent } from "./orders-admin/orders-admin.component";
 
 const routes: Routes = [
     {
         path: 'admin',
         component: AdminComponent,
-        children: [
-            {
-                path: 'orders',
-                component: OrderAdminComponent
-            },            
+        children: [          
             {
                 path: 'books',
                 component: BooksAdminComponent
@@ -53,7 +50,15 @@ const routes: Routes = [
             {
                 path: 'users',
                 component: UserAdminComponent
-            },  
+            },
+            {
+                path:'complains',
+                component: ComplainAdminComponent
+            },
+            {
+                path:'orders',
+                component:OrdersAdminComponent
+            }  
         ]
     }
 ];

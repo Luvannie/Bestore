@@ -27,7 +27,8 @@ export class AdminComponent implements OnInit {
   logout(){
     this.userService.removeUserFromLocalStorage();
       this.tokenService.removeToken();
-      this.userResponse = this.userService.getUserResponseFromLocalStorage();    
+      this.userResponse = this.userService.getUserResponseFromLocalStorage(); 
+      this.router.navigate(['/login']);   
 
   }
 
@@ -41,6 +42,8 @@ export class AdminComponent implements OnInit {
       this.router.navigate(['/admin/books']);
     } else if (componentName === 'users') {
       this.router.navigate(['/admin/users']);
+    } else if (componentName === 'complains') {
+      this.router.navigate(['/admin/complains']);
     }
   }
 
