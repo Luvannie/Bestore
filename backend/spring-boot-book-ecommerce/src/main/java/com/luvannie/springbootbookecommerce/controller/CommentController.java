@@ -1,19 +1,9 @@
 package com.luvannie.springbootbookecommerce.controller;
 
-import com.luvannie.springbootbookecommerce.component.SecurityUtils;
-import com.luvannie.springbootbookecommerce.dto.CommentDTO;
-import com.luvannie.springbootbookecommerce.entity.User;
-import com.luvannie.springbootbookecommerce.responses.ResponseObject;
-import com.luvannie.springbootbookecommerce.responses.comment.CommentResponse;
-import com.luvannie.springbootbookecommerce.service.Comment.CommentService;
+import com.luvannie.springbootbookecommerce.component.SecurityComponent;
+import com.luvannie.springbootbookecommerce.service.comment.CommentService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
-import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.List;
-import java.util.Objects;
 
 @RequiredArgsConstructor
 @RestController
@@ -21,7 +11,7 @@ import java.util.Objects;
 @CrossOrigin(origins = {"http://localhost:4200", "http://localhost:4300"})
 public class CommentController {
     private final CommentService commentService;
-    private final SecurityUtils securityUtils;
+    private final SecurityComponent securityComponent;
 
 //    @GetMapping("")
 //    public ResponseEntity<ResponseObject> getAllComments(

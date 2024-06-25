@@ -1,14 +1,13 @@
 package com.luvannie.springbootbookecommerce.controller;
 
 
-import com.luvannie.springbootbookecommerce.component.LocalizationUtils;
+import com.luvannie.springbootbookecommerce.component.LocalizationComponent;
 import com.luvannie.springbootbookecommerce.dto.BookCategoryDTO;
 import com.luvannie.springbootbookecommerce.entity.BookCategory;
 import com.luvannie.springbootbookecommerce.responses.ResponseObject;
 import com.luvannie.springbootbookecommerce.responses.bookCategory.BookCategoryListResponse;
 import com.luvannie.springbootbookecommerce.responses.bookCategory.BookCategoryResponse;
-import com.luvannie.springbootbookecommerce.service.BookCategory.BookCategoryService;
-import jakarta.validation.Valid;
+import com.luvannie.springbootbookecommerce.service.bookCategory.BookCategoryService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -20,7 +19,7 @@ import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.FieldError;
 import org.springframework.web.bind.annotation.*;
-import com.luvannie.springbootbookecommerce.utils.MessageKeys;
+
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -30,7 +29,7 @@ import java.util.stream.Collectors;
 @RequestMapping("/api/book_categories_admin")
 public class BookCategoryController {
     private final BookCategoryService bookCategoryService;
-    private final LocalizationUtils localizationUtils;
+    private final LocalizationComponent localizationComponent;
     private final KafkaTemplate<String, Object> kafkaTemplate;
 
     @PostMapping("")
@@ -89,7 +88,7 @@ public class BookCategoryController {
                 .totalPages(totalPages)
                 .build();
 
-//        this.kafkaTemplate.send("get-all-bookcategories", bookCategories);
+        this.kafkaTemplate.send("get-all-bookcategories", bookCategories);
         return ResponseEntity.ok(ResponseObject.builder()
                         .message("Get list of book categories successfully")
                         .status(HttpStatus.OK)

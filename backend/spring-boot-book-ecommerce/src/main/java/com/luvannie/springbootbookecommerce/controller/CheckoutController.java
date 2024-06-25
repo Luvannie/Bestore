@@ -1,16 +1,11 @@
 package com.luvannie.springbootbookecommerce.controller;
 
-import com.luvannie.springbootbookecommerce.component.SecurityUtils;
-import com.luvannie.springbootbookecommerce.dto.PaymentInfoDTO;
+import com.luvannie.springbootbookecommerce.component.SecurityComponent;
 import com.luvannie.springbootbookecommerce.dto.PurchaseDTO;
 import com.luvannie.springbootbookecommerce.responses.purchase.PurchaseResponse;
 import com.luvannie.springbootbookecommerce.entity.User;
 import com.luvannie.springbootbookecommerce.exceptions.DataNotFoundException;
 import com.luvannie.springbootbookecommerce.service.checkout.ICheckoutService;
-import com.stripe.exception.StripeException;
-import com.stripe.model.PaymentIntent;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @CrossOrigin(origins = {"http://localhost:4200", "http://localhost:4300"})
@@ -18,16 +13,16 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/api/checkout")
 public class CheckoutController {
     private ICheckoutService checkoutService;
-    private SecurityUtils securityUtils;
+    private SecurityComponent securityComponent;
 
-    public CheckoutController(ICheckoutService checkoutService, SecurityUtils securityUtils) {
+    public CheckoutController(ICheckoutService checkoutService, SecurityComponent securityComponent) {
         this.checkoutService = checkoutService;
-        this.securityUtils = securityUtils;
+        this.securityComponent = securityComponent;
     }
 
     @PostMapping("/purchase")
     public PurchaseResponse placeOrder(@RequestBody PurchaseDTO purchaseDTO) throws DataNotFoundException {
-        User loginUser = securityUtils.getLoggedInUser();
+        User loginUser = securityComponent.getLoggedInUser();
         if(purchaseDTO.getUserId() == null) {
             purchaseDTO.setUserId(loginUser.getId());
         }
@@ -35,13 +30,7 @@ public class CheckoutController {
         return purchaseResponse;
     }
 
-    @PostMapping("/payment-intent")
-    public ResponseEntity<String> createPaymentIntent(@RequestBody PaymentInfoDTO paymentInfoDTO) throws StripeException {
-        PaymentIntent paymentIntent = checkoutService.createPaymentIntent(paymentInfoDTO);
-        String paymentStr = paymentIntent.toJson();
-        return new ResponseEntity<>(paymentStr, HttpStatus.OK);
 
-    }
     }
 
 

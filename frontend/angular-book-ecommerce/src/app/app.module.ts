@@ -19,7 +19,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HomeComponent } from './component/home/home.component';
 import { LoginComponent } from './component/login/login.component';
 import { OKTA_CONFIG, OktaAuthModule } from '@okta/okta-angular';
-import myAppConfig from './config/my-app-config';
+
 import { OktaAuth } from '@okta/okta-auth-js';
 import { RegisterComponent } from './component/register/register.component';
 import { TokenInterceptor } from './interceptor/token.interceptor';
@@ -43,9 +43,6 @@ import { FooterComponent } from './component/footer/footer.component';
 import { AsideComponent } from './component/aside/aside.component';
 
 
-const oktaConfig = myAppConfig.oidc;
-
-const oktaAuth = new OktaAuth(oktaConfig);
 
 
 @NgModule({
@@ -82,7 +79,7 @@ const oktaAuth = new OktaAuth(oktaConfig);
     
     
   ],
-  providers: [BookService,{provide: OKTA_CONFIG, useValue: {oktaAuth}}],
+  providers: [BookService,],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

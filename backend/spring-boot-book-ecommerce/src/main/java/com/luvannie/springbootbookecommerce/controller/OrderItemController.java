@@ -1,5 +1,5 @@
 package com.luvannie.springbootbookecommerce.controller;
-import com.luvannie.springbootbookecommerce.component.LocalizationUtils;
+import com.luvannie.springbootbookecommerce.component.LocalizationComponent;
 import com.luvannie.springbootbookecommerce.dto.OrderItemDTO;
 import com.luvannie.springbootbookecommerce.entity.OrderItem;
 import com.luvannie.springbootbookecommerce.exceptions.DataNotFoundException;
@@ -8,7 +8,6 @@ import com.luvannie.springbootbookecommerce.responses.order.OrderItemResponse;
 import com.luvannie.springbootbookecommerce.service.orderitem.OrderItemService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import com.luvannie.springbootbookecommerce.utils.MessageKeys;
@@ -22,11 +21,11 @@ import java.util.stream.Collectors;
 @RequestMapping("/api/orderItem")
 public class OrderItemController {
     private final OrderItemService orderItemService;
-    private final LocalizationUtils localizationUtils;
+    private final LocalizationComponent localizationComponent;
 
-    public OrderItemController(OrderItemService orderItemService, LocalizationUtils localizationUtils) {
+    public OrderItemController(OrderItemService orderItemService, LocalizationComponent localizationComponent) {
         this.orderItemService = orderItemService;
-        this.localizationUtils = localizationUtils;
+        this.localizationComponent = localizationComponent;
     }
 
     @PostMapping("")
@@ -90,7 +89,7 @@ public class OrderItemController {
         orderItemService.deleteOrderItem(id);
         return ResponseEntity.ok()
                 .body(ResponseObject.builder()
-                        .message(localizationUtils
+                        .message(localizationComponent
                                 .getLocalizedMessage(MessageKeys.DELETE_ORDER_ITEM_SUCCESSFULLY))
                         .build());
     }

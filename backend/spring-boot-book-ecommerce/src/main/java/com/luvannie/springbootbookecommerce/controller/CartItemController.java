@@ -1,7 +1,6 @@
 package com.luvannie.springbootbookecommerce.controller;
 
-import com.luvannie.springbootbookecommerce.component.LocalizationUtils;
-import com.luvannie.springbootbookecommerce.component.SecurityUtils;
+import com.luvannie.springbootbookecommerce.component.SecurityComponent;
 import com.luvannie.springbootbookecommerce.dto.CartItemDTO;
 import com.luvannie.springbootbookecommerce.entity.CartItem;
 import com.luvannie.springbootbookecommerce.entity.User;
@@ -22,7 +21,7 @@ import java.util.List;
 @RequiredArgsConstructor
 public class CartItemController {
     private final CartItemService cartItemService;
-    private final SecurityUtils securityUtils;
+    private final SecurityComponent securityComponent;
 
     @PostMapping("")
     @PreAuthorize("hasRole('ROLE_USER')")
@@ -53,7 +52,7 @@ public class CartItemController {
 
     @GetMapping("/user/{userId}")
     public ResponseEntity<ResponseObject> getCartItems(@PathVariable("userId") Long userId) {
-        User loginUser = securityUtils.getLoggedInUser();
+        User loginUser = securityComponent.getLoggedInUser();
         boolean isUserIdBlank = userId == null || userId <= 0;
         List<CartItemResponse> cartItemResponses = cartItemService.findByUserId(userId);
         return ResponseEntity.ok().body(

@@ -6,11 +6,11 @@ export class OrderItem {
     quantity: number;
     bookId: number;
 
-    constructor(data:any) {
+    constructor(data:CartItem) {
         this.thumbnail = data.thumbnail;
-        this.unitPrice = data.unitPrice;
+        this.unitPrice = data.unit_price;
         this.quantity = data.quantity;
-        this.bookId = data.id;
+        this.bookId = data.book_id;
        
     }
 }

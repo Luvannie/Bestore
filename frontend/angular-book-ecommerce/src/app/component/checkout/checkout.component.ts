@@ -154,21 +154,21 @@ export class CheckoutComponent implements OnInit{
 
 
 
-      // this.checkoutService.createPayment(this.totalPrice).subscribe(
-      //   {next: (response) => {
-      //     if (response.status === 'ok') {
-      //       window.location.href = response.url;
-      //     } else {
-      //       // Xử lý trường hợp response không thành công
-      //       console.error('Payment creation failed:', response.message);
-      //     }
-      //   },
-      //   error: (error) => {
-      //     // Xử lý lỗi từ API
-      //     console.error('Error creating payment:', error);
-      //   }
-      //   }
-      // );
+      this.checkoutService.createPayment(this.totalPrice).subscribe(
+        {next: (response) => {
+          if (response.status === 'ok') {
+            window.location.href = response.url;
+          } else {
+            // Xử lý trường hợp response không thành công
+            console.error('Payment creation failed:', response.message);
+          }
+        },
+        error: (error) => {
+          // Xử lý lỗi từ API
+          console.error('Error creating payment:', error);
+        }
+        }
+      );
 
       
 

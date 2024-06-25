@@ -19,8 +19,7 @@ public interface IBookService {
 
 
     List<Book> findBooksByIds(List<Long> bookIds);
-    //String storeFile(MultipartFile file) throws IOException; //chuyển sang FileUtils
-    //void deleteFile(String filename) throws IOException;
+
 
 //    Book likeBook(Long userId, Long bookId) throws Exception;
 //    Book unlikeBook(Long userId, Long bookId) throws Exception;

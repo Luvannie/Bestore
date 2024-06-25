@@ -1,6 +1,6 @@
 package com.luvannie.springbootbookecommerce.service.token;
 
-import com.luvannie.springbootbookecommerce.component.JwtTokenUtils;
+import com.luvannie.springbootbookecommerce.component.JwtTokenComponent;
 import com.luvannie.springbootbookecommerce.dao.TokenRepository;
 import com.luvannie.springbootbookecommerce.entity.Token;
 import com.luvannie.springbootbookecommerce.entity.User;
@@ -28,7 +28,7 @@ public class TokenService implements ITokenService{
     private int expirationRefreshToken;
 
     private final TokenRepository tokenRepository;
-    private final JwtTokenUtils jwtTokenUtil;
+    private final JwtTokenComponent jwtTokenUtil;
     @Override
     @Transactional
     public Token addToken(User user, String token, boolean isMobileDevice) {

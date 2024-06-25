@@ -1,7 +1,7 @@
 package com.luvannie.springbootbookecommerce.service.user;
 
-import com.luvannie.springbootbookecommerce.component.JwtTokenUtils;
-import com.luvannie.springbootbookecommerce.component.LocalizationUtils;
+import com.luvannie.springbootbookecommerce.component.JwtTokenComponent;
+import com.luvannie.springbootbookecommerce.component.LocalizationComponent;
 import com.luvannie.springbootbookecommerce.dao.RoleRepository;
 import com.luvannie.springbootbookecommerce.dao.TokenRepository;
 import com.luvannie.springbootbookecommerce.dao.UserRepository;
@@ -17,7 +17,6 @@ import com.luvannie.springbootbookecommerce.exceptions.InvalidPasswordException;
 import com.luvannie.springbootbookecommerce.exceptions.PermissionDenyException;
 import com.luvannie.springbootbookecommerce.utils.MessageKeys;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 //import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.data.domain.Page;
@@ -41,9 +40,9 @@ public class UserService implements IUserService {
     private final RoleRepository roleRepository;
     private final TokenRepository tokenRepository;
     private final PasswordEncoder passwordEncoder;
-    private final JwtTokenUtils jwtTokenUtil;
+    private final JwtTokenComponent jwtTokenUtil;
     private final AuthenticationManager authenticationManager;
-    private final LocalizationUtils localizationUtils;
+    private final LocalizationComponent localizationComponent;
 
 
 
@@ -97,7 +96,7 @@ public class UserService implements IUserService {
 
         // If user is not found, throw an exception
         if (optionalUser.isEmpty()) {
-            throw new DataNotFoundException(localizationUtils.getLocalizedMessage(MessageKeys.WRONG_ACCOUNT_PASSWORD));
+            throw new DataNotFoundException(localizationComponent.getLocalizedMessage(MessageKeys.WRONG_ACCOUNT_PASSWORD));
         }
 
         // Get the existing user
@@ -107,12 +106,12 @@ public class UserService implements IUserService {
         if (existingUser.getFacebookAccountId() == 0
                 && existingUser.getGoogleAccountId() == 0) {
             if(!passwordEncoder.matches(userLoginDTO.getPassword(), existingUser.getPassword())){
-                throw new BadCredentialsException(localizationUtils.getLocalizedMessage(MessageKeys.WRONG_ACCOUNT_PASSWORD));
+                throw new BadCredentialsException(localizationComponent.getLocalizedMessage(MessageKeys.WRONG_ACCOUNT_PASSWORD));
             }
         }
 
         if(!existingUser.isActive()) {
-            throw new DataNotFoundException(localizationUtils.getLocalizedMessage(MessageKeys.USER_IS_LOCKED));
+            throw new DataNotFoundException(localizationComponent.getLocalizedMessage(MessageKeys.USER_IS_LOCKED));
         }
 
         UsernamePasswordAuthenticationToken authenticationToken = new UsernamePasswordAuthenticationToken(

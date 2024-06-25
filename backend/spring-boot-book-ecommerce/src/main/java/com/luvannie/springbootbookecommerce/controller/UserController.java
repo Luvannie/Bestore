@@ -1,7 +1,7 @@
 package com.luvannie.springbootbookecommerce.controller;
 
-import com.luvannie.springbootbookecommerce.component.LocalizationUtils;
-import com.luvannie.springbootbookecommerce.component.SecurityUtils;
+import com.luvannie.springbootbookecommerce.component.LocalizationComponent;
+import com.luvannie.springbootbookecommerce.component.SecurityComponent;
 import com.luvannie.springbootbookecommerce.dto.RefreshTokenDTO;
 import com.luvannie.springbootbookecommerce.dto.UpdateUserDTO;
 import com.luvannie.springbootbookecommerce.dto.UserDTO;
@@ -16,10 +16,8 @@ import com.luvannie.springbootbookecommerce.responses.user.UserListResponse;
 import com.luvannie.springbootbookecommerce.responses.user.UserResponse;
 import com.luvannie.springbootbookecommerce.service.token.ITokenService;
 import com.luvannie.springbootbookecommerce.service.user.IUserService;
-import com.luvannie.springbootbookecommerce.service.user.UserService;
 import jakarta.servlet.http.HttpServletRequest;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
@@ -44,9 +42,9 @@ import java.util.UUID;
 public class UserController {
 
     private final IUserService userService;
-    private final LocalizationUtils localizationUtils;
+    private final LocalizationComponent localizationComponent;
     private final ITokenService tokenService;
-    private final SecurityUtils securityUtils;
+    private final SecurityComponent securityComponent;
 
     @GetMapping("")
     @PreAuthorize("hasRole('ROLE_ADMIN')")
@@ -123,7 +121,7 @@ public class UserController {
             return ResponseEntity.badRequest().body(ResponseObject.builder()
                     .status(HttpStatus.BAD_REQUEST)
                     .data(null)
-                    .message(localizationUtils.getLocalizedMessage(MessageKeys.PASSWORD_NOT_MATCH))
+                    .message(localizationComponent.getLocalizedMessage(MessageKeys.PASSWORD_NOT_MATCH))
                     .build());
         }
         User user = userService.createUser(userDTO);

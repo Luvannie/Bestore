@@ -9,7 +9,7 @@ import { UserProfileComponent } from './component/user-profile/user-profile.comp
 
 
 
-import myAppConfig from './config/my-app-config';
+
 import { LoginComponent } from './component/login/login.component';
 import { RegisterComponent } from './component/register/register.component';
 import { AdminComponent } from './component/admin/admin.component';

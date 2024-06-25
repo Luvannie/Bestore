@@ -31,8 +31,6 @@ public class Book {
     private String description;
     @Column(name = "publisher")
     private String publisher;
-//    @Column(name = "categories")
-//    private String categories;
     @ManyToOne
     @JoinColumn(name="category_id", nullable = false)
     private BookCategory category;
@@ -54,7 +52,5 @@ public class Book {
     @Column(name = "last_updated")
     @UpdateTimestamp
     private Date lastUpdated;
-
-
 
 }

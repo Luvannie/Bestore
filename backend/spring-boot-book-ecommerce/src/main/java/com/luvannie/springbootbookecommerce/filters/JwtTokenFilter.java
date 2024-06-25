@@ -1,6 +1,6 @@
 package com.luvannie.springbootbookecommerce.filters;
 
-import com.luvannie.springbootbookecommerce.component.JwtTokenUtils;
+import com.luvannie.springbootbookecommerce.component.JwtTokenComponent;
 import com.luvannie.springbootbookecommerce.entity.User;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
@@ -28,7 +28,7 @@ public class JwtTokenFilter extends OncePerRequestFilter{
     @Value("${api.prefix}")
     private String apiPrefix;
     private final UserDetailsService userDetailsService;
-    private final JwtTokenUtils jwtTokenUtil;
+    private final JwtTokenComponent jwtTokenUtil;
     @Override
     protected void doFilterInternal(@NonNull  HttpServletRequest request,
                                     @NonNull HttpServletResponse response,
@@ -111,17 +111,6 @@ public class JwtTokenFilter extends OncePerRequestFilter{
 //                Pair.of(String.format("%s/book_categories_admin/**", apiPrefix), "DELETE"),
                 Pair.of(String.format("%s/payment/**", apiPrefix), "GET")
 
-
-                // Swagger
-//                Pair.of("/api-docs","GET"),
-//                Pair.of("/api-docs/**","GET"),
-//                Pair.of("/swagger-resources","GET"),
-//                Pair.of("/swagger-resources/**","GET"),
-//                Pair.of("/configuration/ui","GET"),
-//                Pair.of("/configuration/security","GET"),
-//                Pair.of("/swagger-ui/**","GET"),
-//                Pair.of("/swagger-ui.html", "GET"),
-//                Pair.of("/swagger-ui/index.html", "GET")
         );
 
         String requestPath = request.getServletPath();

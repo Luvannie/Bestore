@@ -1,7 +1,7 @@
 package com.luvannie.springbootbookecommerce.controller;
 
-import com.luvannie.springbootbookecommerce.component.LocalizationUtils;
-import com.luvannie.springbootbookecommerce.component.SecurityUtils;
+import com.luvannie.springbootbookecommerce.component.LocalizationComponent;
+import com.luvannie.springbootbookecommerce.component.SecurityComponent;
 import com.luvannie.springbootbookecommerce.dto.OrderDTO;
 import com.luvannie.springbootbookecommerce.entity.Order;
 import com.luvannie.springbootbookecommerce.entity.User;
@@ -11,7 +11,6 @@ import com.luvannie.springbootbookecommerce.responses.order.OrderResponse;
 import com.luvannie.springbootbookecommerce.service.order.OrderService;
 import com.luvannie.springbootbookecommerce.utils.MessageKeys;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
@@ -29,8 +28,8 @@ import java.util.List;
 public class OrderController {
 
     private final OrderService orderService;
-    private final LocalizationUtils localizationUtils;
-    private final SecurityUtils securityUtils;
+    private final LocalizationComponent localizationComponent;
+    private final SecurityComponent securityComponent;
 
 
 
@@ -39,7 +38,7 @@ public class OrderController {
 
     @GetMapping("/user/{user_id}")
     public ResponseEntity<ResponseObject> getOrders( @PathVariable("user_id") Long userId) {
-        User loginUser = securityUtils.getLoggedInUser();
+        User loginUser = securityComponent.getLoggedInUser();
         boolean isUserIdBlank = userId == null || userId <= 0;
         List<OrderResponse> orderResponses = orderService.findByUserId(isUserIdBlank ? loginUser.getId() : userId);
         return ResponseEntity.ok(ResponseObject
@@ -56,7 +55,7 @@ public class OrderController {
     public ResponseEntity<ResponseObject> deleteOrder( @PathVariable Long id) {
         //xóa mềm => cập nhật trường active = false
         orderService.deleteOrder(id);
-        String message = localizationUtils.getLocalizedMessage(
+        String message = localizationComponent.getLocalizedMessage(
                 MessageKeys.DELETE_ORDER_SUCCESSFULLY, id);
         return ResponseEntity.ok(
                 ResponseObject.builder()

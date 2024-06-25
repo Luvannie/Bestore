@@ -1,22 +1,17 @@
 package com.luvannie.springbootbookecommerce.controller;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.luvannie.springbootbookecommerce.component.SecurityUtils;
+import com.luvannie.springbootbookecommerce.component.SecurityComponent;
 import com.luvannie.springbootbookecommerce.dto.BookDTO;
 import com.luvannie.springbootbookecommerce.entity.Book;
-import com.luvannie.springbootbookecommerce.entity.User;
 import com.luvannie.springbootbookecommerce.responses.ResponseObject;
-import com.luvannie.springbootbookecommerce.responses.ResponsePageObject;
 import com.luvannie.springbootbookecommerce.responses.book.BookListResponse;
 import com.luvannie.springbootbookecommerce.responses.book.BookResponse;
 import com.luvannie.springbootbookecommerce.service.book.BookService;
-import com.luvannie.springbootbookecommerce.service.book.IBookRedisService;
 import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
-import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -24,7 +19,6 @@ import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.stream.Collectors;
 
 @CrossOrigin(origins = {"http://localhost:4200", "http://localhost:4300"})
 @RestController
@@ -33,9 +27,8 @@ import java.util.stream.Collectors;
 public class BookController {
 
     private final BookService bookService;
-    private final IBookRedisService bookRedisService;
     private static final Logger logger = LoggerFactory.getLogger(BookController.class);
-    private final SecurityUtils securityUtils;
+    private final SecurityComponent securityComponent;
 
     @PostMapping("")
     @PreAuthorize("hasRole('ROLE_ADMIN')")
