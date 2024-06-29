@@ -50,6 +50,8 @@ book ecommerce project
     GRANT ALL PRIVILEGES ON bestore.* TO 'bestoreuser'@'localhost';
     FLUSH PRIVILEGES;
     ```
+    execute the SQL script located in data/BE_Store.sql to populate the database with sample data.
+    
 
 3. **Update database configuration:**
  Modify the application.properties file located in src/main/resources/ to match your database settings.
