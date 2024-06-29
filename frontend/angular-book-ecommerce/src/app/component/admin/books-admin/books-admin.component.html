@@ -1,4 +1,4 @@
-<p>books-admin works!</p>
+
 <div class="container">
         <h1>Book Admin</h1>
         <div class="row mb-3">
@@ -19,11 +19,11 @@
             <thead class="table-light">
                 <tr>
                     <th>ID</th>
-                    <th>Name</th>
-                    <th>Price</th>
-                    <th>Thumbnail</th>
-                    <th>Description</th>
-                    <th>Actions</th>
+                    <th>Tựa đề</th>
+                    <th>Giá</th>
+                    <th>Ảnh bìa</th>
+                    <th>Mô tả</th>
+                    <th>Hành động</th>
                 </tr>
             </thead>
             <tbody>        
@@ -44,10 +44,10 @@
                             <div style="display: flex; gap: 10px;">
                                 <button class="btn btn-primary" 
                                         (click)="updateBook(book.id)">
-                                    Update
+                                    Cập nhật
                                 </button>
                                 <button class="btn btn-danger" 
-                                    (click)="deleteBook(book)">Delete
+                                    (click)="deleteBook(book)">Xóa
                                 </button>            
                                 </div>
                         </td>          

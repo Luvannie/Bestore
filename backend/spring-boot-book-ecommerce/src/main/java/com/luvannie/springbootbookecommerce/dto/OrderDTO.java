@@ -45,7 +45,4 @@ public class OrderDTO {
 
     @JsonProperty("coupon_code")
     private String couponCode;
-
-
-
 }

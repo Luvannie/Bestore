@@ -12,7 +12,13 @@
                         </a>
 
                         <a routerLink="/books/{{tempbook.id}}" class="img-responsive" style="text-decoration: none;">
-                            <h1 class="book-title">{{tempbook.title}}</h1>
+                            <h1 style="overflow: hidden;
+                            display: -webkit-box;
+                            /* display 2 lines only */
+                            -webkit-line-clamp: 1;
+                            line-clamp: 1;
+                            -webkit-box-orient: vertical;
+                            width: 250px;">{{tempbook.title}}</h1>
                         </a>
                         
                         <div class="price">{{tempbook.unitPrice | currency:'VND'}}</div>

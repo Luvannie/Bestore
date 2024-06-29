@@ -13,7 +13,7 @@ import { CartItem } from '../../common/model/cart-item';
 export class HomeComponent implements OnInit{
   books: Book[] = [];
   thePageNumber: number = 1;
-  thePageSize: number = 10;
+  thePageSize: number = 12;
   theTotalElements: number = 0;
 
   constructor(private bookService: BookService,
@@ -23,6 +23,7 @@ export class HomeComponent implements OnInit{
 
   ngOnInit(): void {
     this.listBooks();
+    this.cartService.begin();
   }
 
   listBooks() {

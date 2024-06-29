@@ -1,4 +1,4 @@
-<p>detail-order-admin works!</p>
+
 <div class="container">
     <h1>Order Details</h1>
     
@@ -7,11 +7,11 @@
         <h3>Order Information</h3>
         <p><strong>Order ID:</strong> {{ orderResponse.order_id }}</p>
         <p><strong>User ID:</strong> {{ orderResponse.user_id }}</p>
-        <p><strong>Full Name:</strong> {{ orderResponse.customer_name}}</p>
-        <p><strong>Phone Number:</strong> {{ orderResponse.customer_phone}}</p>
+        <p><strong>Tên người nhận:</strong> {{ orderResponse.customer_name}}</p>
+        <p><strong>Số điện thoạir:</strong> {{ orderResponse.customer_phone}}</p>
         <p><strong>Email:</strong> {{ orderResponse.customer_email}}</p>
-        <p><strong>Address:</strong> {{ orderResponse.shipping_address}}</p>
-        <p><strong>Order Date:</strong> {{ orderResponse.order_date | date }}</p>
+        <p><strong>Địa chỉ giao hàng:</strong> {{ orderResponse.shipping_address}}</p>
+        <p><strong>Ngày đặt:</strong> {{ orderResponse.order_date | date }}</p>
         
         <div class="form-group">
           <label for="statusSelect"><strong>Status:</strong></label>
@@ -29,9 +29,9 @@
     <table class="table">
       <thead>
         <tr>
-          <th>Product</th>
-          <th>Price</th>
-          <th>Quantity</th>
+          <th>Sách</th>
+          <th>Giá</th>
+          <th>Số lượng</th>
           <!--<th>Total</th>-->
         </tr>
       </thead>
@@ -51,5 +51,5 @@
       </tbody>
     </table>  
     <button class="btn btn-primary col-md-2" 
-      (click)="saveOrder()">Save</button>
+      (click)="saveOrder()">Lưu</button>
   </div>

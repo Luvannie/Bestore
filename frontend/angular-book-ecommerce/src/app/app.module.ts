@@ -41,6 +41,7 @@ import { ComplainComponent } from './component/complain/complain.component';
 import { RelevantComponent } from './component/relevant/relevant.component';
 import { FooterComponent } from './component/footer/footer.component';
 import { AsideComponent } from './component/aside/aside.component';
+import { LucideAngularModule, User,ShoppingCart } from 'lucide-angular';
 
 
 
@@ -74,7 +75,10 @@ import { AsideComponent } from './component/aside/aside.component';
     ReactiveFormsModule,
     OktaAuthModule,
     FormsModule,
-    AdminModule
+    AdminModule,
+    LucideAngularModule,
+    LucideAngularModule.pick({ User }),
+    LucideAngularModule.pick({ ShoppingCart })
    
     
     

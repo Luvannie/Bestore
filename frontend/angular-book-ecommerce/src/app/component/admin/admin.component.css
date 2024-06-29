@@ -1,39 +1,67 @@
-.container-fluid {
-    background-color: white;
-    padding-left: 0 !important; /* Remove left padding */
-    padding-right: 0 !important; /* Remove right padding */
-}
-.header {
-    background-color: #333;
-    /* Header background color */
-    color: white;
-    /* Text color */
-    padding: 10px;
-    /* Add padding to the header */
-    text-align: center;
-    /* Center-align text in the header */
-}
-#sidebar {
-    background-color: #007bff !important; /* Primary color */
-    color: white; /* Text color */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  .sidebar {
     height: 100vh;
-    overflow-y: auto; /* Add scrollbars if content overflows */
-}
-/* Custom CSS for sidebar links */
-#sidebar a {
-    color: white; /* Text color for links */
-    border-top: 1px solid rgba(255, 255, 255, 0.2); /* Add a border line at the top of each link */
-    padding: 10px 15px; /* Add padding to links for spacing */
-}
-/* Custom CSS for active link */
-#sidebar a.active {
-    font-weight: bold; /* Highlight active link */
-    background-color: #0056b3;
-}
-/* Change background color on hover */
-#sidebar a:hover {
-    background-color: #0056b3; /* Change the background color on hover */
-}
-.icon {
-    padding: 5px;
-}
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #0066ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .sidebar-header {
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .sidebar .nav-item {
+    width: 100%;
+  }
+
+  .sidebar .nav-link {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+
+  .sidebar .nav-link.active, .sidebar .nav-link:hover {
+    background-color: #f8f9fa;
+    color: #0066ff;
+  }
+
+  .sidebar .icon {
+    margin-right: 10px;
+  }
+
+  .logout-button {
+    margin: 20px;
+  }
+
+  .main-content {
+    margin-left: 16.6667%;
+    padding: 20px;
+    background-color: #f1f1f1;
+    height: 100vh;
+    overflow-y: auto;
+  }
+
+  @media (max-width: 767.98px) {
+    .sidebar {
+      display: none;
+    }
+    .main-content {
+      margin-left: 0;
+    }
+  }

@@ -6,6 +6,7 @@ import { Router } from '@angular/router';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { RouterModule } from '@angular/router';  
 import { CommonModule } from '@angular/common';
+import { CartService } from '../../service/cart.service';
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
@@ -15,15 +16,18 @@ export class HeaderComponent implements OnInit{
   userResponse:UserResponse | null = null;
   isPopoverOpen = false;
   activeNavItem: number = 0;
+  isLoggedIn: boolean = false;
   constructor(
     private userService: UserService,
     private tokenService: TokenService,    
     private router: Router,
+    private cartService: CartService
   ) {}
 
   ngOnInit() {
      this.userResponse = this.userService.getUserResponseFromLocalStorage();
-     console.log(this.userResponse);
+     this.isLoggedIn = !!this.userResponse;
+    //  console.log(this.userResponse);
     
   }
 
@@ -40,7 +44,11 @@ export class HeaderComponent implements OnInit{
     } else if (index === 2) {
       this.userService.removeUserFromLocalStorage();
       this.tokenService.removeToken();
-      this.userResponse = this.userService.getUserResponseFromLocalStorage();    
+      this.userResponse = this.userService.getUserResponseFromLocalStorage();  
+      this.cartService.cartItems = [];
+      this.cartService.totalPrice.next(0);
+      this.cartService.totalQuantity.next(0);  
+      this.isLoggedIn = false;
     }
     else if (index === 1) {
       this.router.navigate(['/user-orders']);
@@ -54,4 +62,5 @@ export class HeaderComponent implements OnInit{
     //console.error(this.activeNavItem);
   }  
 
+ 
 }

@@ -29,8 +29,6 @@ public class CheckoutController {
         PurchaseResponse purchaseResponse = checkoutService.placeOrder(purchaseDTO);
         return purchaseResponse;
     }
-
-
     }
 
 

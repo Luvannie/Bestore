@@ -1,4 +1,4 @@
-<p>orders-admin works!</p>
+
 <div class="container-fluid">
     <h1>Orders Admin Page</h1>
     <table class="table">
@@ -6,21 +6,21 @@
           <tr>
             <th>ID</th>
             <th>User ID</th>
-            <th>Full Name</th>
+            <th>Họ và tên</th>
             <th>Email</th>
-            <th>Phone Number</th>
+            <th>Số điện thoại</th>
             <th>Tracking number</th>
-            <th>payment method</th>
-            <th>Order Date</th>
-            <th>Status</th>
-            <th>Total Money</th>
-            <th>Shipping Method</th>
-            <th>Shipping Address</th>
+            <th>phương thức thanh toán</th>
+            <th>Nhày đặt</th>
+            <th>Trạng thái</th>
+            <th>Tổng số tiền</th>
+            <th>Phương thức giao hàng</th>
+            <th>địa chỉ giao hàng</th>
             <!--
               <th>Shipping Date</th>
             <th>Payment Method</th>
             -->
-            <th>Action</th>
+            <th>Hành động</th>
           </tr>
         </thead>
         <tbody>
@@ -30,7 +30,7 @@
                 (click)="viewDetails(order)"
                     class="btn btn-primary"
                   >
-                    View Details
+                    Xem chi tiết
               </button>
               {{ order.order_id }}</td>
             <td>{{ order.user_id }}</td>
@@ -51,7 +51,7 @@
             <td>
               <button class="btn btn-danger" 
                 (click)="deleteOrder(order.order_id)"
-                >Delete</button>                
+                >Xóa</button>                
             </td>            
           </tr>
         </tbody>

@@ -12,6 +12,4 @@ export class Purchase {
     shipping_method: string| undefined;
     payment_method: string| undefined;
     coupon_code: string| undefined;
-
-    
 }

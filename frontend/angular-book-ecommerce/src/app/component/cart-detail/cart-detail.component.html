@@ -9,7 +9,7 @@
             </div>
             <div *ngIf="cartItems.length > 0">
                 <div class="order-summary">
-                    <h2>Order summary</h2>
+                    <h2>Danh sách giỏ hàng của bạn</h2>
                     <div *ngFor="let tempCartItem of cartItems" class="order-item">
                         <img src="{{tempCartItem.thumbnail}}" class="item-thumbnail">
                         <div class="item-details">
@@ -32,7 +32,7 @@
                     </div>
                     <div class="order-total">
                         <div class="totals-row total">
-                            <span>Total</span>
+                            <span>Tổng</span>
                             <span>{{totalPrice | currency:'VND'}}</span>
                         </div>
                     </div>

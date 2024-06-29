@@ -29,6 +29,4 @@ public class PurchaseDTO {
 
     @JsonProperty("coupon_code")
     private String couponCode;
-
-
 }

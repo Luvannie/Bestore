@@ -169,6 +169,7 @@ export class CartService {
   if (userId > 0) {
     this.getCartItemsByUser().subscribe({
       next: (apiResponse: ApiResponse) => {
+        console.log("api cart", apiResponse?.data)
         this.cartItems = apiResponse?.data as CartItem[];
         this.computeCartTotals();
         console.log(this.cartItems);
@@ -224,6 +225,12 @@ export class CartService {
   // Clear the local cartItems array after all delete operations have been initiated
   this.cartItems = [];
 }
-
+  begin(){
+    this.localStorage = document.defaultView?.localStorage;
+    let user = this.localStorage?.getItem('user');
+    this.user_id = user ? Number(JSON.parse(user).id) : 0;
+    this.token = this.tokenService.getToken();
+    this.loadCartItems();
+  }
   
 }

@@ -13,6 +13,7 @@ export class CartStatusComponent implements OnInit{
   constructor(private cartService: CartService) { }
 
   ngOnInit(): void{
+    this.cartService.loadCartItems;
     this.updateCartStatus();
   }
 

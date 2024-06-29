@@ -13,8 +13,4 @@ public class BookCategoryDTO {
     @NotEmpty(message = "Category's name cannot be empty")
     @JsonProperty("categoryName")
     private String categoryName;
-
-
-
-
 }

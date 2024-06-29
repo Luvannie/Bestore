@@ -1,15 +1,15 @@
-<p>insert-category-admin works!</p>
+
 <div class="container">
     <div class="row">
         <div class="col-md-6 offset-md-3">
-            <h3>Insert Category</h3>
+            <h3>Thêm danh mục</h3>
             <form (ngSubmit)="insertCategory()" enctype="multipart/form-data">
                 <div class="form-group">
-                    <label for="categoryName">Category Name:</label>
+                    <label for="categoryName">Tên danh mục:</label>
                     <input type="text" id="categoryName" [(ngModel)]="insertCategoryDTO.categoryName" name="categoryName" class="form-control" required>
                 </div>
 
-                <button type="submit" class="btn btn-primary">Insert</button>
+                <button type="submit" class="btn btn-primary">Thêm</button>
             </form>
         </div>
     </div>

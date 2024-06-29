@@ -5,7 +5,4 @@ export interface Address {
     country: string;
     zipCode: string;
     specificAddress: string;
-
-   
-
 }

@@ -3,14 +3,14 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 offset-md-3">
-                <h3>Update Category</h3>
+                <h3>Cập nhật danh mục</h3>
                 <form (ngSubmit)="updateCategory()">
                     <div class="form-group">
-                        <label for="name">categoryName:</label>
+                        <label for="name">Tên danh mục:</label>
                         <input type="text" id="categoryName" [(ngModel)]="updatedCategory.categoryName" name="categoryName" class="form-control" required>
                     </div>
 
-                    <button type="submit" class="btn btn-primary">Update</button>
+                    <button type="submit" class="btn btn-primary">Cập nhật</button>
                 </form>
             </div>
         </div>

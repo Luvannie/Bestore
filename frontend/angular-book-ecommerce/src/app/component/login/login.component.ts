@@ -13,6 +13,7 @@ import { ApiResponse } from '../../response/api.response';
 import { Role } from '../../common/model/role';
 import { UserResponse } from '../../response/user/user.response';
 import { CartService } from '../../service/cart.service';
+import { CartItem } from '../../common/model/cart-item';
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
@@ -22,6 +23,8 @@ export class LoginComponent implements OnInit{
   loginFormGroup!: FormGroup;
   roles: Role[] = []; // Mảng roles
   rememberMe: boolean = true;
+  cartItems: CartItem[] = [];
+  
   selectedRole: Role | undefined; // Biến để lưu giá trị được chọn từ dropdown
   userResponse?: UserResponse
   constructor(
@@ -70,6 +73,7 @@ export class LoginComponent implements OnInit{
       next: (apiResponse: ApiResponse) => {
          debugger
         const { token } = apiResponse.data;
+        this.cartService.loadCartItems
         if(this.rememberMe){
           this.tokenService.setToken(token);
            debugger
@@ -94,7 +98,7 @@ export class LoginComponent implements OnInit{
               
             },
             complete: () => {
-              this.resetCart();
+              // this.resetCart();
                debugger;
             },
             error: (error: HttpErrorResponse) => {

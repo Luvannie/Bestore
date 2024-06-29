@@ -131,12 +131,14 @@ export class CheckoutComponent implements OnInit{
 
       purchase.order = order;
       purchase.orderItems = orderItems;
-      purchase.shipping_method = this.checkoutFormGroup.controls['method'].value.shippingMethod;
-      purchase.payment_method = this.checkoutFormGroup.controls['method'].value.paymentMethod;
+      // purchase.shipping_method = this.checkoutFormGroup.controls['method'].value.shippingMethod;
+      // purchase.payment_method = this.checkoutFormGroup.controls['method'].value.paymentMethod;
 
       purchase.user_id = this.user_id;
-      purchase.coupon_code = this.checkoutFormGroup.controls['method'].value.coupon_code;
-      // purchase.coupon_code = 'HEAVEN';
+      // purchase.coupon_code = this.checkoutFormGroup.controls['method'].value.coupon_code;
+      purchase.coupon_code = 'HEAVEN';
+      purchase.payment_method = 'VNPAY';
+      purchase.shipping_method = 'NORMAL';
       //compute payment info
 
       console.log(purchase);
